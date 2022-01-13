@@ -1,0 +1,25 @@
+@media screen and (min-width: 1920px) {
+  .presentation img {
+    height: 500px;
+    object-fit: cover;
+    width: 1200px !important;
+  }
+  .support-about img {
+    height: 500px;
+    object-fit: cover;
+    width: 866px !important; 
+  }
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
+}

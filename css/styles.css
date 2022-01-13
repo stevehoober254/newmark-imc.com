@@ -6,12 +6,70 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
 }
 
+.bg-dark {
+  background-color: rgb(0, 0, 0);
+}
+
+.split-hr {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 24px 0;
+  background-color: #fff;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.button {
+  font-weight: bold;
+  line-height: 60px;
+  border: solid 1px rgb(255, 255, 255);
+  display: inline-block;
+  min-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+  background-image: url("../img/arrow-white.png");
+  background-position: right 30px center;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  background-color: transparent;
+}
+.button:hover {
+  border: solid 2px rgb(255, 255, 255);
+}
+
+.ml-5 {
+  margin-left: 60px;
+}
+
+.headings {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+}
+
+.dark-blue-background {
+  background-color: rgb(0, 0, 68);
+}
 /* header */
 
 header {
@@ -145,27 +203,28 @@ header .logo {
 }
 .social {
   position: absolute;
-  z-index: 10;
   bottom: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 700px;
 }
 .social li {
   list-style: none;
 }
 .social li a {
   display: inline-block;
-  margin-right: 15px;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
 }
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 .social li a i {
-  font-size: 3em;
+  font-size: 2.5em;
+  color: white !important;
+  padding: 15px;
 }
 .menu {
   position: absolute;
@@ -192,15 +251,33 @@ header .logo {
   color: #03a9f4;
 }
 
-@media (max-width: 991px) {
-  .showcase,
-  .showcase header {
-    padding: 40px;
-  }
-  .text h2 {
-    font-size: 3em;
-  }
-  .text h3 {
-    font-size: 2em;
-  }
+/* about section */
+.about-logo {
+  margin-top: 30px;
+}
+.about-logo img {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.presentation img {
+  /* width: 100%; */
+  transition: all 0.5s ease-in-out;
+}
+
+.presentation img {
+  height: 72vh;
+  /* width: 100%; */
+}
+
+
+/* support */
+.support-about {
+  margin-top: -10px;
+}
+
+.support-about img {
+  width: 94%;
+  height: 550px;
+  object-fit: cover;
 }
