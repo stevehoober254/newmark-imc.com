@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./vendor/animate.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
@@ -88,7 +88,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
-    <section class="about animate__animated animate__slideInUp bg-dark">
+    <section data-aos="fade-up" class="about animate__animated animate__slideInUp bg-dark">
         <div class="">
             <a href="">
                 <div class="row">
@@ -104,7 +104,7 @@
                             aperiam, incidunt expedita tempora officia ab? Nam molestias laudantium doloribus officiis
                             consectetur mollitia animi, autem odio quo esse at cum quisquam quod voluptates alias
                         </p>
-                        <button class="button black-background mb-5 text-white">Learn More</button>
+                        <button class="button mb-5 text-white">Learn More</button>
                     </div>
                     <div class="col-lg-6 col-md-12 triangle-corner-shape">
                         <div class="presentation">
@@ -117,7 +117,7 @@
             </a>
         </div>
     </section>
-    <section class="support-about animate__animated animate__slideInUp dark-blue-background">
+    <section data-aos="fade-up" class="support-about animate__animated animate__slideInUp dark-blue-background">
         <div class="">
             <a href="">
                 <div class="row g-0">
@@ -138,16 +138,75 @@
                             aperiam, incidunt expedita tempora officia ab? Nam molestias laudantium doloribus officiis
                             consectetur mollitia animi, autem odio quo esse at cum quisquam quod voluptates alias
                         </p>
-                        <button class="button black-background mb-5 text-white">Learn More</button>
+                        <button class="button mb-5 text-white">Learn More</button>
                     </div>
-                   
+
                 </div>
             </a>
         </div>
     </section>
+    <section data-aos="fade-up" class="solve-x animate__animated animate__slideInUp bg-white">
+        <div class="">
+            <a href="">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 about-presentation ml-5">
+                        <h1 class="text-bold headings mt-5 text-dark">WE SOLVE FOR X</h1>
+                        <span class="split-hr-dark"></span>
+                        <p class="mb-5 text-dark">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquid dolorem temporibus
+                            iusto quaerat ipsam numquam quia nulla quos corporis? Excepturi fugit maxime sint facilis
+                            numquam est in. Sit veniam repellat ipsam nesciunt aut fugit quidem rerum? Itaque
+                        </p>
+                        <button class="button black-background mb-5">Learn More</button>
+                    </div>
+                    <div class="col-lg-6 col-md-12 triangle-corner-shape">
+                        <div class="presentation">
+                            <div class="img-wrapper">
+                                <img src="./img/SolveX-1280x739.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+        </div>
+    </section>
+    <section data-aos="fade-up" class="work-with-us">
+        <a href="">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h1 class="text-bold text-white">
+                        WORK AT WEBER
+                    </h1>
+                    <!-- <div class="d-flex justify-content-start">
+                        <div>
+                            <h1 class="text-bold text-white">
+                                WORK 
+                            </h1>
+                        </div>
+                        <div>
+                            <div class="arrow"></div>
+                        </div>
+                        <div>
+                            <h1 class="text-bold text-white">
+                                 AT WEBER
+                            </h1>
+                        </div>
+                    </div> -->
+
+                    <button class="button mb-5 text-white">Join Us</button>
+                </div>
+            </div>
+        </a>
+    </section>
     <!--  Bootstrap Bundle with Popper -->
     <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/scripts.js"></script>
 </body>
 

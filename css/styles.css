@@ -25,6 +25,15 @@ a {
   margin: 24px 0;
   background-color: #fff;
 }
+.split-hr-dark {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 24px 0;
+  background-color: rgb(0, 0, 0);
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -55,6 +64,19 @@ p {
 }
 .button:hover {
   border: solid 2px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.black-background {
+  background-color: transparent;
+  border: solid 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-image: url("../img/arrow-dark.png");
+}
+
+.black-background:hover {
+  border: solid 2px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .ml-5 {
@@ -68,8 +90,13 @@ p {
 }
 
 .dark-blue-background {
-  background-color: rgb(0, 0, 68);
+  background-color: rgb(40, 8, 116);
 }
+
+.text-dark {
+  color: rgb(0, 0, 0);
+}
+
 /* header */
 
 header {
@@ -270,9 +297,9 @@ header .logo {
   /* width: 100%; */
 }
 
-
 /* support */
-.support-about {
+.support-about,
+.solve-x {
   margin-top: -10px;
 }
 
@@ -281,3 +308,36 @@ header .logo {
   height: 550px;
   object-fit: cover;
 }
+
+/* work-with-us */
+.work-with-us {
+  background-image: url("../img/hands-min-1920x1080.jpg");
+  /* height: 80vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  padding-top: 150px;
+}
+
+.work-with-us h1 {
+  font-size: 7em;
+  font-weight: 800;
+  letter-spacing: -8px;
+  padding-bottom: 30px;
+}
+
+.work-with-us button {
+  margin-bottom: 170px !important;
+}
+
+/* .work-with-us .arrow {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 90px;
+  margin: 0px 15px;
+} */
+
+/* .work-with-us .justify-content-start {
+  padding: 0px 70px;
+} */
