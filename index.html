@@ -1,213 +1,534 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta id="viewport" name="viewport"
+        content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <title>Site Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/aos.css" />
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
-    <title>Website Header</title>
 </head>
 
-<body>
-    <section class="showcase">
-        <header>
-            <a href="">
-                <img class="logo" src="./img/header-logo-lockup-white.png" alt="">
-            </a>
-            <!-- <div class="toggle">
-            </div> -->
-            <div class="nav-link">
-                <ul>
-                    <li>
-                        <a href="">
-                            CASE STUDIES
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            WHO WE ARE
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            WHAT WE DO
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            INSIGHT
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            NEWS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            #WORKFORNEWMARK
-                        </a>
-                    </li>
-                </ul>
+<body
+    class="home page-template-default page page-id-9 hide-language-switcher post-home no-querystring is-not-job-detail">
+    <!-- preloader -->
+    <div class="loading" id="loading">
+        <img src="./assets/img/loader.gif" />
+    </div>
+    <div class="animsition invisible" id="animsition">
+        <!-- navigationbar -->
+        <header class="main-header white" id="main-header">
+            <div class="constrained padding-y-half">
+                <a class="header-logo left" href="/">
+                    <h6 class="text-bold text-white">Logo</h6>
+                    <!-- <img class="logo-black" src=""
+                        alt="Logo" />
+                    <img class="logo-white" src=""
+                        alt="Logo" /> -->
+                </a>
+                <nav class="main-menu right" id="main-menu">
+                    <div class="main-menu-shade" id="main-menu-shade"></div>
+                    <div class="menu-main-menu-container">
+                        <ul id="menu-main-menu" class="menu">
+                            <li id="menu-item-1104"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a
+                                    href="#">Case Studies</a></li>
+                            <li id="menu-item-1110"
+                                class="bright-purple hover-left menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1110">
+                                <a href="#">Who We Are</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-3300"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3300">
+                                        <a href="#">Our Values</a>
+                                    </li>
+                                    <li id="menu-item-3296"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296">
+                                        <a href="#">Leadership</a>
+                                    </li>
+                                    <li id="menu-item-3297"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297">
+                                        <a href="#">Our Impact</a>
+                                    </li>
+                                    <li id="menu-item-3299"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299">
+                                        <a href="#">Brand Ecosystem</a>
+                                    </li>
+                                    <li id="menu-item-3570"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3570">
+                                        <a href="#">Global Network</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1119"
+                                class="bright-blue hover-left menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1119">
+                                <a href="#">What We Do</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-3718"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3718">
+                                        <a href="#">We Solve</a>
+                                    </li>
+                                    <li id="menu-item-3301"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3301">
+                                        <a href="#">Expertise</a>
+                                    </li>
+                                    <li id="menu-item-3302"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3302">
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li id="menu-item-3303"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3303">
+                                        <a href="#">Products &#038;
+                                            Programs</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1125"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1125"><a
+                                    href="#">Insight</a></li>
+                            <li id="menu-item-1129"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a
+                                    href="#">News</a></li>
+                            <li id="menu-item-1138"
+                                class="bright-red hover-right menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1138">
+                                <a href="#">#WorkAtWeber</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-3304"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3304">
+                                        <a href="#">Join the Team</a>
+                                    </li>
+                                    <li id="menu-item-6306"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6306">
+                                        <a href="#">DE&#038;I</a>
+                                    </li>
+                                    <li id="menu-item-3306"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3306">
+                                        <a href="#">Employee Stories</a>
+                                    </li>
+                                    <li id="menu-item-6555"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6555">
+                                        <a href="#">Benefits (Juice)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="clear"></div>
+                <nav class="footer-sub-menu" id="header-footer-sub-menu">
+                    <div class="menu-footer-menu-container">
+                        <ul id="menu-footer-menu" class="menu">
+                            <li id="menu-item-1358"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1358"><a
+                                    href="#">Contact Us</a></li>
+                            <li id="menu-item-5690"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5690"><a
+                                    href="#">Privacy Policy</a></li>
+                            <li id="menu-item-5180"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5180"><a
+                                    href="#">CCPA Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="#" class="mobile-nav-toggle"><span class="fas fa-bars"></span><span
+                        class="fas fa-times"></span></a>
             </div>
         </header>
-        <video src="./videos/Intersection_Video.mp4" muted autoplay loop></video>
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row text-center text">
-                <div class="col-md-12">
-                    <h2>WE SOLVE AT THE INTERSECTIONS</h2>
-                    <h3>OF BUSINESS, CULTURE, MEDIA AND POLICY</h3>
 
+        <div class="container" id="container">
+            <div class="page-content">
+                <div class="modules-content">
+                    <div class="modules">
+                        <!-- video background -->
+                        <div class="module home-hero-module white module-1" data-aos="fade-up"
+                            data-id="module-home_hero-1" id="content-1">
+                            <div class="background-video">
+                                <video preload="none" loop muted poster="">
+                                    <source src="assets/videos/homepage.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="constrained">
+                                <div class="content padding-x2">
+                                    <h1>
+                                        We Solve at the Intersections <h2>Of Business, Culture, Media and Policy</h2>
+                                    </h1>
+                                </div>
+                                <div class="social-icons">
+                                    <a href="https://www.youtube.com/" target="_blank">
+                                        <span class="fa-2x">
+                                            <i class="fab fa-fw fa-youtube white " data-fa-transform="shrink-8"
+                                                data-fa-mask="fas fa-circle"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://twitter.com/" target="_blank">
+                                        <span class="fa-2x">
+                                            <i class="fab fa-fw fa-twitter white " data-fa-transform="shrink-8"
+                                                data-fa-mask="fas fa-circle"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://www.facebook.com/" target="_blank">
+                                        <span class="fa-2x">
+                                            <i class="fab fa-fw fa-facebook-f white " data-fa-transform="shrink-8"
+                                                data-fa-mask="fas fa-circle"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/" target="_blank">
+                                        <span class="fa-2x">
+                                            <i class="fab fa-fw fa-linkedin white " data-fa-transform="shrink-8"
+                                                data-fa-mask="fas fa-circle"></i>
+                                        </span>
+                                    </a>
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <span class="fa-2x">
+                                            <i class="fab fa-fw fa-instagram white " data-fa-transform="shrink-8"
+                                                data-fa-mask="fas fa-circle"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- first section -->
+                        <div class="module image-text-split-module case-study-module has-link module-2 black-background"
+                            data-aos="fade-up" data-id="module-image_text_split-2" id="content-2">
+                            <a href="" class="no-hover">
+                                <div class=" button-hover">
+                                    <div class="constrained">
+                                        <div class="left case-study-text padding-y-x2 padding-x">
+                                            <img class="split-logo" src="./assets/img/logo-planx.png" alt=" " />
+                                            <span class="split-hr"></span>
+                                            <p class="background-color-text margin-bottom">Financial recovery is
+                                                important, but societal recovery should be paramount. Business has a
+                                                moral imperative to step up and actively support, encourage and promote
+                                                vaccinations. Our new specialty and free playbook provides vaccine
+                                                messaging guidance, real-world examples and recommendations, best
+                                                practices for employee engagement and other resources. </p>
+                                            <span class="button transparent background-color-text">Learn more <i
+                                                    class="fa fa-chevron-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="right case-study-image">
+                                        <div class="case-study-image-image background-cover"
+                                            style="background-image:url(./assets/img/presentation.jpg);">
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </a>
+                            <div class="clear"></div>
+                        </div>
+
+                        <!-- second section -->
+                        <div class="module image-text-split-module case-study-module has-link module-3 dark-blue-background"
+                            data-aos="fade-up" data-id="module-image_text_split-3" id="content-3">
+                            <a href="" class="no-hover">
+                                <div class=" button-hover">
+                                    <div class="left case-study-image">
+                                        <div class="case-study-image-image background-cover"
+                                            style="background-image:url(./assets/img/second-section.jpg);">
+                                        </div>
+                                    </div>
+                                    <div class="constrained">
+                                        <div class="right case-study-text padding-y-x2 padding-x">
+                                            <h2
+                                                class="background-color-text heading-border-bottom padding-bottom-half margin-bottom-half">
+                                                Support throughout the pandemic</h2>
+                                            <p class="background-color-text margin-bottom">Our COVID-19 task force is
+                                                working with client partners and in-house teams to develop real-time
+                                                solutions to the challenges businesses across every industry and sector
+                                                are facing as the virus spreads.</p>
+                                            <span class="button transparent background-color-text">Read more <i
+                                                    class="fa fa-chevron-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </a>
+                            <div class="clear"></div>
+                        </div>
+                        <!-- third section -->
+                        <div class="module image-text-split-module case-study-module has-link module-4 white-background"
+                            data-aos="fade-up" data-id="module-image_text_split-4" id="content-4">
+                            <a href="" class="no-hover">
+                                <div class=" button-hover">
+                                    <div class="right case-study-image">
+                                        <div class="case-study-image-image background-cover"
+                                            style="background-image:url(./assets/img/third-section.jpg);">
+                                        </div>
+                                    </div>
+                                    <div class="constrained">
+                                        <div class="left case-study-text padding-y-x2 padding-x">
+                                            <h2
+                                                class="background-color-text heading-border-bottom padding-bottom-half margin-bottom-half">
+                                                WE SOLVE FOR X</h2>
+                                            <p class="background-color-text margin-bottom">We deliver data-driven,
+                                                culturally-informed and technology-enabled solutions designed to
+                                                maximize impact for an increasingly complex and relentlessly changing
+                                                new world of business challenges. </p>
+                                            <span class="button transparent background-color-text">Learn more <i
+                                                    class="fa fa-chevron-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </a>
+                            <div class="clear"></div>
+                        </div>
+                        <!-- careers -->
+                        <div class="module subpage-feature-module background-cover module-5"
+                            style="background-image:url(./assets/img/hands.jpg);" data-aos="fade-up"
+                            data-id="module-subpage_feature-5" id="content-5">
+                            <a href="" class="no-hover">
+                                <div class="constrained button-hover">
+                                    <div class="content has-arrow padding-x padding-y-x2">
+                                        <h2 class="left">Work</h2>
+                                        <span class="arrow"></span>
+                                        <h2 class="right">At Weber</h2>
+                                        <div class="clear"></div>
+                                        <span class="button white transparent">Join Us <i class="fa fa-chevron-right"></i></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- news -->
+                        <div class="module latest-news-module module-6 three-across" data-aos="fade-up"
+                            data-id="module-latest_news-6" id="content-6">
+                            <div class="constrained padding-y dots dots-right dots-25">
+                                <h3 class="tag-heading heading-border-bottom padding-bottom-half margin-bottom">Latest
+                                    News</h3>
+                                <div class="news-grid-block">
+                                    <div class="news-grid clear-after">
+                                        <div class="news-item news-item-1 news-item-7052">
+                                            <a href="" class="content-link-hover no-hover">
+                                                <div class="news-item-image background-cover"
+                                                    style="background-image:url(./assets/img/news.jpg);">
+                                                </div>
+                                                <div class="news-item-content">
+                                                    <div class="meta">
+                                                        <h4 class="category-heading">Announcements</h4>
+                                                    </div>
+                                                    <div class="date">
+                                                        <h4 class="category-heading">Dec 16, 2021</h4>
+                                                    </div>
+                                                    <h3 class="news-heading">Introducing The Weber Shandwick Collective,
+                                                        The Strategic Communications &#038; Consulting Network</h3>
+                                                </div>
+                                            </a>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="news-item news-item-1 news-item-7052">
+                                            <a href="" class="content-link-hover no-hover">
+                                                <div class="news-item-image background-cover"
+                                                    style="background-image:url(./assets/img/news.jpg);">
+                                                </div>
+                                                <div class="news-item-content">
+                                                    <div class="meta">
+                                                        <h4 class="category-heading">Announcements</h4>
+                                                    </div>
+                                                    <div class="date">
+                                                        <h4 class="category-heading">Dec 16, 2021</h4>
+                                                    </div>
+                                                    <h3 class="news-heading">Introducing The Weber Shandwick Collective,
+                                                        The Strategic Communications &#038; Consulting Network</h3>
+                                                </div>
+                                            </a>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="news-item news-item-1 news-item-7052">
+                                            <a href="" class="content-link-hover no-hover">
+                                                <div class="news-item-image background-cover"
+                                                    style="background-image:url(./assets/img/news.jpg);">
+                                                </div>
+                                                <div class="news-item-content">
+                                                    <div class="meta">
+                                                        <h4 class="category-heading">Announcements</h4>
+                                                    </div>
+                                                    <div class="date">
+                                                        <h4 class="category-heading">Dec 16, 2021</h4>
+                                                    </div>
+                                                    <h3 class="news-heading">Introducing The Weber Shandwick Collective,
+                                                        The Strategic Communications &#038; Consulting Network</h3>
+                                                </div>
+                                            </a>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="align-center margin-top">
+                                    <a href="#" class="button">More News 
+                                        <i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fridge section -->
+                        <div class="module case-study-module module-7 has-link black-background" data-aos="fade-up"
+                            data-id="module-case_study-7" id="content-7">
+                            <a href="#" class="no-hover">
+                                <div class="content-link-hover">
+                                    <div class="right case-study-image">
+                                        <div class="case-study-image-image background-cover"
+                                            style="background-image:url(./assets/img/fridge.jpg);">
+                                        </div>
+                                    </div>
+                                    <div class="constrained">
+                                        <div class="left case-study-text padding-y-x2 padding-x">
+                                            <h3
+                                                class="tag-heading heading-border-bottom padding-bottom-half margin-bottom-half background-color-text">
+                                                Case Studies</h3>
+                                            <h2 class="background-color-text margin-bottom-half">From Zero to Hero</h2>
+                                            <span class="content-link transparent background-color-text">Bud Light:
+                                                &quot;Victory Fridge&quot;</span>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </a>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="module world-of-possibilities-module white-background module-8" data-aos="fade-up"
+                            data-id="module-world_of_possibilities-8" id="content-8">
+                            <a href="#" class="no-hover">
+                                <div class="constrained padding-y button-hover">
+                                    <div class="left padding-y padding-left">
+                                        <h2 class="background-color-text">We're Global</h2>
+                                    </div>
+                                    <div class="right padding-left padding-y">
+                                        <p class="margin-bottom black">Wherever the challenge, we’re there to solve it.
+                                            With offices across six continents, our network is primed to provide the
+                                            global reach and local expertise our clients need, anywhere.</p>
+                                        <span href="#" class="button">Find an
+                                            Office <i class="fa fa-chevron-right"></i></span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="bottom-background-image"
+                                    style="background-image:url(./assets/img/kid.jpg);">
+                                </div>
+                                <div class="top-background-image" style="background-image:url(./assets/img/map.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <hr class="thick module-10 black-background mt-5" data-aos="fade-right"
+                            data-id="module-solid_line-10" id="content-10" />
+                    </div>
                 </div>
             </div>
+            <!-- footer -->
+            <footer class="main-footer " id="main-footer">
+                <div class="constrained padding-y">
+                    <a class="footer-logo left" href="/">
+                        <!-- <img class="logo-black-black"
+                            src="" alt="" /> -->
+                        <h6 class="text-bold">LOGO</h6>
+                    </a>
+                    <div class="footer-responsive-clear"></div>
+                    <nav class="footer-menu right" id="footer-menu">
+                        <div class="menu-main-menu-container">
+                            <ul id="menu-main-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a
+                                        href="#">Case Studies</a></li>
+                                <li
+                                    class="bright-purple hover-left menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1110">
+                                    <a href="#">Who We Are</a>
+                                </li>
+                                <li
+                                    class="bright-blue hover-left menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1119">
+                                    <a href="#">What We Do</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1125"><a
+                                        href="#">Insight</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a
+                                        href="#">News</a></li>
+                                <li
+                                    class="bright-red hover-right menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1138">
+                                    <a href="#">#WorkAtWeber</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="clear margin-bottom"></div>
+                    <nav class="footer-social-menu right" id="footer-social-menu">
+                        <ul class="clear-after">
+                            <li>
+                                <a href="https://www.youtube.com/" target="_blank">
+                                    <span class="fa-layers fa-fw">
+                                        <i class="fas fa-circle black"></i>
+                                        <i class="fa-inverse fab fa-fw fa-youtube white"
+                                            data-fa-transform="shrink-8"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank">
+                                    <span class="fa-layers fa-fw">
+                                        <i class="fas fa-circle black"></i>
+                                        <i class="fa-inverse fab fa-fw fa-twitter white"
+                                            data-fa-transform="shrink-8"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <span class="fa-layers fa-fw">
+                                        <i class="fas fa-circle black"></i>
+                                        <i class="fa-inverse fab fa-fw fa-facebook-f white"
+                                            data-fa-transform="shrink-8"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <span class="fa-layers fa-fw">
+                                        <i class="fas fa-circle black"></i>
+                                        <i class="fa-inverse fab fa-fw fa-linkedin white"
+                                            data-fa-transform="shrink-8"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <span class="fa-layers fa-fw">
+                                        <i class="fas fa-circle black"></i>
+                                        <i class="fa-inverse fab fa-fw fa-instagram white"
+                                            data-fa-transform="shrink-8"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="clear margin-bottom-half"></div>
+                    <nav class="footer-sub-menu right" id="footer-sub-menu">
+                        <div class="menu-footer-menu-container">
+                            <ul id="menu-footer-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1358"><a
+                                        href="#">Contact Us</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5690"><a
+                                        href="#">Privacy Policy</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5180"><a
+                                        href="#">CCPA Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="footer-copyright left">Copyright &copy; 2022 Weber Shandwick. All Rights Reserved.</div>
+                    <div class="clear"></div>
+                </div>
+            </footer>
         </div>
-        <ul class="social">
-            <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> -->
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></li>
-        </ul>
-    </section>
-    <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
     </div>
-    <section data-aos="fade-up" class="about animate__animated animate__slideInUp bg-dark">
-        <div class="">
-            <a href="">
-                <div class="row">
-                    <div class="col-lg-5 col-md-12 about-presentation ml-5">
-                        <div class="about-logo">
-                            <img src="./img/plan-vx-typetreatment-1280x599.png" alt="">
-                        </div>
-                        <span class="split-hr"></span>
-                        <p class="mb-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquid dolorem temporibus
-                            iusto quaerat ipsam numquam quia nulla quos corporis? Excepturi fugit maxime sint facilis
-                            numquam est in. Sit veniam repellat ipsam nesciunt aut fugit quidem rerum? Itaque nulla
-                            aperiam, incidunt expedita tempora officia ab? Nam molestias laudantium doloribus officiis
-                            consectetur mollitia animi, autem odio quo esse at cum quisquam quod voluptates alias
-                        </p>
-                        <button class="button mb-5 text-white">Learn More</button>
-                    </div>
-                    <div class="col-lg-6 col-md-12 triangle-corner-shape">
-                        <div class="presentation">
-                            <div class="img-wrapper">
-                                <img src="./img/Presentation-V2-1280x853.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
-    <section data-aos="fade-up" class="support-about animate__animated animate__slideInUp dark-blue-background">
-        <div class="">
-            <a href="">
-                <div class="row g-0">
-                    <div class="col-lg-6 col-md-12 triangle-corner-shape">
-                        <div class="presentation">
-                            <div class="img-wrapper">
-                                <img src="./img/GettyImages-1281127472-1280x853.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12 about-presentation ml-5">
-                        <h1 class="text-white text-bold headings mt-5">SUPPORT THROUGHOUT THE PANDEMIC</h1>
-                        <span class="split-hr"></span>
-                        <p class="mb-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquid dolorem temporibus
-                            iusto quaerat ipsam numquam quia nulla quos corporis? Excepturi fugit maxime sint facilis
-                            numquam est in. Sit veniam repellat ipsam nesciunt aut fugit quidem rerum? Itaque nulla
-                            aperiam, incidunt expedita tempora officia ab? Nam molestias laudantium doloribus officiis
-                            consectetur mollitia animi, autem odio quo esse at cum quisquam quod voluptates alias
-                        </p>
-                        <button class="button mb-5 text-white">Learn More</button>
-                    </div>
-
-                </div>
-            </a>
-        </div>
-    </section>
-    <section data-aos="fade-up" class="solve-x animate__animated animate__slideInUp bg-white">
-        <div class="">
-            <a href="">
-                <div class="row">
-                    <div class="col-lg-5 col-md-12 about-presentation ml-5">
-                        <h1 class="text-bold headings mt-5 text-dark">WE SOLVE FOR X</h1>
-                        <span class="split-hr-dark"></span>
-                        <p class="mb-5 text-dark">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquid dolorem temporibus
-                            iusto quaerat ipsam numquam quia nulla quos corporis? Excepturi fugit maxime sint facilis
-                            numquam est in. Sit veniam repellat ipsam nesciunt aut fugit quidem rerum? Itaque
-                        </p>
-                        <button class="button black-background mb-5">Learn More</button>
-                    </div>
-                    <div class="col-lg-6 col-md-12 triangle-corner-shape">
-                        <div class="presentation">
-                            <div class="img-wrapper">
-                                <img src="./img/SolveX-1280x739.jpg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </a>
-        </div>
-    </section>
-    <section data-aos="fade-up" class="work-with-us">
-        <a href="">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 text-center">
-                    <h1 class="text-bold text-white">
-                        WORK AT WEBER
-                    </h1>
-                    <!-- <div class="d-flex justify-content-start">
-                        <div>
-                            <h1 class="text-bold text-white">
-                                WORK 
-                            </h1>
-                        </div>
-                        <div>
-                            <div class="arrow"></div>
-                        </div>
-                        <div>
-                            <h1 class="text-bold text-white">
-                                 AT WEBER
-                            </h1>
-                        </div>
-                    </div> -->
-
-                    <button class="button mb-5 text-white">Join Us</button>
-                </div>
-            </div>
-        </a>
-    </section>
-    <!--  Bootstrap Bundle with Popper -->
-    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./js/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="./js/scripts.js"></script>
+    <script type='text/javascript' src='./assets/js/jquery.min.js'></script>
+    <script type='text/javascript' src='./assets/js/select2.min.js'></script>
+    <script type='text/javascript' src='./assets/js/mobile-detect.js'></script>
+    <script type='text/javascript' src='./assets/js/fontawesome.js'></script>
 </body>
+
 
 </html>
