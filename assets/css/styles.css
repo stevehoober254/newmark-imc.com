@@ -4,7 +4,6 @@ a {
   text-decoration: none !important;
 }
 
-
 .main-color {
   color: #1193d4;
 }
@@ -2433,7 +2432,7 @@ a.no-hover {
 }
 
 .black {
-  color:#000;
+  color: #000;
 }
 .white {
   color: #fff;
@@ -3082,7 +3081,7 @@ blockquote:before,
 }
 
 .menu-main-menu-container {
-  margin-top:20px;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 769px) {
   .main-header .main-menu ul.menu > li.current_page_item > a:after,
@@ -4287,7 +4286,6 @@ blockquote:before,
 .home-hero-module .content h1 {
   font-size: 10em;
   font-weight: bold;
-
 }
 
 .home-hero-module .play-overlay-video-on-click {
@@ -4301,7 +4299,7 @@ blockquote:before,
 }
 .home-hero-module .social-icons a {
   text-decoration: none;
-  color:red;
+  color: red;
 }
 .hero-overlay-video video {
   width: 100%;
@@ -4681,8 +4679,6 @@ blockquote:before,
   line-height: 55px;
   font-weight: bold;
 }
-
-
 
 .case-study-module .case-study-text h2 a {
   color: #000;
@@ -9749,10 +9745,18 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
     position: absolute;
     top: 17px;
     right: 55px;
-    color: #fff;
+    color: #000;
     font-size: 51.6666666667px;
     z-index: 100;
   }
+  .main-header .main-menu ul.menu > li a {
+    color: #000;
+  }
+
+  .main-header .header-logo img {
+    width: 120px;
+  }
+
   .main-header .mobile-nav-toggle .fa-times {
     display: none;
   }
