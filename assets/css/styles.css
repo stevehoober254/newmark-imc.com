@@ -9996,3 +9996,26 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
   font-size: 3.2rem;
   font-weight: bold;
 }
+
+
+/* our clients */
+.grid-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.grid-logos > div {
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+.grid-logos > div::before {
+  content: "";
+  display: block;
+  /* padding-bottom: 100%; */
+  grid-area: 1/1/2/2;
+}
+.grid-logos > div img {
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
