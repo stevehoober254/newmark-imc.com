@@ -3294,10 +3294,9 @@ blockquote:before,
 .main-header .main-menu ul.menu > li.menu-item-has-children .sub-menu a {
   text-transform: uppercase;
   font-family: "AlwaysMontefiore", Arial, Helvetica, sans-serif;
-  width: 400px;
-  padding: 6.875px 36.6666666667px;
-  font-size: 42px;
-  font-size: 2.625rem;
+  width: 250px;
+  padding: 4.875px 26.6666666667px;
+  font-size: 1.3em;
 }
 .main-header .main-menu ul.menu > li.menu-item-has-children .sub-menu a:after {
   width: 0;

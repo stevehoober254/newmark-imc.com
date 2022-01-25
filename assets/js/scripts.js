@@ -14,10 +14,10 @@ function myFunction() {
   // }
 }
 
-var vid = document.getElementById("video");
+// var vid = document.getElementById("video");
 
-function setPlaySpeed() {
-  vid.playbackRate = 0.5;
-}
+// function setPlaySpeed() {
+//   vid.playbackRate = 0.5;
+// }
 
-setPlaySpeed();
+// setPlaySpeed();
