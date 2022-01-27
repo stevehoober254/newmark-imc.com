@@ -5303,7 +5303,7 @@ blockquote:before,
 }
 .subpage-feature-module .content.has-arrow .arrow {
   position: absolute;
-  background-color: #fff;
+  background-color: #6cc8f6;
   margin-top: 12px;
 }
 .subpage-feature-module .content.has-arrow .arrow:after {
@@ -5316,7 +5316,7 @@ blockquote:before,
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #6cc8f6;
     top: 0;
     border-width: 51px 0 51px 51px;
   }

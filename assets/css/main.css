@@ -1,0 +1,28 @@
+.line-after-heading {
+  position: relative;
+}
+
+.line-after-heading span {
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+.line-after-heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 3px solid #6cc8f6;
+  z-index: -1;
+}
+
+.who-we-are-img-wrapper img {
+  object-fit: cover;
+  height: 29rem;
+  width: 100%;
+}
+.p-main {
+  font-size: 17px;
+}
