@@ -48,7 +48,6 @@
   height: 40vh;
 }
 
-
 .card-news a .card {
   background-color: white;
   border: none;
@@ -70,7 +69,43 @@
 }
 
 .card-text span {
-    text-transform: uppercase;
-    color: #6cc8f6;
+  text-transform: uppercase;
+  color: #6cc8f6;
 }
 
+.our-business img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.our-business .bg-white {
+  box-shadow: 0 0 0.5rem rgba(194, 194, 194, 0.1);
+}
+
+.our-business .card-body {
+  margin: 50px;
+}
+
+.text-transfom-none {
+  text-transform: none;
+}
+
+.headings {
+  font-size: 2.2em;
+  font-weight: 800;
+  color: #6cc8f6;
+  letter-spacing: 2.5px;
+  margin-bottom: 30px;
+}
+
+/* .end-strip:hover {
+    border-right: 2px solid red;
+} */
+/* 
+.bg-newmark {
+  background-color: rgba(17,147,212,0.3);
+  background: linear-gradient(rgba(17,147,212, 0.2) 0%, rgba(17,147,212, 0.1) 100%);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+} */
