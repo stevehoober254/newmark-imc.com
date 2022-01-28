@@ -3,9 +3,13 @@
 }
 
 .line-after-heading span {
-  background-color: #fff;
-  padding-right: 10px;
+  background-color: rgb(255, 255, 255);
+  padding-right: 30px;
 }
+
+/* .line-after-padding-right span {
+  padding-right: 50px;
+} */
 
 .line-after-heading:after {
   content: "";
@@ -26,3 +30,47 @@
 .p-main {
   font-size: 17px;
 }
+.company-we-keep .row .col {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.company-we-keep img {
+  height: 120px;
+  width: 150px;
+  border: 2px solid lightgray;
+  padding: 5px;
+  /* margin-right: 10px; */
+}
+
+.card-news a .card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 40vh;
+}
+
+
+.card-news a .card {
+  background-color: white;
+  border: none;
+}
+
+.card-news a .card .category {
+  font-size: 1.1em;
+  color: #6cc8f6;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.card-news a .card-title {
+  font-size: 1.7em;
+  font-weight: 800;
+  color: #6cc8f6;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.card-text span {
+    text-transform: uppercase;
+    color: #6cc8f6;
+}
+

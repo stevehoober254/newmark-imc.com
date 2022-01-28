@@ -1680,7 +1680,7 @@ body {
   -webkit-text-size-adjust: 100%;
   width: 100%;
   color: #000;
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 a {
   color: #1193d4;
@@ -4212,6 +4212,8 @@ blockquote:before,
 }
 .heading-border-bottom {
   position: relative;
+  color:#6cc8f6;
+  font-weight:700;
 }
 .heading-border-bottom:after {
   content: "";
@@ -4221,7 +4223,7 @@ blockquote:before,
   left: 0;
   width: 70px;
   height: 3px;
-  background-color: #000;
+  background-color: #6cc8f6;
 }
 .play-overlay-video-on-click {
   display: inline-block;
