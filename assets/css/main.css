@@ -110,7 +110,6 @@
   border-bottom-right-radius: 50% 40%;
 } */
 
-
 /* .top-header {
   padding-right: 10px;
 } */
@@ -126,4 +125,16 @@
 
 .main-color-theme {
   color: #6cc8f6 !important;
+}
+
+.whatsapp {
+  background: #009688;
+  color: #ffffff;
+  position: fixed;
+  width: 140px;
+  padding: 12px;
+  left: 10px;
+  bottom: 25px;
+  border-radius: 15px 0px 15px 0px;
+  z-index: 100;
 }
