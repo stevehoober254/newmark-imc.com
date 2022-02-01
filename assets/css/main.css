@@ -30,7 +30,7 @@
 .p-main {
   font-size: 17px;
 }
-.company-we-keep .row .col {
+/* .company-we-keep .row .col {
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -39,7 +39,31 @@
   width: 150px;
   border: 2px solid lightgray;
   padding: 5px;
-  /* margin-right: 10px; */
+} */
+
+.company-we-keep {
+  background-image: url("../img/dots.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.company-we-keep .row .col {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.company-logos img {
+  height: 120px;
+  width: 100%;
+  border: 2px solid #57aeda;
+  padding: 15px;
+  /* object-position: center;
+  object-fit: fill; */
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-news a .card-img-top {
@@ -148,4 +172,8 @@
   font-size: 1.2em;
   font-weight: 800;
   letter-spacing: 2px;
+}
+
+.company-logos-second {
+  margin-top: -5px;
 }
