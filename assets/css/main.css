@@ -138,3 +138,14 @@
   border-radius: 15px 0px 15px 0px;
   z-index: 100;
 }
+
+.btn-primary-outline {
+  background-color: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
