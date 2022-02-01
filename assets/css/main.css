@@ -109,3 +109,21 @@
   border-bottom-left-radius: 50% 40%;
   border-bottom-right-radius: 50% 40%;
 } */
+
+
+/* .top-header {
+  padding-right: 10px;
+} */
+
+/* .main-header hr {
+  border-top: 1px solid #6cc8f6;
+  margin-top: 0;
+  margin-bottom: 5px;
+  width: 100000770px;
+  margin-left: 0 !important;
+  padding-left: 0!important;
+} */
+
+.main-color-theme {
+  color: #6cc8f6 !important;
+}

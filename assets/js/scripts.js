@@ -21,3 +21,15 @@ function myFunction() {
 // }
 
 // setPlaySpeed();
+
+
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("top-header").style.display = "none";
+//   } else {
+//     document.getElementById("top-header").style.display = "block";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
