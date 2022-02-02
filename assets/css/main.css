@@ -189,7 +189,6 @@
   border-radius: 4px;
 }
 
-
 /* .end-strip {
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
@@ -205,8 +204,24 @@
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
-  margin-top:-5px;
+  margin-top: -5px;
   height: 12px;
   width: 100%;
   border-radius: 1px;
+}
+
+.our-business p {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
+}
+
+.our-business h5 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 20px;
+  color: #00ade5;
 }
