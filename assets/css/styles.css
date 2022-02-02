@@ -7878,6 +7878,7 @@ blockquote:before,
   width: 33.3333%;
   float: left;
   height: 460px;
+  padding-right: 20px;
 }
 .contact-form-module .wpcf7-form-control-wrap.your-email,
 .contact-form-module .wpcf7-form-control-wrap.your-name,
@@ -10025,7 +10026,7 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
   width: 100%;
   border-radius: 5px;
   height:180px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .text-primary {
