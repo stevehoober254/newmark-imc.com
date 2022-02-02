@@ -177,3 +177,36 @@
 .company-logos-second {
   margin-top: -5px;
 }
+
+.stripe {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+  height: 12px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+/* .end-strip {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+  border-radius: 4px;
+  rotate: 90deg;
+} */
+
+.bottom-stripe {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:-5px;
+  height: 12px;
+  width: 100%;
+  border-radius: 1px;
+}
