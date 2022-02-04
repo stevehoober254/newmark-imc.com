@@ -5237,7 +5237,7 @@ blockquote:before,
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent transparent transparent #000;
+    border-color: transparent;
     top: 220px;
     border-width: 40px 0 40px 40px;
   }
