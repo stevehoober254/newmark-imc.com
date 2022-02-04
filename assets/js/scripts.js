@@ -22,7 +22,6 @@ function myFunction() {
 
 // setPlaySpeed();
 
-
 // var prevScrollpos = window.pageYOffset;
 // window.onscroll = function() {
 //   var currentScrollPos = window.pageYOffset;
@@ -33,3 +32,4 @@ function myFunction() {
 //   }
 //   prevScrollpos = currentScrollPos;
 // }
+
