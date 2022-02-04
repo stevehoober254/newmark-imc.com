@@ -271,7 +271,7 @@ a:hover {
 }
 
 .news-section .module {
-  min-width: 200px;
+  width: 100%;
   height: 420px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
   transition: all 0.3s linear 0s;
@@ -362,3 +362,23 @@ a:hover {
   color: #999999;
   font-size: 15px;
 }
+
+/* .main-header
+  .main-menu
+  ul.menu
+  > li.menu-item-has-children.bright-purple
+  .sub-menu {
+  background: #fff;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+  border-top: 2px solid #1193d4;
+  padding: 10px;
+}
+
+.main-header
+  .main-menu
+  ul.menu
+  > li.menu-item-has-children.bright-purple
+  .sub-menu
+  a {
+  color: #333 !important;
+} */
