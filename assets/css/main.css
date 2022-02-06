@@ -61,6 +61,13 @@ a:hover {
   margin: 0 !important;
 }
 
+.company-we-keep h2 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: rgb(26, 24, 24);
+  text-align: center;
+}
+
 .company-logos img {
   height: 120px;
   width: 100%;
@@ -177,6 +184,16 @@ a:hover {
   padding: 5px 15px;
   border-radius: 5px;
   font-size: 1em;
+  margin: 10px 0px 20px 10px;
+}
+
+.btn-secondary-outline,.btn-secondary-outline:hover{
+  background-color: transparent;
+  border: 1px solid #6cc8f6;
+  color: #000000;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 1.2em;
   margin: 10px 0px 20px 10px;
 }
 
