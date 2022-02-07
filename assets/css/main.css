@@ -187,14 +187,15 @@ a:hover {
   margin: 10px 0px 20px 10px;
 }
 
-.btn-secondary-outline,.btn-secondary-outline:hover{
+.btn-secondary-outline,
+.btn-secondary-outline:hover {
   background-color: transparent;
-  border: 1px solid #6cc8f6;
+  border: 2px solid #6cc8f6;
   color: #000000;
-  padding: 5px 15px;
+  padding: 7px 17px;
   border-radius: 5px;
-  font-size: 1.2em;
-  margin: 10px 0px 20px 10px;
+  font-size: 1.3em;
+  margin: 10px 10px 20px 10px;
 }
 
 .company-logos-second {
@@ -283,7 +284,7 @@ a:hover {
 .news-section .normal,
 .hover {
   flex: 1;
-  padding: 0 25px;
+  /* padding: 0 10px; */
 }
 
 .news-section .module {
@@ -295,7 +296,7 @@ a:hover {
   position: relative;
 }
 .news-section .module:hover {
-  box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 15px 0 rgba(85, 85, 85, 0.2);
 }
 .thumbnail {
   position: relative;
