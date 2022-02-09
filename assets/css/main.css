@@ -64,17 +64,16 @@ a:hover {
 .company-we-keep h2 {
   font-size: 2.1rem;
   font-weight: bold;
-  color: rgb(26, 24, 24);
+  color: #00ade5;
   text-align: center;
 }
 
 .company-logos img {
-  height: 120px;
+  height: 110px;
   width: 100%;
   border: 2px solid #57aeda;
-  padding: 15px;
-  /* object-position: center;
-  object-fit: fill; */
+  padding: 15px 40px;
+  object-position: center;
   object-fit: contain;
   background-position: center;
   background-size: cover;
@@ -123,6 +122,7 @@ a:hover {
 
 .our-business .card-body {
   margin: 50px;
+  border-radius: 10px;
 }
 
 .text-transfom-none {
@@ -187,7 +187,17 @@ a:hover {
   color: #ffffff;
   padding: 5px 15px;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 16px;
+  margin: 10px 0px 20px 10px;
+}
+
+.btn-primary-outline:hover {
+  background-color: #1193d4;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 16px;
   margin: 10px 0px 20px 10px;
 }
 
@@ -198,7 +208,17 @@ a:hover {
   color: #000000;
   padding: 7px 17px;
   border-radius: 5px;
-  font-size: 1.3em;
+  font-size: 16px;
+  margin: 10px 10px 20px 10px;
+}
+
+.btn-secondary-outline:hover {
+  background-color: #1193d4;
+  border: 2px solid #6cc8f6;
+  color: #ffffff;
+  padding: 7px 17px;
+  border-radius: 5px;
+  font-size: 16px;
   margin: 10px 10px 20px 10px;
 }
 
@@ -301,6 +321,9 @@ a:hover {
 }
 .news-section .module:hover {
   box-shadow: 0 1px 15px 0 rgba(85, 85, 85, 0.2);
+}
+.news-section h6 {
+  color: #00ade5;
 }
 .thumbnail {
   position: relative;
@@ -419,6 +442,12 @@ a:hover {
 
 .our-company {
   padding-top: 50px;
+  
+}
+
+.our-company .card-body {
+  border-radius: 10px;
+  padding: 50px;
 }
 
 p {
@@ -428,6 +457,7 @@ p {
 .our-company p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   color: #444444;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
