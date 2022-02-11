@@ -2599,6 +2599,9 @@ a.no-hover {
 .margin-right-half {
   margin-right: 27.5px !important;
 }
+.margin-right-half-half {
+  margin-right: 13.5px !important;
+}
 .margin-bottom-half {
   margin-bottom: 27.5px !important;
 }
@@ -2637,6 +2640,9 @@ a.no-hover {
 .slick-dots li button {
   width: 12px;
   height: 12px;
+}
+.text-bold-1 {
+  font-weight:600 !important;
 }
 .slick-dots li button:before {
   transition: all 0.5s ease-in-out;
@@ -3051,13 +3057,12 @@ blockquote:before,
 }
 .main-header .main-menu ul.menu > li a {
   display: inline-block;
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
   padding: 13.75px;
-  font-size: 15px;
   font-size: 0.9375rem;
 }
 .main-header .main-menu ul.menu > li a:after {
@@ -4188,7 +4193,9 @@ blockquote:before,
 }
 .background-video {
   position: absolute;
+  position: absolute;
   width: 100%;
+  min-width: 100%;
   height: 100%;
   top: 0;
   left: 0;
