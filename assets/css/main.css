@@ -36,22 +36,19 @@ a:hover {
 }
 .p-main {
   font-size: 17px;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .background-translucent {
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .who-we-are .card-title {
   font-size: 23px;
   font-weight: 900;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #00ade5;
 }
-
-
-
 
 /* .blue-background {
   background-color: #00ade5;
@@ -75,10 +72,10 @@ a:hover {
   padding: 0;
 }
 
-.company-we-keep .row .col {
+/* .company-we-keep .row .col {
   padding: 0 !important;
   margin: 0 !important;
-}
+} */
 
 .company-we-keep h2 {
   font-size: 2.1rem;
@@ -87,15 +84,27 @@ a:hover {
   text-align: center;
 }
 
+/* .company-logos .col {
+  margin: 5px !important;
+} */
+
 .company-logos img {
-  height: 110px;
+  height: 100px;
   width: 100%;
-  border: 2px solid #57aeda;
-  padding: 15px 40px;
+  border: 2px solid #79797933;
+  padding: 5px 15px;
   object-position: center;
   object-fit: contain;
   background-position: center;
   background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.company-logos img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-news a .card-img-top {
@@ -241,9 +250,9 @@ a:hover {
   margin: 10px 10px 20px 10px;
 }
 
-.company-logos-second {
+/* .company-logos-second {
   margin-top: -5px;
-}
+} */
 
 .stripe {
   background-image: url("../img/pattern.png");
@@ -297,7 +306,7 @@ a:hover {
   font-family: "Open Sans", sans-serif !important;
   font-size: 13px;
   line-height: 100%;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   color: #494949;
   font-weight: 400;
 }
@@ -464,7 +473,6 @@ a:hover {
 
 .our-company {
   padding-top: 50px;
-  
 }
 
 .our-company .card-body {
