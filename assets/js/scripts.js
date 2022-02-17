@@ -22,14 +22,14 @@ function myFunction() {
 
 // setPlaySpeed();
 
+/* on scroll down hide div with class of 'top header' */
 // var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
+// window.onscroll = function () {
 //   var currentScrollPos = window.pageYOffset;
 //   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("top-header").style.display = "none";
+//     document.querySelector(".top-header-contact").style.display = "none";
 //   } else {
-//     document.getElementById("top-header").style.display = "block";
+//     document.querySelector(".top-header-contact").style.display = "block";
 //   }
 //   prevScrollpos = currentScrollPos;
-// }
-
+// };
