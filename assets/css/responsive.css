@@ -1,0 +1,11 @@
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .our-business .row {
+    height: 415px;
+  }
+}
+
+@media (max-width: 767px) {
+  .company-we-keep {
+    display: none;
+  }
+}
