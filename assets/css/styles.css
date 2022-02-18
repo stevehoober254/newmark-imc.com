@@ -6011,9 +6011,9 @@ blockquote:before,
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent transparent transparent #fff;
+    /* border-color: transparent transparent transparent #fff; */
     top: 135px;
-    border-width: 40px 0 40px 40px;
+    /* border-width: 40px 0 40px 40px; */
   }
 }
 .carousel-module .carousel .carousel-block .right {
