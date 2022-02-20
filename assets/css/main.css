@@ -30,9 +30,11 @@ a:hover {
 }
 
 .who-we-are-img-wrapper img {
-  object-fit: cover;
-  height: 29rem;
+  object-fit: contain;
+  /* height: 29rem; */
   width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(50, 160, 207, 0.12) 0px 2px 4px 0px, rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
 }
 .p-main {
   font-size: 17px;
