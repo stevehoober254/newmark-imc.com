@@ -29,10 +29,15 @@ a:hover {
   z-index: -1;
 }
 
+.who-we-are p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
 .who-we-are-img-wrapper img {
-  object-fit: contain;
-  /* height: 29rem; */
   width: 100%;
+  height: 410px;
+  object-fit: cover;
   border-radius: 5px;
   box-shadow: rgba(50, 160, 207, 0.12) 0px 2px 4px 0px, rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
 }
@@ -45,12 +50,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.who-we-are .card-title {
-  font-size: 23px;
-  font-weight: 900;
-  font-family: "Open Sans", sans-serif;
-  color: #00ade5;
-}
+
 
 /* .blue-background {
   background-color: #00ade5;
