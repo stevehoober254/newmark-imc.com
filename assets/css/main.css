@@ -39,7 +39,8 @@ a:hover {
   height: 410px;
   object-fit: cover;
   border-radius: 5px;
-  box-shadow: rgba(50, 160, 207, 0.12) 0px 2px 4px 0px, rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(50, 160, 207, 0.12) 0px 2px 4px 0px,
+    rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
 }
 .p-main {
   font-size: 17px;
@@ -49,8 +50,6 @@ a:hover {
 .background-translucent {
   background-color: rgba(255, 255, 255, 0.95);
 }
-
-
 
 /* .blue-background {
   background-color: #00ade5;
@@ -79,14 +78,22 @@ a:hover {
   margin: 0 !important;
 } */
 
-.company-we-keep h2,
-.practice-areas h2 {
+.company-we-keep h2 {
   font-size: 2.1rem;
   font-weight: bold;
   color: #00ade5;
   text-align: center;
 }
 
+.practice-areas h2,
+.our-expertise h2 {
+  font-size: 31px;
+  font-weight: 800;
+  color: #00ade5;
+  text-align: center;
+  text-transform: uppercase !important;
+  font-family: "Open Sans", sans-serif !important;
+}
 /* .company-logos .col {
   margin: 5px !important;
 } */
@@ -562,6 +569,22 @@ p {
   line-height: 26px;
   color: #444444;
   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* our expertise */
+.our-expertise .case-study-grid .case-study-item {
+  height: 200px;
+  min-height: 290px;
+  position: relative;
+  background-color: #000;
+  width: calc(24%);
+  margin-bottom: 20px;
+  margin-right: 13px;
+}
+
+.our-expertise .case-study-grid .case-study-item .content h3 {
+  color: #fff;
+  font-size: 40px;
 }
 
 /* footer */

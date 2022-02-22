@@ -5713,6 +5713,7 @@ blockquote:before,
   opacity: 0.75;
   z-index: -1;
 }
+
 .case-study-grid-block .case-study-grid .case-study-item .content {
   position: absolute;
   top: 0;
