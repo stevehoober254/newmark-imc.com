@@ -457,12 +457,20 @@ figure.practice-area-description img {
 }
 
 figure.practice-area-description h2 {
-  background: rgba(18, 140, 201, 0.788);
-  color: #fff;
+  background: rgba(13, 123, 179, 0.788);
+  /* background: rgba(18, 140, 201, 1); */
+  color: rgb(255, 255, 255);
   font-family: "Arial", sans-serif;
   height: 80px;
   width: 100%;
 }
+
+/* figure.practice-area-description figcaption h2 {
+  background-image: url('../img/pattern.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+} */
 
 figure.practice-area-description h2 {
   position: absolute;
@@ -656,7 +664,7 @@ p {
   background-color: #000;
   width: calc(24%);
   margin-bottom: 20px;
-  margin-right: 13px;
+  margin-right: 11px;
 }
 
 .our-expertise .case-study-grid .case-study-item .content h3 {
