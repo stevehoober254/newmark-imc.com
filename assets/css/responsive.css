@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 767px) {
+  .after-industry {
+    margin-top: 10px;
+  }
   .company-we-keep {
     display: none;
   }
