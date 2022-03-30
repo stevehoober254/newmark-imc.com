@@ -426,10 +426,23 @@ a:hover {
   position: relative;
   overflow: hidden;
   text-align: center;
-  border-radius: 30px 0px 30px 0px;
+  /* border-radius: 30px 0px 30px 0px; */
   box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px;
+  background-color: #1193d4;
 }
-
+@media only screen and (min-width: 769px) {
+  .practice-area-containers figure:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent #1193d4;
+    top: -35px;
+    left: 0px;
+    border-width: 35px 0 35px 35px;
+  }
+}
 .practice-area-containers figure img {
   background-size: cover;
   position: relative;
@@ -673,7 +686,9 @@ p {
 
 .our-expertise .case-study-grid .case-study-item .content h3 {
   color: #fff;
-  font-size: 40px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -683,9 +698,9 @@ p {
     width: 0;
     height: 0;
     border-style: solid;
-    border-color: transparent transparent transparent rgb(252, 252, 252);
+    border-color: transparent transparent transparent #1193d4;
     top: 50px;
-    border-width: 25px 0 25px 25px;
+    border-width: 19px 0 19px 19px;
   }
 }
 
@@ -884,7 +899,8 @@ p {
 
 /* connect-with-us */
 
-.connect-with-us .intro-content,.connect-with-us .card {
+.connect-with-us .intro-content,
+.connect-with-us .card {
   height: 350px;
 }
 
