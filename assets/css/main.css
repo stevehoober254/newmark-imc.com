@@ -812,6 +812,7 @@ p {
 .subscribe-form {
   position: relative;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .subscribe-form input {
   width: 100%;
