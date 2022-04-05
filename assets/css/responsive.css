@@ -14,4 +14,15 @@
   .number-events {
     display: none;
   }
+  .gallery-carousel-items .card {
+    margin: 1px;
+    border-radius: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .connect-with-us .intro-content {
+    background-color: #1193d4;
+    padding: 60px 75px;
+  }
 }
