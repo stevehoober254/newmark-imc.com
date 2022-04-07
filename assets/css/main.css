@@ -712,7 +712,7 @@ p {
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 0;
-  background-color: #292F33;
+  background-color: #292f33;
 }
 .footer-top {
   border-bottom: 1px solid #555;
@@ -936,27 +936,13 @@ p {
 
 .gallery-img img {
   object-fit: cover;
-  height: 220px;
+  height: 285px;
   width: 100%;
 }
 
 .gallery-carousel-items .card {
-  margin: 0px 4px 0px 4px;
+  margin: 0px 3px 0px 3px;
   border: none;
-  background-color: #1193d4;
-}
-
-.gallery-info {
-  padding: 12px;
-}
-.gallery-title {
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-  font-weight: 900;
-}
-
-.gallery-carousel-items .card:hover {
-  background: rgba(13, 123, 179, 0.788);
 }
 
 .twitter-feed {
@@ -971,6 +957,6 @@ p {
   display: none;
 }
 
-.SandboxRoot{
+.SandboxRoot {
   color: #fff;
 }
