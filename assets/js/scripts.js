@@ -39,7 +39,12 @@ $(document).ready(function () {
     autoplay: true,
     loop: true,
     autoplayHoverPause: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 6000,
+  //   nav:true,
+  //   navText: [
+  //     "<i class='fa fa-chevron-left'></i>",
+  //     "<i class='fa fa-chevron-right'></i>"
+  //  ],
     responsive: {
       0: {
         items: 1,
@@ -53,3 +58,4 @@ $(document).ready(function () {
     },
   });
 });
+
