@@ -945,6 +945,7 @@ p {
 
 /* connect-with-us */
 
+
 /* .connect-with-us .intro-content,
 .connect-with-us .card {
   height: 350px;
@@ -958,6 +959,8 @@ p {
   background-color: #1193d4;
   padding: 35px 50px;
   border-radius: 5px;
+  height: 350px;
+  width: auto;
 }
 
 /* .connect-with-us .icons {
@@ -981,7 +984,7 @@ p {
 
 .gallery-img img {
   object-fit: cover;
-  height: 285px;
+  height: 350px;
   width: 100%;
 }
 
