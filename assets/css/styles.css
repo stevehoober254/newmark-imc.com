@@ -2040,6 +2040,9 @@ a.no-hover {
 .dark-gray-background {
   background-color: #202427 !important;
 }
+.main-color-background {
+  background-color: #00ade5;
+}
 .dark-gray-background .background-color-text,
 .dark-gray-background p,
 .dark-gray-background .p {
@@ -4225,7 +4228,7 @@ blockquote:before,
   color: #6cc8f6;
   font-weight: 700;
 }
-.heading-border-bottom:after {
+/* .heading-border-bottom:after {
   content: "";
   display: block;
   position: absolute;
@@ -4234,7 +4237,7 @@ blockquote:before,
   width: 70px;
   height: 3px;
   background-color: #6cc8f6;
-}
+} */
 .play-overlay-video-on-click {
   display: inline-block;
 }
@@ -4316,9 +4319,7 @@ blockquote:before,
   width: 100%;
   height: calc(100vh - 110px);
 }
-.hero-module {
-  min-height: 600px;
-}
+
 .hero-module.black .play-overlay-video-on-click {
   background: url(../images/play-button-black.png) center center no-repeat;
   background-size: 100% auto;
@@ -4890,8 +4891,8 @@ blockquote:before,
   .case-study-module.bright-purple-background .case-study-image.left:after {
     content: "";
     position: absolute;
-    width: 40px;
-    height: calc(50% - 40px);
+    /* width: 40px;
+    height: calc(50% - 40px); */
     background-color: #1193d4;
     right: 0;
   }
@@ -4902,7 +4903,7 @@ blockquote:before,
   .case-study-module.bright-purple-background .case-study-image.left:after {
     bottom: 0;
   }
-  .case-study-module.bright-purple-background .case-study-text.right:after {
+  /* .case-study-module.bright-purple-background .case-study-text.right:after {
     content: " ";
     position: absolute;
     width: 0;
@@ -4911,7 +4912,7 @@ blockquote:before,
     border-color: #1193d4 rgba(0, 0, 0, 0) #1193d4 rgba(0, 0, 0, 0);
     top: 220px;
     border-width: 40px 0 40px 40px;
-  }
+  } */
 }
 .case-study-module.bright-purple-background .case-study-text.right:after {
   left: 50%;
