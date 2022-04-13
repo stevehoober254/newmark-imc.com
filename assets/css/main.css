@@ -105,14 +105,12 @@ a:hover {
   text-align: center;
   text-transform: uppercase !important;
 } */
-/* .company-logos .col {
-  margin: 5px !important;
-} */
-
+/*} */
 .company-logos img {
   height: 100px;
+  background-color: #fff;
   width: 100%;
-  border: 2px solid #79797933;
+  /* border: 2px solid #79797933; */
   padding: 5px 15px;
   object-position: center;
   object-fit: contain;
@@ -221,8 +219,9 @@ a:hover {
   background: #009688;
   color: #ffffff;
   position: fixed;
-  width: 140px;
-  padding: 12px;
+  font-size: 15px;
+  width: 160px;
+  padding: 15px;
   left: 10px;
   bottom: 25px;
   border-radius: 15px 0px 15px 0px;
@@ -334,13 +333,13 @@ a:hover {
 
 .feature-box-title {
   color: #ffffff;
-  font-size: 14px;
-  line-height: 12px;
-  font-weight: 800;
+  font-size: 19px;
+  line-height: 14px;
+  font-weight: 900;
 }
 
 .be-seen {
-  background-image: url("https://newmark-imc.com/images/world-map-dark.png");
+  background-image: url("../img/world-map-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -589,14 +588,14 @@ figure.practice-area-description:hover img {
 .title {
   margin: 0;
   padding: 0 0 5px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: capitalize;
 }
 .sub-title {
   margin: 0;
   padding: 0 0 20px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: #00ade5;
 }
@@ -756,7 +755,7 @@ p {
 /* footer */
 
 .footer-section {
-  background-image: url("https://newmark-imc.com/images/world-map-dark.png");
+  background-image: url("../img/world-map-dark.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -945,7 +944,6 @@ p {
 
 /* connect-with-us */
 
-
 /* .connect-with-us .intro-content,
 .connect-with-us .card {
   height: 350px;
@@ -986,6 +984,9 @@ p {
   object-fit: cover;
   height: 350px;
   width: 100%;
+  object-position: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .gallery-carousel-items .card {
