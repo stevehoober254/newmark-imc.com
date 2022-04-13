@@ -1721,14 +1721,14 @@ a.no-hover {
 }
 .black-background .button {
   color: #fff !important;
-  border-color: #fff !important;
+  border-color: #1193d4 !important;
   background-image: url(../images/arrow-white.png) !important;
 }
 .black-background .button:hover {
-  border-color: #fff !important;
+  border-color: #1193d4 !important;
 }
 .black-background .button:hover:before {
-  border-color: #fff !important;
+  border-color: #1193d4 !important;
 }
 .black-background .button.white {
   background-image: url(../images/arrow-white.png) !important;
@@ -1738,7 +1738,7 @@ a.no-hover {
   background-image: url(../images/arrow-white.png) !important;
 }
 .black-background .button.black {
-  color: #fff !important;
+  color: #1193d4 !important;
 }
 .black-background .button.black:hover {
   color: #fff !important;
@@ -2807,24 +2807,21 @@ p,
 }
 .button {
   font-weight: bold;
-  line-height: 60px;
-  border: solid 1px #000;
+  line-height: 40px;
+  border: solid 1px #1193d4;
   display: inline-block;
-  min-width: 200px;
+  min-width: 150px;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: #1193d4;
   position: relative;
   transition: all 0.5s ease-in-out;
-  padding-left: 27.5px;
-  padding-right: 27.5px;
   background-image: url(../images/arrow.png);
   background-position: right 30px center;
   background-repeat: no-repeat;
   background-size: 10px 10px;
   cursor: pointer;
   font-size: 15px;
-  font-size: 0.9375rem;
 }
 .button:hover {
   text-decoration: none;
@@ -2842,17 +2839,17 @@ p,
   transition: all 0.5s ease-in-out;
 }
 .button:hover:before {
-  border-color: #000;
+  border-color: #1193d4;
 }
 .button.white {
-  color: #000 !important;
+  color: #1193d4 !important;
   border-color: #fff;
   background-color: #fff;
   background-image: url(../images/arrow-white.png);
 }
 .button.white:hover {
   border-color: #fff;
-  background-color: #000;
+  background-color: #1193d4;
   color: #fff !important;
 }
 .button.white:hover:before {
@@ -2863,14 +2860,14 @@ p,
   background-color: transparent !important;
 }
 .button.white.transparent:hover {
-  border-color: #fff;
+  border-color: #1193d4;
 }
 .button.white.transparent:hover:before {
-  border-color: #fff;
+  border-color: #1193d4;
 }
 .button.black {
   color: #fff !important;
-  background-color: #000;
+  background-color: #1193d4;
   background-image: url(../images/arrow.png);
 }
 .button.black:hover {
