@@ -9972,8 +9972,9 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
 }
 
 .case-study-module .case-study-text h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: bold;
+  color: #1093D4;
 }
 
 /* our clients */

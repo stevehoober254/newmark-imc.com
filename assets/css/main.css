@@ -54,8 +54,8 @@ a:hover {
     rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
 }
 .p-main {
-  font-size: 17px;
-  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .background-translucent {
@@ -93,7 +93,7 @@ a:hover {
 .our-expertise-new h2,
 .main-heading,
 .practice-areas h2 {
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #00ade5;
   text-align: center;
@@ -184,12 +184,6 @@ a:hover {
   height: 415px;
 } */
 
-/* .headings {
-  font-size: 2.2em;
-  font-weight: 800;
-  letter-spacing: 2.5px;
-  margin-bottom: 30px;
-} */
 
 /* .end-strip:hover {
     border-right: 2px solid red;
@@ -337,7 +331,7 @@ a:hover {
 
 .feature-box-title {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 0.9em;
   line-height: 14px;
   font-weight: 900;
 }
@@ -396,7 +390,7 @@ a:hover {
 
 .our-business h5 {
   font-weight: 900;
-  /* font-size: 23px; */
+  font-size: 1.3em;
   line-height: 20px;
   color: #00ade5;
 }
@@ -540,6 +534,7 @@ figure.practice-area-description:hover img {
 }
 .news-section h6 {
   color: #00ade5;
+  font-size: 24px;
 }
 .thumbnail {
   position: relative;
@@ -592,14 +587,14 @@ figure.practice-area-description:hover img {
 .title {
   margin: 0;
   padding: 0 0 5px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
 }
 .sub-title {
   margin: 0;
   padding: 0 0 20px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   color: #00ade5;
 }
@@ -647,12 +642,14 @@ figure.practice-area-description:hover img {
 .headings,
 .case-study-module .case-study-text h3 {
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2em;
   line-height: 22px;
   color: #000000;
   text-transform: capitalize;
 }
-
+/* .connect-with-us-heading {
+  font-size: 10px;
+} */
 .bg-translucent {
   background: rgba(255, 255, 255, 0.95);
 }
