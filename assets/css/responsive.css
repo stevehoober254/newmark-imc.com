@@ -18,6 +18,12 @@
     margin: 1px;
     border-radius: none;
   }
+  .top-header,.nav-stripe {
+    display: none;
+  }
+  .page-content {
+    padding-top: 80px;
+  }
 }
 
 @media (min-width: 1400px) {

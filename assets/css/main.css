@@ -284,7 +284,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   margin-top: 6px;
-  height: 6px;
+  height: 5px;
   width: 100%;
   border-radius: 2px;
 }
@@ -401,8 +401,8 @@ a:hover {
   color: #00ade5;
 }
 
-.top-header-contact .company-contacts span {
-  font-family: "Open Sans", sans-serif !important;
+.company-contacts span {
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 100%;
   letter-spacing: 0.5px;
@@ -1016,7 +1016,7 @@ p {
 
 /* about us page */
 .page-content {
-  padding-top: 190px;
+  padding-top: 120px;
 }
 
 .inner-header .breadcrumb-title {
@@ -1045,3 +1045,27 @@ p {
     width: 100%;
     text-decoration: none;
      */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: rgb(75, 169, 216);
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #449dc9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after,
+.end-strip:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
