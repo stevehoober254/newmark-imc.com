@@ -616,6 +616,8 @@
   list-style: none;
   z-index: 98;
   white-space: nowrap;
+  border-top: solid 2px #1093D4;
+  border-radius: 10px;
 }
 
 .navigation-portrait .nav-dropdown {

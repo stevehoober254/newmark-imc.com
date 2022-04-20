@@ -3,7 +3,15 @@
     height: 415px;
   }
 }
-
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .top-header,
+  .nav-stripe {
+    display: none;
+  }
+  .page-content {
+    padding-top: 80px;
+  }
+}
 @media (max-width: 767px) {
   .after-industry {
     margin-top: 10px;
@@ -18,7 +26,8 @@
     margin: 1px;
     border-radius: none;
   }
-  .top-header,.nav-stripe {
+  .top-header,
+  .nav-stripe {
     display: none;
   }
   .page-content {
