@@ -40,11 +40,12 @@ $(document).ready(function () {
     loop: true,
     autoplayHoverPause: true,
     autoplayTimeout: 6000,
-  //   nav:true,
-  //   navText: [
-  //     "<i class='fa fa-chevron-left'></i>",
-  //     "<i class='fa fa-chevron-right'></i>"
-  //  ],
+    dots: true,
+    nav:true,
+    navText: [
+      "<i class='fa fa-chevron-left main-color'></i>",
+      "<i class='fa fa-chevron-right main-color'></i>"
+   ],
     responsive: {
       0: {
         items: 1,

@@ -993,6 +993,14 @@ p {
 .gallery-carousel-items .card {
   margin: 0px 3px 0px 3px;
   border: none;
+  cursor: pointer;
+}
+
+.owl-nav {
+  margin-top: 15px;
+}
+.owl-nav button {
+  margin-right: 15px;
 }
 
 .twitter-feed {
