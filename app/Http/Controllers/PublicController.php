@@ -10,4 +10,9 @@ class PublicController extends Controller
     {
         return view('public.index');
     }
+
+    public function practiceArea()
+    {
+        return view('public.practice-area');
+    }
 }

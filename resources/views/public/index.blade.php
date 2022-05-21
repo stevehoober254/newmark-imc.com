@@ -206,7 +206,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -222,7 +222,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -238,7 +238,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -254,7 +254,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -270,7 +270,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -287,7 +287,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -304,7 +304,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="">
+                            <a href="{{ route('practice.area') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -320,7 +320,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="https://influencexxi.newmark-imc.com/" target="_blank">
+                            <a href="{{ route('practice.area') }}" target="_blank">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
