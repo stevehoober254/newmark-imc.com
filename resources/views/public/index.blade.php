@@ -59,6 +59,37 @@
             </div>
         </div>
     </div>
+    <div class="container" data-aos="fade-up">
+        <div class="our-business mt-5">
+            <div class="bg-white end-strip">
+                <a href="">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="img/7.jpg" class="img-fluid rounded-start mr-3" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title text-transfom-none headings">What We Believe
+                                </h5>
+                                <p class="card-text mt-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
+                                </p>
+                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
+                                    More
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-stripe"></div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-3 mb-3">
             <div class="bg-white end-strip">
@@ -94,37 +125,6 @@
             </div>
         </div>
     </div>
-    {{-- <div class="container" data-aos="fade-up">
-        <div class="our-business mt-5">
-            <div class="bg-white end-strip">
-                <a href="">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <img src="img/7.jpg" class="img-fluid rounded-start mr-3" alt="...">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h5 class="card-title text-transfom-none headings">What We Believe
-                                </h5>
-                                <p class="card-text mt-4">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
-                                </p>
-                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
-                                    More
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom-stripe"></div>
-                </a>
-            </div>
-        </div>
-    </div> --}}
     <div class="be-seen pt-5 pb-5">
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -202,8 +202,11 @@
                     </div>
                     <div class="right padding-right">
                         <h3 class="margin-bottom-half">Newmark Experiential</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+                            The ability to deliver high-quality events is directly dependent on the technical skills, tools
+                            and equipment available to the team. Since its inception, Newmark Experiential has implemented
+                            projects in Westall the regions of Africa, including Kenya, Nigeria, South Africa, Ghana and
+                            Morocco just to name a few.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -217,9 +220,11 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/10.jpg') }});">
                     </div>
                     <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Nemark PR</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <h3 class="margin-bottom-half">Newmark Public Relations</h3>
+                        <p>
+                            Newmark PR is defined by its ability to bring the best of global expertise and African
+                            excellence to strategic and integrated communications, by using a multicultural and
+                            authentically localized approach to messaging, strategy and engagement.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -234,8 +239,9 @@
                     </div>
                     <div class="right padding-right">
                         <h3 class="margin-bottom-half">Newmark Insights</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+                            Newmark Insights stands out for our ability to smooth your way and simplify the process of
+                            diagnosis, planning and implementation, tailored to the local market.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -250,8 +256,10 @@
                     </div>
                     <div class="right padding-right">
                         <h3 class="margin-bottom-half">Newmark Creative</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+                            This multimedia arm within the Newmark Group Limited specializes in reaching global and local
+                            organizations and engaging their stakeholder organisations by developing market-leading
+                            storytelling and content design strategies.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -300,8 +308,10 @@
                     </div>
                     <div class="right padding-right">
                         <h3 class="margin-bottom-half">Newmark Digital</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+                            At Newmark Digital, we thrive on creating valuable and impactful digital experiences and
+                            campaigns with creative messaging that enables your brand to engage in meaningful conversations
+                            with your target audience.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -315,9 +325,10 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/12.jpg') }});">
                     </div>
                     <div class="right padding-right">
-                        <h3 class="margin-bottom-half">InfluenceXXI</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <h3 class="margin-bottom-half">Multilingual Communications</h3>
+                        <p>
+                            Our purpose is to help companies prepare their products and services for worldwide deployment by
+                            providing high-quality translation, localization and multilingual services.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}" target="_blank">
