@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="container" data-aos="fade-up">
+    {{-- <div class="container" data-aos="fade-up">
         <div class="our-business mt-5">
             <div class="bg-white end-strip">
                 <a href="">
@@ -119,7 +119,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="be-seen pt-5 pb-5">
         <div class="container" data-aos="fade-up">
@@ -816,12 +816,12 @@
                     <div class="right case-study-text padding-y-x2 padding-x">
                         <h2 class="connect-with-us-heading">
                             Connect with us</h2>
-                        <p class="background-color-text margin-bottom">We see holes in existing
+                        <p class="background-color-text margin-bottom text-muted">We see holes in existing
                             marketing services as invitations to innovate. Our clients have their
                             pick of a variety of award-winning proprietary tools and programs aimed
                             at addressing their total needs, from a brand publishing platform to a
                             real-time storytelling tool and a crisis preparation platform.</p>
-                        <span class="button transparent background-color-text">Contact Us <i
+                        <span class="button transparent background-color-text">Read More <i
                                 class="fa fa-chevron-right"></i></span>
                     </div>
                 </div>
