@@ -202,7 +202,7 @@ a:hover {
 /* .end-strip:hover {
     border-right: 2px solid red;
 } */
-/* 
+/*
 .bg-newmark {
   background-color: rgba(17,147,212,0.3);
   background: linear-gradient(rgba(17,147,212, 0.2) 0%, rgba(17,147,212, 0.1) 100%);
@@ -656,9 +656,9 @@ figure.practice-area-description:hover img {
     color: #000000;
     text-transform: capitalize;
 }
-/* .connect-with-us-heading {
-  font-size: 10px;
-} */
+.connect-with-us-heading {
+  font-size: 24px !important;
+}
 .bg-translucent {
     background: rgba(255, 255, 255, 0.95);
 }
@@ -986,7 +986,7 @@ p {
 }
 
 .connect-with-us .card h3 {
-  
+
   font-size: 20px;
 } */
 

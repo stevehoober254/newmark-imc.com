@@ -59,6 +59,36 @@
             </div>
         </div>
     </div>
+    <div class="container after-industry" data-aos="fade-up">
+        <div class="our-business mt-3 mb-3">
+            <div class="bg-white end-strip">
+                <a href="">
+                    <div class="row g-0">
+                        <div class="col-md-6 order-sm-1 order-2">
+                            <div class="card-body">
+                                <h5 class="card-title text-transfom-none headings">Who We Are
+                                </h5>
+                                <p class="card-text mt-3">
+                                    Established in 2010, we define ourselves as an agency that brings the best of global
+                                    expertise and African excellence to strategic communications and business advisory. With
+                                    a footprint in over 30 countries in Africa and liaison hubs in key global locations,
+                                    Newmark brings to its’ clients a multicultural and authentically localized approach to
+                                    messaging, strategy and execution.
+                                </p>
+                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
+                                    More
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-1 order-sm-2">
+                            <img src="img/black-white.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="bottom-stripe"></div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="container" data-aos="fade-up">
         <div class="our-business mt-5">
             <div class="bg-white end-strip">
@@ -90,41 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="container after-industry" data-aos="fade-up">
-        <div class="our-business mt-3 mb-3">
-            <div class="bg-white end-strip">
-                <a href="">
-                    <div class="row g-0">
-                        <div class="col-md-6 order-sm-1 order-2">
-                            <div class="card-body">
-                                <h5 class="card-title text-transfom-none headings">Who We Are
-                                </h5>
-                                <p class="card-text mt-3">
-                                    Established in 2010, we define ourselves as an agency that
-                                    brings the
-                                    best of global expertise and African excellence to strategic
-                                    communications and business advisory. With a footprint in over
-                                    30
-                                    countries in Africa and liaison hubs in key global locations,
-                                    Newmark
-                                    brings to its’ clients a multicultural and authentically
-                                    localized
-                                    approach to messaging, strategy and execution.
-                                </p>
-                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
-                                    More
-                                </span>
-                            </div>
-                        </div>
-                        <div class="col-md-6 order-1 order-sm-2">
-                            <img src="img/black-white.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                    </div>
-                    <div class="bottom-stripe"></div>
-                </a>
-            </div>
-        </div>
-    </div>
+
     <div class="be-seen pt-5 pb-5">
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -652,72 +648,8 @@
             </div>
         </div>
     </div>
-
-    <div class="mt-5 connect-with-us container">
-        <div class="row g-0">
-            <div class="col-md-3 intro ">
-                <div class="intro-content">
-                    <h3 class="headings text-white mb-1">Gallery </h3>
-                    <p class="p-main text-white mt-4">
-                        Our strong footprint in Africa enables us to develop a multicultural and
-                        authentically localized approach to messaging, strategy and engagement
-                        to our clients across the continent. Find the office nearest you and
-                        reach out.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="text-center gallery-carousel-items">
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <a href="img/gallery/5.jpg" data-fancybox="group" data-caption="" data-description="">
-                                    <img class="img-fluid" src="img/gallery/5.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/12.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/11.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/15.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/16.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/18.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Insights -->
-    <div class="container news-section" data-aos="fade-up">
+    <div class="container news-section mt-5" data-aos="fade-up">
         <div class="row g-0">
             <div class="col-md-12 mb-4 text-center">
                 <h3 class="text-capitalize main"><span>Insights</span></h3>
@@ -808,7 +740,70 @@
             </div>
         </div>
     </div>
-    {{-- <div class="m-3 module image-text-split-module case-study-module has-link module-11 white-background"
+    <div class="mt-5 connect-with-us container">
+        <div class="row g-0">
+            <div class="col-md-3 intro ">
+                <div class="intro-content">
+                    <h3 class="headings text-white mb-1">Gallery </h3>
+                    <p class="p-main text-white mt-4">
+                        Our strong footprint in Africa enables us to develop a multicultural and
+                        authentically localized approach to messaging, strategy and engagement
+                        to our clients across the continent. Find the office nearest you and
+                        reach out.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="text-center gallery-carousel-items">
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <a href="img/gallery/5.jpg" data-fancybox="group" data-caption="" data-description="">
+                                    <img class="img-fluid" src="img/gallery/5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <img class="img-fluid" src="img/gallery/12.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <img class="img-fluid" src="img/gallery/11.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <img class="img-fluid" src="img/gallery/15.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <img class="img-fluid" src="img/gallery/16.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <img class="img-fluid" src="img/gallery/18.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-3 module image-text-split-module case-study-module has-link module-11 white-background"
         data-aos="fade-up" data-id="module-image_text_split-11" id="content-11">
         <a href="#" class="no-hover">
             <div class=" button-hover">
@@ -834,5 +829,5 @@
             </div>
         </a>
         <div class="clear"></div>
-    </div> --}}
+    </div>
 @endsection
