@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="container after-industry" data-aos="fade-up">
-        <div class="our-business mt-3 mb-3">
+        <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
                 <a href="">
                     <div class="row g-0">
@@ -742,7 +742,12 @@
     </div>
     <div class="mt-5 connect-with-us container">
         <div class="row g-0">
-            <div class="col-md-3 intro ">
+            <div class="col-md-12 mb-4 text-center">
+                <h3 class="text-capitalize main"><span>Gallery</span></h3>
+            </div>
+        </div>
+        <div class="row g-0">
+            {{-- <div class="col-md-3 intro ">
                 <div class="intro-content">
                     <h3 class="headings text-white mb-1">Gallery </h3>
                     <p class="p-main text-white mt-4">
@@ -752,9 +757,18 @@
                         reach out.
                     </p>
                 </div>
-            </div>
-            <div class="col-md-9">
+            </div> --}}
+            <div class="col-md-12">
                 <div class="text-center gallery-carousel-items">
+                    <div class="item gallery-carousel card">
+                        <div class="team gallery-style">
+                            <div class="gallery-img">
+                                <a href="img/gallery/5.jpg" data-fancybox="group" data-caption="" data-description="">
+                                    <img class="img-fluid" src="img/gallery/5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">

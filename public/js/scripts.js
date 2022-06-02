@@ -30,7 +30,7 @@ $(document).ready(function () {
     });
 
     $(".gallery-carousel-items").slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         dots: !0,

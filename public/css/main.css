@@ -95,6 +95,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     padding: 0;
+    background-attachment: fixed;
 }
 
 /* .company-we-keep .row .col {
@@ -107,6 +108,7 @@ a:hover {
 .main-heading,
 .practice-areas h2,
 .news-section h3,
+.connect-with-us h3,
 .testimonials h2 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -125,11 +127,11 @@ a:hover {
 } */
 /*} */
 .company-logos img {
-    height: 100px;
+    height: 130px;
     background-color: #fff;
     width: 100%;
     /* border: 2px solid #79797933; */
-    padding: 5px 15px;
+    padding: 3px 10px;
     object-position: center;
     object-fit: contain;
     background-position: center;
@@ -351,12 +353,14 @@ a:hover {
 }
 
 .be-seen {
-    background-image: url("../img/world-map-dark.png");
+    /* background-image: url("../img/world-map-dark.png"); */
+    background-image: url("https://www.ge.com/sites/default/files/2021-08/CFM%20Rise%20Image_0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
     width: 100%;
+    background-attachment: fixed;
 }
 
 .be-seen .card {
@@ -597,7 +601,7 @@ figure.practice-area-description:hover img {
 .news-section .content {
     position: absolute;
     width: 100%;
-    height: 178px;
+    height: 108px;
     bottom: 0;
     background: #fff;
     padding: 30px;
@@ -900,7 +904,7 @@ p {
     transform: rotate(-6deg);
 }
 .copyright-area {
-    background: #202020;
+    background: #15273A;
     padding: 25px 0;
 }
 .copyright-text p {
