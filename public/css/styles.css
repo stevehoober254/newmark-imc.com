@@ -7854,6 +7854,8 @@ blockquote:before,
   float: left;
   height: 460px;
   padding-right: 20px;
+  border: 2px solid black;
+  margin: 3px;
 }
 .contact-form-module .wpcf7-form-control-wrap.your-email,
 .contact-form-module .wpcf7-form-control-wrap.your-name,

@@ -103,7 +103,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="">CONTACT us</a>
+                        <li><a href="{{ route('contact.us') }}">CONTACT us</a>
                         </li>
                     </ul>
                 </div>

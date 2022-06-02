@@ -427,13 +427,22 @@ a:hover {
   text-transform: capitalize;
 } */
 
-.contact-us-block h3 {
+.contact-us h3 {
     margin-top: 10px;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 1em;
     color: #353535;
     text-transform: capitalize;
 }
+
+.contact-us .card {
+    border: none;
+    border-radius: 8px;
+    border-bottom: 2px solid #d1d1d1;
+    margin-bottom: 30px;
+}
+
+
 /* practice area */
 .practice-area-containers figure {
     width: 100%;
