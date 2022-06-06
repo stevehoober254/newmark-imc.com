@@ -258,7 +258,7 @@
                             storytelling and content design strategies.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="{{ route('newmark.creative') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>

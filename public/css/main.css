@@ -117,6 +117,13 @@ a:hover {
     text-transform: uppercase !important;
 }
 
+.our-expertise-new h3 {
+    color: #00ade5;
+    font-size: 0.9em;
+    line-height: 14px;
+    font-weight: 700;
+}
+
 /* .main-heading,
 .practice-areas h2 {
   font-size: 31px;
@@ -446,7 +453,6 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
 /* practice area */
 .practice-area-containers figure {
     width: 100%;
@@ -539,7 +545,7 @@ figure.practice-area-description:hover img {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 /* news section */
@@ -674,7 +680,7 @@ figure.practice-area-description:hover img {
     text-transform: capitalize;
 }
 .connect-with-us-heading {
-  font-size: 24px !important;
+    font-size: 24px !important;
 }
 .bg-translucent {
     background: rgba(255, 255, 255, 0.95);
@@ -908,7 +914,7 @@ p {
     transform: rotate(-6deg);
 }
 .copyright-area {
-    background: #15273A;
+    background: #15273a;
     padding: 25px 0;
 }
 .copyright-text p {
@@ -1140,18 +1146,24 @@ p {
 }
 
 /* practice area details */
+.bg-top-header {
+    background-color: #02172187;
+}
+
 .bg-fade {
     background-color: #00000075;
 }
+
 .practice-area-top-header {
-    background-image: url("https://infinityhospitalitygroup.com/wp-content/uploads/2020/05/IH_Home-page_11.jpg");
+    /* background-image: url("https://infinityhospitalitygroup.com/wp-content/uploads/2020/05/IH_Home-page_11.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 .logo img {
-    margin: 120px 0px 40px 0px;
+    margin: 160px 0px 160px 0px;
+    height: 120px;
 }
 
 .practice-area-category {
@@ -1171,7 +1183,7 @@ p {
     margin-top: 10px;
 }
 
-.practice-area-category:hover{
+.practice-area-category:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -1180,4 +1192,49 @@ p {
     height: 100px;
     border-radius: 50%;
     background-color: #00ade5;
+}
+
+.practice-area-img-wrapper img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+.img-left {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.list li {
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.list li::before{
+    content: "";
+}
+
+.testimonials-carousel div{
+    border-right: 20px solid #fff;
+}
+
+.testimonials-carousel img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creative-carousel h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 110px 0px;
+    color: #fff;
+    font-weight: 700;
 }

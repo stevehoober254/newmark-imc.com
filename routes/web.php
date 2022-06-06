@@ -3,6 +3,7 @@
 // public routes
 Route::get('/','PublicController@index');
 Route::get('practice-area','PublicController@practiceArea')->name('practice.area');
+Route::get('practice-area/newmark-creative','PublicController@newmarkCreative')->name('newmark.creative');
 Route::get('contact-us','PublicController@contactUs')->name('contact.us');
 
 
