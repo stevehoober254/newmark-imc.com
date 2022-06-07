@@ -1216,11 +1216,11 @@ p {
     margin-left: 30px;
 }
 
-.list li::before{
+.list li::before {
     content: "";
 }
 
-.testimonials-carousel div{
+.testimonials-carousel div {
     border-right: 20px solid #fff;
 }
 
@@ -1230,11 +1230,20 @@ p {
     background-size: cover;
 }
 
+.creative-carousel-design a {
+    padding-right: 20px;
+}
+
+.creative-carousel {
+    background-color: #000000a4;
+}
+
 .creative-carousel h4 {
-    font-size: 18px;
+    font-size: 19px;
     text-transform: capitalize;
     text-align: center;
     padding: 110px 0px;
+    height: 200px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 900;
 }
