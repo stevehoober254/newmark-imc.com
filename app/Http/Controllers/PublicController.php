@@ -19,6 +19,10 @@ class PublicController extends Controller
     {
         return view('public.practice-area.newmark-creative');
     }
+    public function newmarkDigital()
+    {
+        return view('public.practice-area.newmark-digital');
+    }
     public function contactUs()
     {
         return view('public.contact-us');

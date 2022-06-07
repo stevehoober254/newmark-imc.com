@@ -413,7 +413,9 @@ a:hover {
     color: #444444;
 }
 
-.our-business h5 {
+.our-business h5,
+.our-services-digital h5,
+.case-studies h5 {
     font-weight: 900;
     font-size: 1.3em;
     line-height: 20px;
@@ -1246,4 +1248,56 @@ p {
     height: 200px;
     color: #fff;
     font-weight: 900;
+}
+
+.our-services-digital .card-title {
+    font-size: 15px;
+    color: #000000;
+}
+
+.our-services-digital .card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-bottom: 20px;
+}
+
+/* case-studies-item  */
+.case-studies-img-overlay {
+    position: relative;
+    width: 100%;
+}
+
+.case-studies-img-overlay-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.case-studies-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgb(0,173,229,0.5);
+}
+
+.case-studies-img-overlay:hover .case-studies-overlay {
+    opacity: 1;
+}
+
+.case-studies-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
