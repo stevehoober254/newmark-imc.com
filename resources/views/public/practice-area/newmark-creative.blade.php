@@ -18,11 +18,12 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5 bg-white">
+    <div class="container mt-4 bg-white" data-aos="fade-up">
         <div class="row pt-2">
-            <div class="col-md-6">
-                <p>
-                    Creativity forms the backbone of everything we do at Newmark Creative – inventing creative solutions to even the most random of tasks is what makes us special.
+            <div class="col-md-6 margin-top">
+                <p class="mt-4">
+                    Creativity forms the backbone of everything we do at Newmark Creative – inventing creative solutions to
+                    even the most random of tasks is what makes us special.
                 </p>
                 <p>
                     We are home to a strong pool of exceptional creatives with bucket loads of experience in agency and
@@ -35,33 +36,18 @@
             </div>
             <div class="col-md-6">
                 <div class="practice-area-img-wrapper">
-                    <img src="{{ asset('img/practice-areas/creative/2.png')}}"
-                        alt="Wrapper">
+                    <img src="{{ asset('img/practice-areas/creative/2.png') }}" alt="Wrapper">
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container mt-4 bg-white" data-aos="fade-up">
         <div class="row mt-5">
             <div class="col-md-5">
-                <img src="{{ asset('img/practice-areas/creative/1.png')}}" alt="" class="img-left">
+                <img src="{{ asset('img/practice-areas/creative/1.png') }}" alt="" class="img-left">
             </div>
-            <div class="col-md-7 mt-5">
-                <p>
-                    We work closely with each of our clients to create communications that convey a clear, compelling
-                    message that helps to build their brand and support the growth of their business.
-                </p>
-                <p>
-                    We shape your brand to be a BIG THING for tomorrow. To do this, we blend the finest design approach with
-                    creative strategies, which signify a perfect brand identity for a promising experience.
-                </p>
-                <p>
-                    We work closely with each of our clients to create communications that convey a clear, compelling
-                    message that helps to build their brand and support the growth of their business.
-                </p>
-                <p>
-                    We shape your brand to be a BIG THING for tomorrow. To do this, we blend the finest design approach with
-                    creative strategies, which signify a perfect brand identity for a promising experience.
-                </p>
-                <p>
+            <div class="col-md-7 mt-5 padding-top">
+                <p class="pt-5">
                     We work closely with each of our clients to create communications that convey a clear, compelling
                     message that helps to build their brand and support the growth of their business.
                 </p>
@@ -71,6 +57,8 @@
                 </p>
             </div>
         </div>
+    </div>
+    <div class="container mt-4 bg-white padding-bottom" data-aos="fade-up">
         <div class="row mt-5 pt-4">
             <div class="col-md-12">
                 <h2 class="main-color text-capitalize text-bold">What we do</h2>
