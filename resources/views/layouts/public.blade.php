@@ -15,6 +15,7 @@
     <link href="{{ asset('img/favicon.png') }}" rel="shortcut icon" type="image" />
     <link rel="stylesheet" href="{{ asset('css/fontawesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/navigation.css') }}">
@@ -51,10 +52,12 @@
     </a>
     {{-- scripts --}}
     <script type='text/javascript' src='{{ asset('js/jquery.min.js') }}'></script>
+    <script type='text/javascript' src='{{ asset('js/bootstrap.bundle.min.js')}}'></script>
     <script type='text/javascript' src='{{ asset('js/select2.min.js') }}'></script>
     <script type='text/javascript' src='{{ asset('js/mobile-detect.js') }}'></script>
     <script type='text/javascript' src='{{ asset('js/fontawesome.js') }}'></script>
     <script type='text/javascript' src="{{ asset('js/navigation.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js')}}"></script>
     <script type='text/javascript' src="{{ asset('js/scripts.js') }}"></script>
 </body>
 

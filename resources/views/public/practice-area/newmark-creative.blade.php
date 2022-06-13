@@ -8,7 +8,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
                             <div class="logo">
-                                <a href="">
+                                <a href="{{ route('newmark.creative.services') }}">
                                     <img src="{{ asset('img/practice-areas/creative.png') }}" alt="Logo">
                                 </a>
                             </div>
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="creative-carousel-design">
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
@@ -95,27 +95,11 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
                         <h4>Stationery</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div
-                    style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
-                    <div class="creative-carousel">
-                        <h4>Publications</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div
-                    style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
-                    <div class="creative-carousel">
-                        <h4>Publications</h4>
                     </div>
                 </div>
             </a>
@@ -126,7 +110,7 @@
             </div>
         </div>
         <div class="creative-carousel-design">
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
@@ -134,7 +118,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
@@ -142,31 +126,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
-                <div
-                    style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
-                    <div class="creative-carousel">
-                        <h4>Live Streaming</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div
-                    style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
-                    <div class="creative-carousel">
-                        <h4>Event Coverage</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div
-                    style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
-                    <div class="creative-carousel">
-                        <h4>Photography</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="">
+            <a href="{{ route('newmark.creative.services') }}">
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">

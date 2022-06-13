@@ -1158,10 +1158,59 @@ p {
     background-color: #021721df;
 }
 
+.padding-center {
+    padding: 200px 0px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
 .bg-fade {
     background-color: #00000075;
 }
 
+.bg-fade-half {
+    background-color: #000000ab;
+}
+
+.services-tabs .nav-tabs {
+    border-bottom: none;
+}
+
+.services-tabs .nav-tabs a {
+    color: #424242;
+}
+
+.services-tabs .nav-tabs a:hover {
+    color: #1193d4;
+}
+
+.services-tabs .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #1193d4;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.services-tabs .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-color: none;
+}
+
+.services-tabs .nav-tabs .nav-item {
+    padding-right: 15px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+/* gallery wrapper practice area */
+.gallery-wrapper img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+}
 .practice-area-top-header {
     /* background-image: url("https://infinityhospitalitygroup.com/wp-content/uploads/2020/05/IH_Home-page_11.jpg"); */
     background-position: center;
@@ -1302,7 +1351,7 @@ p {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(0,173,229,0.5);
+    background-color: rgb(0, 173, 229, 0.5);
 }
 
 .case-studies-img-overlay:hover .case-studies-overlay {
