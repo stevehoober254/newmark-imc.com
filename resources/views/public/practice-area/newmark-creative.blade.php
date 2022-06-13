@@ -18,12 +18,11 @@
             </div>
         </div>
     </div>
-    <div class="container mt-5 bg-white">
+    <div class="container pt-5 bg-white">
         <div class="row pt-2">
             <div class="col-md-6">
                 <p>
-                    Creativity forms the backbone of everything we do at Newmark Creative – inventing creative solutions to
-                    even the most random of tasks is what makes us special.
+                    Creativity forms the backbone of everything we do at Newmark Creative – inventing creative solutions to even the most random of tasks is what makes us special.
                 </p>
                 <p>
                     We are home to a strong pool of exceptional creatives with bucket loads of experience in agency and
@@ -33,21 +32,17 @@
                     We mix strategy, creativity, and development to make your brand into the hearts and minds of your
                     stakeholders.
                 </p>
-                <p>
-                    We are home to a strong pool of exceptional creatives with bucket loads of experience in agency and
-                    in-house multimedia content, all of whom bring something different to the mix.
-                </p>
             </div>
             <div class="col-md-6">
                 <div class="practice-area-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1588200618450-3a5b1d3b9aa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    <img src="{{ asset('img/practice-areas/creative/2.png')}}"
                         alt="Wrapper">
                 </div>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-5">
-                <img src="{{ asset('img/practice-areas/1.png') }}" alt="" class="img-left">
+                <img src="{{ asset('img/practice-areas/creative/1.png')}}" alt="" class="img-left">
             </div>
             <div class="col-md-7 mt-5">
                 <p>
@@ -82,9 +77,17 @@
                 <p>
                     Our Creative Scope at Newmark is divided into two segments;
                 </p>
+                <ul class="list-styled">
+                    <li>
+                        <i class="fa fa-check"></i> Creative Design Services
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i> Multimedia Services
+                    </li>
+                </ul>
             </div>
             <div class="col-md-12">
-                <h2 class="main-color text-capitalize text-bold">1. Creative Design Services</h2>
+                <h2 class="main-color text-capitalize text-bold">Creative Design Services</h2>
             </div>
         </div>
         <div class="creative-carousel-design">
@@ -100,7 +103,7 @@
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
-                        <h4>Publications</h4>
+                        <h4>Brand Identity</h4>
                     </div>
                 </div>
             </a>
@@ -108,7 +111,7 @@
                 <div
                     style="background-image:url('https://images.unsplash.com/photo-1594182878996-036fe2646c11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80');">
                     <div class="creative-carousel">
-                        <h4>Publications</h4>
+                        <h4>Stationery</h4>
                     </div>
                 </div>
             </a>
@@ -131,7 +134,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h2 class="main-color text-capitalize text-bold">2. Multimedia Services</h2>
+                <h2 class="main-color text-capitalize text-bold">Multimedia Services</h2>
             </div>
         </div>
         <div class="creative-carousel-design">

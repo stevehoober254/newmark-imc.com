@@ -341,7 +341,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row g-0">
                 <div class="col-md-12 text-center mb-4 mt-3">
-                    <h2 class=" text-capitalize main"><span>The Company We Keep</span></h2>
+                    <h2 class=" text-capitalize main text-white"><span>We localize the global and globalize the local!</span></h2>
                 </div>
             </div>
             <div class="row company-logos ">
@@ -472,7 +472,7 @@
             <div class="row text-center">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <a href="" class="btn btn-secondary-outline text-capitalize mt-4">More clients
+                    <a href="" class="btn btn-secondary text-capitalize mt-4">More clients
                     </a>
                 </div>
             </div>
@@ -657,23 +657,26 @@
         </div>
         <div class="row ">
             <div class="col-lg-4 ">
-                <a href="">
+                <a target="_blank"
+                    href="https://www.citizen.digital/opinion-blogs/opinion-high-stakes-for-african-countries-at-the-12th-wto-ministerial-conference-n299846">
                     <main>
                         <div class='normal '>
                             <div class='module'>
                                 <div class='thumbnail'>
-                                    <img src="img/insights/2.jpg">
+                                    <img src="{{ asset('img/insights/1.webp') }}">
                                     <div class='date'>
-                                        <div>27</div>
-                                        <div>Mar</div>
+                                        <div>10</div>
+                                        <div>JUn</div>
                                     </div>
                                 </div>
                                 <div class='content'>
-                                    <h2 class='sub-title'>MEDIA</h2>
-                                    <h1 class='title'>City Lights in New York</h1>
+                                    <h1 class='title'>High Stakes For African Countries At The 12th WTO Ministerial
+                                        Conference</h1>
                                     <div class="description">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                        Dignissimos similique deserunt dolorem omnis!
+                                        Is the global trade system broken? Some would argue that it isn’t, and some insist
+                                        that it is long overdue for an overhaul. Many among the latter are African
+                                        governments that point to the disproportionately high impact that global crises have
+                                        on their fragile economies through trade disruptions.
                                     </div>
                                 </div>
                             </div>
@@ -687,18 +690,20 @@
                         <div class='normal '>
                             <div class='module'>
                                 <div class='thumbnail'>
-                                    <img src="img/insights/2.jpg">
+                                    <img src="https://www.newmark-imc.com/images/Pima-Pressure.jpg">
                                     <div class='date'>
                                         <div>27</div>
                                         <div>Mar</div>
                                     </div>
                                 </div>
                                 <div class='content'>
-                                    <h2 class='sub-title'>MEDIA</h2>
-                                    <h1 class='title'>City Lights in New York</h1>
+                                    <h1 class='title'>The World Needs Universal Health Care</h1>
                                     <div class="description">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                        Dignissimos similique deserunt dolorem omnis!
+                                        Universal Health Care (UHC) refers to the provision of health care to all
+                                        individuals and communities without regard to their financial circumstances. It
+                                        encompasses the whole range of necessary, high-quality health services, from
+                                        prevention through treatment, rehabilitation, and palliative care for people of all
+                                        ages.
                                     </div>
                                 </div>
                             </div>
@@ -712,18 +717,19 @@
                         <div class='normal '>
                             <div class='module'>
                                 <div class='thumbnail'>
-                                    <img src="img/insights/2.jpg">
+                                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80">
                                     <div class='date'>
                                         <div>27</div>
-                                        <div>Mar</div>
+                                        <div>Jan</div>
                                     </div>
                                 </div>
                                 <div class='content'>
-                                    <h2 class='sub-title'>MEDIA</h2>
-                                    <h1 class='title'>City Lights in New York</h1>
+                                    <h1 class='title'>Ways Cities Are Tackling The Global Affordable Housing Crisis</h1>
                                     <div class="description">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                        Dignissimos similique deserunt dolorem omnis!
+                                        The unprecedented rate of urbanization across the world has led to increased demand
+                                        for good, affordable housing. A recent survey revealed that of 200 cities polled
+                                        around the globe, 90% were considered unaffordable when applying the widely-used
+                                        standard of average house prices being more than three-times median income.
                                     </div>
                                 </div>
                             </div>

@@ -90,7 +90,7 @@ a:hover {
 } */
 
 .company-we-keep {
-    background-image: url("../img/dots.webp");
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blue-background-geometric-texture-vector-id1214794926?k=20&m=1214794926&s=612x612&w=0&h=tbIkCQcZDwx0BcOtJa6jaF24DqRMxTF9EgFVJ4d8P_M=");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -281,6 +281,17 @@ a:hover {
     margin: 10px 10px 20px 10px;
 }
 
+.btn-secondary,
+.btn-secondary:hover {
+    background-color: #1193d4;
+    border: 2px solid #1193d4;
+    color: #ffffff;
+    padding: 7px 17px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 10px 20px 10px;
+}
+
 .btn-secondary-outline:hover {
     background-color: #1193d4;
     border: 2px solid #6cc8f6;
@@ -361,7 +372,7 @@ a:hover {
 
 .be-seen {
     /* background-image: url("../img/world-map-dark.png"); */
-    background-image: url("https://www.ge.com/sites/default/files/2021-08/CFM%20Rise%20Image_0.jpg");
+    background-image: url("https://wallpaperaccess.com/full/1201180.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -562,7 +573,7 @@ figure.practice-area-description:hover img {
 
 .news-section .module {
     width: 100%;
-    height: 420px;
+    height: 390px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
     transition: all 0.3s linear 0s;
     overflow: hidden;
@@ -626,17 +637,12 @@ figure.practice-area-description:hover img {
 .title {
     margin: 0;
     padding: 0 0 5px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
     text-transform: capitalize;
 }
-.sub-title {
-    margin: 0;
-    padding: 0 0 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #00ade5;
-}
+
 .description {
     color: #666666;
     font-size: 14px;
@@ -1220,6 +1226,18 @@ p {
 
 .list li::before {
     content: "";
+}
+
+.list-styled {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.list-styled li {
+    font-size: 15px;
+    line-height: 28px;
+    color: #666666;
+    font-weight: 500;
 }
 
 .testimonials-carousel div {
