@@ -5991,6 +5991,7 @@ blockquote:before,
 .carousel-module .carousel .carousel-block h3 {
   font-size: 1.7rem;
   font-family: "Open Sans", sans-serif !important;
+  line-height: 25px;
 }
 .questions-module h3 {
   margin: 0;

@@ -341,7 +341,8 @@
         <div class="container" data-aos="fade-up">
             <div class="row g-0">
                 <div class="col-md-12 text-center mb-4 mt-3">
-                    <h2 class=" text-capitalize main text-white"><span>We localize the global and globalize the local!</span></h2>
+                    <h2 class=" text-capitalize main text-white"><span>We localize the global and globalize the
+                            local!</span></h2>
                 </div>
             </div>
             <div class="row company-logos ">
@@ -486,65 +487,64 @@
                 <h2 class="text-capitalize"><span>Testimonials</span></h2>
             </div>
         </div>
-        <div class="row text-center testimonials-carousel">
+        <div class="row text-center testimonials-carousel text-center">
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Lorem ipsum dolor sit ametmet magnam voluptatem odio aperiam facere
-                        doloribus,
-                        ullam, perspiciatis exercitationem.
+                        Specifically as the client what I appreciated very much was the teams’ expertise to understand our
+                        needs andto proactively chase the Novartis team, ask challenging questions and provide
+                        constructive solutions. The credibility Komla and team have built up with H.E Vice President of the
+                        Republic of Ghana and other government offices helped our launch be seamless. Our Global CEO said
+                        recently to an internal audience “this event was one of his major highlights for 2019 and a proud
+                        moment in his career”. You should be very proud of the team you have built. We for sure will
+                        continue to partner as we scale our program across sub-Saharan Africa.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="img/avatar.png" alt="">
-                    <h6>Wilson Kinyua</h6>
-                    <p class="text-muted">Software Developer</p>
+                    <img src="{{ asset('img/client-logos/novar.png') }}" alt="Paxful">
+                    {{-- <h6>Client Name</h6> --}}
                 </div>
             </div>
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Lorem ipsum dolor sit ametmet magnam voluptatem odio aperiam facere
-                        doloribus,
-                        ullam, perspiciatis exercitationem.
+                        Thank you for the good job and professionalism exhibited by your team especially Raissa who was with
+                        us in Zanzibar and was very helpful and coordinated the tasks meticulously. We truly appreciate the
+                        extra effort to make sure the inaugural flight was indeed a success.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="img/avatar.png" alt="">
-                    <h6>Wilson Kinyua</h6>
-                    <p class="text-muted">Software Developer</p>
+                    <img src="{{ asset('img/client-logos/turkey-logo.png') }}" alt="Turkish Airlines">
+                    {{-- <h6>Turkish Airlines</h6> --}}
                 </div>
             </div>
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Lorem ipsum dolor sit ametmet magnam voluptatem odio aperiam facere
-                        doloribus,
-                        ullam, perspiciatis exercitationem.
+                        Thanks for the great and impressive results.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="img/avatar.png" alt="">
-                    <h6>Wilson Kinyua</h6>
-                    <p class="text-muted">Software Developer</p>
+                    <img src="{{ asset('img/client-logos/motorola.png') }}" alt="Motorolla">
+                    {{-- <h6>Motorolla</h6> --}}
                 </div>
             </div>
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Lorem ipsum dolor sit ametmet magnam voluptatem odio aperiam facere
-                        doloribus,
-                        ullam, perspiciatis exercitationem.
+                        We launched a couple of main products, announced new partnerships, set all-time high records and
+                        established new markets. You were on that journey all throughout and we cannot thank you enough for
+                        the hard work and dedication to help us grow as a brand. Thanks for your invaluable input and for
+                        always pushing us to be the best in the industry.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="img/avatar.png" alt="">
-                    <h6>John Kinyua</h6>
-                    <p class="text-muted">Software Developer</p>
+                    <img src="{{ asset('img/client-logos/paxful.png') }}" alt="Paxful">
+                    {{-- <h6>Paxful</h6> --}}
                 </div>
             </div>
         </div>
@@ -717,7 +717,8 @@
                         <div class='normal '>
                             <div class='module'>
                                 <div class='thumbnail'>
-                                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80">
                                     <div class='date'>
                                         <div>27</div>
                                         <div>Jan</div>

@@ -89,14 +89,15 @@ a:hover {
   padding: 5px;
 } */
 
-.company-we-keep {
+/* .company-we-keep {
     background-image: url("https://media.istockphoto.com/vectors/abstract-blue-background-geometric-texture-vector-id1214794926?k=20&m=1214794926&s=612x612&w=0&h=tbIkCQcZDwx0BcOtJa6jaF24DqRMxTF9EgFVJ4d8P_M=");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 0;
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
-}
+} */
 
 /* .company-we-keep .row .col {
   padding: 0 !important;
@@ -370,7 +371,8 @@ a:hover {
     font-weight: 900;
 }
 
-.be-seen {
+.be-seen,
+.company-we-keep {
     /* background-image: url("../img/world-map-dark.png"); */
     background-image: url("https://wallpaperaccess.com/full/1201180.jpg");
     background-repeat: no-repeat;
@@ -1125,20 +1127,27 @@ p {
     margin-bottom: 20px;
 }
 
+.testimony-desc {
+    height: 150px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
 .testimony-card .testimony-author img {
-    height: 100px;
+    margin-top: 20px;
+    height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
-    border-radius: 50%;
-    text-align: center;
-    border: 3px solid rgb(201, 200, 200);
+    width: 100%;
+    object-fit: contain;
+    /* border-radius: 10%; */
+    /* border: 3px solid rgb(201, 200, 200); */
 }
 .fa-quote-left {
-    font-size: 40px;
+    font-size: 20px;
     color: #1193d4;
-    margin: 25px 0px 30px 0px;
+    margin: 15px 0px 20px 0px;
 }
 .testimony-author h6 {
     font-size: 17px;
