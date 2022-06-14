@@ -8,7 +8,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
                             <div class="logo">
-                                <a href="">
+                                <a href="{{ route('newmark.digital.details')}}">
                                     <img src="{{ asset('img/practice-areas/digital.png') }}" alt="Logo">
                                 </a>
                             </div>
@@ -27,7 +27,7 @@
                             <h5 class="card-title text-transfom-none headings">
                                 Our approach
                             </h5>
-                            <p class="card-text mt-3">
+                            <p class="card-text mt-5">
                                 As the world is becoming innately social every day, brands need to connect and engage
                                 with potential
                                 customers in the digital space. The digital platform is diverse and keeps changing every
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 order-1 order-sm-2">
-                        <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                        <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
                             class="img-fluid rounded-start" alt="...">
                     </div>
                 </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -67,7 +67,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -78,7 +78,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -89,7 +89,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -100,7 +100,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -111,7 +111,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="">
+                <a href="{{ route('newmark.digital.details')}}">
                     <div class="card">
                         <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                             class="card-img-top" alt="">
@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4 bg-white case-studies">
+    <div class="container mt-4 bg-white case-studies pb-1">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h5 class="text-transfom-none headings mt-5 mb-4">

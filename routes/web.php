@@ -6,6 +6,7 @@ Route::get('practice-area','PublicController@practiceArea')->name('practice.area
 Route::get('practice-area/newmark-creative','PublicController@newmarkCreative')->name('newmark.creative');
 Route::get('practice-area/newmark-creative/services','PublicController@SingleNewmarkCreative')->name('newmark.creative.services');
 Route::get('practice-area/newmark-digital','PublicController@newmarkDigital')->name('newmark.digital');
+Route::get('practice-area/service/newmark-digital','PublicController@newmarkDigitalDetails')->name('newmark.digital.details');
 Route::get('contact-us','PublicController@contactUs')->name('contact.us');
 
 
