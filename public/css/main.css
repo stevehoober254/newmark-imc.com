@@ -125,6 +125,15 @@ a:hover {
     font-weight: 700;
 }
 
+.our-expertise-new h3 small {
+    font-size: 1rem;
+    /* font-style: italic; */
+}
+
+.our-expertise-new h4 {
+    font-size: 13px;
+}
+
 /* .main-heading,
 .practice-areas h2 {
   font-size: 31px;
@@ -580,6 +589,7 @@ figure.practice-area-description:hover img {
     transition: all 0.3s linear 0s;
     overflow: hidden;
     position: relative;
+    margin-bottom: 20px;
 }
 .news-section .module:hover {
     box-shadow: 0 1px 15px 0 rgba(85, 85, 85, 0.2);
@@ -1128,8 +1138,8 @@ p {
 }
 
 .testimony-desc {
-    height: 100px;
-    font-size: 15px;
+    height: 200px;
+    font-size: 16px;
     line-height: 60px;
 }
 

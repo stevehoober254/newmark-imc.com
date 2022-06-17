@@ -197,7 +197,8 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/9.jpg') }});">
                     </div>
                     <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Experiential</h3>
+                        <h4 class="secondary-color">Connect</h4>
+                        <h3 class="margin-bottom-half">NewmarkX <small> - A New Way to Convene!</small></h3>
                         <p>
                             The ability to deliver high-quality events is directly dependent on the technical skills, tools
                             and equipment available to the team. Since its inception, Newmark Experiential has implemented
@@ -216,11 +217,15 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/10.jpg') }});">
                     </div>
                     <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Public Relations</h3>
+                        <h4 class="secondary-color">ENGAGE</h4>
+                        <h3 class="margin-bottom-half">Newmark Public Relations <small> - Lorem ipsum</small></h3>
                         <p>
-                            Newmark PR is defined by its ability to bring the best of global expertise and African
-                            excellence to strategic and integrated communications, by using a multicultural and
-                            authentically localized approach to messaging, strategy and engagement.
+                            If you want to have meaningful and beneficial experiences with your audiences, stakeholders and
+                            partners, then our team is just what the doctor ordered for you. We bring the best of global
+                            expertise and deep local understanding to strategic and integrated communications. Ours is a
+                            multicultural and authentically localized approach to messaging, strategy and engagement. If
+                            those stakeholders happen to be public authorities, then you can not do better than our Public
+                            Affairs expertise.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -234,6 +239,7 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/11.jpeg') }});">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">UNDERSTAND</h4>
                         <h3 class="margin-bottom-half">Newmark Insights</h3>
                         <p>
                             Newmark Insights stands out for our ability to smooth your way and simplify the process of
@@ -251,10 +257,11 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/12.png') }});">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">ELEVATE</h4>
                         <h3 class="margin-bottom-half">Newmark Creative</h3>
                         <p>
                             This multimedia arm within the Newmark Group Limited specializes in reaching global and local
-                            organizations and engaging their stakeholder organisations by developing market-leading
+                            organizations and engaging their stakeholder organizations by developing market-leading
                             storytelling and content design strategies.
                         </p>
                         <span class="content-link">
@@ -269,9 +276,13 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/11.jpg') }});">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">EMPOWER</h4>
                         <h3 class="margin-bottom-half">Newmark IMC</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+                            You know your targets and goals, you have a plan, but is your team optimized and trained to
+                            become the brand ambassadors and spokespersons you need them to be? If not, get in touch with us
+                            so that our IMC team can ensure that they are empowered to deliver on the goals that you have
+                            set.
                         </p>
                         <span class="content-link">
                             <a href="{{ route('practice.area') }}">
@@ -286,6 +297,7 @@
                         style="background-image:url(https://images.unsplash.com/reserve/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">ENGAGE</h4>
                         <h3 class="margin-bottom-half">Newmark Public Affairs</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
@@ -303,6 +315,7 @@
                         style="background-image:url(https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">AMPLIFY</h4>
                         <h3 class="margin-bottom-half">Newmark Digital</h3>
                         <p>
                             At Newmark Digital, we thrive on creating valuable and impactful digital experiences and
@@ -321,6 +334,7 @@
                     <div class="left background-cover" style="background-image:url({{ asset('img/12.jpg') }});">
                     </div>
                     <div class="right padding-right">
+                        <h4 class="secondary-color">LOCALIZE</h4>
                         <h3 class="margin-bottom-half">Multilingual Communications</h3>
                         <p>
                             Our purpose is to help companies prepare their products and services for worldwide deployment by
