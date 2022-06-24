@@ -66,14 +66,13 @@
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
-                                <h5 class="card-title text-transfom-none headings">Who We Are
+                                <h5 class="card-title text-transfom-none headings">
+                                    Turning the unseen into reality!
                                 </h5>
                                 <p class="card-text mt-3">
-                                    Established in 2010, we define ourselves as an agency that brings the best of global
-                                    expertise and African excellence to strategic communications and business advisory. With
-                                    a footprint in over 30 countries in Africa and liaison hubs in key global locations,
-                                    Newmark brings to its’ clients a multicultural and authentically localized approach to
-                                    messaging, strategy and execution.
+                                    We believe in the power of brands to help build a better, more resilient and prosperous
+                                    world. To achieve this, brands need storytellers with in-built empathy, innovation and
+                                    courage to take on the big challenges. This is who we are!
                                 </p>
                                 <span class="btn btn-secondary-outline text-capitalize mt-4">Read
                                     More

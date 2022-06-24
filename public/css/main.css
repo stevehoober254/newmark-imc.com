@@ -465,7 +465,7 @@ a:hover {
 .contact-us h3 {
     margin-top: 10px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 15px;
     color: #353535;
     text-transform: capitalize;
 }
@@ -475,6 +475,19 @@ a:hover {
     border-radius: 8px;
     border-bottom: 2px solid #d1d1d1;
     margin-bottom: 30px;
+}
+
+.contact-us .card p {
+    font-size: 15px;
+}
+
+.contact-us .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.contact-us .card-body {
+    height: 200px;
 }
 
 /* practice area */

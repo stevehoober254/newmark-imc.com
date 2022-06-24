@@ -47,6 +47,14 @@
     display: none;
   }
 
+  .contact-us .card-img-top {
+    height: auto;
+}
+
+.contact-us .card-body {
+    height: auto;
+}
+
 }
 
 @media (min-width: 1400px) {
