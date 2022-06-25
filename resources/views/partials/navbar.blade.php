@@ -21,7 +21,7 @@
                                         <div class="company-contacts margin-right-half">
                                             <span>Phone Number:</span>
                                             <br>
-                                            <span class="text-bold-1">+254 114 668 366</span>
+                                            <span class="text-bold-1">+254 740 386 468</span>
                                         </div>
                                     </div>
                                     <div class="d-flex justify-content-start">

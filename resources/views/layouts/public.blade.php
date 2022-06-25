@@ -25,9 +25,9 @@
 
 <body>
     <!-- preloader -->
-    {{-- <div class="loading" id="loading">
+    <div class="loading" id="loading">
         <img src="{{ asset('img/loader.gif') }}" />
-    </div> --}}
+    </div>
 
     @include('partials.navbar')
 
@@ -45,7 +45,7 @@
 
     {{-- whatsapp icon --}}
     <a href="#"
-        onclick="window.open('https://web.whatsapp.com/send?phone=254706111777&amp;text=Welcome%20to%20newmrk-imc.com&quot;');return false;"
+        onclick="window.open('https://web.whatsapp.com/send?phone=254740386468&amp;text=Welcome%20to%20newmrk-imc.com&quot;');return false;"
         class="whatsapp" style="color:#fff" target="_parent">
         <i class="fab fa-whatsapp"></i>
         WhatsApp us
