@@ -451,12 +451,12 @@
                     </a>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-lg-4"></div>
+            <div class="row text-center mt-4">
+                {{-- <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <a href="#" class="btn btn-secondary text-capitalize mt-4">More clients
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -701,13 +701,13 @@
             </div> --}}
             <div class="col-md-12">
                 <div class="text-center gallery-carousel-items">
-                    <div class="item gallery-carousel card">
+                    {{-- <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">
                                 <img class="img-fluid" src="img/gallery/5.jpg" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">
