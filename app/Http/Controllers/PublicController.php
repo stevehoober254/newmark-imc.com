@@ -9,7 +9,7 @@ class PublicController extends Controller
 {
     public function index()
     {
-        $insights = Insight::orderBy('id','desc')->limit(3)->get();
+        $insights = Insight::orderBy('id', 'desc')->limit(3)->get();
         return view('public.index', compact('insights'));
     }
 

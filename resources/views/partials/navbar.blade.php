@@ -43,31 +43,31 @@
                             </div>
                         </div>
                         <div class="social-icons">
-                            <a href="https://www.youtube.com/" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCU8v_ZA8yrHssHyOqSyuq7g" target="_blank">
                                 <span class="fa-2x">
                                     <i class="fab fa-fw fa-youtube main-color " data-fa-transform="shrink-8"
                                         data-fa-mask="fas fa-circle"></i>
                                 </span>
                             </a>
-                            <a href="https://twitter.com/" target="_blank">
+                            <a href="https://twitter.com/NEWMARKWORLD" target="_blank">
                                 <span class="fa-2x">
                                     <i class="fab fa-fw fa-twitter main-color " data-fa-transform="shrink-8"
                                         data-fa-mask="fas fa-circle"></i>
                                 </span>
                             </a>
-                            <a href="https://www.facebook.com/" target="_blank">
+                            <a href="https://www.facebook.com/newmarkgroup/" target="_blank">
                                 <span class="fa-2x">
                                     <i class="fab fa-fw fa-facebook-f main-color " data-fa-transform="shrink-8"
                                         data-fa-mask="fas fa-circle"></i>
                                 </span>
                             </a>
-                            <a href="https://www.linkedin.com/" target="_blank">
+                            <a href="https://www.linkedin.com/company/newmark-group-ltd/" target="_blank">
                                 <span class="fa-2x">
                                     <i class="fab fa-fw fa-linkedin main-color " data-fa-transform="shrink-8"
                                         data-fa-mask="fas fa-circle"></i>
                                 </span>
                             </a>
-                            <a href="https://www.instagram.com/" target="_blank">
+                            <a href="https://www.instagram.com/newmarkgroupltd/" target="_blank">
                                 <span class="fa-2x">
                                     <i class="fab fa-fw fa-instagram main-color " data-fa-transform="shrink-8"
                                         data-fa-mask="fas fa-circle"></i>
@@ -79,28 +79,29 @@
             </div>
             <nav id="navbarmain" class="navigation mt-3">
                 <div class="nav-header">
-                    <a class="nav-logo" href="/">
+                    <a class="nav-logo" href="{{ route('public.index')}}">
                         <img src="{{ asset('img/newmark-logo.png') }}" class="white-logo" alt="">
                     </a>
                     <div class="nav-toggle"></div>
                 </div>
                 <div class="nav-menus-wrapper">
                     <ul class="nav-menu align-to-right text-uppercase">
-                        <li><a href="/">HOME</a>
+                        <li><a href="{{ route('public.index')}}">HOME</a>
                         </li>
-                        <li><a href="">About us</a>
+                        {{-- <li><a href="">About us</a>
                         </li>
                         <li><a href="">Services</a>
                         </li>
                         <li><a href="">careers</a>
-                        </li>
+                        </li> --}}
                         <li><a href="#">Thought leadership</a>
                             <ul class="nav-dropdown">
-                                <li><a href="https://influencexxi.newmark-imc.com/" target="_blank">Influence
+                                <li>
+                                    <a href="https://influencexxi.newmark-imc.com/" target="_blank">Influence
                                         XXI</a>
                                 </li>
-                                {{-- <li><a href="{{ route('insights') }}">Insights</a> --}}
-                                <li><a href="#">Insights</a>
+                                <li>
+                                    <a href="{{ route('public.index')}}#insights">Insights</a>
                                 </li>
                             </ul>
                         </li>

@@ -1,7 +1,7 @@
 <?php
 
 // public routes
-Route::get('/', 'PublicController@index');
+Route::get('/', 'PublicController@index')->name('public.index');
 Route::get('about-us', 'PublicController@aboutUs')->name('about.us');
 Route::get('insights', 'PublicController@insights')->name('insights');
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');

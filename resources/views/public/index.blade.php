@@ -75,9 +75,9 @@
                                     world. To achieve this, brands need storytellers with in-built empathy, innovation and
                                     courage to take on the big challenges. This is who we are!
                                 </p>
-                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
+                                {{-- <span class="btn btn-secondary-outline text-capitalize mt-4">Read
                                     More
-                                </span>
+                                </span> --}}
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-sm-2">
@@ -105,9 +105,9 @@
                                 Do you want your products, services, activities and achievements to
                                 be seen and to produce growth?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            {{-- <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -124,10 +124,9 @@
                                 Want a successful congress or event that propels your brand to
                                 higher heights of visibility and influence in your sector?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
-                                {{-- <a href="{{ route('about.us') }}" class="text-uppercase read-more"> --}}
+                            {{-- <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -144,9 +143,9 @@
                                 Do you want to attract more revenue, mobilize more resources through
                                 multiplatform marketing communications?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            {{-- <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -187,7 +186,7 @@
                     </div>
                     <div class="right padding-right">
                         <h4 class="secondary-color">ENGAGE</h4>
-                        <h3 class="margin-bottom-half">Newmark Public Relations <small> - Lorem ipsum</small></h3>
+                        <h3 class="margin-bottom-half">Newmark Public Relations <small></small></h3>
                         <p>
                             If you want to have meaningful and beneficial experiences with your audiences, stakeholders and
                             partners, then our team is just what the doctor ordered for you. We bring the best of global
@@ -242,7 +241,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/11.jpg') }});">
+                    <div class="left background-cover"
+                        style="background-image:url({{ asset('img/newmark-imc.jpeg') }});">
                     </div>
                     <div class="right padding-right">
                         <h4 class="secondary-color">EMPOWER</h4>
@@ -267,8 +267,8 @@
                     <div class="right padding-right">
                         <h4 class="secondary-color">ENGAGE</h4>
                         <h3 class="margin-bottom-half">Newmark Public Affairs</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem
-                            nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
+                        <p>
+
                         </p>
                         <span class="content-link">
                             <a href="#">
@@ -328,125 +328,125 @@
             </div>
             <div class="row company-logos ">
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/1.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/2.jpeg" class="img-fluid" alt=""></a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/3.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/4.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/5.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/6.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/7.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/29.png" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/8.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/9.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/10.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/11.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/12.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/13.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/14.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/30.png" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/15.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/16.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/17.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/18.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/19.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/20.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/21.png" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="" target="_blank">
+                    <a href="#">
                         <img src="img/client-logos/31.png" class="img-fluid" alt="">
                     </a>
                 </div>
@@ -539,7 +539,7 @@
         <div class="practice-area-containers">
             <div class="row">
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/consumer.jpg" />
                             <figcaption>
@@ -549,7 +549,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/energy.jpg" />
                             <figcaption>
@@ -559,7 +559,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/currency.jpg" />
                             <figcaption>
@@ -569,7 +569,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/public-sector.jpg" />
                             <figcaption>
@@ -579,7 +579,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/travel.jpg" />
                             <figcaption>
@@ -591,7 +591,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/nonprofit.jpg" />
                             <figcaption>
@@ -603,7 +603,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/technology.jpg" />
                             <figcaption>
@@ -615,7 +615,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 mt-4">
-                    <a href="">
+                    <a href="#">
                         <figure class="practice-area-description">
                             <img src="img/sectors/health.jpg" />
                             <figcaption>
@@ -630,7 +630,7 @@
         </div>
     </div>
     <!-- Insights -->
-    <div class="container news-section mt-5" data-aos="fade-up">
+    <div id="insights" class="container news-section mt-5" data-aos="fade-up">
         <div class="row g-0">
             <div class="col-md-12 mb-4 text-center">
                 <h3 class="text-capitalize main"><span>Insights</span></h3>
@@ -675,10 +675,9 @@
         <div class="row text-center">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                {{-- <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4"> --}}
-                <a href="#" class="btn btn-secondary-outline text-capitalize mt-4">
+                {{-- <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4">
                     Read More
-                </a>
+                </a> --}}
             </div>
         </div>
     </div>
@@ -757,7 +756,7 @@
     </div>
     <div class="m-3 module image-text-split-module case-study-module has-link module-11 white-background"
         data-aos="fade-up" data-id="module-image_text_split-11" id="content-11">
-        <a href="#" class="no-hover">
+        <a href="{{ route('contact.us') }}" class="no-hover">
             <div class=" button-hover">
                 <div class="left case-study-image" style=" background-color:#ffffff;">
                     <div class="case-study-image-image background-contain"
