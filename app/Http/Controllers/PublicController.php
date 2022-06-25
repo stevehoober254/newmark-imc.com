@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Insight;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
     public function index()
     {
-        return view('public.index');
+        $insights = Insight::orderBy('id','desc')->limit(3)->get();
+        return view('public.index', compact('insights'));
     }
 
     public function aboutUs()
@@ -16,9 +18,18 @@ class PublicController extends Controller
         return view('public.about-us');
     }
 
-    public function newsroom()
+    public function insights()
     {
         return view('public.newsroom');
+    }
+
+    public function insightDetail($slug)
+    {
+        $insight = Insight::where('slug', $slug)->first();
+        if (!$insight) {
+            abort(404);
+        }
+        return view('public.insight-detail', compact('insight'));
     }
 
     public function practiceArea()

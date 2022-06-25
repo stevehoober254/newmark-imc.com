@@ -1,15 +1,16 @@
 <?php
 
 // public routes
-Route::get('/','PublicController@index');
-Route::get('about-us','PublicController@aboutUs')->name('about.us');
-Route::get('newsroom','PublicController@newsroom')->name('news.room');
-Route::get('practice-area','PublicController@practiceArea')->name('practice.area');
-Route::get('practice-area/newmark-creative','PublicController@newmarkCreative')->name('newmark.creative');
-Route::get('practice-area/newmark-creative/services','PublicController@SingleNewmarkCreative')->name('newmark.creative.services');
-Route::get('practice-area/newmark-digital','PublicController@newmarkDigital')->name('newmark.digital');
-Route::get('practice-area/service/newmark-digital','PublicController@newmarkDigitalDetails')->name('newmark.digital.details');
-Route::get('contact-us','PublicController@contactUs')->name('contact.us');
+Route::get('/', 'PublicController@index');
+Route::get('about-us', 'PublicController@aboutUs')->name('about.us');
+Route::get('insights', 'PublicController@insights')->name('insights');
+Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
+Route::get('practice-area', 'PublicController@practiceArea')->name('practice.area');
+Route::get('practice-area/newmark-creative', 'PublicController@newmarkCreative')->name('newmark.creative');
+Route::get('practice-area/newmark-creative/services', 'PublicController@SingleNewmarkCreative')->name('newmark.creative.services');
+Route::get('practice-area/newmark-digital', 'PublicController@newmarkDigital')->name('newmark.digital');
+Route::get('practice-area/service/newmark-digital', 'PublicController@newmarkDigitalDetails')->name('newmark.digital.details');
+Route::get('contact-us', 'PublicController@contactUs')->name('contact.us');
 
 
 // private routes
@@ -21,6 +22,7 @@ Route::get('/home', function () {
     return redirect()->route('admin.home');
 });
 
+Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
 Auth::routes();
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
@@ -41,21 +43,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::post('users/process-csv-import', 'UsersController@processCsvImport')->name('users.processCsvImport');
     Route::resource('users', 'UsersController');
 
-    // Team
-    Route::delete('teams/destroy', 'TeamController@massDestroy')->name('teams.massDestroy');
-    Route::resource('teams', 'TeamController');
-
-    // Faq Category
-    Route::delete('faq-categories/destroy', 'FaqCategoryController@massDestroy')->name('faq-categories.massDestroy');
-    Route::resource('faq-categories', 'FaqCategoryController');
-
-    // Faq Question
-    Route::delete('faq-questions/destroy', 'FaqQuestionController@massDestroy')->name('faq-questions.massDestroy');
-    Route::resource('faq-questions', 'FaqQuestionController');
-
-    Route::get('system-calendar', 'SystemCalendarController@index')->name('systemCalendar');
-    Route::get('team-members', 'TeamMembersController@index')->name('team-members.index');
-    Route::post('team-members', 'TeamMembersController@invite')->name('team-members.invite');
+    // Insights
+    Route::delete('insights/destroy', 'InsightsController@massDestroy')->name('insights.massDestroy');
+    Route::post('insights/media', 'InsightsController@storeMedia')->name('insights.storeMedia');
+    Route::post('insights/ckmedia', 'InsightsController@storeCKEditorImages')->name('insights.storeCKEditorImages');
+    Route::resource('insights', 'InsightsController');
 });
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'namespace' => 'Auth', 'middleware' => ['auth']], function () {
     // Change password

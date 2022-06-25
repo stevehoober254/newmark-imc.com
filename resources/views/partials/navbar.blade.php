@@ -99,7 +99,8 @@
                                 <li><a href="https://influencexxi.newmark-imc.com/" target="_blank">Influence
                                         XXI</a>
                                 </li>
-                                <li><a href="">Insights</a>
+                                {{-- <li><a href="{{ route('insights') }}">Insights</a> --}}
+                                <li><a href="#">Insights</a>
                                 </li>
                             </ul>
                         </li>

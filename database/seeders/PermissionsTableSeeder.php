@@ -76,70 +76,26 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 17,
-                'title' => 'team_create',
+                'title' => 'insight_create',
             ],
             [
                 'id'    => 18,
-                'title' => 'team_edit',
+                'title' => 'insight_edit',
             ],
             [
                 'id'    => 19,
-                'title' => 'team_show',
+                'title' => 'insight_show',
             ],
             [
                 'id'    => 20,
-                'title' => 'team_delete',
+                'title' => 'insight_delete',
             ],
             [
                 'id'    => 21,
-                'title' => 'team_access',
+                'title' => 'insight_access',
             ],
             [
                 'id'    => 22,
-                'title' => 'faq_management_access',
-            ],
-            [
-                'id'    => 23,
-                'title' => 'faq_category_create',
-            ],
-            [
-                'id'    => 24,
-                'title' => 'faq_category_edit',
-            ],
-            [
-                'id'    => 25,
-                'title' => 'faq_category_show',
-            ],
-            [
-                'id'    => 26,
-                'title' => 'faq_category_delete',
-            ],
-            [
-                'id'    => 27,
-                'title' => 'faq_category_access',
-            ],
-            [
-                'id'    => 28,
-                'title' => 'faq_question_create',
-            ],
-            [
-                'id'    => 29,
-                'title' => 'faq_question_edit',
-            ],
-            [
-                'id'    => 30,
-                'title' => 'faq_question_show',
-            ],
-            [
-                'id'    => 31,
-                'title' => 'faq_question_delete',
-            ],
-            [
-                'id'    => 32,
-                'title' => 'faq_question_access',
-            ],
-            [
-                'id'    => 33,
                 'title' => 'profile_password_edit',
             ],
         ];

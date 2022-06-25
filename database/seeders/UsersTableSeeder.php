@@ -15,8 +15,11 @@ class UsersTableSeeder extends Seeder
                 'name'           => 'Admin',
                 'email'          => 'wilson@newmark-imc.com',
                 'password'       => bcrypt('2$5#$5@=3'),
-                'remember_token' => null,
-                'approved'       => 1,
+                'remember_token'     => null,
+                'approved'           => 1,
+                'verified'           => 1,
+                'verified_at'        => '2022-06-25 09:36:05',
+                'verification_token' => '',
             ],
         ];
 

@@ -15,40 +15,18 @@
                 {{ trans('global.dashboard') }}
             </a>
         </li>
-        @can('faq_management_access')
-            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/faq-categories*") ? "c-show" : "" }} {{ request()->is("admin/faq-questions*") ? "c-show" : "" }}">
-                <a class="c-sidebar-nav-dropdown-toggle" href="#">
-                    <i class="fa-fw fas fa-question c-sidebar-nav-icon">
+        @can('insight_access')
+            <li class="c-sidebar-nav-item">
+                <a href="{{ route("admin.insights.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/insights") || request()->is("admin/insights/*") ? "c-active" : "" }}">
+                    <i class="fa-fw fas fa-book-open c-sidebar-nav-icon">
 
                     </i>
-                    {{ trans('cruds.faqManagement.title') }}
+                    {{ trans('cruds.insight.title') }}
                 </a>
-                <ul class="c-sidebar-nav-dropdown-items">
-                    @can('faq_category_access')
-                        <li class="c-sidebar-nav-item">
-                            <a href="{{ route("admin.faq-categories.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/faq-categories") || request()->is("admin/faq-categories/*") ? "c-active" : "" }}">
-                                <i class="fa-fw fas fa-briefcase c-sidebar-nav-icon">
-
-                                </i>
-                                {{ trans('cruds.faqCategory.title') }}
-                            </a>
-                        </li>
-                    @endcan
-                    @can('faq_question_access')
-                        <li class="c-sidebar-nav-item">
-                            <a href="{{ route("admin.faq-questions.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/faq-questions") || request()->is("admin/faq-questions/*") ? "c-active" : "" }}">
-                                <i class="fa-fw fas fa-question c-sidebar-nav-icon">
-
-                                </i>
-                                {{ trans('cruds.faqQuestion.title') }}
-                            </a>
-                        </li>
-                    @endcan
-                </ul>
             </li>
         @endcan
         @can('user_management_access')
-            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/teams*") ? "c-show" : "" }} {{ request()->is("admin/users*") ? "c-show" : "" }} {{ request()->is("admin/permissions*") ? "c-show" : "" }} {{ request()->is("admin/roles*") ? "c-show" : "" }}">
+            <li class="c-sidebar-nav-dropdown {{ request()->is("admin/users*") ? "c-show" : "" }} {{ request()->is("admin/permissions*") ? "c-show" : "" }} {{ request()->is("admin/roles*") ? "c-show" : "" }}">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-users c-sidebar-nav-icon">
 
@@ -56,16 +34,6 @@
                     {{ trans('cruds.userManagement.title') }}
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
-                    @can('team_access')
-                        <li class="c-sidebar-nav-item">
-                            <a href="{{ route("admin.teams.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/teams") || request()->is("admin/teams/*") ? "c-active" : "" }}">
-                                <i class="fa-fw fas fa-users c-sidebar-nav-icon">
-
-                                </i>
-                                {{ trans('cruds.team.title') }}
-                            </a>
-                        </li>
-                    @endcan
                     @can('user_access')
                         <li class="c-sidebar-nav-item">
                             <a href="{{ route("admin.users.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/users") || request()->is("admin/users/*") ? "c-active" : "" }}">
@@ -99,23 +67,6 @@
                 </ul>
             </li>
         @endcan
-        <li class="c-sidebar-nav-item">
-            <a href="{{ route("admin.systemCalendar") }}" class="c-sidebar-nav-link {{ request()->is("admin/system-calendar") || request()->is("admin/system-calendar/*") ? "c-active" : "" }}">
-                <i class="c-sidebar-nav-icon fa-fw fas fa-calendar">
-
-                </i>
-                {{ trans('global.systemCalendar') }}
-            </a>
-        </li>
-        @if(\Illuminate\Support\Facades\Schema::hasColumn('teams', 'owner_id') && \App\Models\Team::where('owner_id', auth()->user()->id)->exists())
-            <li class="c-sidebar-nav-item">
-                <a class="{{ request()->is("admin/team-members") || request()->is("admin/team-members/*") ? "c-active" : "" }} c-sidebar-nav-link" href="{{ route("admin.team-members.index") }}">
-                    <i class="c-sidebar-nav-icon fa-fw fa fa-users">
-                    </i>
-                    <span>{{ trans("global.team-members") }}</span>
-                </a>
-            </li>
-        @endif
         @if(file_exists(app_path('Http/Controllers/Auth/ChangePasswordController.php')))
             @can('profile_password_edit')
                 <li class="c-sidebar-nav-item">

@@ -62,7 +62,8 @@
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
-                <a href="{{ route('about.us') }}">
+                {{-- <a href="{{ route('about.us') }}"> --}}
+                <a href="#">
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
@@ -104,7 +105,7 @@
                                 Do you want your products, services, activities and achievements to
                                 be seen and to produce growth?
                             </p>
-                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
+                            <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -123,7 +124,8 @@
                                 Want a successful congress or event that propels your brand to
                                 higher heights of visibility and influence in your sector?
                             </p>
-                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
+                            <a href="#" class="text-uppercase read-more">
+                                {{-- <a href="{{ route('about.us') }}" class="text-uppercase read-more"> --}}
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -142,7 +144,7 @@
                                 Do you want to attract more revenue, mobilize more resources through
                                 multiplatform marketing communications?
                             </p>
-                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
+                            <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -173,7 +175,7 @@
                             Morocco just to name a few.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -195,7 +197,7 @@
                             Affairs expertise.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -213,7 +215,7 @@
                             diagnosis, planning and implementation, tailored to the local market.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -232,7 +234,7 @@
                             storytelling and content design strategies.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('newmark.creative') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -252,7 +254,7 @@
                             set.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -260,8 +262,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url(https://images.unsplash.com/reserve/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);">
+                    <div class="left background-cover" style="background-image:url(img/black.jpg);">
                     </div>
                     <div class="right padding-right">
                         <h4 class="secondary-color">ENGAGE</h4>
@@ -270,7 +271,7 @@
                             nisi doloribus culpa quisquam adipisci, alias a ratione maiores earum.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -278,8 +279,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url(https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);">
+                    <div class="left background-cover" style="background-image:url(img/robot.jpeg);">
                     </div>
                     <div class="right padding-right">
                         <h4 class="secondary-color">AMPLIFY</h4>
@@ -290,7 +290,7 @@
                             with your target audience.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('newmark.digital') }}">
+                            <a href="#">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -308,7 +308,7 @@
                             providing high-quality translation, localization and multilingual services.
                         </p>
                         <span class="content-link">
-                            <a href="{{ route('practice.area') }}" target="_blank">
+                            <a href="#" target="_blank">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
@@ -454,7 +454,7 @@
             <div class="row text-center">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <a href="" class="btn btn-secondary text-capitalize mt-4">More clients
+                    <a href="#" class="btn btn-secondary text-capitalize mt-4">More clients
                     </a>
                 </div>
             </div>
@@ -637,93 +637,47 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-lg-4 ">
-                <a target="_blank"
-                    href="https://www.citizen.digital/opinion-blogs/opinion-high-stakes-for-african-countries-at-the-12th-wto-ministerial-conference-n299846">
-                    <main>
-                        <div class='normal '>
-                            <div class='module'>
-                                <div class='thumbnail'>
-                                    <img src="{{ asset('img/insights/1.webp') }}">
-                                    <div class='date'>
-                                        <div>10</div>
-                                        <div>JUn</div>
+            @foreach ($insights as $insight)
+                <div class="col-lg-4 ">
+                    <a href="#">
+                        {{-- <a href="{{ route('insight.details', $insight->slug) }}"> --}}
+                        <main>
+                            <div class='normal '>
+                                <div class='module'>
+                                    <div class='thumbnail'>
+                                        @if ($insight->image)
+                                            <img src="{{ $insight->image->getUrl() }}" alt="{{ $insight->title }}">
+                                        @endif
+                                        <div class='date'>
+                                            <div>
+                                                {{ $insight->created_at->format('d') }}
+                                            </div>
+                                            <div>
+                                                {{ $insight->created_at->format('M') }}
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class='content'>
-                                    <h1 class='title'>High Stakes For African Countries At The 12th WTO Ministerial
-                                        Conference</h1>
-                                    <div class="description">
-                                        Is the global trade system broken? Some would argue that it isn’t, and some insist
-                                        that it is long overdue for an overhaul. Many among the latter are African
-                                        governments that point to the disproportionately high impact that global crises have
-                                        on their fragile economies through trade disruptions.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
-                </a>
-            </div>
-            <div class="col-lg-4 ">
-                <a href="">
-                    <main>
-                        <div class='normal '>
-                            <div class='module'>
-                                <div class='thumbnail'>
-                                    <img src="https://www.newmark-imc.com/images/Pima-Pressure.jpg">
-                                    <div class='date'>
-                                        <div>27</div>
-                                        <div>Mar</div>
-                                    </div>
-                                </div>
-                                <div class='content'>
-                                    <h1 class='title'>The World Needs Universal Health Care</h1>
-                                    <div class="description">
-                                        Universal Health Care (UHC) refers to the provision of health care to all
-                                        individuals and communities without regard to their financial circumstances. It
-                                        encompasses the whole range of necessary, high-quality health services, from
-                                        prevention through treatment, rehabilitation, and palliative care for people of all
-                                        ages.
+                                    <div class='content'>
+                                        <h1 class='title'>
+                                            {{ $insight->title }}
+                                        </h1>
+                                        <div class="description">
+                                            {!! Str::limit($insight->description, 200, '...') !!}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </main>
-                </a>
-            </div>
-            <div class="col-lg-4 ">
-                <a href="">
-                    <main>
-                        <div class='normal '>
-                            <div class='module'>
-                                <div class='thumbnail'>
-                                    <img
-                                        src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80">
-                                    <div class='date'>
-                                        <div>27</div>
-                                        <div>Jan</div>
-                                    </div>
-                                </div>
-                                <div class='content'>
-                                    <h1 class='title'>Ways Cities Are Tackling The Global Affordable Housing Crisis</h1>
-                                    <div class="description">
-                                        The unprecedented rate of urbanization across the world has led to increased demand
-                                        for good, affordable housing. A recent survey revealed that of 200 cities polled
-                                        around the globe, 90% were considered unaffordable when applying the widely-used
-                                        standard of average house prices being more than three-times median income.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
-                </a>
-            </div>
+                        </main>
+                    </a>
+                </div>
+            @endforeach
         </div>
         <div class="row text-center">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                <a href="" class="btn btn-secondary-outline text-capitalize mt-4">Read More
+                {{-- <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4"> --}}
+                <a href="#" class="btn btn-secondary-outline text-capitalize mt-4">
+                    Read More
                 </a>
             </div>
         </div>
@@ -751,18 +705,14 @@
                     <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">
-                                <a href="img/gallery/5.jpg" data-fancybox="group" data-caption="" data-description="">
-                                    <img class="img-fluid" src="img/gallery/5.jpg" alt="">
-                                </a>
+                                <img class="img-fluid" src="img/gallery/5.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">
-                                <a href="img/gallery/5.jpg" data-fancybox="group" data-caption="" data-description="">
-                                    <img class="img-fluid" src="img/gallery/5.jpg" alt="">
-                                </a>
+                                <img class="img-fluid" src="img/gallery/5.jpg" alt="">
                             </div>
                         </div>
                     </div>

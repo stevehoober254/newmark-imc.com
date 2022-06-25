@@ -5,6 +5,7 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
     Route::post('users/media', 'UsersApiController@storeMedia')->name('users.storeMedia');
     Route::apiResource('users', 'UsersApiController');
 
-    // Team
-    Route::apiResource('teams', 'TeamApiController');
+    // Insights
+    Route::post('insights/media', 'InsightsApiController@storeMedia')->name('insights.storeMedia');
+    Route::apiResource('insights', 'InsightsApiController');
 });

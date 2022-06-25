@@ -10,20 +10,6 @@
         <form method="POST" action="{{ route("admin.users.store") }}" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="team_id">{{ trans('cruds.user.fields.team') }}</label>
-                <select class="form-control select2 {{ $errors->has('team') ? 'is-invalid' : '' }}" name="team_id" id="team_id">
-                    @foreach($teams as $id => $entry)
-                        <option value="{{ $id }}" {{ old('team_id') == $id ? 'selected' : '' }}>{{ $entry }}</option>
-                    @endforeach
-                </select>
-                @if($errors->has('team'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('team') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.user.fields.team_helper') }}</span>
-            </div>
-            <div class="form-group">
                 <label class="required" for="name">{{ trans('cruds.user.fields.name') }}</label>
                 <input class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" type="text" name="name" id="name" value="{{ old('name', '') }}" required>
                 @if($errors->has('name'))

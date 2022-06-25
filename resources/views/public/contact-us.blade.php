@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/26/nairobi.jpg" class="card-img-top" alt="Country">
+                    <img src="img/nairobi.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Nairobi, Kenya</h3>
                         <p><span class="main-color">Newmark PR & Insights:</span> Vienna Court, Ground Floor, West Wing
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/ghana.jpg" class="card-img-top" alt="Country">
+                    <img src="img/ghana.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Accra, Ghana</h3>
                         <p>
@@ -39,7 +39,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/nigeria.jpg" class="card-img-top" alt="Country">
+                    <img src="img/nigeria.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Lagos, Nigeria</h3>
                         <p>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/dakar.jpg" class="card-img-top" alt="Country">
+                    <img src="img/dakar.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Dakar, Senegal</h3>
                         <p>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/abijan.jpg" class="card-img-top" alt="Country">
+                    <img src="img/abijan.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Abidjan, Côte d’Ivoire</h3>
                         <p>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/bujumbura.jpg" class="card-img-top" alt="Country">
+                    <img src="img/bujumbura.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Bujumbura, Burundi</h3>
                         <p>
@@ -92,7 +92,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/uae.jpg" class="card-img-top" alt="Country">
+                    <img src="img/uae.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Dubai, UAE</h3>
                         <p>
@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/newyork.jpg" class="card-img-top" alt="Country">
+                    <img src="img/newyork.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> New York, USA</h3>
                         <p>
@@ -114,7 +114,7 @@
             </div>
             <div class="col-md-4 contact-us">
                 <div class="card">
-                    <img src="https://newmark-imc.com/images/2022/01/28/genever.jpg" class="card-img-top" alt="Country">
+                    <img src="img/genever.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Geneva, Switzerland</h3>
                         <p>
