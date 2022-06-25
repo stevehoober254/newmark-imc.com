@@ -2,6 +2,8 @@
 
 // public routes
 Route::get('/','PublicController@index');
+Route::get('about-us','PublicController@aboutUs')->name('about.us');
+Route::get('newsroom','PublicController@newsroom')->name('news.room');
 Route::get('practice-area','PublicController@practiceArea')->name('practice.area');
 Route::get('practice-area/newmark-creative','PublicController@newmarkCreative')->name('newmark.creative');
 Route::get('practice-area/newmark-creative/services','PublicController@SingleNewmarkCreative')->name('newmark.creative.services');

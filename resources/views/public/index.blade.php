@@ -62,7 +62,7 @@
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
-                <a href="">
+                <a href="{{ route('about.us') }}">
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
@@ -88,38 +88,6 @@
             </div>
         </div>
     </div>
-    {{-- <div class="container" data-aos="fade-up">
-        <div class="our-business mt-5">
-            <div class="bg-white end-strip">
-                <a href="">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <img src="img/7.jpg" class="img-fluid rounded-start mr-3" alt="...">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <h5 class="card-title text-transfom-none headings">What We Believe
-                                </h5>
-                                <p class="card-text mt-4">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                                    fugiat culpa enim tempora tenetur laudantium fugit reiciendis,
-                                </p>
-                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
-                                    More
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom-stripe"></div>
-                </a>
-            </div>
-        </div>
-    </div> --}}
-
     <div class="be-seen pt-5 pb-5">
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -136,7 +104,7 @@
                                 Do you want your products, services, activities and achievements to
                                 be seen and to produce growth?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -155,7 +123,7 @@
                                 Want a successful congress or event that propels your brand to
                                 higher heights of visibility and influence in your sector?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -174,7 +142,7 @@
                                 Do you want to attract more revenue, mobilize more resources through
                                 multiplatform marketing communications?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>

@@ -43,9 +43,9 @@
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Lagos, Nigeria</h3>
                         <p>
-                            Africa Re Building, Plot 169, Lagos, 101241
+                            Landmark House,52-54 Isaac John Street, GRA Ikeja Lagos.
                         </p>
-                        {{-- <p><a href="tel:+254 114 668 366"> <i class="fa fa-phone"></i> +254 114 668366</a></p> --}}
+                        <p><a href="tel:+012791436"> <i class="fa fa-phone"></i> +01-2791436</a></p>
                     </div>
                 </div>
             </div>
