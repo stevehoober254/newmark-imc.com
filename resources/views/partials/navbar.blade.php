@@ -79,21 +79,21 @@
             </div>
             <nav id="navbarmain" class="navigation mt-3">
                 <div class="nav-header">
-                    <a class="nav-logo" href="{{ route('public.index')}}">
+                    <a class="nav-logo" href="{{ route('public.index') }}">
                         <img src="{{ asset('img/newmark-logo.png') }}" class="white-logo" alt="">
                     </a>
                     <div class="nav-toggle"></div>
                 </div>
                 <div class="nav-menus-wrapper">
                     <ul class="nav-menu align-to-right text-uppercase">
-                        <li><a href="{{ route('public.index')}}">HOME</a>
+                        <li><a href="{{ route('public.index') }}">HOME</a>
                         </li>
                         {{-- <li><a href="">About us</a>
                         </li>
                         <li><a href="">Services</a>
-                        </li>
-                        <li><a href="">careers</a>
                         </li> --}}
+                        <li><a href="">careers</a>
+                        </li>
                         <li><a href="#">Thought leadership</a>
                             <ul class="nav-dropdown">
                                 <li>
@@ -101,7 +101,7 @@
                                         XXI</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('public.index')}}#insights">Insights</a>
+                                    <a href="{{ route('public.index') }}#insights">Insights</a>
                                 </li>
                             </ul>
                         </li>

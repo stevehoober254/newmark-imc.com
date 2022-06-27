@@ -18,7 +18,7 @@
                             <i class="fa fa-phone" style="font-size: 20px; color:#1193d4"></i>
                             <div class="footer-top-text">
                                 <h4>Call us</h4>
-                                <span><a href="tel: +254 114 668 366"> +254 114 668 366</a></span>
+                                <span><a href="tel:+254740386468"> +254 740 386 468</a></span>
                             </div>
                         </div>
                     </div>
