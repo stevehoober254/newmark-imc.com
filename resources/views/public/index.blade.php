@@ -279,7 +279,7 @@
                     <div class="clear"></div>
                 </div>
                 <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url(img/robot.jpeg);">
+                    <div class="left background-cover" style="background-image:url({{ asset('img/robot.jpeg')}});">
                     </div>
                     <div class="right padding-right">
                         <h4 class="secondary-color">AMPLIFY</h4>

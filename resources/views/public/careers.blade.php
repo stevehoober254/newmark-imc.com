@@ -93,4 +93,67 @@
             </div>
         </div>
     </div>
+    <div class="container mt-4 bg-white our-services-digital practice-area-jobs" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h5 class="text-transfom-none headings mt-5 mb-4">
+                    Opportunities by Practice Area
+                </h5>
+            </div>
+        </div>
+        <div class="careers-practice-area-carousel text-center">
+            <div>
+                <a href="">
+                    <div class="card">
+                        <img src="{{ asset('img/10.jpg') }}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Newmark Public Relations <i
+                                    class="fa fa-arrow-right"></i></h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div class="card">
+                        <img src="{{ asset('img/12.png') }}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Newmark Creative <i class="fa fa-arrow-right"></i></h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div >
+                <a href="">
+                    <div class="card">
+                        <img src="{{ asset('img/robot.jpeg') }}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Newmark Digital <i class="fa fa-arrow-right"></i></h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div class="card">
+                        <img src="{{ asset('img/9.jpg') }}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Newmark Experiential <i class="fa fa-arrow-right"></i>
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div class="card">
+                        <img src="{{ asset('img/11.jpeg') }}" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Newmark Insights <i class="fa fa-arrow-right"></i></h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 @endsection
