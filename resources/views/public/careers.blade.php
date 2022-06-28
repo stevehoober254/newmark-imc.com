@@ -123,7 +123,7 @@
                     </div>
                 </a>
             </div>
-            <div >
+            <div>
                 <a href="">
                     <div class="card">
                         <img src="{{ asset('img/robot.jpeg') }}" class="card-img-top" alt="">
