@@ -92,7 +92,7 @@
                         </li>
                         <li><a href="">Services</a>
                         </li> --}}
-                        <li><a href="">careers</a>
+                        <li><a href="{{ route('careers') }}">careers</a>
                         </li>
                         <li><a href="#">Thought leadership</a>
                             <ul class="nav-dropdown">
