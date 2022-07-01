@@ -333,8 +333,8 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/2.jpeg" class="img-fluid" alt=""></a>
+                    <a href="https://www.gatesfoundation.org/" target="_blank">
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg')}}" class="img-fluid" alt=""></a>
                 </div>
                 <div class="col">
                     <a href="#">
@@ -362,8 +362,8 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/29.png" class="img-fluid" alt="">
+                    <a href="https://www.pfizer.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/pfizer.svg')}}" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -399,8 +399,8 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/14.jpg" class="img-fluid" alt="">
+                    <a href="https://www.livesandlivelihoodsfund.org/en" target="_blank">
+                        <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png')}}" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
@@ -411,8 +411,8 @@
             </div>
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/15.png" class="img-fluid" alt="">
+                    <a href="https://www.novartis.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/novartis.svg')}}" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
@@ -446,8 +446,8 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/31.png" class="img-fluid" alt="">
+                    <a href="https://garid-accra.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/logo-GARID-01.png')}}" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -464,7 +464,7 @@
     <div class="container mt-1 testimonials" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 text-center mb-1 mt-4">
-                <p>WHAT OUR CLIENTS SAY ABOUT US</p>
+                {{-- <p>WHAT OUR CLIENTS SAY ABOUT US</p> --}}
                 <h2 class="text-capitalize"><span>Testimonials</span></h2>
             </div>
         </div>

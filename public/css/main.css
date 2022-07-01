@@ -452,7 +452,12 @@ a:hover {
 } */
 
 .after-industry {
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+.after-industry .card-text {
+    font-size: 1.3em;
+    line-height: 40px;
 }
 
 .our-business p {
