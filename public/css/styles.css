@@ -4248,7 +4248,7 @@ blockquote:before,
 }
 .home-hero-module .constrained {
   /* min-height: 720px; */
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 0 !important;
   z-index: 10;
 }

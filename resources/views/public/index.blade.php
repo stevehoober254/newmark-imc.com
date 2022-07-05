@@ -3,7 +3,7 @@
     <div class="module home-hero-module white module-1" data-aos="fade-up" data-id="module-home_hero-1" id="content-1">
         <div class="background-video">
             <video id="video" preload="none" loop muted poster="{{ asset('img/homepage.png') }}">
-                <source src="{{ asset('videos/newmark.mp4') }}" type="video/mp4" />
+                <source src="{{ asset('videos/newmark-new.mp4') }}" type="video/mp4" />
             </video>
         </div>
 
