@@ -11,6 +11,7 @@ a:hover {
 
 :root {
     --color-white: #fff;
+    --main-color:#00ade5;
 }
 
 .background-blue {
@@ -288,7 +289,7 @@ a:hover {
     margin: 10px 0px 20px 10px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #00ade5;
     border: 1px solid #00ade5;
     color: #ffffff;
@@ -298,7 +299,7 @@ a:hover {
     margin: 10px 0px 20px 10px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: transparent;
     border: 1px solid #00ade5;
     color: #ffffff;
@@ -744,6 +745,12 @@ figure.practice-area-description:hover img {
     line-height: 22px;
     color: #000000;
     text-transform: capitalize;
+}
+.headings.main-color-theme {
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #00ade5;
 }
 .connect-with-us-heading {
     font-size: 24px !important;
@@ -1473,7 +1480,7 @@ p {
     color: #fff;
 }
 
-.opening-statement .card:hover{
+.opening-statement .card:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
         rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -1499,4 +1506,37 @@ p {
 
 .careers-practice-area-carousel {
     padding-bottom: 40px;
+}
+
+/* careers testimonials */
+.practice-area-testimonies {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 0px;
+}
+.practice-area-testimonies img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(184, 184, 184);
+    padding: 5px;
+    margin: auto;
+}
+
+.practice-area-testimonies h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.practice-area-testimonies p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 500;
 }

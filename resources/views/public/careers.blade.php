@@ -156,4 +156,62 @@
             </div>
         </div>
     </div>
+    <div class="mt-2" data-aos="fade-up">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="text-transfom-none headings mb-4 text-bold main-color-theme">
+                        What our Team Says
+                    </h5>
+                </div>
+            </div>
+            <div class="careers-practice-area-testimonies-carousel">
+                <div class="practice-area-testimonies">
+                    <img src="https://avatars.githubusercontent.com/u/44901716?v=4" alt="Wilson Kinyua">
+                    <h5>Wilson Kinyua</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex quasi harum adipisci iure
+                        nostrum quis odio eveniet deleniti, odit possimus blanditiis esse veritatis quam dolores
+                        porro perferendis dolorem repudiandae!
+                    </p>
+                </div>
+                <div class="practice-area-testimonies">
+                    <img src="https://avatars.githubusercontent.com/u/44901716?v=4" alt="Wilson Kinyua">
+                    <h5>Wilson Kinyua</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex quasi harum adipisci iure
+                        nostrum quis odio eveniet deleniti, odit possimus blanditiis esse veritatis quam dolores
+                        porro perferendis dolorem repudiandae!
+                    </p>
+                </div>
+                <div class="practice-area-testimonies">
+                    <img src="https://avatars.githubusercontent.com/u/44901716?v=4" alt="Wilson Kinyua">
+                    <h5>Wilson Kinyua</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex quasi harum adipisci iure
+                        nostrum quis odio eveniet deleniti, odit possimus blanditiis esse veritatis quam dolores
+                        porro perferendis dolorem repudiandae!
+                    </p>
+                </div>
+                <div class="practice-area-testimonies">
+                    <img src="https://avatars.githubusercontent.com/u/44901716?v=4" alt="Wilson Kinyua">
+                    <h5>Wilson Kinyua</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex quasi harum adipisci iure
+                        nostrum quis odio eveniet deleniti, odit possimus blanditiis esse veritatis quam dolores
+                        porro perferendis dolorem repudiandae!
+                    </p>
+                </div>
+                <div class="practice-area-testimonies">
+                    <img src="https://avatars.githubusercontent.com/u/44901716?v=4" alt="Wilson Kinyua">
+                    <h5>Wilson Kinyua</h5>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex quasi harum adipisci iure
+                        nostrum quis odio eveniet deleniti, odit possimus blanditiis esse veritatis quam dolores
+                        porro perferendis dolorem repudiandae!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
