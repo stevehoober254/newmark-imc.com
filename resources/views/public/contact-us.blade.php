@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/nairobi.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/ghana.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/nigeria.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/dakar.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/abijan.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/bujumbura.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -90,9 +90,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
-                    <img src="https://images.unsplash.com/flagged/photo-1559717201-fbb671ff56b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" class="card-img-top" alt="Country">
+                    <img src="https://images.unsplash.com/flagged/photo-1559717201-fbb671ff56b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                        class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Dubai, UAE</h3>
                         <p>
@@ -101,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
                     <img src="img/newyork.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
@@ -112,9 +113,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 contact-us">
+            <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1620562423895-ad4924643d43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" class="card-img-top" alt="Country">
+                    <img src="https://images.unsplash.com/photo-1620562423895-ad4924643d43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                        class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Geneva, Switzerland</h3>
                         <p>
