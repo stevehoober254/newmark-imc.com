@@ -55,6 +55,10 @@
     height: auto;
 }
 
+.careers-bg {
+    padding: 100px 0px;
+}
+
 }
 
 @media (min-width: 1400px) {

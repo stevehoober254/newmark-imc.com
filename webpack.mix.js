@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,8 +11,32 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.browserSync("127.0.0.1:8000");
-
+mix.styles(
+    [
+        "public/css/fontawesome.min.css",
+        "public/css/bootstrap.css",
+        "public/css/jquery.fancybox.min.css",
+        "public/css/styles.css",
+        "public/css/main.css",
+        "public/css/navigation.css",
+        "public/css/responsive.css",
+    ],
+    "public/css/main.min.css"
+)
+    .babel(
+        [
+            "public/js/jquery.min.js",
+            "public/js/bootstrap.bundle.min.js",
+            "public/js/select2.min.js",
+            "public/js/mobile-detect.js",
+            "public/js/fontawesome.js",
+            "public/js/navigation.js",
+            "public/js/jquery.fancybox.min.js",
+            "public/js/scripts.js",
+        ],
+        "public/js/main.min.js"
+    )
+    .browserSync("127.0.0.1:8000");
 
 // mix.js('resources/js/app.js', 'public/js')
 //     .postCss('resources/css/app.css', 'public/css', [

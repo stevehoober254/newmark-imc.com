@@ -11,7 +11,8 @@ a:hover {
 
 :root {
     --color-white: #fff;
-    --main-color:#00ade5;
+    --main-color: #00ade5;
+    --secondary-color: #152739;
 }
 
 .background-blue {
@@ -313,7 +314,7 @@ a:hover {
 .btn-secondary-outline:hover {
     background-color: transparent;
     border: 2px solid #6cc8f6;
-    color: #000000;
+    color: var(--main-color);
     padding: 7px 17px;
     border-radius: 5px;
     font-size: 16px;

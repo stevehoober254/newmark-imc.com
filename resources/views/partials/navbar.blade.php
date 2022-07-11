@@ -92,7 +92,7 @@
                         </li>
                         <li><a href="">Services</a>
                         </li> --}}
-                        <li><a href="{{ route('careers') }}">careers</a>
+                        <li><a class="main-color-theme text-bold" href="{{ route('careers') }}">#joinNewmark</a>
                         </li>
                         <li><a href="#">Thought leadership</a>
                             <ul class="nav-dropdown">
