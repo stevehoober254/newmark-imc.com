@@ -78,7 +78,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                                 class="card-img-top" alt="">
@@ -89,7 +89,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
                                 class="card-img-top" alt="">
@@ -100,7 +100,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                                 class="card-img-top" alt="">
@@ -111,7 +111,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
                                 class="card-img-top" alt="">
@@ -122,7 +122,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                                 class="card-img-top" alt="">
@@ -133,7 +133,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('newmark.digital.details') }}">
+                    <a href="">
                         <div class="card">
                             <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
                                 class="card-img-top" alt="">
