@@ -127,5 +127,60 @@
                 </div>
             </div>
         </div>
+        <div class="contact-us-form bg-white shadow-lg border-radius" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-12 text-center pt-5">
+                    <h3 class="main-color">Send us a message</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae.
+                    </p>
+                </div>
+            </div>
+            <form action="#" class="p-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label required">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" name="fullname" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label required">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="phone" class="form-label required">Phone</label>
+                            <input type="number" class="form-control" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="country" class="form-label required">Country</label>
+                            <select name="country" id="country" class="form-control">
+                                <option value="kenya">Kenya</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="subject" class="form-label required">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="message" class="form-label required">Message</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 left">
+                        <button type="submit" class="btn btn-secondary btn-lg text-capitalize">contact us</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 @endsection

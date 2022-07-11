@@ -19,6 +19,10 @@ a:hover {
     background-color: #00ade5;
 }
 
+.required::after {
+    content: " *";
+    color: rgb(255, 0, 0);
+}
 .line-after-heading span {
     background-color: rgb(255, 255, 255);
     padding-right: 30px;
@@ -523,6 +527,25 @@ a:hover {
 
 .contact-us .card-body {
     height: 200px;
+}
+
+.contact-us-form input:focus,
+.contact-us-form textarea:focus,
+.contact-us-form select:focus {
+    box-shadow: none;
+    border-color: var(--main-color);
+}
+
+.contact-us-form input {
+    border-radius: 5px;
+}
+
+.contact-us-form .form-label {
+    font-weight: 700;
+}
+
+.contact-us-form h3 {
+    font-size: 2.3em;
 }
 
 /* practice area */
