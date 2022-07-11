@@ -1,69 +1,77 @@
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
-  .our-business .row {
-    height: 415px;
-  }
+    .our-business .row {
+        height: 415px;
+    }
 }
 @media screen and (min-width: 800px) and (max-width: 1100px) {
-  .top-header,
-  .nav-stripe {
-    display: none;
-  }
-  .page-content {
-    padding-top: 80px;
-  }
+    .top-header,
+    .nav-stripe {
+        display: none;
+    }
+    .page-content {
+        padding-top: 80px;
+    }
 }
 @media (max-width: 767px) {
-  .after-industry {
-    margin-top: 10px;
-  }
-  .company-we-keep {
-    display: none;
-  }
-  .number-events {
-    display: none;
-  }
-  .gallery-carousel-items .card {
-    margin: 1px;
-    border-radius: none;
-  }
-  .top-header,
-  .nav-stripe {
-    display: none;
-  }
-  .page-content {
-    padding-top: 80px;
-  }
+    .after-industry {
+        margin-top: 10px;
+    }
+    .company-we-keep {
+        display: none;
+    }
+    .number-events {
+        display: none;
+    }
+    .gallery-carousel-items .card {
+        margin: 1px;
+        border-radius: none;
+    }
+    .top-header,
+    .nav-stripe {
+        display: none;
+    }
+    .page-content {
+        padding-top: 80px;
+    }
 
-  .testimony-card .testimony-author img {
-    height: auto;
-    display: none;
-  }
+    .testimony-card .testimony-author img {
+        height: auto;
+        display: none;
+    }
 
-  .testimony-desc {
-    height: auto;
-  }
+    .testimony-desc {
+        height: auto;
+    }
 
-  .testimonials {
-    display: none;
-  }
+    .testimonials {
+        display: none;
+    }
 
-  .contact-us .card-img-top {
-    height: auto;
-}
+    .contact-us .card-img-top {
+        height: auto;
+    }
 
-.contact-us .card-body {
-    height: auto;
-}
+    .contact-us .card-body {
+        height: auto;
+    }
 
-.careers-bg {
-    padding: 100px 0px;
-}
+    .careers-bg {
+        padding: 100px 0px;
+    }
 
+    .logo img {
+        margin: 100px 0px 100px 0px;
+        height: 80px;
+    }
+
+    .our-services-digital .card-img-top {
+        height: auto;
+    }
 }
 
 @media (min-width: 1400px) {
-  .connect-with-us .intro-content {
-    background-color: #1193d4;
-    padding: 60px 75px;
-  }
+    .connect-with-us .intro-content {
+        background-color: #1193d4;
+        padding: 60px 75px;
+    }
 }

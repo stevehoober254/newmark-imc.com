@@ -151,7 +151,7 @@ $(document).ready(function () {
     });
 
     $(".case-studies-carousel").slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         dots: !0,
@@ -167,7 +167,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 },
             },
             {

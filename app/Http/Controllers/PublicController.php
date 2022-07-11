@@ -25,7 +25,7 @@ class PublicController extends Controller
 
     public function insights()
     {
-        return view('public.newsroom');
+        return view('public.news.newsroom');
     }
 
     public function insightDetail($slug)
@@ -34,32 +34,17 @@ class PublicController extends Controller
         if (!$insight) {
             abort(404);
         }
-        return view('public.insight-detail', compact('insight'));
-    }
-
-    public function practiceArea()
-    {
-        return view('public.practice-area');
-    }
-
-    public function newmarkCreative()
-    {
-        return view('public.practice-area.newmark-creative');
-    }
-
-    public function SingleNewmarkCreative()
-    {
-        return view('public.practice-area.single-newmark-creative');
+        return view('public.news.insight-detail', compact('insight'));
     }
 
     public function newmarkDigital()
     {
-        return view('public.practice-area.newmark-digital');
+        return view('public.practice-area.practice-area');
     }
 
     public function newmarkDigitalDetails()
     {
-        return view('public.practice-area.newmark-digital-details');
+        return view('public.practice-area.practice-area-details');
     }
 
     public function contactUs()

@@ -478,7 +478,7 @@ a:hover {
 .our-services-digital h5,
 .case-studies h5 {
     font-weight: 900;
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 20px;
     color: #00ade5;
 }
@@ -538,10 +538,6 @@ a:hover {
 
 .contact-us-form input {
     border-radius: 5px;
-}
-
-.contact-us-form .form-label {
-    font-weight: 700;
 }
 
 .contact-us-form h3 {
@@ -1251,7 +1247,7 @@ p {
 
 /* practice area details */
 .bg-top-header {
-    background-color: #021721df;
+    background-color: #02172184;
 }
 
 .padding-center {
@@ -1262,7 +1258,7 @@ p {
 }
 
 .bg-fade {
-    background-color: #00000075;
+    background-color: #00000054;
 }
 
 .bg-fade-half {
@@ -1315,7 +1311,7 @@ p {
     width: 100%;
 }
 .logo img {
-    margin: 160px 0px 160px 0px;
+    margin: 200px 0px 200px 0px;
     height: 120px;
 }
 
@@ -1414,7 +1410,7 @@ p {
 }
 
 .our-services-digital .card-title {
-    font-size: 15px;
+    font-size: 16px;
     color: #000000;
 }
 
@@ -1425,7 +1421,21 @@ p {
     margin-bottom: 20px;
 }
 
-/* case-studies-item  */
+.our-services-digital .card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* case-studies  */
+.our-services-digital {
+    background-image: url("../img/practice-areas/practice-area-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
 .case-studies-img-overlay {
     position: relative;
     width: 100%;
@@ -1435,6 +1445,10 @@ p {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.case-studies-overlay:hover {
+    cursor: pointer;
 }
 
 .case-studies-overlay {

@@ -6,9 +6,6 @@ Route::get('about-us', 'PublicController@aboutUs')->name('about.us');
 Route::get('join-newmark', 'PublicController@careers')->name('careers');
 Route::get('insights', 'PublicController@insights')->name('insights');
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
-Route::get('practice-area', 'PublicController@practiceArea')->name('practice.area');
-Route::get('practice-area/newmark-creative', 'PublicController@newmarkCreative')->name('newmark.creative');
-Route::get('practice-area/newmark-creative/services', 'PublicController@SingleNewmarkCreative')->name('newmark.creative.services');
 Route::get('practice-area/newmark-digital', 'PublicController@newmarkDigital')->name('newmark.digital');
 Route::get('practice-area/service/newmark-digital', 'PublicController@newmarkDigitalDetails')->name('newmark.digital.details');
 Route::get('contact-us', 'PublicController@contactUs')->name('contact.us');
@@ -24,7 +21,7 @@ Route::get('/home', function () {
 });
 
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
     Route::get('/', 'HomeController@index')->name('home');
