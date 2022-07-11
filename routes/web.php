@@ -3,7 +3,7 @@
 // public routes
 Route::get('/', 'PublicController@index')->name('public.index');
 Route::get('about-us', 'PublicController@aboutUs')->name('about.us');
-Route::get('careers', 'PublicController@careers')->name('careers');
+Route::get('join-newmark', 'PublicController@careers')->name('careers');
 Route::get('insights', 'PublicController@insights')->name('insights');
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
 Route::get('practice-area', 'PublicController@practiceArea')->name('practice.area');
