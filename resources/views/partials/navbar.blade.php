@@ -88,10 +88,10 @@
                     <ul class="nav-menu align-to-right text-uppercase">
                         <li><a href="{{ route('public.index') }}">HOME</a>
                         </li>
-                        {{-- <li><a href="">About us</a>
+                        <li><a href="">About us</a>
                         </li>
                         <li><a href="">Services</a>
-                        </li> --}}
+                        </li>
                         <li><a class="main-color-theme text-bold" href="{{ route('careers') }}">#joinNewmark</a>
                         </li>
                         <li><a href="#">Thought leadership</a>
