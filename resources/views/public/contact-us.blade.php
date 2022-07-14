@@ -4,8 +4,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="main-color text-bold mt-3">Get in Touch</h2>
-                <p class="margin-bottom-half"><a href="tel:+254 114 668 366"> <i class="fa fa-phone"></i> +254 114
-                        668366</a></p>
+                <p class="margin-bottom-half"><a href="tel:+254 114 668 366"> <i class="fa fa-phone"></i> +254 740 386 468</a></p>
                 <p><a href="mailto:hello@newmark-imc.com"><i class="fa fa-envelope"></i> hello@newmark-imc.com</a></p>
                 <h2 class="main-color text-bold">Hub and liaison offices</h2>
             </div>

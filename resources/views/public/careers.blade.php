@@ -96,6 +96,35 @@
             </div>
         </div>
     </div>
+    <div class="module image-text-split-module case-study-module has-link  module-6" data-aos="fade-up"
+        style="background-color: var(--main-color)">
+        <a class="no-hover">
+            <div class=" button-hover">
+                <div class="right case-study-image">
+                    <div class="case-study-image-image background-cover"
+                        style="background-image:url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
+                    </div>
+                </div>
+                <div class="left case-study-text padding-x padding-y mt-3">
+                    <h2 class="text-white">Diversity, equity and inclusion</h2>
+                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
+                        corrupti adipisci ullam impedit sunt blanditiis libero? Quidem deleniti sed sint aliquid porro
+                        perferendis quod nulla, eum modi magnam harum, possimus laboriosam?</p>
+                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
+                        corrupti adipisci ullam impedit sunt blanditiis libero? Quidem deleniti sed sint aliquid porro
+                        perferendis quod nulla, eum modi magnam harum, possimus laboriosam?</p>
+                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
+                        corrupti adipisci ullam impedit sunt blanditiis libero?</p>
+                    {{-- <span class="button transparent text-white">Read More</span> --}}
+                </div>
+                <div class="clear"></div>
+            </div>
+        </a>
+        <div class="clear"></div>
+    </div>
     <div class="container mt-4 bg-white our-services-digital practice-area-jobs" data-aos="fade-up">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -219,35 +248,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="module image-text-split-module case-study-module has-link  module-6" data-aos="fade-up"
-        style="background-color: var(--main-color)">
-        <a class="no-hover">
-            <div class=" button-hover">
-                <div class="right case-study-image">
-                    <div class="case-study-image-image background-cover"
-                        style="background-image:url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
-                    </div>
-                </div>
-                <div class="left case-study-text padding-x padding-y mt-3">
-                    <h2 class="text-white">Diversity, equity and inclusion</h2>
-                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
-                        corrupti adipisci ullam impedit sunt blanditiis libero? Quidem deleniti sed sint aliquid porro
-                        perferendis quod nulla, eum modi magnam harum, possimus laboriosam?</p>
-                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
-                        corrupti adipisci ullam impedit sunt blanditiis libero? Quidem deleniti sed sint aliquid porro
-                        perferendis quod nulla, eum modi magnam harum, possimus laboriosam?</p>
-                    <p class="text-white">Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Quo, explicabo error perspiciatis, culpa cumque commodi molestias aliquid eligendi
-                        corrupti adipisci ullam impedit sunt blanditiis libero?</p>
-                    {{-- <span class="button transparent text-white">Read More</span> --}}
-                </div>
-                <div class="clear"></div>
-            </div>
-        </a>
-        <div class="clear"></div>
     </div>
     <div class="module image-text-split-module case-study-module has-link  module-7" data-aos="fade-up"
         style="background-color: var(--secondary-color)">
