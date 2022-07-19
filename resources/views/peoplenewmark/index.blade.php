@@ -22,8 +22,71 @@
     <div class="loading" id="loading">
         <img src="{{ asset('img/loader.gif') }}" />
     </div>
+    <hr class="thick module-10 bright-purple-background" data-aos="fade-right" data-id="module-solid_line-10"
+        id="content-10" />
 
-    
+    <div class="container internal-applications">
+        <div class="row mt-5 justify-content-center text-center">
+            <div class="col-md-12">
+                <h4 class="card-title">Welcome to Newmark Internal Team applications</h4>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">SMP</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">Human Resource</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">EMS</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">Elearning</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">Newmark Procurement</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-user icon"></i>
+                        <h5 class="card-title">Newmark Finance</h5>
+                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <hr class="thick module-10 bright-purple-background mt-5" data-aos="fade-right" data-id="module-solid_line-10"
         id="content-10" />
