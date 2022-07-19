@@ -67,6 +67,10 @@
     .our-services-digital .card-img-top {
         height: auto;
     }
+
+    .internal-applications .card {
+        height: auto;
+    }
 }
 
 @media (min-width: 1400px) {

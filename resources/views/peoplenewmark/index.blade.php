@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name=”robots” content=”noindex”>
     <meta name="keywords" content="" />
     <meta name="description"
         content="The Newmark Group Limited is a leading African Integrated Marketing Communications(IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market." />
     <meta name="author" content="Newmark IMC" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        Internal Team Applications
+        People Newmark - Internal Team Applications
     </title>
     <link href="{{ asset('img/favicon.png') }}" rel="shortcut icon" type="image" />
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}">
@@ -28,59 +29,68 @@
     <div class="container internal-applications">
         <div class="row mt-5 justify-content-center text-center">
             <div class="col-md-12">
-                <h4 class="card-title">Welcome to Newmark Internal Team applications</h4>
+                <h4 class="card-title">Welcome to People Newmark</h4>
+                <p>
+                    Please select the application you would like to use
+                </p>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
+                        <i class="far fa-calendar-check icon"></i>
                         <h5 class="card-title">SMP</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <a target="_blank" href="https://weza-smp.wezaprosoft.com/" class="btn btn-primary">View <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
+                        <i class="fa fa-user-alt icon"></i>
                         <h5 class="card-title">Human Resource</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <a target="_blank" href="http://leave.newmark-imc.com/" class="btn btn-primary">View <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
+                        <i class="fa fa-user-circle icon"></i>
                         <h5 class="card-title">EMS</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <a target="_blank" href="https://ems.wezadevelopment.com/" class="btn btn-primary">View <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
-                        <h5 class="card-title">Elearning</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <i class="fas fa-book icon"></i>
+                        <h5 class="card-title">Newmark Elearning</h5>
+                        <a target="_blank" href="https://elearning.newmark-imc.com/my" class="btn btn-primary">View <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
+                        <i class="fa fa-store icon"></i>
                         <h5 class="card-title">Newmark Procurement</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <a target="_blank" href="https://procurement-portal.wezaprosoft.com/"
+                            class="btn btn-primary">View <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fa fa-user icon"></i>
+                        <i class="fa fa-money-bill icon"></i>
                         <h5 class="card-title">Newmark Finance</h5>
-                        <a target="_blank" href="#" class="btn btn-primary">View</a>
+                        <a target="_blank" href="https://procurement-portal.wezaprosoft.com/"
+                            class="btn btn-primary">View <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

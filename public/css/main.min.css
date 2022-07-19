@@ -22878,12 +22878,23 @@ p {
     border: none;
     background-color: #fff;
     border-radius: 10px;
-    border: 1px solid var(--main-color);
+    border: 2px solid var(--main-color);
+    height: 250px;
+}
+
+.internal-applications .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .internal-applications .icon {
     padding: 20px;
-    background-color: var(--main-color);
+    background: rgb(15, 147, 212);
+    background: linear-gradient(
+        90deg,
+        rgba(15, 147, 212, 1) 21%,
+        rgba(148, 68, 255, 1) 88%
+    );
     height: 70px;
     width: 70px;
     color: #fff;
@@ -22892,8 +22903,22 @@ p {
 }
 
 .internal-applications .card-title {
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-transform: none;
+}
+
+.internal-applications .btn-primary {
+    background: rgb(15, 147, 212);
+    background: linear-gradient(
+        90deg,
+        rgba(15, 147, 212, 1) 21%,
+        rgba(148, 68, 255, 1) 88%
+    );
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0px 20px 10px;
 }
 
 /* ========== NAVBAR. ========== */
@@ -24168,6 +24193,10 @@ p {
     }
 
     .our-services-digital .card-img-top {
+        height: auto;
+    }
+
+    .internal-applications .card {
         height: auto;
     }
 }
