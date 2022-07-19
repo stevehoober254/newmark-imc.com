@@ -3,7 +3,7 @@
     <div class="module home-hero-module white module-1" data-aos="fade-up" data-id="module-home_hero-1" id="content-1">
         <div class="background-video">
             <video id="video" preload="none" loop muted poster="{{ asset('img/homepage.png') }}">
-                <source src="{{ asset('videos/newmark-new.mp4') }}" type="video/mp4" />
+                <source src="{{ asset('videos/newmark-new.mp4')}}" type="video/mp4" />
             </video>
         </div>
 
@@ -62,8 +62,7 @@
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
-                {{-- <a href="{{ route('about.us') }}"> --}}
-                <a href="#">
+                <a href="{{ route('about.us') }}">
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
@@ -75,9 +74,9 @@
                                     world. To achieve this, brands need storytellers with in-built empathy, innovation and
                                     courage to take on the big challenges. This is who we are!
                                 </p>
-                                {{-- <span class="btn btn-secondary-outline text-capitalize mt-4">Read
+                                <span class="btn btn-secondary-outline text-capitalize mt-4">Read
                                     More
-                                </span> --}}
+                                </span>
                             </div>
                         </div>
                         <div class="col-md-6 order-1 order-sm-2">
@@ -105,9 +104,9 @@
                                 Do you want your products, services, activities and achievements to
                                 be seen and to produce growth?
                             </p>
-                            {{-- <a href="#" class="text-uppercase read-more">
+                            <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a> --}}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -124,9 +123,9 @@
                                 Want a successful congress or event that propels your brand to
                                 higher heights of visibility and influence in your sector?
                             </p>
-                            {{-- <a href="{{ route('about.us') }}" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a> --}}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -143,9 +142,9 @@
                                 Do you want to attract more revenue, mobilize more resources through
                                 multiplatform marketing communications?
                             </p>
-                            {{-- <a href="#" class="text-uppercase read-more">
+                            <a href="#" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
-                            </a> --}}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -452,11 +451,11 @@
                 </div>
             </div>
             <div class="row text-center mt-4">
-                {{-- <div class="col-lg-4"></div>
+                <div class="col-lg-4"></div>
                 <div class="col-lg-4">
                     <a href="#" class="btn btn-secondary text-capitalize mt-4">More clients
                     </a>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>
@@ -639,8 +638,7 @@
         <div class="row ">
             @foreach ($insights as $insight)
                 <div class="col-lg-4 ">
-                    <a href="#">
-                        {{-- <a href="{{ route('insight.details', $insight->slug) }}"> --}}
+                        <a href="{{ route('insight.details', $insight->slug) }}">
                         <main>
                             <div class='normal '>
                                 <div class='module'>
@@ -675,9 +673,9 @@
         <div class="row text-center">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                {{-- <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4">
+                <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4">
                     Read More
-                </a> --}}
+                </a>
             </div>
         </div>
     </div>
