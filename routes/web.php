@@ -11,6 +11,8 @@ Route::get('practice-area/service/newmark-digital', 'PublicController@newmarkDig
 Route::get('contact-us', 'PublicController@contactUs')->name('contact.us');
 
 
+Route::get('peoplenewmark','PublicController@peopleNewmark')->name('people.newmark');
+
 // private routes
 Route::get('/home', function () {
     if (session('status')) {

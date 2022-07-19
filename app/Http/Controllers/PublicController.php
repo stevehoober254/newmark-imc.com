@@ -51,4 +51,9 @@ class PublicController extends Controller
     {
         return view('public.contact-us');
     }
+
+    public function peopleNewmark()
+    {
+        return view('peoplenewmark.index');
+    }
 }
