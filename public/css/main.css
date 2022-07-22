@@ -1581,10 +1581,11 @@ p {
 
 /* internal team applications/n-campus */
 .n-campus {
-    background-image: url('https://images.unsplash.com/photo-1610465234433-1dbc77224976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    /* background-image: url('../img/n-campus.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #000000b0;
 }
 
 .internal-applications .card {

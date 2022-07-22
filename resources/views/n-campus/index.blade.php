@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}">
 </head>
 
-<body>
+<body
+    style="background-image: url({{ asset('img/n-campus.jpeg') }}); background-position: center; background-repeat: no-repeat; background-size: cover;">
     <div class="n-campus">
         <!-- preloader -->
         <div class="loading" id="loading">
@@ -39,8 +40,8 @@
                         <div class="card-body">
                             <i class="far fa-calendar-check icon"></i>
                             <h5 class="card-title">SMP</h5>
-                            <a target="_blank" href="https://weza-smp.wezaprosoft.com/" class="btn btn-primary">View <i
-                                    class="fa fa-arrow-right"></i></a>
+                            <a target="_blank" href="https://weza-smp.wezaprosoft.com/" class="btn btn-primary">Launch
+                                <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +50,7 @@
                         <div class="card-body">
                             <i class="fa fa-user-alt icon"></i>
                             <h5 class="card-title">Human Resource</h5>
-                            <a target="_blank" href="http://leave.newmark-imc.com/" class="btn btn-primary">View <i
+                            <a target="_blank" href="http://leave.newmark-imc.com/" class="btn btn-primary">Launch <i
                                     class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -59,7 +60,7 @@
                         <div class="card-body">
                             <i class="fa fa-user-circle icon"></i>
                             <h5 class="card-title">EMS</h5>
-                            <a target="_blank" href="https://ems.wezadevelopment.com/" class="btn btn-primary">View <i
+                            <a target="_blank" href="https://ems.wezadevelopment.com/" class="btn btn-primary">Launch <i
                                     class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -69,7 +70,8 @@
                         <div class="card-body">
                             <i class="fas fa-book icon"></i>
                             <h5 class="card-title">N-soma (Newmark Elearning)</h5>
-                            <a target="_blank" href="https://elearning.newmark-imc.com/my" class="btn btn-primary">View
+                            <a target="_blank" href="https://elearning.newmark-imc.com/my"
+                                class="btn btn-primary">Launch
                                 <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -80,7 +82,7 @@
                             <i class="fa fa-store icon"></i>
                             <h5 class="card-title">Newmark Procurement</h5>
                             <a target="_blank" href="https://procurement-portal.wezaprosoft.com/"
-                                class="btn btn-primary">View <i class="fa fa-arrow-right"></i></a>
+                                class="btn btn-primary">Launch <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +92,7 @@
                             <i class="fa fa-money-bill icon"></i>
                             <h5 class="card-title">Newmark Finance</h5>
                             <a target="_blank" href="https://procurement-portal.wezaprosoft.com/"
-                                class="btn btn-primary">View <i class="fa fa-arrow-right"></i></a>
+                                class="btn btn-primary">Launch <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
