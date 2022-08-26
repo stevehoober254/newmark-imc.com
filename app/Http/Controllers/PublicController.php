@@ -25,7 +25,7 @@ class PublicController extends Controller
 
     public function insights()
     {
-        return view('public.news.newsroom');
+        return view('public.insights.newsroom');
     }
 
     public function insightDetail($slug)
@@ -34,7 +34,7 @@ class PublicController extends Controller
         if (!$insight) {
             abort(404);
         }
-        return view('public.news.insight-detail', compact('insight'));
+        return view('public.insights.insight-detail', compact('insight'));
     }
 
     public function newmarkDigital()
