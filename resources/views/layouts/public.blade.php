@@ -44,15 +44,6 @@
         <i class="fab fa-whatsapp"></i>
         WhatsApp us
     </a>
-    {{-- scripts --}}
-    {{-- <script type='text/javascript' src='{{ asset('js/jquery.min.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('js/bootstrap.bundle.min.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('js/select2.min.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('js/mobile-detect.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('js/fontawesome.js') }}'></script>
-    <script type='text/javascript' src="{{ asset('js/navigation.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
-    <script type='text/javascript' src="{{ asset('js/scripts.js') }}"></script> --}}
     <script src="{{ asset('js/main.min.js') }}"></script>
 </body>
 
