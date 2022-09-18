@@ -4179,13 +4179,7 @@ blockquote:before,
   height: auto;
   transform: translate(-50%, -50%);
 }
-.background-video video:-webkit-media-controls,
-.background-video video:-webkit-media-controls-panel,
-.background-video video:-webkit-media-controls-play-button,
-.background-video video:-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
+
 .heading-border-bottom {
   position: relative;
   color: #6cc8f6;

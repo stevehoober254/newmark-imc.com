@@ -1427,7 +1427,7 @@ p {
 }
 
 /* case-studies  */
-.our-services-digital {
+.our-services-digital, .practice-area-section {
     background-image: url("../img/practice-areas/practice-area-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
