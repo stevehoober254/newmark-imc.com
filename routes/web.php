@@ -10,9 +10,6 @@ Route::get('practice-area/newmark-digital', 'PublicController@newmarkDigital')->
 Route::get('practice-area/service/newmark-digital', 'PublicController@newmarkDigitalDetails')->name('newmark.digital.details');
 Route::get('contact-us', 'PublicController@contactUs')->name('contact.us');
 
-// internal systems urls
-Route::get('n-campus','PublicController@nCampus')->name('n.campus');
-
 
 // private routes
 Route::get('/home', function () {

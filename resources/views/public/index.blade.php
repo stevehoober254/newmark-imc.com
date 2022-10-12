@@ -3,7 +3,7 @@
     <div class="module home-hero-module white module-1" data-aos="fade-up" data-id="module-home_hero-1" id="content-1">
         <div class="background-video">
             <video id="video" preload="none" loop muted poster="{{ asset('img/newmark.png') }}">
-                <source src="{{ asset('videos/newmark-new.mp4')}}" type="video/mp4" />
+                <source src="{{ asset('videos/newmark-new.mp4') }}" type="video/mp4" />
             </video>
         </div>
 
@@ -67,12 +67,13 @@
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
                                 <h5 class="card-title text-transfom-none headings">
-                                    Turning the unseen into reality!
+                                    Why we exist
                                 </h5>
-                                <p class="card-text mt-3">
-                                    We believe in the power of brands to help build a better, more resilient and prosperous
-                                    world. To achieve this, brands need storytellers with in-built empathy, innovation and
-                                    courage to take on the big challenges. This is who we are!
+                                <p class="card-text mt-3 large-text">
+                                    The Newmark Group is helping to build a world which provides inclusive prosperity for
+                                    all. To do this, we have built a team that consistently delivers mission-critical
+                                    insights, strategies, storytelling and execution, through our Strategic Communication
+                                    and Consulting solutions
                                 </p>
                                 <span class="btn btn-secondary-outline text-capitalize mt-4">Read
                                     More
@@ -151,168 +152,37 @@
             </div>
         </div>
     </div>
-    <div class="container module carousel-module module-5 our-expertise-new" data-aos="fade-up" data-id="module-carousel-5">
-        <div class="row mt-4">
-            <div class="col-md-12 text-center">
-                <h2 class="text-capitalize main">Our Practice Areas</h2>
+    <div class="newmark-practice-areas pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="headings main-color pb-2">OUR PRACTICE AREAS</h2>
+                </div>
             </div>
-        </div>
-        <div class="mt-3">
-            <div class="dots dots-33"></div>
-            <div class="carousel">
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/9.jpg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">Connect</h4>
-                        <h3 class="margin-bottom-half">NewmarkX <small> - A New Way to Convene!</small></h3>
-                        <p>
-                            The ability to deliver high-quality events is directly dependent on the technical skills, tools
-                            and equipment available to the team. Since its inception, Newmark Experiential has implemented
-                            projects in Westall the regions of Africa, including Kenya, Nigeria, South Africa, Ghana and
-                            Morocco just to name a few.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
+            <div class="row g-0 we-connect-bg">
+                <div class="col-md-4 text-center we-connect">
+                    <h1>We Connect</h1>
                 </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/10.jpg') }});">
+                <div class="col-md-8">
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-white single-department">
+                           <a href=""><h2>Public Relations</h2></a>
+                        </div>
+                        <div class="col-md-6 bg-1 single-department">
+                            <a href=""><h2>Creative Content</h2></a>
+                        </div>
                     </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">ENGAGE</h4>
-                        <h3 class="margin-bottom-half">Newmark Public Relations <small></small></h3>
-                        <p>
-                            If you want to have meaningful and beneficial experiences with your audiences, stakeholders and
-                            partners, then our team is just what the doctor ordered for you. We bring the best of global
-                            expertise and deep local understanding to strategic and integrated communications. Ours is a
-                            multicultural and authentically localized approach to messaging, strategy and engagement. If
-                            those stakeholders happen to be public authorities, then you can not do better than our Public
-                            Affairs expertise.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-2 single-department">
+                            <a href=""><h2>Digital Marketing</h2></a>
+                        </div>
+                        <div class="col-md-6 single-department">
+                            <div class="newmark-practice-area-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
+                                    alt="We Connect">
+                            </div>
+                        </div>
                     </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/11.jpeg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">UNDERSTAND</h4>
-                        <h3 class="margin-bottom-half">Newmark Insights</h3>
-                        <p>
-                            Newmark Insights stands out for our ability to smooth your way and simplify the process of
-                            diagnosis, planning and implementation, tailored to the local market.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/12.png') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">ELEVATE</h4>
-                        <h3 class="margin-bottom-half">Newmark Creative</h3>
-                        <p>
-                            This multimedia arm within the Newmark Group Limited specializes in reaching global and local
-                            organizations and engaging their stakeholder organizations by developing market-leading
-                            storytelling and content design strategies.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url({{ asset('img/newmark-imc.jpeg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">EMPOWER</h4>
-                        <h3 class="margin-bottom-half">Newmark IMC</h3>
-                        <p>
-                            You know your targets and goals, you have a plan, but is your team optimized and trained to
-                            become the brand ambassadors and spokespersons you need them to be? If not, get in touch with us
-                            so that our IMC team can ensure that they are empowered to deliver on the goals that you have
-                            set.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url(img/black.jpg);">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">ENGAGE</h4>
-                        <h3 class="margin-bottom-half">Newmark Public Affairs</h3>
-                        <p>
-
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/robot.jpeg')}});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">AMPLIFY</h4>
-                        <h3 class="margin-bottom-half">Newmark Digital</h3>
-                        <p>
-                            At Newmark Digital, we thrive on creating valuable and impactful digital experiences and
-                            campaigns with creative messaging that enables your brand to engage in meaningful conversations
-                            with your target audience.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/12.jpg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h4 class="secondary-color">LOCALIZE</h4>
-                        <h3 class="margin-bottom-half">Multilingual Communications</h3>
-                        <p>
-                            Our purpose is to help companies prepare their products and services for worldwide deployment by
-                            providing high-quality translation, localization and multilingual services.
-                        </p>
-                        <span class="content-link">
-                            <a href="#" target="_blank">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
                 </div>
             </div>
         </div>
@@ -333,7 +203,7 @@
                 </div>
                 <div class="col">
                     <a href="https://www.gatesfoundation.org/" target="_blank">
-                        <img src="{{ asset('img/client-logos/bill-melinda.svg')}}" class="img-fluid" alt=""></a>
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid" alt=""></a>
                 </div>
                 <div class="col">
                     <a href="#">
@@ -362,7 +232,7 @@
                 </div>
                 <div class="col">
                     <a href="https://www.pfizer.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/pfizer.svg')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/client-logos/pfizer.svg') }}" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -399,7 +269,8 @@
                 </div>
                 <div class="col">
                     <a href="https://www.livesandlivelihoodsfund.org/en" target="_blank">
-                        <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png') }}" class="img-fluid"
+                            alt="">
                     </a>
                 </div>
                 <div class="col">
@@ -411,7 +282,7 @@
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
                     <a href="https://www.novartis.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/novartis.svg')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/client-logos/novartis.svg') }}" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col">
@@ -446,7 +317,7 @@
                 </div>
                 <div class="col">
                     <a href="https://garid-accra.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/logo-GARID-01.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/client-logos/logo-GARID-01.png') }}" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -638,7 +509,7 @@
         <div class="row ">
             @foreach ($insights as $insight)
                 <div class="col-lg-4 ">
-                        <a href="{{ route('insight.details', $insight->slug) }}">
+                    <a href="{{ route('insight.details', $insight->slug) }}">
                         <main>
                             <div class='normal '>
                                 <div class='module'>

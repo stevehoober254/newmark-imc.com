@@ -11468,7 +11468,6 @@ a {
   padding: 0;
   margin: 0;
   width: 100%;
-  margin-top: 20px;
 }
 .slick-dots li {
   position: relative;
@@ -21286,6 +21285,7 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
   color: #00a0d2;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 body {
     overflow-x: hidden;
 }
@@ -21546,6 +21546,10 @@ a:hover {
 
 .main-color-theme {
     color: #6cc8f6 !important;
+}
+
+.main-color {
+    color: var(--main-color) !important;
 }
 
 .whatsapp {
@@ -22049,7 +22053,7 @@ figure.practice-area-description:hover img {
 .headings,
 .case-study-module .case-study-text h3 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 24px;
     line-height: 22px;
     color: #000000;
     text-transform: capitalize;
@@ -22715,7 +22719,8 @@ p {
 }
 
 /* case-studies  */
-.our-services-digital, .practice-area-section {
+.our-services-digital,
+.practice-area-section {
     background-image: url("../img/practice-areas/practice-area-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22867,68 +22872,72 @@ p {
     font-weight: 500;
 }
 
-/* internal team applications/n-campus */
-.n-campus {
-    /* background-image: url('../img/n-campus.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: #000000b0;
+.large-text {
+    font-size: 22px !important;
 }
 
-.internal-applications .card {
-    margin: 25px 0px;
-    border: none;
-    background-color: #fff;
-    border-radius: 10px;
-    border: 2px solid var(--main-color);
-    height: 230px;
+/* newmark practice areas */
+.we-connect-bg {
+    background-color: #083763;
 }
 
-.internal-applications .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+.newmark-practice-area-img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
 }
 
-.internal-applications .icon {
-    padding: 20px;
-    background: rgb(15, 147, 212);
-    background: linear-gradient(
-        90deg,
-        rgba(15, 147, 212, 1) 21%,
-        rgba(148, 68, 255, 1) 88%
-    );
-    height: 70px;
-    width: 70px;
+.single-department h2 {
+    text-transform: capitalize;
+    vertical-align: middle;
+    line-height: 150px;
+    font-weight: 600;
+    font-size: 23px;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-color);
+}
+.we-connect {
+    height: 150px;
+}
+
+.single-department {
+    height: 150px;
+}
+
+.bg-1 {
+    background-color: #cfe1f3;
+}
+.bg-2 {
+    background-color: #eeece1;
+}
+.bg-3 {
+}
+.bg-4 {
+}
+.bg-5 {
+}
+.bg-6 {
+}
+.bg-7 {
+}
+.bg-8 {
+}
+
+.newmark-practice-areas h1 {
     color: #fff;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.internal-applications .card-title {
-    font-size: 1.6em;
-    text-transform: none;
-}
-
-.internal-applications h1 {
-    font-size: 2.2em;
+    font-size: 40px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    line-height: 300px;
     font-weight: 800;
-    text-transform: none;
-    letter-spacing: 8px;
 }
 
-.internal-applications .btn-primary {
-    background: rgb(15, 147, 212);
-    background: linear-gradient(
-        90deg,
-        rgba(15, 147, 212, 1) 21%,
-        rgba(148, 68, 255, 1) 88%
-    );
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    margin: 10px 0px 20px 10px;
+@media (min-width: 1400px) {
+    .newmark-practice-areas .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 /* ========== NAVBAR. ========== */
@@ -24150,7 +24159,8 @@ p {
         padding-top: 80px;
     }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) { */
+@media (max-width: 799px) {
     .after-industry {
         margin-top: 10px;
     }
@@ -24206,8 +24216,16 @@ p {
         height: auto;
     }
 
-    .internal-applications .card {
+    .we-connect {
         height: auto;
+    }
+
+    .newmark-practice-area-img-wrapper img {
+        height: auto;
+    }
+
+    .newmark-practice-areas h1 {
+        font-size: 35px;
     }
 }
 

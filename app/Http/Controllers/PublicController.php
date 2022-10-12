@@ -51,10 +51,4 @@ class PublicController extends Controller
     {
         return view('public.contact-us');
     }
-
-    public function nCampus()
-    {
-        // return view('n-campus.index');
-        return redirect('https://campus.newmark-imc.com/');
-    }
 }

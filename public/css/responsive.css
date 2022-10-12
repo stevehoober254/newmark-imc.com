@@ -12,7 +12,8 @@
         padding-top: 80px;
     }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) { */
+@media (max-width: 799px) {
     .after-industry {
         margin-top: 10px;
     }
@@ -68,8 +69,16 @@
         height: auto;
     }
 
-    .internal-applications .card {
+    .we-connect {
         height: auto;
+    }
+
+    .newmark-practice-area-img-wrapper img {
+        height: auto;
+    }
+
+    .newmark-practice-areas h1 {
+        font-size: 35px;
     }
 }
 
