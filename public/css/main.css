@@ -82,6 +82,10 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 /* .blue-background {
   background-color: #00ade5;
 } */
@@ -1625,12 +1629,16 @@ p {
     background-color: #eeece1;
 }
 .bg-3 {
+    background-color: #09B0B9;
 }
 .bg-4 {
+    background-color: #20134D;
 }
 .bg-5 {
+    background-color: #DDF1F3;
 }
 .bg-6 {
+    background-color: #EBEAEF;
 }
 .bg-7 {
 }

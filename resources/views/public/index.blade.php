@@ -159,22 +159,92 @@
                     <h2 class="headings main-color pb-2">OUR PRACTICE AREAS</h2>
                 </div>
             </div>
-            <div class="row g-0 we-connect-bg">
+            <div class="row g-0 we-connect-bg ">
                 <div class="col-md-4 text-center we-connect">
                     <h1>We Connect</h1>
                 </div>
                 <div class="col-md-8">
                     <div class="row g-0">
                         <div class="col-md-6 bg-white single-department">
-                           <a href=""><h2>Public Relations</h2></a>
+                            <a href="">
+                                <h2>Public Relations</h2>
+                            </a>
                         </div>
                         <div class="col-md-6 bg-1 single-department">
-                            <a href=""><h2>Creative Content</h2></a>
+                            <a href="">
+                                <h2>Creative Content</h2>
+                            </a>
                         </div>
                     </div>
                     <div class="row g-0">
                         <div class="col-md-6 bg-2 single-department">
-                            <a href=""><h2>Digital Marketing</h2></a>
+                            <a href="">
+                                <h2>Digital Marketing</h2>
+                            </a>
+                        </div>
+                        <div class="col-md-6 single-department">
+                            <div class="newmark-practice-area-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
+                                    alt="We Connect">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0 bg-3">
+                <div class="col-md-8">
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-white single-department">
+                            <a href="">
+                                <h2>Coaching and Training</h2>
+                            </a>
+                        </div>
+                        <div class="col-md-6 bg-5 single-department">
+                            <a href="">
+                                <h2>Analytics & Insights</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-5 single-department">
+                            <a href="">
+                                <h2>Technology Deployment</h2>
+                            </a>
+                        </div>
+                        <div class="col-md-6 single-department">
+                            <div class="newmark-practice-area-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
+                                    alt="We Connect">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center we-connect bg-3">
+                    <h1>We Empower</h1>
+                </div>
+            </div>
+            <div class="row g-0 bg-4">
+                <div class="col-md-4 text-center we-connect ">
+                    <h1>We Activate</h1>
+                </div>
+                <div class="col-md-8">
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-white single-department">
+                            <a href="">
+                                <h2>Event Management</h2>
+                            </a>
+                        </div>
+                        <div class="col-md-6 bg-6 single-department">
+                            <a href="">
+                                <h2>Experiential Marketing</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6 bg-6 single-department">
+                            <a href="">
+                                <h2>Multimedia Productions</h2>
+                            </a>
                         </div>
                         <div class="col-md-6 single-department">
                             <div class="newmark-practice-area-img-wrapper">
