@@ -62,7 +62,7 @@
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
-                <a href="{{ route('about.us') }}">
+                <a href="#">
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
@@ -400,12 +400,10 @@
             </div>
         </div>
     </div>
-    {{-- testimonies --}}
     <div class="container mt-1 testimonials" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 text-center mb-1 mt-4">
-                {{-- <p>WHAT OUR CLIENTS SAY ABOUT US</p> --}}
-                <h2 class="text-capitalize"><span>Testimonials</span></h2>
+                <h2 class="text-capitalize"><span>WHAT OUR CLIENTS SAY</span></h2>
             </div>
         </div>
         <div class="row text-center testimonials-carousel text-center">
@@ -424,7 +422,6 @@
                 </div>
                 <div class="testimony-author">
                     <img src="{{ asset('img/client-logos/novar.png') }}" alt="Paxful">
-                    {{-- <h6>Client Name</h6> --}}
                 </div>
             </div>
             <div class="testimony-card">
@@ -433,24 +430,12 @@
                     <p>
                         Thank you for the good job and professionalism exhibited by your team especially Raissa who was with
                         us in Zanzibar and was very helpful and coordinated the tasks meticulously. We truly appreciate the
-                        extra effort to make sure the inaugural flight was indeed a success.
+                        extra effort to make sure the inaugural flight was indeed a success. Thanks for the great and
+                        impressive results.
                     </p>
                 </div>
                 <div class="testimony-author">
                     <img src="{{ asset('img/client-logos/turkey-logo.png') }}" alt="Turkish Airlines">
-                    {{-- <h6>Turkish Airlines</h6> --}}
-                </div>
-            </div>
-            <div class="testimony-card">
-                <i class="fa fa-quote-left"></i>
-                <div class="testimony-desc">
-                    <p>
-                        Thanks for the great and impressive results.
-                    </p>
-                </div>
-                <div class="testimony-author">
-                    <img src="{{ asset('img/client-logos/motorola.png') }}" alt="Motorolla">
-                    {{-- <h6>Motorolla</h6> --}}
                 </div>
             </div>
             <div class="testimony-card">
@@ -465,7 +450,6 @@
                 </div>
                 <div class="testimony-author">
                     <img src="{{ asset('img/client-logos/paxful.png') }}" alt="Paxful">
-                    {{-- <h6>Paxful</h6> --}}
                 </div>
             </div>
         </div>
@@ -473,7 +457,7 @@
     <div class="container mt-1 practice-areas" data-aos="fade-up">
         <div class="row g-0">
             <div class="col-md-12 text-center mb-1">
-                <h2 class=" text-capitalize main"><span>Sectors</span></h2>
+                <h2 class=" text-capitalize main"><span>Sectors that we serve</span></h2>
             </div>
         </div>
         <div class="practice-area-containers">
@@ -627,26 +611,8 @@
             </div>
         </div>
         <div class="row g-0">
-            {{-- <div class="col-md-3 intro ">
-                <div class="intro-content">
-                    <h3 class="headings text-white mb-1">Gallery </h3>
-                    <p class="p-main text-white mt-4">
-                        Our strong footprint in Africa enables us to develop a multicultural and
-                        authentically localized approach to messaging, strategy and engagement
-                        to our clients across the continent. Find the office nearest you and
-                        reach out.
-                    </p>
-                </div>
-            </div> --}}
             <div class="col-md-12">
                 <div class="text-center gallery-carousel-items">
-                    {{-- <div class="item gallery-carousel card">
-                        <div class="team gallery-style">
-                            <div class="gallery-img">
-                                <img class="img-fluid" src="img/gallery/5.jpg" alt="">
-                            </div>
-                        </div>
-                    </div> --}}
                     <div class="item gallery-carousel card">
                         <div class="team gallery-style">
                             <div class="gallery-img">
@@ -706,11 +672,10 @@
                     <div class="right case-study-text padding-y-x2 padding-x">
                         <h2 class="connect-with-us-heading">
                             Connect with us</h2>
-                        <p class="background-color-text margin-bottom text-muted">We see holes in existing
-                            marketing services as invitations to innovate. Our clients have their
-                            pick of a variety of award-winning proprietary tools and programs aimed
-                            at addressing their total needs, from a brand publishing platform to a
-                            real-time storytelling tool and a crisis preparation platform.</p>
+                        <p class="background-color-text margin-bottom text-muted">
+                            We are proud of our rich legacy of work since 2010, as we connect, empower and activate brands
+                            to become a force for good, not only in Africa, but globally.
+                        </p>
                         <span class="button transparent background-color-text">Read More <i
                                 class="fa fa-chevron-right"></i></span>
                     </div>
