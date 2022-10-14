@@ -65,7 +65,7 @@
                 <div class="card">
                     <img src="img/abijan.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
-                        <h3><i class="fa fa-map-marker-alt main-color"></i> Abidjan, Côte d’Ivoire</h3>
+                        <h3><i class="fa fa-map-marker-alt main-color"></i> Abidjan, Côte d'Ivoire</h3>
                         <p>
                             XL Plateau, Rue Dr. Crozet/Boulevard de la République
                         </p>
@@ -85,29 +85,6 @@
                         </p>
                         <p><a href="tel:+25771720136"> <i class="fa fa-phone"></i>+25771720136</a></p>
                         <p><a href="mail:bureau@newmark-imc.com"> <i class="fa fa-envelope"></i> bureau@newmark-imc.com</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 contact-us" data-aos="fade-up">
-                <div class="card">
-                    <img src="https://images.unsplash.com/flagged/photo-1559717201-fbb671ff56b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
-                        class="card-img-top" alt="Country">
-                    <div class="card-body">
-                        <h3><i class="fa fa-map-marker-alt main-color"></i> Dubai, UAE</h3>
-                        <p>
-                            Nassima Tower, Sheikh Zayed Road
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 contact-us" data-aos="fade-up">
-                <div class="card">
-                    <img src="img/newyork.jpg" class="card-img-top" alt="Country">
-                    <div class="card-body">
-                        <h3><i class="fa fa-map-marker-alt main-color"></i> New York, USA</h3>
-                        <p>
-                            100 Church Street Tribeca, Manhattan, NY, 10007
                         </p>
                     </div>
                 </div>
