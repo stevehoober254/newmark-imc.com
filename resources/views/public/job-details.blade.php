@@ -106,7 +106,7 @@
                                 </ul>
                             </div>
                             <div class="job-details-list">
-                                <h3>Qualifications</h3>
+                                <h3>How to Apply</h3>
                                 <div class="bar"></div>
                                 <ul>
                                     {!! $opportunity->how_to_apply ?? '' !!}
