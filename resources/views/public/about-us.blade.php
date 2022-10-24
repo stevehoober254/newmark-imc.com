@@ -112,13 +112,27 @@
             </div>
         </div>
     </div>
+    <div class="our-practice-area-graph" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-capitalize main pt-5 mb-4">Our Practice Areas</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="img-practice-area-img-wrapper">
+                    <img src="{{ asset('img/practice-area-graph.png') }}" alt="Our Practice Areas">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container module carousel-module module-5 our-expertise-new" data-aos="fade-up" data-id="module-carousel-5">
         <div class="row mt-5">
             <div class="col-md-12 text-center">
                 <h2 class="text-capitalize main">EXPERTISE</h2>
             </div>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 ">
             <div class="dots dots-33"></div>
             <div class="carousel ">
                 <div class="carousel-block ">
@@ -180,7 +194,8 @@
                     <div class="clear"></div>
                 </div>
                 <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/about-us/phone.png') }});">
+                    <div class="left background-cover"
+                        style="background-image:url({{ asset('img/about-us/phone.png') }});">
                     </div>
                     <div class="right padding-right">
                         <h3 class="margin-bottom-half">Newmark Digital</h3>

@@ -21409,6 +21409,7 @@ a:hover {
 
 .company-we-keep h2,
 .our-expertise-new h2,
+.our-practice-area-graph h2,
 .main-heading,
 .practice-areas h2,
 .what-makes-us-different h2,
@@ -21436,6 +21437,11 @@ a:hover {
 
 .our-expertise-new h4 {
     font-size: 13px;
+}
+
+.our-expertise-new .carousel-block .background-cover {
+    border-right: 4px solid var(--main-color);
+    border-radius: 10px;
 }
 
 /* .main-heading,
@@ -22969,6 +22975,11 @@ p {
     font-weight: 800;
 }
 
+.img-practice-area-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
 @media (min-width: 1400px) {
     .newmark-practice-areas .container {
         padding-right: 0;
@@ -24284,6 +24295,22 @@ p {
     .our-services-digital h5,
     .case-studies h5 {
         font-size: 20px;
+    }
+
+    .company-we-keep h2,
+    .our-expertise-new h2,
+    .our-practice-area-graph h2,
+    .main-heading,
+    .practice-areas h2,
+    .what-makes-us-different h2,
+    .news-section h3,
+    .connect-with-us h3,
+    .testimonials h2 {
+      font-size: 1rem;
+    }
+
+    .carousel-module .carousel .carousel-block h3 {
+        font-size: 1.2rem;
     }
 }
 
