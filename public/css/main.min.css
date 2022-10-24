@@ -22888,13 +22888,13 @@ p {
 .newmark-practice-area-img-wrapper img {
     width: 100%;
     object-fit: cover;
-    height: 150px;
+    height: 210px;
 }
 
 .single-department h2 {
     text-transform: capitalize;
     vertical-align: middle;
-    line-height: 150px;
+    line-height: 210px;
     font-weight: 600;
     font-size: 23px;
     padding-left: 10px;
@@ -22902,11 +22902,11 @@ p {
     color: var(--secondary-color);
 }
 .we-connect {
-    height: 150px;
+    height: 210px;
 }
 
 .single-department {
-    height: 150px;
+    height: 210px;
 }
 
 .bg-1 {
@@ -22937,7 +22937,7 @@ p {
     font-size: 40px;
     text-transform: capitalize;
     vertical-align: middle;
-    line-height: 300px;
+    line-height: 380px;
     font-weight: 800;
 }
 

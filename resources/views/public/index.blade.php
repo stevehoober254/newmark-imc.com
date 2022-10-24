@@ -184,8 +184,7 @@
                         </div>
                         <div class="col-md-6 single-department">
                             <div class="newmark-practice-area-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
-                                    alt="We Connect">
+                                <img src="{{ asset('img/homepage/3.png') }}" alt="We Connect">
                             </div>
                         </div>
                     </div>
@@ -213,8 +212,7 @@
                         </div>
                         <div class="col-md-6 single-department">
                             <div class="newmark-practice-area-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
-                                    alt="We Connect">
+                                <img src="{{ asset('img/homepage/2.jpg') }}" alt="We Connect">
                             </div>
                         </div>
                     </div>
@@ -248,8 +246,7 @@
                         </div>
                         <div class="col-md-6 single-department">
                             <div class="newmark-practice-area-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1533299150403-a196e9ae00ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2108&q=80"
-                                    alt="We Connect">
+                                <img src="{{ asset('img/homepage/1.jpg') }}" alt="We Connect">
                             </div>
                         </div>
                     </div>
