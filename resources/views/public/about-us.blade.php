@@ -30,7 +30,7 @@
     </div>
     <hr class="thick module-2 bright-purple-background" data-aos="fade-right" data-id="module-solid_line-2"
         id="content-2" />
-    <div class="p-3 mt-3" data-aos="fade-up">
+    <div class="container mb-3 mt-3" data-aos="fade-up">
         <div class="our-business">
             <div class="bg-white end-strip">
                 <div class="row g-0">
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <div class="p-3 mt-1" data-aos="fade-up">
+    <div class="container mt-1" data-aos="fade-up">
         <div class="our-ceo mb-3">
             <div class="bg-white">
                 <div class="row g-0">
@@ -112,4 +112,5 @@
             </div>
         </div>
     </div>
+    
 @endsection

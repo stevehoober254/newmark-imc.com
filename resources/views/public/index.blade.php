@@ -731,7 +731,7 @@
             </div>
         </div>
     </div>
-    <div class="m-3 module image-text-split-module case-study-module has-link module-11 white-background"
+    <div class="container module image-text-split-module case-study-module has-link module-11 white-background"
         data-aos="fade-up" data-id="module-image_text_split-11" id="content-11">
         <a href="{{ route('contact.us') }}" class="no-hover">
             <div class=" button-hover">
