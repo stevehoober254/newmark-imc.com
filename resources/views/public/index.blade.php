@@ -451,7 +451,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-1 practice-areas" data-aos="fade-up">
+    <div class="container mt-1 practice-areas mb-5" data-aos="fade-up">
         <div class="row g-0">
             <div class="col-md-12 text-center mb-1">
                 <h2 class=" text-capitalize main"><span>Sectors that we serve</span></h2>
