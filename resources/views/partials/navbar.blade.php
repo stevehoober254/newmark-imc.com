@@ -88,7 +88,7 @@
                     <ul class="nav-menu align-to-right text-uppercase">
                         <li><a href="{{ route('public.index') }}">HOME</a>
                         </li>
-                        <li><a href="">About us</a>
+                        <li><a class="active" href="{{ route('about.us') }}">About us</a>
                         </li>
                         <li><a href="">Services</a>
                         </li>

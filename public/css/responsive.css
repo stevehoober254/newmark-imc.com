@@ -84,6 +84,12 @@
     .practice-areas {
         padding-top: 50px;
     }
+
+    .padding-center {
+        padding: 100px 0px;
+        font-size: 25px;
+        line-height: 40px;
+    }
 }
 
 @media (min-width: 1400px) {

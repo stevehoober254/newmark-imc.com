@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&display=swap");
 body {
     overflow-x: hidden;
 }
@@ -45,6 +46,10 @@ a:hover {
 /* .line-after-padding-right span {
   padding-right: 50px;
 } */
+
+.nav-menus-wrapper .active {
+    color: var(--main-color);
+}
 
 .border-radius {
     border-radius: 10px;
@@ -436,14 +441,14 @@ a:hover {
     background-attachment: fixed;
 }
 
-.be-seen .card, .what-makes-us-different .card {
+.be-seen .card,
+.what-makes-us-different .card {
     height: 100%;
     border-color: #00ade5;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
         rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
         rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
 
 .what-makes-us-different .col-md-3 {
     margin-top: 20px;
@@ -453,12 +458,12 @@ a:hover {
     margin-top: 30px !important;
 }
 
-.be-seen p, .what-makes-us-different p {
+.be-seen p,
+.what-makes-us-different p {
     color: #ffffff;
     font-size: 14px;
     line-height: 24px;
 }
-
 
 .be-seen .read-more {
     color: #ffffff;
@@ -1266,10 +1271,12 @@ p {
 }
 
 .padding-center {
-    padding: 200px 0px;
+    padding: 170px 0px 120px 0px;
     color: #fff;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 900;
+    font-family: "Roboto Slab", serif;
 }
 
 .bg-fade {
@@ -1277,7 +1284,11 @@ p {
 }
 
 .bg-fade-half {
-    background-color: #000000ab;
+    background: rgba(23, 24, 24, 0.8);
+}
+
+.breadcrumb {
+    padding-bottom: 20px;
 }
 
 .services-tabs .nav-tabs {
@@ -1635,16 +1646,16 @@ p {
     background-color: #eeece1;
 }
 .bg-3 {
-    background-color: #09B0B9;
+    background-color: #09b0b9;
 }
 .bg-4 {
-    background-color: #20134D;
+    background-color: #20134d;
 }
 .bg-5 {
-    background-color: #DDF1F3;
+    background-color: #ddf1f3;
 }
 .bg-6 {
-    background-color: #EBEAEF;
+    background-color: #ebeaef;
 }
 .bg-7 {
 }
