@@ -111,8 +111,13 @@
     .what-makes-us-different h2,
     .news-section h3,
     .connect-with-us h3,
-    .testimonials h2 {
-      font-size: 1rem;
+    .testimonials h2,
+    .our-philosophy h2 {
+        font-size: 1rem;
+    }
+
+    .our-philosophy h2 {
+        line-height: 30px;
     }
 
     .carousel-module .carousel .carousel-block h3 {
@@ -123,7 +128,12 @@
         width: 100%;
         height: 100px;
         object-fit: contain;
-     }
+    }
+
+    .our-philosophy .card {
+        padding: 15px;
+        height: auto;
+    }
 }
 
 @media (min-width: 1400px) {

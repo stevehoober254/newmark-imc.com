@@ -342,4 +342,48 @@
             </div>
         </div>
     </div>
+    <div class="container bg-white" data-aos="fade-up">
+        <div class="our-philosophy">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-capitalize main pt-5 mb-4">Our Sustainability philosophy: The Tripple Bottom Line</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <img src="{{ asset('img/philosophy.png') }}"
+                        alt="Our Sustainability philosophy: The Tripple Bottom Line" height="200">
+                </div>
+                <div class="col-md-4">
+                    <div class="we-connect-bg card">
+                        <h5 class="card-title">People</h5>
+                        <p class="card-text">
+                            At Newmark, we are committed to empowering our team members to become the best possible version
+                            of themselves and support them to achieve their life aspirations, not only in their careers but
+                            also in society.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main-color-darker card">
+                        <h5 class="card-title">Planet</h5>
+                        <p class="card-text">
+                            As Newmark, we try to reduce our ecological footprint as much as possible, while advocating for
+                            environmental conservation in our business ecosystem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="main-color-background card">
+                        <h5 class="card-title">Profit</h5>
+                        <p class="card-text">
+                            As such, we strive to create value in Society by creating more employment and supporting more
+                            clients to become a Force for Good in the community. This is why are committed to business
+                            growth and sustainability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
