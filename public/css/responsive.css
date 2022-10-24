@@ -91,9 +91,16 @@
         line-height: 40px;
     }
 
-    .our-business .card-body {
+    .card-body {
         padding: 0px;
         margin: 16px;
+    }
+
+    .our-business h5,
+    .our-ceo h5,
+    .our-services-digital h5,
+    .case-studies h5 {
+        font-size: 20px;
     }
 }
 

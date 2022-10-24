@@ -217,17 +217,22 @@ a:hover {
     object-fit: cover;
 }
 
-.our-business .bg-white {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+.our-ceo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.our-business .bg-white, .our-ceo .bg-white {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .background-white {
     background-color: #fff;
 }
 
-.our-business .card-body {
-    margin: 50px;
+.our-business .card-body, .our-ceo .card-body {
+    margin: 30px;
     border-radius: 10px;
 }
 
@@ -237,6 +242,11 @@ a:hover {
 
 .text-transfom-none {
     text-transform: none;
+}
+
+.our-ceo .rounded-start {
+    border-left: 4px solid var(--main-color);
+    border-right: 4px solid var(--main-color);
 }
 
 /* .our-business .row {
@@ -401,8 +411,8 @@ a:hover {
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -5px;
-    height: 12px;
+    margin-top: -6px;
+    height: 7px;
     width: 100%;
     border-radius: 1px;
 }
@@ -486,7 +496,7 @@ a:hover {
     line-height: 40px;
 }
 
-.our-business p {
+.our-business p, .our-ceo p {
     font-family: "Open Sans", sans-serif !important;
     font-weight: 400;
     font-size: 16px;
@@ -495,6 +505,7 @@ a:hover {
 }
 
 .our-business h5,
+.our-ceo h5,
 .our-services-digital h5,
 .case-studies h5 {
     font-weight: 900;
