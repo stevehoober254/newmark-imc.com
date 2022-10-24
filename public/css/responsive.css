@@ -118,6 +118,12 @@
     .carousel-module .carousel .carousel-block h3 {
         font-size: 1.2rem;
     }
+
+    .our-partner-network .logos img {
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+     }
 }
 
 @media (min-width: 1400px) {

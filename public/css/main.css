@@ -123,6 +123,7 @@ a:hover {
 .company-we-keep h2,
 .our-expertise-new h2,
 .our-practice-area-graph h2,
+.our-partner-network h2,
 .main-heading,
 .practice-areas h2,
 .what-makes-us-different h2,
@@ -1691,6 +1692,20 @@ p {
 .img-practice-area-img-wrapper img {
     width: 100%;
     height: auto;
+}
+
+.our-partner-network .logos img {
+   width: 250px;
+   height: 100px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+   object-fit: contain;
+   border-radius: 5px;
+   padding: 10px;
+   margin-bottom: 15px;
+}
+
+.our-partner-network .logos img:hover{
+    background-color: #0000000d;
 }
 
 @media (min-width: 1400px) {

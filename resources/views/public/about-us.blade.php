@@ -118,10 +118,10 @@
                 <div class="col-md-12 text-center">
                     <h2 class="text-capitalize main pt-5 mb-4">Our Practice Areas</h2>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <div class="img-practice-area-img-wrapper">
-                    <img src="{{ asset('img/practice-area-graph.png') }}" alt="Our Practice Areas">
+                <div class="col-md-12">
+                    <div class="img-practice-area-img-wrapper">
+                        <img src="{{ asset('img/practice-area-graph.png') }}" alt="Our Practice Areas">
+                    </div>
                 </div>
             </div>
         </div>
@@ -267,6 +267,77 @@
                         </span>
                     </div>
                     <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" data-aos="fade-up">
+        <div class="our-partner-network">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-capitalize main pt-5 mb-4">Our Partner Network</h2>
+                </div>
+            </div>
+            <div class="row logos">
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/1.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.gatesfoundation.org/" target="_blank">
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
+                            alt=""></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/3.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/4.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/1.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.gatesfoundation.org/" target="_blank">
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
+                            alt=""></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/3.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/4.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                    </a>
                 </div>
             </div>
         </div>
