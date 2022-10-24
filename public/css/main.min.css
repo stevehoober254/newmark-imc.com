@@ -21406,6 +21406,7 @@ a:hover {
 .our-expertise-new h2,
 .main-heading,
 .practice-areas h2,
+.what-makes-us-different h2,
 .news-section h3,
 .connect-with-us h3,
 .testimonials h2 {
@@ -21722,7 +21723,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.be-seen .card {
+.be-seen .card, .what-makes-us-different .card {
     height: 100%;
     border-color: #00ade5;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
@@ -21730,16 +21731,21 @@ a:hover {
         rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
+
+.what-makes-us-different .col-md-3 {
+    margin-top: 20px;
+}
+
 .be-seen .col-md-4 {
     margin-top: 30px !important;
 }
 
-.be-seen p {
+.be-seen p, .what-makes-us-different p {
     color: #ffffff;
     font-size: 14px;
-
     line-height: 24px;
 }
+
 
 .be-seen .read-more {
     color: #ffffff;

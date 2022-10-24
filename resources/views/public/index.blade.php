@@ -550,6 +550,81 @@
             </div>
         </div>
     </div>
+    {{-- what makes us different --}}
+    <div class="practice-area-section what-makes-us-different pt-5 pb-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-capitalize main text-white">WHAT MAKES US DIFFERENT</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                We bring a lens of <strong>MULTILINGUAL</strong> and <strong>MULTICULTURAL</strong>
+                                communications to everything that we do
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-globe"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                We have the bandwidth to serve pan African brands that aspire to <strong>GLOBALIZE</strong>,
+                                as well as global brands that seek to <strong>LOCALIZE</strong> their stories
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-hands-helping"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Our purpose and drive to help our clients SOLVE <strong>BUSINESS-CRITICAL PROBLEMS</strong>
+                                drives us to enlist diverse capabilities through resource acquisition,
+                                upskilling
+                                and good old fashioned invention.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-handshake"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Our <strong>RESEARCH</strong>
+                                capability, coupled with <strong>GLOBAL INTELLIGENCE</strong>,
+                                drives everything we do for/with our clients and partners
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Insights -->
     <div id="insights" class="container news-section mt-5" data-aos="fade-up">
         <div class="row g-0">

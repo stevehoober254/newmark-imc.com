@@ -19,9 +19,9 @@
 
 <body>
     <!-- preloader -->
-    <div class="loading" id="loading">
+    {{-- <div class="loading" id="loading">
         <img src="{{ asset('img/loader.gif') }}" />
-    </div>
+    </div> --}}
 
     @include('partials.navbar')
 
