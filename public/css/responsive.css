@@ -80,6 +80,10 @@
     .newmark-practice-areas h1 {
         font-size: 35px;
     }
+
+    .practice-areas {
+        padding-top: 50px;
+    }
 }
 
 @media (min-width: 1400px) {

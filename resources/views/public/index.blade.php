@@ -159,7 +159,7 @@
                     <h2 class="headings main-color pb-2">OUR PRACTICE AREAS</h2>
                 </div>
             </div>
-            <div class="row g-0 we-connect-bg ">
+            <div class="row g-0 we-connect-bg mb-2">
                 <div class="col-md-4 text-center we-connect">
                     <h1>We Connect</h1>
                 </div>
@@ -190,8 +190,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 bg-3">
-                <div class="col-md-8">
+            <div class="row g-0 bg-3 mb-2">
+                <div class="col-md-8 order-sm-first order-last">
                     <div class="row g-0">
                         <div class="col-md-6 bg-white single-department">
                             <a href="">
@@ -217,11 +217,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center we-connect bg-3">
+                <div class="col-md-4 text-center we-connect bg-3 order-lg-2 order-sm-1">
                     <h1>We Empower</h1>
                 </div>
             </div>
-            <div class="row g-0 bg-4">
+            <div class="row g-0 bg-4 mb-2">
                 <div class="col-md-4 text-center we-connect ">
                     <h1>We Activate</h1>
                 </div>
