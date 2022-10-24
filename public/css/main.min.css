@@ -24262,6 +24262,11 @@ p {
         font-size: 25px;
         line-height: 40px;
     }
+
+    .our-business .card-body {
+        padding: 0px;
+        margin: 16px;
+    }
 }
 
 @media (min-width: 1400px) {
