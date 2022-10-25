@@ -156,7 +156,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2 class="headings main-color pb-2">what we do</h2>
+                    <h2 class="headings main-color pb-2 text-uppercase">what we do</h2>
                 </div>
             </div>
             <div class="row g-0 we-connect-bg mb-2">
