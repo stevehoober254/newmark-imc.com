@@ -14,7 +14,18 @@
     </title>
     <link href="{{ asset('img/favicon.png') }}" rel="shortcut icon" type="image" />
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DK8LR6F4FX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DK8LR6F4FX');
+    </script>
 </head>
 
 <body>
