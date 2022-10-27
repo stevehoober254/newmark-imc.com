@@ -134,6 +134,9 @@
         padding: 15px;
         height: auto;
     }
+    .padding-top-bottom {
+        padding: auto;
+    }
 }
 
 @media (min-width: 1400px) {

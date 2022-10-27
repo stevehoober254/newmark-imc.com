@@ -61,7 +61,7 @@
                     <div class="clear"></div>
                 </div>
             </div>
-            <div class="what-makes-us-different pt-3 pb-5">
+            <div class="what-makes-us-different pt-3 pb-2">
                 <div class="container" data-aos="fade-up">
                     <div class="row mt-4">
                         <div class="col-md-12 text-center">
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <div class="card background-blue text-center">
                                 <div class="card-body">
                                     <div class="icon">
@@ -91,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <div class="card text-center" style="background-color: var(--secondary-color)">
                                 <div class="card-body">
                                     <div class="icon">
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <div class="card text-center" style="background-color: var(--main-color-darker)">
                                 <div class="card-body">
                                     <div class="icon">
@@ -158,7 +158,7 @@
                             </div>
                             <div class="constrained">
                                 <div class="right case-study-text">
-                                    <div class="case-study-text__inner" style="padding: 200px 20px;">
+                                    <div class="case-study-text__inner padding-top-bottom">
                                         <p class="text-white">
                                             We believe that what makes a
                                             workplace

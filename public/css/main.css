@@ -1582,6 +1582,10 @@ p {
     padding: 200px 0px;
 }
 
+.padding-top-bottom{
+    padding: 200px 20px;
+}
+
 .opening-statement .card {
     border: none;
     background-color: #00ade5;
