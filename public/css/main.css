@@ -230,14 +230,25 @@ a:hover {
     object-fit: cover;
 }
 
+.our-ceo {
+    background-image: url("../img/about-us/blob.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
 .our-ceo img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.our-business .bg-white,
-.our-ceo .bg-white {
+.our-ceo h5, .our-ceo p {
+    color: #fff !important;
+}
+
+.our-business .bg-white {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 

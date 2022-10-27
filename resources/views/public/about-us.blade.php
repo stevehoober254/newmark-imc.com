@@ -60,14 +60,14 @@
     </div>
     <div class="container mt-1" data-aos="fade-up">
         <div class="our-ceo mb-3">
-            <div class="bg-white">
+            <div class="">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="{{ asset('img/gilbert.jpg') }}" title="Gilbert" class="img-fluid rounded-start"
                             alt="Who we are">
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
+                        <div class="card-body text-white">
                             <h5 class="card-title text-transfom-none headings">Trail-blazing leadership</h5>
                             <p class="card-text">
                                 Gilbert is a brand Leadership, PR and Strategic Communications expert with a passion for
