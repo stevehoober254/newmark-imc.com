@@ -59,6 +59,11 @@ a:hover {
 .border-radius {
     border-radius: 10px;
 }
+
+.border-white {
+    border-color: #fff;
+}
+
 .line-after-heading:after {
     content: "";
     position: absolute;
@@ -244,7 +249,8 @@ a:hover {
     object-fit: cover;
 }
 
-.our-ceo h5, .our-ceo p {
+.our-ceo h5,
+.our-ceo p {
     color: #fff !important;
 }
 
@@ -1560,7 +1566,7 @@ p {
     width: 100%;
 }
 
-.careers-top-header h2 {
+.careers-top-header h1 {
     font-size: 2.3rem;
     color: #fff;
     font-weight: 800;
@@ -1609,6 +1615,17 @@ p {
 
 .careers-practice-area-carousel {
     padding-bottom: 40px;
+}
+.careers-bg-wrapper {
+    background-image: url("../img/careers/dots.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.newmark-careers p {
+    line-height: 29px;
 }
 
 /* careers testimonials */

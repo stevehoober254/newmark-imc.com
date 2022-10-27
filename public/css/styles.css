@@ -2683,8 +2683,6 @@ hr.thick {
 h1,
 .h1 {
   text-transform: uppercase;
-  font-size: 70px;
-  font-size: 4.375rem;
 }
 h2,
 .h2 {
@@ -8885,16 +8883,7 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
     font-size: 90px;
     font-size: 5.625rem;
   }
-  h1,
-  .h1 {
-    font-size: 55px;
-    font-size: 3.4375rem;
-  }
-  /* h2,
-  .h2 {
-    font-size: 45px;
-    font-size: 2.8125rem;
-  } */
+
   h3,
   .h3 {
     font-size: 35px;
