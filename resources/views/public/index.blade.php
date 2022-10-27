@@ -62,7 +62,7 @@
     <div class="container after-industry" data-aos="fade-up">
         <div class="our-business mt-5 mb-3">
             <div class="bg-white end-strip">
-                <a href="#">
+                <a href="{{ route('about.us') }}">
                     <div class="row g-0">
                         <div class="col-md-6 order-sm-1 order-2">
                             <div class="card-body">
@@ -105,7 +105,7 @@
                                 Do you want your products, services, activities and achievements to
                                 be seen and to produce growth?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -143,7 +143,7 @@
                                 Do you want to attract more revenue, mobilize more resources through
                                 multiplatform marketing communications?
                             </p>
-                            <a href="#" class="text-uppercase read-more">
+                            <a href="{{ route('about.us') }}" class="text-uppercase read-more">
                                 Read More <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -270,7 +270,8 @@
                 </div>
                 <div class="col">
                     <a href="https://www.gatesfoundation.org/" target="_blank">
-                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid" alt=""></a>
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
+                            alt=""></a>
                 </div>
                 <div class="col">
                     <a href="#">
