@@ -26,7 +26,7 @@
                         <div class=" button-hover">
                             <div class="right case-study-image">
                                 <div class="case-study-image-image background-cover"
-                                    style="background-image:url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
+                                    style="background-image:url({{ asset('img/careers/people.jpeg') }});">
                                 </div>
                             </div>
                             <div class="left case-study-text padding-x padding-y mt-3">
@@ -52,8 +52,8 @@
                                         href="https://docs.google.com/presentation/d/1L78IQHUMMMQ3C7ZYBma96zChWggo3Co4/edit?usp=sharing&ouid=107308558526741633738&rtpof=true&sd=true">Would
                                         you like to understand us better, check out our culture deck here.</a>
                                 </p>
-                                <a href="#careers" class="btn btn-secondary-outline text-white border-white">View available
-                                    Opportunities <i class="fa fa-arrow-right"></i></a>
+                                {{-- <a href="#careers" class="btn btn-secondary-outline text-white border-white">View available
+                                    Opportunities <i class="fa fa-arrow-right"></i></a> --}}
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -153,7 +153,7 @@
                         <div class=" button-hover">
                             <div class="left case-study-image">
                                 <div class="case-study-image-image background-cover"
-                                    style="background-image:url(https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
+                                    style="background-image:url(https://images.pexels.com/photos/8553867/pexels-photo-8553867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
                                 </div>
                             </div>
                             <div class="constrained">
