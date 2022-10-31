@@ -48,8 +48,7 @@
                                     activate brands to become a force for good, not only in Africa, but globally.
                                 </p>
                                 <p class="text-white">
-                                    <a target="_blank"
-                                        href="https://docs.google.com/presentation/d/1L78IQHUMMMQ3C7ZYBma96zChWggo3Co4/edit?usp=sharing&ouid=107308558526741633738&rtpof=true&sd=true">Would
+                                    <a target="_blank" href="{{ asset('files/NewmarkCultureDeck.pdf') }}">Would
                                         you like to understand us better, check out our culture deck here.</a>
                                 </p>
                                 {{-- <a href="#careers" class="btn btn-secondary-outline text-white border-white">View available
@@ -92,7 +91,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <div class="card text-center" style="background-color: var(--secondary-color)">
+                            <div class="card text-center border-none" style="background-color: var(--secondary-color)">
                                 <div class="card-body">
                                     <div class="icon">
                                         <span class="feature-eye">
@@ -158,8 +157,8 @@
                             </div>
                             <div class="constrained">
                                 <div class="right case-study-text">
-                                    <div class="case-study-text__inner padding-top-bottom">
-                                        <p class="text-white">
+                                    <div class="case-study-text__inner padding-top-bottom" >
+                                        <p class="text-white" >
                                             We believe that what makes a
                                             workplace
                                             great is
