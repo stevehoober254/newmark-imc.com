@@ -281,62 +281,52 @@
             <div class="row logos">
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/1.png" class="img-fluid" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="https://www.gatesfoundation.org/" target="_blank">
-                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
-                            alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#">
-                        <img src="img/client-logos/3.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/1.jpg') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/4.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/2.png') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/3.jpg') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/4.png') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/1.png" class="img-fluid" alt="">
-                    </a>
-                </div>
-                <div class="col-md-2">
-                    <a href="https://www.gatesfoundation.org/" target="_blank">
-                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
-                            alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#">
-                        <img src="img/client-logos/3.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/5.jpg') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/4.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/6.png') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/7.jpg') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
                 <div class="col-md-2">
                     <a href="#">
-                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                        <img src="{{ asset('img/partners/8.png') }}" class="img-fluid" alt="Partners Network">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="{{ asset('img/partners/9.jpg') }}" class="img-fluid" alt="Partners Network">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="{{ asset('img/partners/10.png') }}" class="img-fluid" alt="Partners Network">
                     </a>
                 </div>
             </div>
