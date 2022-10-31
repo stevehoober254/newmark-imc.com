@@ -1,5 +1,4 @@
 @import "http://cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 a {
   text-decoration: none !important;
@@ -295,7 +294,7 @@ a {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -351,7 +350,7 @@ a {
   color: #fff;
   font-style: normal;
   font-size: 35px;
-  font-family: Arial, Baskerville, monospace;
+  
   line-height: 35px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   border: 0;
@@ -373,7 +372,7 @@ a {
   color: #fff;
   font-style: normal;
   font-size: 35px;
-  font-family: Arial, Baskerville, monospace;
+  
   line-height: 35px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   border: 0;
@@ -1642,7 +1641,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   width: 100%;
@@ -1660,7 +1659,7 @@ a.no-hover {
   text-decoration: none !important;
 }
 .montefiore {
-  font-family: "Open Sans", sans-serif;
+  
 }
 /* .arial {
     font-famiy: Arial, Helvetica, sans-serif;
@@ -2658,7 +2657,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', sans-serif;
+  
   line-height: 0.85;
   margin-bottom: 1rem;
 }
@@ -2675,7 +2674,7 @@ hr.thick {
   height: 12px;
 }
 .page-title {
-  font-family: "Open Sans", sans-serif;
+  
   text-transform: uppercase;
   font-size: 110px;
   font-size: 6.875rem;
@@ -2715,7 +2714,7 @@ h6,
   font-size: 2.125rem;
 }
 .category-heading {
-  font-family: "Open Sans", sans-serif;
+  
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
@@ -2730,7 +2729,7 @@ h6,
   text-decoration: underline;
 }
 .news-heading {
-  font-family: "Open Sans", sans-serif;
+  
   text-transform: uppercase;
   line-height: 1;
   font-size: 30px;
@@ -2903,7 +2902,7 @@ p,
   }
 }
 .tag-heading {
-  font-family: "Open Sans", sans-serif;
+  
   text-transform: uppercase;
   letter-spacing: 6px;
   line-height: 1;
@@ -2926,7 +2925,7 @@ blockquote,
 }
 blockquote p,
 .blockquote p {
-  font-family: "Open Sans", sans-serif;
+  
   text-transform: uppercase;
   line-height: 0.85;
   color: #000;
@@ -2956,7 +2955,7 @@ blockquote:before,
 .blockquote:before {
   content: "\201D";
   display: block;
-  font-family: "Open Sans", sans-serif;
+  
   position: absolute;
   top: -20px;
   left: 0;
@@ -3265,7 +3264,7 @@ blockquote:before,
 }
 .main-header .main-menu ul.menu > li.menu-item-has-children .sub-menu a {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  
   width: 230px;
   padding: 4.875px 26.6666666667px;
   font-size: 0.7em;
@@ -4480,7 +4479,7 @@ blockquote:before,
   border-bottom: solid 1px #000;
   color: #666;
   font-style: italic;
-  font-family: "Open Sans", sans-serif;
+  
   display: flex;
   flex: 1;
   font-size: 20px;
@@ -5931,7 +5930,7 @@ blockquote:before,
 }
 .image-text-split-module .wpcf7-form label {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 30px;
   font-size: 1.875rem;
 }
@@ -5986,7 +5985,7 @@ blockquote:before,
 }
 .carousel-module .carousel .carousel-block h3 {
   font-size: 1.7rem;
-  font-family: "Open Sans", sans-serif !important;
+  
   line-height: 25px;
 }
 .questions-module h3 {
@@ -7517,7 +7516,7 @@ blockquote:before,
 }
 .impact-content.people-style .impact p.description {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  
   text-align: center;
   font-size: 30px;
   font-size: 1.875rem;
@@ -7531,7 +7530,7 @@ blockquote:before,
   background-position: top center !important;
 }
 .executive-module .case-study-text h3 {
-  font-family: "Open Sans", sans-serif;
+  
   font-weight: bold;
   font-size: 18px;
   font-size: 1.125rem;
@@ -7770,14 +7769,14 @@ blockquote:before,
   text-transform: uppercase;
 }
 .by-the-numbers-module .impact-content .impact h4 {
-  font-family: "Open Sans", sans-serif;
+  
   font-weight: bold;
   font-size: 18px;
   font-size: 1.125rem;
 }
 .by-the-numbers-module .impact-content .impact p {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  
   color: #000;
   line-height: 0.85;
   font-size: 150px;
@@ -7923,7 +7922,7 @@ blockquote:before,
   padding-left: 13.75px;
   padding-right: 13.75px;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 20px;
   font-size: 1.25rem;
 }
@@ -8215,7 +8214,7 @@ blockquote:before,
   transition: all 0.5s ease-in-out;
   text-decoration: none;
   margin-right: 55px;
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 42px;
   font-size: 2.625rem;
 }
@@ -9692,7 +9691,7 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
     display: none;
   }
   .main-header .main-menu ul.menu > li a {
-    font-family: "Open Sans", sans-serif;
+    
     font-size: 44px;
     font-size: 2.75rem;
   }

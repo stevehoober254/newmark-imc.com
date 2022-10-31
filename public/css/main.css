@@ -1,7 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&display=swap");
+@font-face {
+    font-family: "GE Inspira Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Nebula.woff") format("woff");
+}
+
 body {
     overflow-x: hidden;
+    font-family: "GE Inspira Regular";
 }
 .line-after-heading {
     position: relative;
@@ -92,8 +98,7 @@ a:hover {
         rgba(52, 161, 207, 0.32) 0px 2px 16px 0px;
 }
 .p-main {
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
 }
 
 .background-translucent {
@@ -340,7 +345,7 @@ a:hover {
     color: #ffffff;
     padding: 5px 15px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 0px 20px 10px;
 }
 
@@ -350,7 +355,7 @@ a:hover {
     color: #ffffff;
     padding: 5px 15px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 0px 20px 10px;
 }
 
@@ -360,7 +365,7 @@ a:hover {
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 0px 20px 10px;
 }
 
@@ -370,7 +375,7 @@ a:hover {
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 0px 20px 10px;
 }
 
@@ -381,7 +386,7 @@ a:hover {
     color: var(--main-color);
     padding: 7px 17px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 10px 20px 10px;
 }
 
@@ -392,7 +397,7 @@ a:hover {
     color: #ffffff;
     padding: 7px 17px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 10px 20px 10px;
 }
 
@@ -402,7 +407,7 @@ a:hover {
     color: #ffffff;
     padding: 7px 17px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px 10px 20px 10px;
 }
 
@@ -532,9 +537,8 @@ a:hover {
 
 .our-business p,
 .our-ceo p {
-    font-family: "Open Sans", sans-serif !important;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 26px;
     color: #444444;
 }
@@ -550,7 +554,6 @@ a:hover {
 }
 
 .company-contacts span {
-    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 0.5px;
@@ -559,7 +562,7 @@ a:hover {
 }
 
 /* .top-header-contact h6 {
-  font-family: "Open Sans", sans-serif !important;
+  
   font-weight: 700;
   font-size: 1.9em;
   line-height: 20px;
@@ -672,7 +675,7 @@ figure.practice-area-description h2 {
     background: rgba(13, 123, 179, 0.788);
     /* background: rgba(18, 140, 201, 1); */
     color: rgb(255, 255, 255);
-    font-family: "Arial", sans-serif;
+
     height: 80px;
     width: 100%;
 }
@@ -855,16 +858,14 @@ figure.practice-area-description:hover img {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif !important;
     font-size: 17px;
 }
 
 .our-company p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 26px;
     color: #444444;
-    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /* our expertise */
@@ -901,7 +902,7 @@ p {
 }
 
 .our-expertise-learn-more a {
-    font-size: 16px;
+    font-size: 17px;
     padding: 13px;
     transition: 0.3s ease-in-out;
 }
@@ -1017,12 +1018,12 @@ p {
     display: block;
     font-size: 20px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif !important;
+
     margin-bottom: 20px;
 }
 .footer-social-icon a {
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     margin-right: 15px;
 }
 .footer-social-icon i {
@@ -1279,7 +1280,7 @@ p {
 
 .testimony-desc {
     height: 200px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 60px;
 }
 
@@ -1323,7 +1324,6 @@ p {
     font-size: 52px;
     line-height: 62px;
     font-weight: 900;
-    font-family: "Roboto Slab", serif;
 }
 
 .bg-fade {
@@ -1483,7 +1483,7 @@ p {
 }
 
 .our-expertise .card-title {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 800;
     color: var(--main-color);
 }
@@ -1602,7 +1602,7 @@ p {
 }
 
 .opening-statement .card .card-title {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 28px;
     font-weight: 600;
 }
@@ -1690,7 +1690,7 @@ p {
     font-weight: 600;
     font-size: 23px;
     padding-left: 10px;
-    font-family: "Roboto", sans-serif;
+
     color: var(--secondary-color);
 }
 .we-connect {

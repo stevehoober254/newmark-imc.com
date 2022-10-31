@@ -88,13 +88,14 @@
                     <ul class="nav-menu align-to-right text-uppercase">
                         <li><a href="{{ route('public.index') }}">HOME</a>
                         </li>
-                        <li><a class="active" href="{{ route('about.us') }}">About us</a>
+                        <li>
+                            <a class="active" href="{{ route('about.us') }}">About us</a>
                         </li>
-                        <li><a href="">Services</a>
+                        <li>
+                            <a class="main-color-theme text-bold" href="{{ route('careers') }}">#joinNewmark</a>
                         </li>
-                        <li><a class="main-color-theme text-bold" href="{{ route('careers') }}">#joinNewmark</a>
-                        </li>
-                        <li><a href="#">Thought leadership</a>
+                        <li>
+                            <a href="#">Thought leadership</a>
                             <ul class="nav-dropdown">
                                 <li>
                                     <a href="https://influencexxi.newmark-imc.com/" target="_blank">Influence
