@@ -21421,6 +21421,7 @@ a:hover {
 .main-heading,
 .practice-areas h2,
 .what-makes-us-different h2,
+.practice-area-services h2,
 .news-section h3,
 .connect-with-us h3,
 .testimonials h2 {
@@ -21562,6 +21563,12 @@ a:hover {
 .our-ceo .rounded-start {
     border-left: 4px solid var(--main-color);
     border-right: 4px solid var(--main-color);
+}
+
+.center-item-vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .our-business .row {
@@ -22994,7 +23001,8 @@ p {
 .bg-6 {
     background-color: #ebeaef;
 }
-.bg-7 {
+.bg-main {
+    background-color: var(--main-color-darker);
 }
 .bg-8 {
 }
@@ -23051,6 +23059,34 @@ p {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+/* practice area services */
+.service-heading {
+    padding: 0px 10px;
+}
+
+.service-heading h3 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+}
+.service-heading h5 {
+    font-size: 20px;
+    text-transform: none;
+}
+.practice-area-services {
+}
+
+.service-img-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.practice-area-services .col-md-6 {
+    padding: 0;
+    margin: 0;
 }
 
 /* ========== NAVBAR. ========== */
@@ -24396,6 +24432,19 @@ p {
     }
     .padding-top-bottom {
         padding: auto;
+    }
+
+    .service-heading {
+        padding: 40px 5px;
+    }
+    
+    .service-heading h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .service-heading h5 {
+        font-size: 16px;
+        text-transform: none;
     }
 }
 

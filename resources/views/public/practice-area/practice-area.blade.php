@@ -8,7 +8,8 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
                             <div class="logo">
-                                <img src="{{ asset('img/practice-areas/digital.png') }}" alt="Logo">
+                                <img src="https://lh3.googleusercontent.com/keep-bbsk/AP6BvTTclEa31X7wREnzCXT0V6eCUF7uk8ljT4Cdk2hkuKszO7OdVFZIuZXcPZS659w2-K96gFL9XLGxqLjtAH15EPV-vxya3saeaD0GiTIahQBWXIpU=s512"
+                                    alt="Logo">
                             </div>
                         </div>
                     </div>
@@ -20,28 +21,15 @@
         <div class="our-business mb-3">
             <div class="">
                 <div class="row g-0">
-                    <div class="col-md-6 order-sm-1 order-2">
+                    <div class="col-md-6 order-sm-1 order-2 center-item-vertically">
                         <div class="card-body">
                             <h5 class="card-title text-transfom-none headings">
                                 About Newmark Digital
                             </h5>
                             <p class="card-text mt-3">
-                                As the world is becoming innately social every day, brands need to connect and engage
-                                with potential
-                                customers in the digital space. The digital platform is diverse and keeps changing every
-                                day, which
-                                means there's no one-size-fits-all approach. At Newmark Digital, we leverage our
-                                marketing-savvy skills
-                                to provide you with a winning strategy.
-                            </p>
-                            <p class="card-text ">
-                                As the world is becoming innately social every day, brands need to connect and engage
-                                with potential
-                                customers in the digital space. The digital platform is diverse and keeps changing every
-                                day, which
-                                means there's no one-size-fits-all approach. At Newmark Digital, we leverage our
-                                marketing-savvy skills
-                                to provide you with a winning strategy.
+                                Newmark Digital helps to connect worlds, empower brands and activate conversations. We do
+                                this through innovative ideas, technology and talent, in the service of a happier and more
+                                prosperous world for all. Join us on this journey!
                             </p>
                         </div>
                     </div>
@@ -53,240 +41,53 @@
             </div>
         </div>
     </div>
-    {{-- <div class="bg-white">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center p-5 m-3">
-                    <h4 class="text-capitalize">It is time to elevate your brand to iconic status</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quisquam eos dolore
-                        doloremque mollitia. Sit voluptatibus delectus earum minus nobis. Consequuntur quisquam eos dolore
-                        doloremque mollitia. Sit voluptatibus delectus earum minus nobis.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    {{-- <div class="our-services-digital">
-        <div class="container mt-4" data-aos="fade-up">
+    <div class="container mt-4 bg-white" data-aos="fade-up">
+        <div class="practice-area-services">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="text-transfom-none headings mt-5 mb-4 text-white">
-                        Our services
-                    </h5>
+                <div class="col-lg-12 text-center mb-1 mt-4">
+                    <h2 class="text-capitalize"><span>our services</span></h2>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Social Media Management</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Graphic Design</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Social Media Management</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Graphic Design</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Social Media Management</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <div class="card">
-                            <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
-                                class="card-img-top" alt="">
-                            <div class="card-body main-background-color">
-                                <h5 class="card-title text-capitalize text-white">Graphic Design</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <div class="practice-area-section pb-3">
-        <div class="container module carousel-module module-5 our-expertise-new" data-aos="fade-up"
-            data-id="module-carousel-5">
-            <div class="row mt-4">
-                <div class="col-md-12 text-center">
-                    <h2 class="text-capitalize main mt-5 text-white">Our services</h2>
-                </div>
-            </div>
-            <div class="mt-3">
-                <div class="dots dots-33"></div>
-                <div class="carousel">
-                    <div class="carousel-block">
-                        <div class="left background-cover"
-                            style="background-image:url(https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);">
-                        </div>
-                        <div class="right padding-right">
-                            <h3 class="margin-bottom-half">Social Media Management</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, praesentium nesciunt? Quibusdam
-                                aliquid odio dignissimos totam corrupti exercitationem, soluta iusto illum accusantium,
-                                nesciunt
-                                quae odit velit explicabo nemo, eum sint?
-                            </p>
-                            <span class="content-link">
-                                <a href="#">
-                                    Learn More <i class="fa fa-chevron-right"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div class="clear"></div>
+            <div class="row practice-area-service-details text-white">
+                <div class="col-md-5 center-item-vertically bg-main">
+                    <div class="service-heading">
+                        <h3>SOCIAL MEDIA & INFLUENCER MANAGEMENT</h3>
+                        <h5>Connect with your tribe</h5>
                     </div>
-                    <div class="carousel-block">
-                        <div class="left background-cover"
-                            style="background-image:url(https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);">
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="{{ asset('img/newmark-digital/4.jpg') }}"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
                         </div>
-                        <div class="right padding-right">
-                            <h3 class="margin-bottom-half">Graphic Design</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, eius beatae. Amet quam
-                                nihil
-                                omnis ex aspernatur blanditiis velit reprehenderit totam ut vero dolore sequi, sapiente
-                                autem
-                                quasi suscipit tenetur?
-                            </p>
-                            <span class="content-link">
-                                <a href="#">
-                                    Learn More <i class="fa fa-chevron-right"></i>
-                                </a>
-                            </span>
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="{{ asset('img/newmark-digital/3.jpg') }}"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
                         </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="carousel-block">
-                        <div class="left background-cover"
-                            style="background-image:url(https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);">
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="{{ asset('img/newmark-digital/1.jpg') }}"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
                         </div>
-                        <div class="right padding-right">
-                            <h3 class="margin-bottom-half">Graphic Design</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, eius beatae. Amet quam
-                                nihil
-                                omnis ex aspernatur blanditiis velit reprehenderit totam ut vero dolore sequi, sapiente
-                                autem
-                                quasi suscipit tenetur?
-                            </p>
-                            <span class="content-link">
-                                <a href="#">
-                                    Learn More <i class="fa fa-chevron-right"></i>
-                                </a>
-                            </span>
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="{{ asset('img/newmark-digital/2.jpg') }}"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
                         </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="carousel-block">
-                        <div class="left background-cover"
-                            style="background-image:url(https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);">
-                        </div>
-                        <div class="right padding-right">
-                            <h3 class="margin-bottom-half">Graphic Design</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, eius beatae. Amet quam
-                                nihil
-                                omnis ex aspernatur blanditiis velit reprehenderit totam ut vero dolore sequi, sapiente
-                                autem
-                                quasi suscipit tenetur?
-                            </p>
-                            <span class="content-link">
-                                <a href="#">
-                                    Learn More <i class="fa fa-chevron-right"></i>
-                                </a>
-                            </span>
-                        </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-white">
-        <div class="container mt-4 case-studies pb-1">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="text-transfom-none headings mt-5 mb-4">
-                        Case studies
-                    </h5>
-                </div>
-            </div>
-            <div class="case-studies-carousel">
-                <div class="case-studies-img-overlay">
-                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                        alt="Avatar" class="case-studies-img-overlay-image">
-                    <div class="case-studies-overlay">
-                        <div class="case-studies-text">Lorem, ipsum dolor</div>
-                    </div>
-                </div>
-                <div class="case-studies-img-overlay">
-                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                        alt="Avatar" class="case-studies-img-overlay-image">
-                    <div class="case-studies-overlay">
-                        <div class="case-studies-text">Lorem, ipsum dolor</div>
-                    </div>
-                </div>
-                <div class="case-studies-img-overlay">
-                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                        alt="Avatar" class="case-studies-img-overlay-image">
-                    <div class="case-studies-overlay">
-                        <div class="case-studies-text">Lorem, ipsum dolor</div>
-                    </div>
-                </div>
-                <div class="case-studies-img-overlay">
-                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                        alt="Avatar" class="case-studies-img-overlay-image">
-                    <div class="case-studies-overlay">
-                        <div class="case-studies-text">Lorem, ipsum dolor</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     {{-- testimonies --}}
-     <div class="container mt-1 testimonials" data-aos="fade-up">
+    {{-- testimonies --}}
+    <div class="container mt-1 testimonials" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 text-center mb-1 mt-4">
                 {{-- <p>WHAT OUR CLIENTS SAY ABOUT US</p> --}}
