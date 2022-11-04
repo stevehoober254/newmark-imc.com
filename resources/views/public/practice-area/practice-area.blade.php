@@ -41,14 +41,14 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4 bg-white" data-aos="fade-up">
+    <div class="container mt-4" data-aos="fade-up">
         <div class="practice-area-services">
             <div class="row">
                 <div class="col-lg-12 text-center mb-1 mt-4">
                     <h2 class="text-capitalize"><span>our services</span></h2>
                 </div>
             </div>
-            <div class="row practice-area-service-details text-white">
+            <div class="row practice-area-service-details text-white box-shadow">
                 <div class="col-md-5 center-item-vertically bg-main">
                     <div class="service-heading">
                         <h3>SOCIAL MEDIA & INFLUENCER MANAGEMENT</h3>
@@ -78,6 +78,72 @@
                         <div class="col-md-6">
                             <div class="service-img-wrapper">
                                 <img src="{{ asset('img/newmark-digital/2.jpg') }}"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row practice-area-service-details mt-5 text-white box-shadow">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6 center-item-vertically bg-3">
+                            <div class="service-heading-wrapper">
+                                <h6>Profile activation and management</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-4">
+                            <div class="service-heading-wrapper">
+                                <h6>Strategy and positioning</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-main">
+                            <div class="service-heading-wrapper">
+                                <h6>Content curation and creation</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 center-item-vertically bg-main">
+                    <div class="service-heading">
+                        <h3>CONTENT MARKETING AND SEARCH ENGINE OPTIMIZATION</h3>
+                        <h5>Expand your tribe</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row practice-area-service-details mt-5 text-white box-shadow">
+                <div class="col-md-5 center-item-vertically bg-main">
+                    <div class="service-heading">
+                        <h3>SOCIAL MEDIA MANAGEMENT</h3>
+                        <h5>Connect with your tribe</h5>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6 center-item-vertically bg-3">
+                            <div class="service-heading-wrapper">
+                                <h6>Profile activation and management</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-4">
+                            <div class="service-heading-wrapper">
+                                <h6>Strategy and positioning</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-7 text-dark">
+                            <div class="service-heading-wrapper">
+                                <h6>Content curation and creation</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-img-wrapper">
+                                <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1600"
                                     alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
                             </div>
                         </div>

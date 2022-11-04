@@ -21381,7 +21381,7 @@ a:hover {
 }
 
 .box-shadow {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 /* .blue-background {
@@ -21567,7 +21567,7 @@ a:hover {
 
 .center-item-vertically {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -23075,7 +23075,11 @@ p {
     font-size: 20px;
     text-transform: none;
 }
-.practice-area-services {
+.service-heading-wrapper h6 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: none;
+    padding: 75px 20px;
 }
 
 .service-img-wrapper img {
