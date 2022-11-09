@@ -10,7 +10,7 @@
                                 Newmark Careers
                             </h1>
                             <p>
-                                We are helping to build a world which provides inclusive prosperity for all
+                                Think Exceptional | Be Exceptional
                             </p>
                         </div>
                     </div>
@@ -157,8 +157,8 @@
                             </div>
                             <div class="constrained">
                                 <div class="right case-study-text">
-                                    <div class="case-study-text__inner padding-top-bottom" >
-                                        <p class="text-white" >
+                                    <div class="case-study-text__inner padding-top-bottom">
+                                        <p class="text-white">
                                             We believe that what makes a
                                             workplace
                                             great is

@@ -8,8 +8,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4">
                             <div class="logo">
-                                <img src="https://lh3.googleusercontent.com/keep-bbsk/AP6BvTTclEa31X7wREnzCXT0V6eCUF7uk8ljT4Cdk2hkuKszO7OdVFZIuZXcPZS659w2-K96gFL9XLGxqLjtAH15EPV-vxya3saeaD0GiTIahQBWXIpU=s512"
-                                    alt="Logo">
+                                <img src="{{ asset('img/newmark-logo.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -152,12 +151,147 @@
             </div>
         </div>
     </div>
+    <div class="company-we-keep pb-4">
+        <div class="container" data-aos="fade-up">
+            <div class="row g-0">
+                <div class="col-md-12 text-center mb-4 mt-3">
+                    <h2 class=" text-capitalize main text-white"><span>We localize the global and globalize the
+                            local!</span></h2>
+                </div>
+            </div>
+            <div class="row company-logos ">
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/1.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.gatesfoundation.org/" target="_blank">
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/3.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/4.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/5.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/6.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/7.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.pfizer.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/pfizer.svg') }}" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row company-logos company-logos-second mt-2">
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/8.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/9.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/10.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/11.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/12.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/13.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.livesandlivelihoodsfund.org/en" target="_blank">
+                        <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png') }}" class="img-fluid"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/30.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row company-logos company-logos-second mt-2">
+                <div class="col">
+                    <a href="https://www.novartis.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/novartis.svg') }}" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/16.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/17.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/18.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/19.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/20.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="../img/client-logos/21.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://garid-accra.com/" target="_blank">
+                        <img src="{{ asset('img/client-logos/logo-GARID-01.png') }}" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- testimonies --}}
-    <div class="container mt-1 testimonials" data-aos="fade-up">
+    <div class="container mt-3 testimonials" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 text-center mb-1 mt-4">
-                {{-- <p>WHAT OUR CLIENTS SAY ABOUT US</p> --}}
-                <h2 class="text-capitalize"><span>Testimonials</span></h2>
+                <h2 class="text-capitalize"><span>WHAT OUR CLIENTS SAY</span></h2>
             </div>
         </div>
         <div class="row text-center testimonials-carousel text-center">
@@ -165,59 +299,161 @@
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Specifically as the client what I appreciated very much was the teams’ expertise to understand our
-                        needs andto proactively chase the Novartis team, ask challenging questions and provide
-                        constructive solutions. The credibility Komla and team have built up with H.E Vice President of the
-                        Republic of Ghana and other government offices helped our launch be seamless. Our Global CEO said
-                        recently to an internal audience “this event was one of his major highlights for 2019 and a proud
-                        moment in his career”. You should be very proud of the team you have built. We for sure will
-                        continue to partner as we scale our program across sub-Saharan Africa.
+                        We selected Newmark Group as one of the partners who provided Event Management services during the
+                        2nd ACCA, which gathered more than 500 participants from all over the world.
+                    </p>
+                    <p>
+                        We appreciate Newmark’s professionalism, personalised attention to detail, flexibility and creative
+                        approach to making our events a success. We highly recommend this accomplished team.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="{{ asset('img/client-logos/novar.png') }}" alt="Paxful">
-                    {{-- <h6>Client Name</h6> --}}
+                    <img src="https://www.act-africa.org/image/logo_act.png" alt="African Conservation Tillage Network">
                 </div>
             </div>
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">
                     <p>
-                        Thank you for the good job and professionalism exhibited by your team especially Raissa who was with
-                        us in Zanzibar and was very helpful and coordinated the tasks meticulously. We truly appreciate the
-                        extra effort to make sure the inaugural flight was indeed a success.
+                        I would like to formally acknowledge and endorse Newmark Group Limited as an outstanding media
+                        relations, communications and event management partner for the November 2020 AACOSE (Annual Africa
+                        Conference on Social Entrepreneurship), a first of its kind hybrid conference that was hosted by the
+                        Tangaza University College and us, Ashoka EA.
+                    </p>
+                    <p>
+                        We had a very strong traditional and online media presence and coverage appearing in tier one Kenyan
+                        TV and print outlets.
+                        Newmark Group Limited managed all aspects of the launch from beginning to the end, which resulted in
+                        an unequivocal success not only for our organization but for the community at large.
                     </p>
                 </div>
                 <div class="testimony-author">
-                    <img src="{{ asset('img/client-logos/turkey-logo.png') }}" alt="Turkish Airlines">
-                    {{-- <h6>Turkish Airlines</h6> --}}
+                    <img src="https://www.ashoka.org/themes/custom/blanco_ashoka_org/logo.svg" alt="Ashoka EA">
                 </div>
             </div>
-            <div class="testimony-card">
-                <i class="fa fa-quote-left"></i>
-                <div class="testimony-desc">
-                    <p>
-                        Thanks for the great and impressive results.
-                    </p>
+        </div>
+    </div>
+    {{-- case studies --}}
+    <div class="container mt-3 case-studies" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-1">
+                <h2 class="text-capitalize">Case studies</h2>
+            </div>
+        </div>
+        <div class="case-studies-carousel card">
+            <div class="row case-studies-card g-0 display-flex">
+                <div class="col-md-5">
+                    <div class="row g-0">
+                        <div class="col-md-6 center-item-vertically bg-2">
+                            <div class="case-study-client-logo">
+                                <img src="{{ asset('img/client-logos/novar.png') }}" alt="Client Logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="case-study-client-imgs">
+                                <img src="{{ asset('img/newmark-digital/6.png') }}" alt="Client">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="case-study-client-imgs">
+                                <img src="{{ asset('img/newmark-digital/5.jpg') }}" alt="Client">
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-1">
+                            <div class="case-study-client-region ">
+                                <h3>Region: <span>Ghana</span></h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimony-author">
-                    <img src="{{ asset('img/client-logos/motorola.png') }}" alt="Motorolla">
-                    {{-- <h6>Motorolla</h6> --}}
+                <div class="col-md-7 bg-3 text-white">
+                    <div class="case-study-description">
+                        <div class="ambition">
+                            <h5>Ambition</h5>
+                            <p>
+                                Novartis, an Internationally acclaimed global healthcare company needed to officially launch
+                                the
+                                first licensed therapy for sickle cell disease (SCD) in Ghana in the form of a
+                                public-private
+                                partnership event. This was to be done in collaboration with the Government of Ghana, the
+                                Sickle
+                                Cell Foundation of Ghana. The event was attended by the Global CEO of Novartis and the Vice
+                                President of the Republic of Ghana
+                            </p>
+                        </div>
+                        <div class="action">
+                            <h5>Action</h5>
+                            <p>
+                                Newmark’s strategic approach involved mapping all stakeholders and key media influencers for
+                                meetings and briefing on the partnership. An integrated, multi-platform communication
+                                approach
+                                was deployed, combining owned and earned media as the core pillars of the event
+                                mobilization.
+                            </p>
+                        </div>
+                        <div class="results">
+                            <h5>Results</h5>
+                            <ul>
+                                <li>The event was organized seamlessly with over six-hundred people attending. </li>
+                                <li>Traditional media coverage has been massive across the region. </li>
+                                <li>The narratives around the project got very sound approvals.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="testimony-card">
-                <i class="fa fa-quote-left"></i>
-                <div class="testimony-desc">
-                    <p>
-                        We launched a couple of main products, announced new partnerships, set all-time high records and
-                        established new markets. You were on that journey all throughout and we cannot thank you enough for
-                        the hard work and dedication to help us grow as a brand. Thanks for your invaluable input and for
-                        always pushing us to be the best in the industry.
-                    </p>
+            <div class="row case-studies-card g-0 display-flex">
+                <div class="col-md-5">
+                    <div class="row g-0">
+                        <div class="col-md-6 center-item-vertically bg-2">
+                            <div class="case-study-client-logo">
+                                <img src="{{ asset('img/client-logos/novar.png') }}" alt="Client Logo">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="case-study-client-imgs">
+                                <img src="{{ asset('img/newmark-digital/6.png') }}" alt="Client">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="case-study-client-imgs">
+                                <img src="{{ asset('img/newmark-digital/5.jpg') }}" alt="Client">
+                            </div>
+                        </div>
+                        <div class="col-md-6 center-item-vertically bg-1">
+                            <div class="case-study-client-region ">
+                                <h3>Region: <span>Kenya</span></h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimony-author">
-                    <img src="{{ asset('img/client-logos/paxful.png') }}" alt="Paxful">
-                    {{-- <h6>Paxful</h6> --}}
+                <div class="col-md-7 bg-3 text-white">
+                    <div class="case-study-description">
+                        <div class="ambition">
+                            <h5>Ambition</h5>
+                            <p>
+                                The Rockefeller Foundation Africa Regional Office needed to organise an inclusive economies
+                                forum for Africa which would attract senior decision-makers and thinkers from across
+                                Private, Public and Development sectors to interrogate the theme.
+                            </p>
+                        </div>
+                        <div class="action">
+                            <h5>Action</h5>
+                            <p>
+                                For this Africa-focused event, Newmark was tasked with providing support the ARO office over
+                                a period of 4 months to design and execute communications, media and event management
+                                strategies that would yield high participation, quality debates and value.
+                            </p>
+                        </div>
+                        <div class="results">
+                            <h5>Results</h5>
+                            <ul>
+                                <li>The event was organized seamlessly with over six-hundred people attending. </li>
+                                <li>Traditional media coverage has been massive across the region. </li>
+                                <li>The narratives around the project got very sound approvals.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

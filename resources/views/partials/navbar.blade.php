@@ -92,7 +92,7 @@
                             <a class="active" href="{{ route('about.us') }}">About us</a>
                         </li>
                         <li>
-                            <a class="main-color-theme text-bold" href="{{ route('careers') }}">#joinNewmark</a>
+                            <a class="main-color-theme text-bold" href="{{ route('careers') }}">#People</a>
                         </li>
                         <li>
                             <a href="#">Thought leadership</a>

@@ -205,7 +205,7 @@
                             with your target audience.
                         </p>
                         <span class="content-link">
-                            <a href="#">
+                            <a href="{{ route('newmark.digital') }}">
                                 Learn More <i class="fa fa-chevron-right"></i>
                             </a>
                         </span>
