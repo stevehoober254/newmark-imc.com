@@ -138,7 +138,7 @@ a:hover {
   margin: 0 !important;
 } */
 
-.display-flex{
+.display-flex {
     display: flex !important;
 }
 
@@ -1511,7 +1511,7 @@ p {
     text-transform: none;
 }
 
-.case-study-description p{
+.case-study-description p {
     font-size: 15px;
     color: #fff;
     line-height: 30px;
@@ -1777,4 +1777,9 @@ p {
 .practice-area-services .col-md-6 {
     padding: 0;
     margin: 0;
+}
+
+.practice-area-service-details {
+    margin-bottom: 30px;
+    height: 400px;
 }

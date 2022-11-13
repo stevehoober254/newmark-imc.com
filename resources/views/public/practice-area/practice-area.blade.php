@@ -48,13 +48,13 @@
                 </div>
             </div>
             <div class="row practice-area-service-details text-white box-shadow">
-                <div class="col-md-5 center-item-vertically bg-main">
+                <div class="col center-item-vertically bg-main">
                     <div class="service-heading">
                         <h3>SOCIAL MEDIA & INFLUENCER MANAGEMENT</h3>
                         <h5>Connect with your tribe</h5>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="service-img-wrapper">
@@ -83,8 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row practice-area-service-details mt-5 text-white box-shadow">
-                <div class="col-md-7">
+            <div class="row practice-area-service-details text-white box-shadow">
+                <div class="col">
                     <div class="row">
                         <div class="col-md-6 center-item-vertically bg-3">
                             <div class="service-heading-wrapper">
@@ -109,21 +109,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 center-item-vertically bg-main">
+                <div class="col center-item-vertically bg-main">
                     <div class="service-heading">
                         <h3>CONTENT MARKETING AND SEARCH ENGINE OPTIMIZATION</h3>
                         <h5>Expand your tribe</h5>
                     </div>
                 </div>
             </div>
-            <div class="row practice-area-service-details mt-5 text-white box-shadow">
-                <div class="col-md-5 center-item-vertically bg-main">
+            <div class="row practice-area-service-details text-white box-shadow">
+                <div class="col center-item-vertically bg-main">
                     <div class="service-heading">
                         <h3>SOCIAL MEDIA MANAGEMENT</h3>
                         <h5>Connect with your tribe</h5>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col">
                     <div class="row">
                         <div class="col-md-6 center-item-vertically bg-3">
                             <div class="service-heading-wrapper">
