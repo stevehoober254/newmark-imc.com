@@ -1783,3 +1783,11 @@ p {
     margin-bottom: 30px;
     height: 400px;
 }
+
+.practice-area-section {
+    background-image: url("../img/bg-cubes.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
