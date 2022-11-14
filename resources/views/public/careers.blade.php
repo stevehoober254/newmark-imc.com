@@ -32,7 +32,8 @@
                             <div class="left case-study-text padding-x padding-y mt-3">
                                 <h2 class="text-white">WHY WE EXIST</h2>
                                 <p class="text-white">
-                                    For us, this means a world where individuals and communities are empowered to maximize
+                                    We are helping to build a world which provides inclusive prosperity for all. For us,
+                                    this means a world where individuals and communities are empowered to maximize
                                     their
                                     potential and chase their dreams.
                                 </p>
