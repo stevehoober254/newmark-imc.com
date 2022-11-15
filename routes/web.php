@@ -4,6 +4,8 @@
 Route::get('/', 'PublicController@index')->name('index');
 Route::get('about', 'PublicController@aboutUs')->name('about.us');
 Route::get('careers', 'PublicController@careers')->name('careers');
+Route::get('careers/search/query={query}', 'PublicController@careerSearch')->name('career.search');
+Route::post('careers/search/job', 'PublicController@careerSearchPost')->name('career.search.post');
 Route::get('careers/job-list', 'PublicController@jobList')->name('job.list');
 Route::get('careers/job-list/{slug}/job-details', 'PublicController@jobDetails')->name('job.details');
 Route::get('insights', 'PublicController@insights')->name('insights');

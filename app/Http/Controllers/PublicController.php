@@ -39,6 +39,29 @@ class PublicController extends Controller
         return view('public.job-details', compact('opportunity'));
     }
 
+    public function careerSearchPost(Request $request)
+    {
+        $request->validate([
+            'search' => 'required'
+        ]);
+        return redirect()->route('career.search', ['query' => $request->search]);
+    }
+
+    public function careerSearch($query)
+    {
+        abort_if(!$query, 404);
+        $ourExpertises = OurExpertise::with(['media'])->get();
+        $opportunities = Opportunity::with(['expertise_area', 'location'])
+            ->where('status', 1)->where('job_title', 'like', "%$query%")
+            ->orwhere('category', 'like', "%$query%")
+            ->orwhere('reporting_to', 'like', "%$query%")
+            ->orwhere('job_purpose', 'like', "%$query%")
+            ->orwhere('key_responsibility', 'like', "%$query%")
+            ->orwhere('qualification', 'like', "%$query%")
+            ->get();
+        return view('public.job-list', compact('opportunities', 'ourExpertises'));
+    }
+
     public function insights()
     {
         return view('public.insights.newsroom');

@@ -1,4 +1,7 @@
 @extends('layouts.public')
+@section('title')
+    Career opportunities
+@endsection
 @section('content')
     <div class="newmark-careers">
         <div class="careers-top-header" style="background-image: url('{{ asset('img/top-bg.png') }}')">
@@ -12,11 +15,12 @@
                             <p>
                                 Search or view our top Jobs here at Newmark
                             </p>
-                            <form class="search-job mt-5">
+                            <form class="search-job mt-5" action="{{ route('career.search.post') }}" method="POST">
+                                @csrf
                                 <div class="row justify-content-center justify-content-md-between g-0">
                                     <div class="col-md-9">
                                         <input type="text" class="form-control" placeholder="Job title or Keywords"
-                                            name="query">
+                                            name="search" required>
                                     </div>
                                     <div class="col-md-3">
                                         <button class="btn btn-primary text-capitalize search-btn" type="submit">find
@@ -110,8 +114,9 @@
                             </a>
                         </div>
                     @empty
-                        <div class="col-md-12">
-                            <p class="text-center text-danger">No Opportunities Found at the moment.</p>
+                        <div class="col-md-12 text-center">
+                            <i class="fa fa-exclamation-triangle display-2 text-danger"></i>
+                            <p class="text-danger mt-3 ">No Opportunities Found at the moment.</p>
                         </div>
                     @endforelse
                 </div>

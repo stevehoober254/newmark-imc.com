@@ -1,4 +1,7 @@
 @extends('layouts.public')
+@section('title')
+    Careers
+@endsection
 @section('content')
     <div class="newmark-careers">
         <div class="careers-top-header"
@@ -174,10 +177,15 @@
                                             positive
                                             impact in the world through our craft.
                                         </p>
-                                        <a href="{{ route('job.list') }}"
-                                            class="btn btn-secondary-outline text-white border-white">View
-                                            available
-                                            Opportunities <i class="fa fa-arrow-right"></i></a>
+                                        <p class="text-white">
+                                            Have interest in joining our team? Fill in the form below that allows you
+                                            to express interest in joining Newmark Group Limited. Please complete the form
+                                            honestly, answering all sections fully. By filling this form, you signify that
+                                            you consent to the use of this data according to our data Protection and Privacy
+                                            Policy.
+                                        </p>
+                                        <a href="#" class="btn btn-secondary text-white border-white">Fill
+                                            Personal History Form <i class="fa fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

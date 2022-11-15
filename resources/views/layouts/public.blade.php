@@ -10,7 +10,11 @@
     <meta name="author" content="Newmark IMC" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        Newmark IMC
+        @hasSection ('title')
+            @yield('title') | Newmark
+        @else
+            Newmark IMC
+        @endif
     </title>
     <link href="{{ asset('img/favicon.png') }}" rel="shortcut icon" type="image" />
     <link rel="stylesheet" href="{{ asset('css/main.min.css') }}">
