@@ -1,7 +1,8 @@
 @extends('layouts.public')
 @section('content')
     <div class="newmark-careers">
-        <div class="careers-top-header">
+        <div class="careers-top-header"
+            style='background-image: url("https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");'>
             <div class="careers-bg">
                 <div class="container">
                     <div class="row d-flex justify-content-center text-center">
@@ -52,8 +53,9 @@
                                     <a target="_blank" href="{{ asset('files/NewmarkCultureDeck.pdf') }}">Would
                                         you like to understand us better, check out our culture deck here.</a>
                                 </p>
-                                {{-- <a href="#careers" class="btn btn-secondary-outline text-white border-white">View available
-                                    Opportunities <i class="fa fa-arrow-right"></i></a> --}}
+                                <a href="{{ route('job.list') }}"
+                                    class="btn btn-secondary-outline text-white border-white">View available
+                                    Opportunities <i class="fa fa-arrow-right"></i></a>
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -172,6 +174,10 @@
                                             positive
                                             impact in the world through our craft.
                                         </p>
+                                        <a href="{{ route('job.list') }}"
+                                            class="btn btn-secondary-outline text-white border-white">View
+                                            available
+                                            Opportunities <i class="fa fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

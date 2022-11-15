@@ -23,6 +23,11 @@ class PublicController extends Controller
         return view('public.careers');
     }
 
+    public function jobList()
+    {
+        return view('public.job-list');
+    }
+
     public function insights()
     {
         return view('public.insights.newsroom');

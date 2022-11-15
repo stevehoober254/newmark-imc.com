@@ -1529,7 +1529,6 @@ p {
 
 /* careers page */
 .careers-top-header {
-    background-image: url("https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
     /* height: 400px; */
     background-position: center;
     background-repeat: no-repeat;
@@ -1603,6 +1602,114 @@ p {
     line-height: 29px;
 }
 
+/* careers job list page */
+.practice-area-job-category {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.practice-area-job-category .card {
+    -webkit-transition: all 0.35s ease-in-out 0s;
+    -o-transition: all 0.35s ease-in-out 0s;
+    transition: all 0.35s ease-in-out 0s;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 15px;
+    background: #152739be;
+    border-width: 1px 1px 1px 4px;
+    border-style: solid;
+    border: none;
+    -webkit-box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 9%);
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 9%);
+}
+
+.practice-area-job-category .card:hover {
+    background-color: #0d86c7be;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.practice-area-job-category .card-body {
+    padding: 50px 0px;
+    color: #fff;
+}
+
+.practice-area-job-category .card-title {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.job-list-card .card {
+    -webkit-transition: all 0.35s ease-in-out 0s;
+    -o-transition: all 0.35s ease-in-out 0s;
+    transition: all 0.35s ease-in-out 0s;
+    padding: 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 15px;
+    background: #fff;
+    border-width: 1px 1px 1px 4px;
+    border-style: solid;
+    border-color: #fff;
+    -webkit-box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 9%);
+    box-shadow: 1px 1px 4px 0 rgb(0 0 0 / 9%);
+}
+
+.job-list-card .card:hover {
+    border: 1px solid var(--main-color);
+    border-left: 3px solid var(--main-color);
+}
+
+.job-list-card img {
+    /* width: 100%; */
+    height: 80px;
+    padding: 10px 5px;
+    border: 1px solid #dddddd;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.job-content h5 {
+    font-size: 15px;
+}
+
+.badge-info {
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.job-content h3 {
+    font-size: 25px;
+    color: var(--main-color-darker);
+}
+
+.text-dark-light {
+    color: #4e4e4e;
+}
+
+.job-list-card .btn {
+    float: right;
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+.job-list-card .btn:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
 /* careers testimonials */
 .practice-area-testimonies {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
@@ -1640,6 +1747,30 @@ p {
     font-size: 22px !important;
 }
 
+/* careers search form */
+.search-job {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px;
+}
+.search-job .form-control {
+    height: 30px;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 40px 5px 30px 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+.search-btn,
+.search-btn:hover {
+    border-radius: 50px;
+    height: 50px;
+}
+
+.search-btn:hover {
+    background-color: #00ace5;
+}
 /* newmark practice areas */
 .we-connect-bg {
     background-color: #083763;

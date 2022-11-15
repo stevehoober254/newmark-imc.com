@@ -154,6 +154,19 @@
     .practice-area-service-details {
         height: auto;
     }
+
+    .job-list-card img {
+        display: none;
+    }
+
+    .job-list-card .btn {
+        float: none;
+        text-align: center;
+    }
+
+    .job-list-card .location-time div {
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 1400px) {
