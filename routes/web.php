@@ -5,6 +5,7 @@ Route::get('/', 'PublicController@index')->name('index');
 Route::get('about', 'PublicController@aboutUs')->name('about.us');
 Route::get('careers', 'PublicController@careers')->name('careers');
 Route::get('careers/job-list', 'PublicController@jobList')->name('job.list');
+Route::get('careers/job-list/{slug}/job-details', 'PublicController@jobDetails')->name('job.details');
 Route::get('insights', 'PublicController@insights')->name('insights');
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
 Route::get('practice-area/newmark-digital', 'PublicController@newmarkDigital')->name('newmark.digital');

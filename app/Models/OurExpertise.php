@@ -93,4 +93,10 @@ class OurExpertise extends Model implements HasMedia
     {
         return $date->format('Y-m-d H:i:s');
     }
+
+    // count how many opportunities are in this expertise area and return the count using the 'expertise_area_id' field from the 'opportunities' table
+    public function opportunities()
+    {
+        return $this->hasMany(Opportunity::class, 'expertise_area_id')->count();
+    }
 }

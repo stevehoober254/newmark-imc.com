@@ -9,6 +9,7 @@ use App\Http\Requests\StoreOurExpertiseRequest;
 use App\Http\Requests\UpdateOurExpertiseRequest;
 use App\Models\OurExpertise;
 use Gate;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Symfony\Component\HttpFoundation\Response;
@@ -35,6 +36,8 @@ class OurExpertiseController extends Controller
 
     public function store(StoreOurExpertiseRequest $request)
     {
+        $request->merge(['slug' => Str::slug($request->title, '-')]);
+        
         $ourExpertise = OurExpertise::create($request->all());
 
         if ($request->input('expertise_logo', false)) {
@@ -67,6 +70,7 @@ class OurExpertiseController extends Controller
 
     public function update(UpdateOurExpertiseRequest $request, OurExpertise $ourExpertise)
     {
+        $request->merge(['slug' => Str::slug($request->title, '-')]);
         $ourExpertise->update($request->all());
 
         if ($request->input('expertise_logo', false)) {

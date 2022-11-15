@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Insight;
+use App\Models\Opportunity;
+use App\Models\OurExpertise;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -25,7 +27,16 @@ class PublicController extends Controller
 
     public function jobList()
     {
-        return view('public.job-list');
+        $ourExpertises = OurExpertise::with(['media'])->get();
+        $opportunities = Opportunity::with(['expertise_area', 'location'])->where('status', 1)->get();
+        return view('public.job-list', compact('opportunities', 'ourExpertises'));
+    }
+
+    public function jobDetails($slug)
+    {
+        $opportunity = Opportunity::with(['expertise_area', 'location'])->where('slug', $slug)->first();
+        abort_if(!$opportunity, 404);
+        return view('public.job-details', compact('opportunity'));
     }
 
     public function insights()

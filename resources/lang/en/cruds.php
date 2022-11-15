@@ -294,7 +294,7 @@ return [
             'how_to_apply'              => 'How To Apply',
             'how_to_apply_helper'       => ' ',
             'status'                    => 'Status',
-            'status_helper'             => ' ',
+            'status_helper'             => 'Checked means hiring is in progress',
             'slug'                      => 'Slug',
             'slug_helper'               => ' ',
             'created_at'                => 'Created at',

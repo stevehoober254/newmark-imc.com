@@ -123,7 +123,7 @@
                         {{ $errors->first('status') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.opportunity.fields.status_helper') }}</span>
+                <span class="help-block small mt-2">{{ trans('cruds.opportunity.fields.status_helper') }}</span>
             </div>
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">

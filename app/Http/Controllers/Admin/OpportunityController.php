@@ -14,6 +14,7 @@ use Gate;
 use Illuminate\Http\Request;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Support\Str;
 
 class OpportunityController extends Controller
 {
@@ -41,6 +42,7 @@ class OpportunityController extends Controller
 
     public function store(StoreOpportunityRequest $request)
     {
+        $request->merge(['slug' => Str::slug($request->job_title, '-')]);
         $opportunity = Opportunity::create($request->all());
 
         if ($media = $request->input('ck-media', false)) {
@@ -65,6 +67,7 @@ class OpportunityController extends Controller
 
     public function update(UpdateOpportunityRequest $request, Opportunity $opportunity)
     {
+        $request->merge(['slug' => Str::slug($request->job_title, '-')]);
         $opportunity->update($request->all());
 
         return redirect()->route('admin.opportunities.index');
