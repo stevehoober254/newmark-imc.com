@@ -6,10 +6,6 @@
             <a class="btn btn-success" href="{{ route('admin.users.create') }}">
                 {{ trans('global.add') }} {{ trans('cruds.user.title_singular') }}
             </a>
-            <button class="btn btn-warning" data-toggle="modal" data-target="#csvImportModal">
-                {{ trans('global.app_csvImport') }}
-            </button>
-            @include('csvImport.modal', ['model' => 'User', 'route' => 'admin.users.parseCsvImport'])
         </div>
     </div>
 @endcan
@@ -36,19 +32,25 @@
                             {{ trans('cruds.user.fields.email') }}
                         </th>
                         <th>
-                            {{ trans('cruds.user.fields.email_verified_at') }}
-                        </th>
-                        <th>
-                            {{ trans('cruds.user.fields.verified') }}
+                            {{ trans('cruds.user.fields.country') }}
                         </th>
                         <th>
                             {{ trans('cruds.user.fields.approved') }}
                         </th>
                         <th>
-                            {{ trans('cruds.user.fields.roles') }}
+                            {{ trans('cruds.user.fields.verified') }}
                         </th>
                         <th>
-                            {{ trans('cruds.user.fields.profile') }}
+                            {{ trans('cruds.user.fields.department') }}
+                        </th>
+                        <th>
+                            {{ trans('cruds.user.fields.email_verified_at') }}
+                        </th>
+                        <th>
+                            {{ trans('cruds.user.fields.two_factor') }}
+                        </th>
+                        <th>
+                            {{ trans('cruds.user.fields.roles') }}
                         </th>
                         <th>
                             &nbsp;
@@ -71,27 +73,30 @@
                                 {{ $user->email ?? '' }}
                             </td>
                             <td>
-                                {{ $user->email_verified_at ?? '' }}
-                            </td>
-                            <td>
-                                <span style="display:none">{{ $user->verified ?? '' }}</span>
-                                <input type="checkbox" disabled="disabled" {{ $user->verified ? 'checked' : '' }}>
+                                {{ $user->country->name ?? '' }}
                             </td>
                             <td>
                                 <span style="display:none">{{ $user->approved ?? '' }}</span>
                                 <input type="checkbox" disabled="disabled" {{ $user->approved ? 'checked' : '' }}>
                             </td>
                             <td>
+                                <span style="display:none">{{ $user->verified ?? '' }}</span>
+                                <input type="checkbox" disabled="disabled" {{ $user->verified ? 'checked' : '' }}>
+                            </td>
+                            <td>
+                                {{ $user->department->name ?? '' }}
+                            </td>
+                            <td>
+                                {{ $user->email_verified_at ?? '' }}
+                            </td>
+                            <td>
+                                <span style="display:none">{{ $user->two_factor ?? '' }}</span>
+                                <input type="checkbox" disabled="disabled" {{ $user->two_factor ? 'checked' : '' }}>
+                            </td>
+                            <td>
                                 @foreach($user->roles as $key => $item)
                                     <span class="badge badge-info">{{ $item->title }}</span>
                                 @endforeach
-                            </td>
-                            <td>
-                                @if($user->profile)
-                                    <a href="{{ $user->profile->getUrl() }}" target="_blank" style="display: inline-block">
-                                        <img src="{{ $user->profile->getUrl('thumb') }}">
-                                    </a>
-                                @endif
                             </td>
                             <td>
                                 @can('user_show')

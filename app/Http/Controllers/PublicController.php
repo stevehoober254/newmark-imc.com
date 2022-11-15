@@ -47,11 +47,6 @@ class PublicController extends Controller
         return view('public.practice-area.practice-area');
     }
 
-    public function newmarkDigitalDetails()
-    {
-        return view('public.practice-area.practice-area-details');
-    }
-
     public function contactUs()
     {
         return view('public.contact-us');

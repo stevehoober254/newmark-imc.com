@@ -20,11 +20,12 @@ class StoreInsightRequest extends FormRequest
             'title' => [
                 'string',
                 'required',
-            ],
-            'description' => [
-                'required',
+                'unique:insights',
             ],
             'image' => [
+                'required',
+            ],
+            'description' => [
                 'required',
             ],
         ];

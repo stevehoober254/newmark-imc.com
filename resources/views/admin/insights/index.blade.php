@@ -23,9 +23,6 @@
 
                         </th>
                         <th>
-                            {{ trans('cruds.insight.fields.id') }}
-                        </th>
-                        <th>
                             {{ trans('cruds.insight.fields.title') }}
                         </th>
                         <th>
@@ -33,9 +30,6 @@
                         </th>
                         <th>
                             {{ trans('cruds.insight.fields.created_at') }}
-                        </th>
-                        <th>
-                            {{ trans('cruds.insight.fields.updated_at') }}
                         </th>
                         <th>
                             &nbsp;
@@ -49,9 +43,6 @@
 
                             </td>
                             <td>
-                                {{ $insight->id ?? '' }}
-                            </td>
-                            <td>
                                 {{ $insight->title ?? '' }}
                             </td>
                             <td>
@@ -63,9 +54,6 @@
                             </td>
                             <td>
                                 {{ $insight->created_at ?? '' }}
-                            </td>
-                            <td>
-                                {{ $insight->updated_at ?? '' }}
                             </td>
                             <td>
                                 @can('insight_show')
@@ -138,7 +126,7 @@
 
   $.extend(true, $.fn.dataTable.defaults, {
     orderCellsTop: true,
-    order: [[ 2, 'asc' ]],
+    order: [[ 1, 'desc' ]],
     pageLength: 100,
   });
   let table = $('.datatable-Insight:not(.ajaxTable)').DataTable({ buttons: dtButtons })

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Newmark IMC',
+    'site_title' => 'Newmark',
 ];

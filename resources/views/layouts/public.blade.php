@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Newmark" />
     <meta name="description"
         content="The Newmark Group Limited is a leading African Integrated Marketing Communications(IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market." />
     <meta name="author" content="Newmark IMC" />
@@ -29,10 +29,9 @@
 </head>
 
 <body>
-    <!-- preloader -->
-    {{-- <div class="loading" id="loading">
+    <div class="loading" id="loading">
         <img src="{{ asset('img/loader.gif') }}" />
-    </div> --}}
+    </div>
 
     @include('partials.navbar')
 

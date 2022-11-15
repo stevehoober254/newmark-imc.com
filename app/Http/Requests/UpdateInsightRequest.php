@@ -20,11 +20,12 @@ class UpdateInsightRequest extends FormRequest
             'title' => [
                 'string',
                 'required',
-            ],
-            'description' => [
-                'required',
+                'unique:insights,title,' . request()->route('insight')->id,
             ],
             'image' => [
+                'required',
+            ],
+            'description' => [
                 'required',
             ],
         ];

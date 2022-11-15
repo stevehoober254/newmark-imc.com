@@ -33,14 +33,6 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.insight.fields.description') }}
-                        </th>
-                        <td>
-                            {!! $insight->description !!}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
                             {{ trans('cruds.insight.fields.image') }}
                         </th>
                         <td>
@@ -49,6 +41,14 @@
                                     <img src="{{ $insight->image->getUrl('thumb') }}">
                                 </a>
                             @endif
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.insight.fields.description') }}
+                        </th>
+                        <td>
+                            {!! $insight->description !!}
                         </td>
                     </tr>
                 </tbody>

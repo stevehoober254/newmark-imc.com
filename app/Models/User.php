@@ -26,36 +26,40 @@ class User extends Authenticatable implements HasMedia
 
     public $table = 'users';
 
-    protected $appends = [
-        'profile',
-    ];
-
     protected $hidden = [
-        'remember_token',
+        'remember_token', 'two_factor_code',
         'password',
     ];
 
     protected $dates = [
-        'email_verified_at',
         'verified_at',
+        'email_verified_at',
         'created_at',
         'updated_at',
         'deleted_at',
+        'two_factor_expires_at',
     ];
 
     protected $fillable = [
         'name',
         'email',
-        'email_verified_at',
+        'country_id',
+        'approved',
         'verified',
         'verified_at',
         'verification_token',
+        'department_id',
+        'bio',
+        'email_verified_at',
         'password',
-        'approved',
+        'two_factor',
+        'two_factor_code',
         'remember_token',
         'created_at',
         'updated_at',
         'deleted_at',
+        'team_id',
+        'two_factor_expires_at',
     ];
 
     public function __construct(array $attributes = [])
@@ -88,6 +92,22 @@ class User extends Authenticatable implements HasMedia
         });
     }
 
+    public function generateTwoFactorCode()
+    {
+        $this->timestamps            = false;
+        $this->two_factor_code       = rand(100000, 999999);
+        $this->two_factor_expires_at = now()->addMinutes(15)->format(config('panel.date_format') . ' ' . config('panel.time_format'));
+        $this->save();
+    }
+
+    public function resetTwoFactorCode()
+    {
+        $this->timestamps            = false;
+        $this->two_factor_code       = null;
+        $this->two_factor_expires_at = null;
+        $this->save();
+    }
+
     public function getIsAdminAttribute()
     {
         return $this->roles()->where('id', 1)->exists();
@@ -99,14 +119,9 @@ class User extends Authenticatable implements HasMedia
         $this->addMediaConversion('preview')->fit('crop', 120, 120);
     }
 
-    public function getEmailVerifiedAtAttribute($value)
+    public function country()
     {
-        return $value ? Carbon::createFromFormat('Y-m-d H:i:s', $value)->format(config('panel.date_format') . ' ' . config('panel.time_format')) : null;
-    }
-
-    public function setEmailVerifiedAtAttribute($value)
-    {
-        $this->attributes['email_verified_at'] = $value ? Carbon::createFromFormat(config('panel.date_format') . ' ' . config('panel.time_format'), $value)->format('Y-m-d H:i:s') : null;
+        return $this->belongsTo(Country::class, 'country_id');
     }
 
     public function getVerifiedAtAttribute($value)
@@ -117,6 +132,21 @@ class User extends Authenticatable implements HasMedia
     public function setVerifiedAtAttribute($value)
     {
         $this->attributes['verified_at'] = $value ? Carbon::createFromFormat(config('panel.date_format') . ' ' . config('panel.time_format'), $value)->format('Y-m-d H:i:s') : null;
+    }
+
+    public function department()
+    {
+        return $this->belongsTo(Department::class, 'department_id');
+    }
+
+    public function getEmailVerifiedAtAttribute($value)
+    {
+        return $value ? Carbon::createFromFormat('Y-m-d H:i:s', $value)->format(config('panel.date_format') . ' ' . config('panel.time_format')) : null;
+    }
+
+    public function setEmailVerifiedAtAttribute($value)
+    {
+        $this->attributes['email_verified_at'] = $value ? Carbon::createFromFormat(config('panel.date_format') . ' ' . config('panel.time_format'), $value)->format('Y-m-d H:i:s') : null;
     }
 
     public function setPasswordAttribute($input)
@@ -136,16 +166,19 @@ class User extends Authenticatable implements HasMedia
         return $this->belongsToMany(Role::class);
     }
 
-    public function getProfileAttribute()
+    public function team()
     {
-        $file = $this->getMedia('profile')->last();
-        if ($file) {
-            $file->url       = $file->getUrl();
-            $file->thumbnail = $file->getUrl('thumb');
-            $file->preview   = $file->getUrl('preview');
-        }
+        return $this->belongsTo(Team::class, 'team_id');
+    }
 
-        return $file;
+    public function getTwoFactorExpiresAtAttribute($value)
+    {
+        return $value ? Carbon::createFromFormat('Y-m-d H:i:s', $value)->format(config('panel.date_format') . ' ' . config('panel.time_format')) : null;
+    }
+
+    public function setTwoFactorExpiresAtAttribute($value)
+    {
+        $this->attributes['two_factor_expires_at'] = $value ? Carbon::createFromFormat(config('panel.date_format') . ' ' . config('panel.time_format'), $value)->format('Y-m-d H:i:s') : null;
     }
 
     protected function serializeDate(DateTimeInterface $date)

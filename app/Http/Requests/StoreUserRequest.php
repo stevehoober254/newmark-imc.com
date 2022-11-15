@@ -25,6 +25,14 @@ class StoreUserRequest extends FormRequest
                 'required',
                 'unique:users',
             ],
+            'country_id' => [
+                'required',
+                'integer',
+            ],
+            'department_id' => [
+                'required',
+                'integer',
+            ],
             'password' => [
                 'required',
             ],
