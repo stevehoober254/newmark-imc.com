@@ -51,7 +51,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 order-1 order-sm-2">
-                        <img src="{{ asset('img/homepage/2.jpg') }}" class="img-fluid rounded-start" alt="Who we are">
+                        <img src="{{ asset('img/about-us/newmark-team.jpg') }}" class="img-fluid rounded-start"
+                            alt="Who we are">
                     </div>
                 </div>
                 <div class="bottom-stripe"></div>
