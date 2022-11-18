@@ -1149,6 +1149,12 @@ progress {
     width: 8.33333333%;
   }
 
+  .col-md-one-eighth {
+    flex: 0 0 auto;
+    width: 12.5%;
+    padding-bottom: 10px;
+  }
+
   .col-md-2 {
     flex: 0 0 auto;
     width: 16.66666667%;

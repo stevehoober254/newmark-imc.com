@@ -17,7 +17,16 @@ class PublicController extends Controller
 
     public function aboutUs()
     {
-        return view('public.about-us');
+        $expertises = OurExpertise::all();
+        return view('public.about-us', compact('expertises'));
+    }
+
+    public function expertise($slug)
+    {
+        abort_if(!$slug, 404);
+        $ourExpertise = OurExpertise::where('slug', $slug)->first();
+        abort_if(!$ourExpertise, 404);
+        return view('public.expertise', compact('ourExpertise', 'slug'));
     }
 
     public function careers()

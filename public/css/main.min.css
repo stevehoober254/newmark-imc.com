@@ -1155,6 +1155,12 @@ progress {
     width: 8.33333333%;
   }
 
+  .col-md-one-eighth {
+    flex: 0 0 auto;
+    width: 12.5%;
+    padding-bottom: 10px;
+  }
+
   .col-md-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
@@ -21439,7 +21445,7 @@ a:hover {
 .connect-with-us h3,
 .testimonials h2,
 .case-studies h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     color: #00ade5;
     text-align: center;
@@ -22770,18 +22776,24 @@ p {
 
 .case-study-client-imgs img {
     width: 100%;
-    height: 300px;
-    object-fit: fill;
+    height: 350px;
+    object-fit: cover;
     border-left: 2px solid var(--main-color);
 }
 
 .case-study-client-region h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.case-study-client-region h3 span {
+.case-study-client-region h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.case-study-client-region h4 span {
     font-weight: 400;
 }
 
@@ -23702,6 +23714,11 @@ Job Details Area
     border-color: var(--titleColor);
 }
 
+.case-study-heading {
+    font-size: 17px;
+    color: #00ade5;
+    font-weight: 600;
+}
 /* ========== NAVBAR. ========== */
 .main-nav {
   padding: 10px 0px 2px;

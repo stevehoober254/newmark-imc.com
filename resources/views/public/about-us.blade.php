@@ -136,139 +136,26 @@
         <div class="mt-3 ">
             <div class="dots dots-33"></div>
             <div class="carousel ">
-                <div class="carousel-block ">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/about-us/mic.png') }});">
+                @foreach ($expertises as $expertise)
+                    <div class="carousel-block ">
+                        <div class="left background-cover"
+                            @if ($expertise->image) style='background-image: url("{{ $expertise->image->getUrl() }}");' @endif>
+                        </div>
+                        <div class="right padding-right">
+                            <h3 class="margin-bottom-half text-capitalize">{{ $expertise->title ?? '' }} <small></small>
+                            </h3>
+                            <p>
+                                {!! $expertise->description !!}
+                            </p>
+                            <span class="content-link">
+                                <a href="{{ route('expertise', $expertise->slug) }}">
+                                    Learn More <i class="fa fa-chevron-right"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Public Relations <small></small></h3>
-                        <p>
-                            If you want to have meaningful and beneficial experiences with your audiences, stakeholders and
-                            partners, then our team is just what the doctor ordered for you. We bring the best of global
-                            expertise and deep local understanding to strategic and integrated communications. Ours is a
-                            multicultural and authentically localized approach to messaging, strategy and engagement. If
-                            those stakeholders happen to be public authorities, then you can not do better than our Public
-                            Affairs expertise.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/about-us/event.jpg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Experiential</h3>
-                        <p>
-                            The ability to deliver high-quality events is directly dependent on the technical skills, tools
-                            and equipment available to the team. Since its inception, Newmark Experiential has implemented
-                            projects in Westall the regions of Africa, including Kenya, Nigeria, South Africa, Ghana and
-                            Morocco just to name a few.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover" style="background-image:url({{ asset('img/about-us/event.jpg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Creative</h3>
-                        <p>
-                            This multimedia arm within the Newmark Group Limited specializes in reaching global and local
-                            organizations and engaging their stakeholder organizations by developing market-leading
-                            storytelling and content design strategies.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url({{ asset('img/about-us/phone.png') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Digital</h3>
-                        <p>
-                            At Newmark Digital, we thrive on creating valuable and impactful digital experiences and
-                            campaigns with creative messaging that enables your brand to engage in meaningful conversations
-                            with your target audience.
-                        </p>
-                        <span class="content-link">
-                            <a href="{{ route('newmark.digital') }}">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url({{ asset('img/about-us/light.png') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark Insights</h3>
-                        <p>
-                            Newmark Insights stands out for our ability to smooth your way and simplify the process of
-                            diagnosis, planning and implementation, tailored to the local market.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url({{ asset('img/about-us/table.jpg') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Multilingual Support</h3>
-                        <p>
-                            Our purpose is to help companies prepare their products and services for worldwide deployment by
-                            providing high-quality translation, localization and multilingual services.
-                        </p>
-                        <span class="content-link">
-                            <a href="#" target="_blank">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="carousel-block">
-                    <div class="left background-cover"
-                        style="background-image:url({{ asset('img/about-us/marketing.png') }});">
-                    </div>
-                    <div class="right padding-right">
-                        <h3 class="margin-bottom-half">Newmark IMC</h3>
-                        <p>
-                            You know your targets and goals, you have a plan, but is your team optimized and trained to
-                            become the brand ambassadors and spokespersons you need them to be? If not, get in touch with us
-                            so that our IMC team can ensure that they are empowered to deliver on the goals that you have
-                            set.
-                        </p>
-                        <span class="content-link">
-                            <a href="#">
-                                Learn More <i class="fa fa-chevron-right"></i>
-                            </a>
-                        </span>
-                    </div>
-                    <div class="clear"></div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
