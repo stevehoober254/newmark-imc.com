@@ -85,11 +85,15 @@ class UpdatePersonalHistoryFormRequest extends FormRequest
                 'date_format:' . config('panel.date_format'),
                 'nullable',
             ],
-            'company_name' => [
+            'skills' => [
                 'string',
                 'nullable',
             ],
-            'number_of_employees_supervised_pd' => [
+            'type_of_engagement' => [
+                'string',
+                'nullable',
+            ],
+            'preferred_workstation' => [
                 'string',
                 'nullable',
             ],

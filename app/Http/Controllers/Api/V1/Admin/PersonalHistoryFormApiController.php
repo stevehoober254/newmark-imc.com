@@ -18,14 +18,14 @@ class PersonalHistoryFormApiController extends Controller
     {
         abort_if(Gate::denies('personal_history_form_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        return new PersonalHistoryFormResource(PersonalHistoryForm::with(['team'])->get());
+        return new PersonalHistoryFormResource(PersonalHistoryForm::all());
     }
 
     public function show(PersonalHistoryForm $personalHistoryForm)
     {
         abort_if(Gate::denies('personal_history_form_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        return new PersonalHistoryFormResource($personalHistoryForm->load(['team']));
+        return new PersonalHistoryFormResource($personalHistoryForm);
     }
 
     public function destroy(PersonalHistoryForm $personalHistoryForm)

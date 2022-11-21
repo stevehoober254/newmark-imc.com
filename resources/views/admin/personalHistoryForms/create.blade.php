@@ -220,24 +220,129 @@
                 <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_helper') }}</span>
             </div>
             <div class="form-group">
-                <label for="company_name">{{ trans('cruds.personalHistoryForm.fields.company_name') }}</label>
-                <input class="form-control {{ $errors->has('company_name') ? 'is-invalid' : '' }}" type="text" name="company_name" id="company_name" value="{{ old('company_name', '') }}">
-                @if($errors->has('company_name'))
+                <label for="practice_area_you_are_interested_in">{{ trans('cruds.personalHistoryForm.fields.practice_area_you_are_interested_in') }}</label>
+                <input class="form-control {{ $errors->has('practice_area_you_are_interested_in') ? 'is-invalid' : '' }}" type="text" name="practice_area_you_are_interested_in" id="practice_area_you_are_interested_in" value="{{ old('practice_area_you_are_interested_in', '') }}">
+                @if($errors->has('practice_area_you_are_interested_in'))
                     <div class="invalid-feedback">
-                        {{ $errors->first('company_name') }}
+                        {{ $errors->first('practice_area_you_are_interested_in') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.company_name_helper') }}</span>
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.practice_area_you_are_interested_in_helper') }}</span>
             </div>
             <div class="form-group">
-                <label for="number_of_employees_supervised_pd">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_pd') }}</label>
-                <input class="form-control {{ $errors->has('number_of_employees_supervised_pd') ? 'is-invalid' : '' }}" type="text" name="number_of_employees_supervised_pd" id="number_of_employees_supervised_pd" value="{{ old('number_of_employees_supervised_pd', '') }}">
-                @if($errors->has('number_of_employees_supervised_pd'))
+                <label for="skills">{{ trans('cruds.personalHistoryForm.fields.skills') }}</label>
+                <input class="form-control {{ $errors->has('skills') ? 'is-invalid' : '' }}" type="text" name="skills" id="skills" value="{{ old('skills', '') }}">
+                @if($errors->has('skills'))
                     <div class="invalid-feedback">
-                        {{ $errors->first('number_of_employees_supervised_pd') }}
+                        {{ $errors->first('skills') }}
                     </div>
                 @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_pd_helper') }}</span>
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.skills_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="type_of_engagement">{{ trans('cruds.personalHistoryForm.fields.type_of_engagement') }}</label>
+                <input class="form-control {{ $errors->has('type_of_engagement') ? 'is-invalid' : '' }}" type="text" name="type_of_engagement" id="type_of_engagement" value="{{ old('type_of_engagement', '') }}">
+                @if($errors->has('type_of_engagement'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('type_of_engagement') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.type_of_engagement_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="preferred_workstation">{{ trans('cruds.personalHistoryForm.fields.preferred_workstation') }}</label>
+                <input class="form-control {{ $errors->has('preferred_workstation') ? 'is-invalid' : '' }}" type="text" name="preferred_workstation" id="preferred_workstation" value="{{ old('preferred_workstation', '') }}">
+                @if($errors->has('preferred_workstation'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('preferred_workstation') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.preferred_workstation_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="salary_expectations">{{ trans('cruds.personalHistoryForm.fields.salary_expectations') }}</label>
+                <input class="form-control {{ $errors->has('salary_expectations') ? 'is-invalid' : '' }}" type="number" name="salary_expectations" id="salary_expectations" value="{{ old('salary_expectations', '') }}" step="0.01">
+                @if($errors->has('salary_expectations'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('salary_expectations') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.salary_expectations_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="why_would_you_like_to_join_our_team">{{ trans('cruds.personalHistoryForm.fields.why_would_you_like_to_join_our_team') }}</label>
+                <textarea class="form-control {{ $errors->has('why_would_you_like_to_join_our_team') ? 'is-invalid' : '' }}" name="why_would_you_like_to_join_our_team" id="why_would_you_like_to_join_our_team">{{ old('why_would_you_like_to_join_our_team') }}</textarea>
+                @if($errors->has('why_would_you_like_to_join_our_team'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('why_would_you_like_to_join_our_team') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.why_would_you_like_to_join_our_team_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="facebook_url">{{ trans('cruds.personalHistoryForm.fields.facebook_url') }}</label>
+                <textarea class="form-control {{ $errors->has('facebook_url') ? 'is-invalid' : '' }}" name="facebook_url" id="facebook_url">{{ old('facebook_url') }}</textarea>
+                @if($errors->has('facebook_url'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('facebook_url') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.facebook_url_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="twitter_url">{{ trans('cruds.personalHistoryForm.fields.twitter_url') }}</label>
+                <textarea class="form-control {{ $errors->has('twitter_url') ? 'is-invalid' : '' }}" name="twitter_url" id="twitter_url">{{ old('twitter_url') }}</textarea>
+                @if($errors->has('twitter_url'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('twitter_url') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.twitter_url_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="linked_in_url">{{ trans('cruds.personalHistoryForm.fields.linked_in_url') }}</label>
+                <textarea class="form-control {{ $errors->has('linked_in_url') ? 'is-invalid' : '' }}" name="linked_in_url" id="linked_in_url">{{ old('linked_in_url') }}</textarea>
+                @if($errors->has('linked_in_url'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('linked_in_url') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.linked_in_url_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label>{{ trans('cruds.personalHistoryForm.fields.do_you_have_personal_website') }}</label>
+                <select class="form-control {{ $errors->has('do_you_have_personal_website') ? 'is-invalid' : '' }}" name="do_you_have_personal_website" id="do_you_have_personal_website">
+                    <option value disabled {{ old('do_you_have_personal_website', null) === null ? 'selected' : '' }}>{{ trans('global.pleaseSelect') }}</option>
+                    @foreach(App\Models\PersonalHistoryForm::DO_YOU_HAVE_PERSONAL_WEBSITE_SELECT as $key => $label)
+                        <option value="{{ $key }}" {{ old('do_you_have_personal_website', '') === (string) $key ? 'selected' : '' }}>{{ $label }}</option>
+                    @endforeach
+                </select>
+                @if($errors->has('do_you_have_personal_website'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('do_you_have_personal_website') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.do_you_have_personal_website_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="portfolio_url">{{ trans('cruds.personalHistoryForm.fields.portfolio_url') }}</label>
+                <textarea class="form-control {{ $errors->has('portfolio_url') ? 'is-invalid' : '' }}" name="portfolio_url" id="portfolio_url">{{ old('portfolio_url') }}</textarea>
+                @if($errors->has('portfolio_url'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('portfolio_url') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.portfolio_url_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="other_links_works">{{ trans('cruds.personalHistoryForm.fields.other_links_works') }}</label>
+                <textarea class="form-control {{ $errors->has('other_links_works') ? 'is-invalid' : '' }}" name="other_links_works" id="other_links_works">{{ old('other_links_works') }}</textarea>
+                @if($errors->has('other_links_works'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('other_links_works') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.other_links_works_helper') }}</span>
             </div>
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">

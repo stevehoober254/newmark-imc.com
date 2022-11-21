@@ -85,11 +85,19 @@ class StorePersonalHistoryFormRequest extends FormRequest
                 'date_format:' . config('panel.date_format'),
                 'nullable',
             ],
-            'company_name' => [
+            'practice_area_you_are_interested_in' => [
                 'string',
                 'nullable',
             ],
-            'number_of_employees_supervised_pd' => [
+            'skills' => [
+                'string',
+                'nullable',
+            ],
+            'type_of_engagement' => [
+                'string',
+                'nullable',
+            ],
+            'preferred_workstation' => [
                 'string',
                 'nullable',
             ],

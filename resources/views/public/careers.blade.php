@@ -184,7 +184,8 @@
                                             you consent to the use of this data according to our data Protection and Privacy
                                             Policy.
                                         </p>
-                                        <a href="#" class="btn btn-secondary text-white border-white">Fill
+                                        <a href="{{ route('personal.historyform') }}"
+                                            class="btn btn-secondary text-white border-white">Fill
                                             Personal History Form <i class="fa fa-arrow-right"></i></a>
                                     </div>
                                 </div>

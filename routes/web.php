@@ -4,6 +4,12 @@
 Route::get('/', 'PublicController@index')->name('index');
 Route::get('about', 'PublicController@aboutUs')->name('about.us');
 Route::get('careers', 'PublicController@careers')->name('careers');
+Route::get('careers/personal-history-form', 'PublicController@personalHistoryForm')->name('personal.historyform');
+Route::group(['prefix' => 'careers/personal-history-form'], function () {
+    Route::post('personal-history-form', 'PublicController@personalHistoryFormStep1')->name('personal.historyform.step1');
+    Route::get('{slug}/step-{step}', 'PublicController@personalHistoryFormStep')->name('personal.historyform.step');
+    Route::post('{slug}/step-{step}', 'PublicController@personalHistoryFormStepPost')->name('personal.historyform.step.post');
+});
 Route::get('careers/search/{query}', 'PublicController@careerSearch')->name('career.search');
 Route::post('careers/search/job', 'PublicController@careerSearchPost')->name('career.search.post');
 Route::get('careers/job-list', 'PublicController@jobList')->name('job.list');

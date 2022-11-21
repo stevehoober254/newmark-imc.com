@@ -19,7 +19,7 @@ class PersonalHistoryFormController extends Controller
     {
         abort_if(Gate::denies('personal_history_form_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        $personalHistoryForms = PersonalHistoryForm::with(['team'])->get();
+        $personalHistoryForms = PersonalHistoryForm::all();
 
         return view('admin.personalHistoryForms.index', compact('personalHistoryForms'));
     }
@@ -27,8 +27,6 @@ class PersonalHistoryFormController extends Controller
     public function show(PersonalHistoryForm $personalHistoryForm)
     {
         abort_if(Gate::denies('personal_history_form_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
-
-        $personalHistoryForm->load('team');
 
         return view('admin.personalHistoryForms.show', compact('personalHistoryForm'));
     }

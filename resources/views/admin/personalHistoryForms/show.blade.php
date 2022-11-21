@@ -193,18 +193,106 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.personalHistoryForm.fields.company_name') }}
+                            {{ trans('cruds.personalHistoryForm.fields.practice_area_you_are_interested_in') }}
                         </th>
                         <td>
-                            {{ $personalHistoryForm->company_name }}
+                            {{ $personalHistoryForm->practice_area_you_are_interested_in }}
                         </td>
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_pd') }}
+                            {{ trans('cruds.personalHistoryForm.fields.skills') }}
                         </th>
                         <td>
-                            {{ $personalHistoryForm->number_of_employees_supervised_pd }}
+                            {{ $personalHistoryForm->skills }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.type_of_engagement') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->type_of_engagement }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.preferred_workstation') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->preferred_workstation }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.salary_expectations') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->salary_expectations }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.why_would_you_like_to_join_our_team') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->why_would_you_like_to_join_our_team }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.facebook_url') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->facebook_url }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.twitter_url') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->twitter_url }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.linked_in_url') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->linked_in_url }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.do_you_have_personal_website') }}
+                        </th>
+                        <td>
+                            {{ App\Models\PersonalHistoryForm::DO_YOU_HAVE_PERSONAL_WEBSITE_SELECT[$personalHistoryForm->do_you_have_personal_website] ?? '' }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.portfolio_url') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->portfolio_url }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.other_links_works') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->other_links_works }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.current_step') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->current_step }}
                         </td>
                     </tr>
                 </tbody>

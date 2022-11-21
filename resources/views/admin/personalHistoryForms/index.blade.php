@@ -36,6 +36,9 @@
                             {{ trans('cruds.personalHistoryForm.fields.created_at') }}
                         </th>
                         <th>
+                            {{ trans('cruds.personalHistoryForm.fields.salary_expectations') }}
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -66,6 +69,9 @@
                             </td>
                             <td>
                                 {{ $personalHistoryForm->created_at ?? '' }}
+                            </td>
+                            <td>
+                                {{ $personalHistoryForm->salary_expectations ?? '' }}
                             </td>
                             <td>
                                 @can('personal_history_form_show')

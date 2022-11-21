@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use \DateTimeInterface;
-use App\Traits\MultiTenantModelTrait;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -15,9 +14,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class PersonalHistoryForm extends Model implements HasMedia
 {
     use SoftDeletes;
-    use MultiTenantModelTrait;
     use InteractsWithMedia;
     use HasFactory;
+
+    public const DO_YOU_HAVE_PERSONAL_WEBSITE_SELECT = [
+        'yes' => 'yes',
+        'no'  => 'no',
+    ];
 
     public $table = 'personal_history_forms';
 
@@ -52,12 +55,23 @@ class PersonalHistoryForm extends Model implements HasMedia
         'end_date',
         'description_of_the_roles_and_responsibilities',
         'reason_for_leaving',
-        'company_name',
-        'number_of_employees_supervised_pd',
+        'practice_area_you_are_interested_in',
         'created_at',
+        'skills',
+        'type_of_engagement',
+        'preferred_workstation',
+        'salary_expectations',
+        'why_would_you_like_to_join_our_team',
+        'facebook_url',
+        'twitter_url',
+        'linked_in_url',
+        'do_you_have_personal_website',
+        'portfolio_url',
+        'other_links_works',
+        'current_step',
+        'slug',
         'updated_at',
         'deleted_at',
-        'team_id',
     ];
 
     public function registerMediaConversions(Media $media = null): void
@@ -71,10 +85,10 @@ class PersonalHistoryForm extends Model implements HasMedia
         return $value ? Carbon::parse($value)->format(config('panel.date_format')) : null;
     }
 
-    public function setDateOfGraduationAttribute($value)
-    {
-        $this->attributes['date_of_graduation'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
-    }
+    // public function setDateOfGraduationAttribute($value)
+    // {
+    //     $this->attributes['date_of_graduation'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
+    // }
 
     public function getStartDateAttribute($value)
     {
@@ -94,11 +108,6 @@ class PersonalHistoryForm extends Model implements HasMedia
     public function setEndDateAttribute($value)
     {
         $this->attributes['end_date'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
-    }
-
-    public function team()
-    {
-        return $this->belongsTo(Team::class, 'team_id');
     }
 
     protected function serializeDate(DateTimeInterface $date)
