@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api\V1\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Resources\Admin\PersonalHistoryFormResource;
 use App\Models\PersonalHistoryForm;
 use Gate;
@@ -12,8 +11,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 class PersonalHistoryFormApiController extends Controller
 {
-    use MediaUploadingTrait;
-
     public function index()
     {
         abort_if(Gate::denies('personal_history_form_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');

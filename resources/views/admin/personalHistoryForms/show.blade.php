@@ -113,18 +113,18 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.personalHistoryForm.fields.date_of_graduation') }}
-                        </th>
-                        <td>
-                            {{ $personalHistoryForm->date_of_graduation }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
                             {{ trans('cruds.personalHistoryForm.fields.award_achieved') }}
                         </th>
                         <td>
                             {{ $personalHistoryForm->award_achieved }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.date_of_graduation') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->date_of_graduation }}
                         </td>
                     </tr>
                     <tr>
@@ -141,54 +141,6 @@
                         </th>
                         <td>
                             {{ $personalHistoryForm->leadership_quality }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.organization') }}
-                        </th>
-                        <td>
-                            {!! $personalHistoryForm->organization !!}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised') }}
-                        </th>
-                        <td>
-                            {{ $personalHistoryForm->number_of_employees_supervised }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.start_date') }}
-                        </th>
-                        <td>
-                            {{ $personalHistoryForm->start_date }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.end_date') }}
-                        </th>
-                        <td>
-                            {{ $personalHistoryForm->end_date }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities') }}
-                        </th>
-                        <td>
-                            {!! $personalHistoryForm->description_of_the_roles_and_responsibilities !!}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            {{ trans('cruds.personalHistoryForm.fields.reason_for_leaving') }}
-                        </th>
-                        <td>
-                            {!! $personalHistoryForm->reason_for_leaving !!}
                         </td>
                     </tr>
                     <tr>
@@ -293,6 +245,150 @@
                         </th>
                         <td>
                             {{ $personalHistoryForm->current_step }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.organization_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->organization_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->number_of_employees_supervised_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.start_date_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->start_date_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.end_date_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->end_date_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->description_of_the_roles_and_responsibilities_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_one') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->reason_for_leaving_one }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.organization_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->organization_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->number_of_employees_supervised_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.start_date_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->start_date_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.end_date_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->end_date_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->description_of_the_roles_and_responsibilities_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_two') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->reason_for_leaving_two }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.organization_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->organization_three }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->number_of_employees_supervised_three }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.start_date_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->start_date_three }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.end_date_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->end_date_three }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->description_of_the_roles_and_responsibilities_three }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_three') }}
+                        </th>
+                        <td>
+                            {{ $personalHistoryForm->reason_for_leaving_three }}
                         </td>
                     </tr>
                 </tbody>

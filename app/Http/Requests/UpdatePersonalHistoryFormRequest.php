@@ -64,25 +64,11 @@ class UpdatePersonalHistoryFormRequest extends FormRequest
                 'nullable',
             ],
             'date_of_graduation' => [
-                'date_format:' . config('panel.date_format'),
+                'string',
                 'nullable',
             ],
             'high_school_grade' => [
                 'string',
-                'nullable',
-            ],
-            'number_of_employees_supervised' => [
-                'nullable',
-                'integer',
-                'min:-2147483648',
-                'max:2147483647',
-            ],
-            'start_date' => [
-                'date_format:' . config('panel.date_format'),
-                'nullable',
-            ],
-            'end_date' => [
-                'date_format:' . config('panel.date_format'),
                 'nullable',
             ],
             'skills' => [
@@ -94,6 +80,60 @@ class UpdatePersonalHistoryFormRequest extends FormRequest
                 'nullable',
             ],
             'preferred_workstation' => [
+                'string',
+                'nullable',
+            ],
+            'organization_one' => [
+                'string',
+                'nullable',
+            ],
+            'number_of_employees_supervised_one' => [
+                'nullable',
+                'integer',
+                'min:-2147483648',
+                'max:2147483647',
+            ],
+            'start_date_one' => [
+                'string',
+                'nullable',
+            ],
+            'end_date_one' => [
+                'string',
+                'nullable',
+            ],
+            'organization_two' => [
+                'string',
+                'nullable',
+            ],
+            'number_of_employees_supervised_two' => [
+                'nullable',
+                'integer',
+                'min:-2147483648',
+                'max:2147483647',
+            ],
+            'start_date_two' => [
+                'string',
+                'nullable',
+            ],
+            'end_date_two' => [
+                'string',
+                'nullable',
+            ],
+            'organization_three' => [
+                'string',
+                'nullable',
+            ],
+            'number_of_employees_supervised_three' => [
+                'nullable',
+                'integer',
+                'min:-2147483648',
+                'max:2147483647',
+            ],
+            'start_date_three' => [
+                'string',
+                'nullable',
+            ],
+            'end_date_three' => [
                 'string',
                 'nullable',
             ],

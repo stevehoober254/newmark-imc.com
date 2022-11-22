@@ -2450,6 +2450,11 @@ Job Details Area
     padding: 20px;
 }
 
+.personal-history .btn-primary:hover {
+    background-color: #00ade5;
+    border-color: #00ade5;
+}
+
 .personal-history-instruction h5 {
     font-size: 18px;
     line-height: 28px;
@@ -2509,4 +2514,18 @@ Job Details Area
 
 .form-step {
     padding: 30px;
+}
+
+.inner-card {
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-step h6 {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: 600;
 }

@@ -120,16 +120,6 @@
                 <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.institution_helper') }}</span>
             </div>
             <div class="form-group">
-                <label for="date_of_graduation">{{ trans('cruds.personalHistoryForm.fields.date_of_graduation') }}</label>
-                <input class="form-control date {{ $errors->has('date_of_graduation') ? 'is-invalid' : '' }}" type="text" name="date_of_graduation" id="date_of_graduation" value="{{ old('date_of_graduation') }}">
-                @if($errors->has('date_of_graduation'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('date_of_graduation') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.date_of_graduation_helper') }}</span>
-            </div>
-            <div class="form-group">
                 <label for="award_achieved">{{ trans('cruds.personalHistoryForm.fields.award_achieved') }}</label>
                 <textarea class="form-control {{ $errors->has('award_achieved') ? 'is-invalid' : '' }}" name="award_achieved" id="award_achieved">{{ old('award_achieved') }}</textarea>
                 @if($errors->has('award_achieved'))
@@ -138,6 +128,16 @@
                     </div>
                 @endif
                 <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.award_achieved_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="date_of_graduation">{{ trans('cruds.personalHistoryForm.fields.date_of_graduation') }}</label>
+                <input class="form-control {{ $errors->has('date_of_graduation') ? 'is-invalid' : '' }}" type="text" name="date_of_graduation" id="date_of_graduation" value="{{ old('date_of_graduation', '') }}">
+                @if($errors->has('date_of_graduation'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('date_of_graduation') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.date_of_graduation_helper') }}</span>
             </div>
             <div class="form-group">
                 <label for="high_school_grade">{{ trans('cruds.personalHistoryForm.fields.high_school_grade') }}</label>
@@ -158,66 +158,6 @@
                     </div>
                 @endif
                 <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.leadership_quality_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="organization">{{ trans('cruds.personalHistoryForm.fields.organization') }}</label>
-                <textarea class="form-control ckeditor {{ $errors->has('organization') ? 'is-invalid' : '' }}" name="organization" id="organization">{!! old('organization') !!}</textarea>
-                @if($errors->has('organization'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('organization') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.organization_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="number_of_employees_supervised">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised') }}</label>
-                <input class="form-control {{ $errors->has('number_of_employees_supervised') ? 'is-invalid' : '' }}" type="number" name="number_of_employees_supervised" id="number_of_employees_supervised" value="{{ old('number_of_employees_supervised', '') }}" step="1">
-                @if($errors->has('number_of_employees_supervised'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('number_of_employees_supervised') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="start_date">{{ trans('cruds.personalHistoryForm.fields.start_date') }}</label>
-                <input class="form-control date {{ $errors->has('start_date') ? 'is-invalid' : '' }}" type="text" name="start_date" id="start_date" value="{{ old('start_date') }}">
-                @if($errors->has('start_date'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('start_date') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.start_date_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="end_date">{{ trans('cruds.personalHistoryForm.fields.end_date') }}</label>
-                <input class="form-control date {{ $errors->has('end_date') ? 'is-invalid' : '' }}" type="text" name="end_date" id="end_date" value="{{ old('end_date') }}">
-                @if($errors->has('end_date'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('end_date') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.end_date_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="description_of_the_roles_and_responsibilities">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities') }}</label>
-                <textarea class="form-control ckeditor {{ $errors->has('description_of_the_roles_and_responsibilities') ? 'is-invalid' : '' }}" name="description_of_the_roles_and_responsibilities" id="description_of_the_roles_and_responsibilities">{!! old('description_of_the_roles_and_responsibilities') !!}</textarea>
-                @if($errors->has('description_of_the_roles_and_responsibilities'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('description_of_the_roles_and_responsibilities') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_helper') }}</span>
-            </div>
-            <div class="form-group">
-                <label for="reason_for_leaving">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving') }}</label>
-                <textarea class="form-control ckeditor {{ $errors->has('reason_for_leaving') ? 'is-invalid' : '' }}" name="reason_for_leaving" id="reason_for_leaving">{!! old('reason_for_leaving') !!}</textarea>
-                @if($errors->has('reason_for_leaving'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('reason_for_leaving') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_helper') }}</span>
             </div>
             <div class="form-group">
                 <label for="practice_area_you_are_interested_in">{{ trans('cruds.personalHistoryForm.fields.practice_area_you_are_interested_in') }}</label>
@@ -345,6 +285,186 @@
                 <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.other_links_works_helper') }}</span>
             </div>
             <div class="form-group">
+                <label for="organization_one">{{ trans('cruds.personalHistoryForm.fields.organization_one') }}</label>
+                <input class="form-control {{ $errors->has('organization_one') ? 'is-invalid' : '' }}" type="text" name="organization_one" id="organization_one" value="{{ old('organization_one', '') }}">
+                @if($errors->has('organization_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('organization_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.organization_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="number_of_employees_supervised_one">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_one') }}</label>
+                <input class="form-control {{ $errors->has('number_of_employees_supervised_one') ? 'is-invalid' : '' }}" type="number" name="number_of_employees_supervised_one" id="number_of_employees_supervised_one" value="{{ old('number_of_employees_supervised_one', '') }}" step="1">
+                @if($errors->has('number_of_employees_supervised_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('number_of_employees_supervised_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="start_date_one">{{ trans('cruds.personalHistoryForm.fields.start_date_one') }}</label>
+                <input class="form-control {{ $errors->has('start_date_one') ? 'is-invalid' : '' }}" type="text" name="start_date_one" id="start_date_one" value="{{ old('start_date_one', '') }}">
+                @if($errors->has('start_date_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('start_date_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.start_date_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="end_date_one">{{ trans('cruds.personalHistoryForm.fields.end_date_one') }}</label>
+                <input class="form-control {{ $errors->has('end_date_one') ? 'is-invalid' : '' }}" type="text" name="end_date_one" id="end_date_one" value="{{ old('end_date_one', '') }}">
+                @if($errors->has('end_date_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_date_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.end_date_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="description_of_the_roles_and_responsibilities_one">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_one') }}</label>
+                <textarea class="form-control {{ $errors->has('description_of_the_roles_and_responsibilities_one') ? 'is-invalid' : '' }}" name="description_of_the_roles_and_responsibilities_one" id="description_of_the_roles_and_responsibilities_one">{{ old('description_of_the_roles_and_responsibilities_one') }}</textarea>
+                @if($errors->has('description_of_the_roles_and_responsibilities_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('description_of_the_roles_and_responsibilities_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="reason_for_leaving_one">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_one') }}</label>
+                <textarea class="form-control {{ $errors->has('reason_for_leaving_one') ? 'is-invalid' : '' }}" name="reason_for_leaving_one" id="reason_for_leaving_one">{{ old('reason_for_leaving_one') }}</textarea>
+                @if($errors->has('reason_for_leaving_one'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('reason_for_leaving_one') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_one_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="organization_two">{{ trans('cruds.personalHistoryForm.fields.organization_two') }}</label>
+                <input class="form-control {{ $errors->has('organization_two') ? 'is-invalid' : '' }}" type="text" name="organization_two" id="organization_two" value="{{ old('organization_two', '') }}">
+                @if($errors->has('organization_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('organization_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.organization_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="number_of_employees_supervised_two">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_two') }}</label>
+                <input class="form-control {{ $errors->has('number_of_employees_supervised_two') ? 'is-invalid' : '' }}" type="number" name="number_of_employees_supervised_two" id="number_of_employees_supervised_two" value="{{ old('number_of_employees_supervised_two', '') }}" step="1">
+                @if($errors->has('number_of_employees_supervised_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('number_of_employees_supervised_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="start_date_two">{{ trans('cruds.personalHistoryForm.fields.start_date_two') }}</label>
+                <input class="form-control {{ $errors->has('start_date_two') ? 'is-invalid' : '' }}" type="text" name="start_date_two" id="start_date_two" value="{{ old('start_date_two', '') }}">
+                @if($errors->has('start_date_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('start_date_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.start_date_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="end_date_two">{{ trans('cruds.personalHistoryForm.fields.end_date_two') }}</label>
+                <input class="form-control {{ $errors->has('end_date_two') ? 'is-invalid' : '' }}" type="text" name="end_date_two" id="end_date_two" value="{{ old('end_date_two', '') }}">
+                @if($errors->has('end_date_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_date_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.end_date_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="description_of_the_roles_and_responsibilities_two">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_two') }}</label>
+                <textarea class="form-control {{ $errors->has('description_of_the_roles_and_responsibilities_two') ? 'is-invalid' : '' }}" name="description_of_the_roles_and_responsibilities_two" id="description_of_the_roles_and_responsibilities_two">{{ old('description_of_the_roles_and_responsibilities_two') }}</textarea>
+                @if($errors->has('description_of_the_roles_and_responsibilities_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('description_of_the_roles_and_responsibilities_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="reason_for_leaving_two">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_two') }}</label>
+                <textarea class="form-control {{ $errors->has('reason_for_leaving_two') ? 'is-invalid' : '' }}" name="reason_for_leaving_two" id="reason_for_leaving_two">{{ old('reason_for_leaving_two') }}</textarea>
+                @if($errors->has('reason_for_leaving_two'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('reason_for_leaving_two') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_two_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="organization_three">{{ trans('cruds.personalHistoryForm.fields.organization_three') }}</label>
+                <input class="form-control {{ $errors->has('organization_three') ? 'is-invalid' : '' }}" type="text" name="organization_three" id="organization_three" value="{{ old('organization_three', '') }}">
+                @if($errors->has('organization_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('organization_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.organization_three_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="number_of_employees_supervised_three">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_three') }}</label>
+                <input class="form-control {{ $errors->has('number_of_employees_supervised_three') ? 'is-invalid' : '' }}" type="number" name="number_of_employees_supervised_three" id="number_of_employees_supervised_three" value="{{ old('number_of_employees_supervised_three', '') }}" step="1">
+                @if($errors->has('number_of_employees_supervised_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('number_of_employees_supervised_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.number_of_employees_supervised_three_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="start_date_three">{{ trans('cruds.personalHistoryForm.fields.start_date_three') }}</label>
+                <input class="form-control {{ $errors->has('start_date_three') ? 'is-invalid' : '' }}" type="text" name="start_date_three" id="start_date_three" value="{{ old('start_date_three', '') }}">
+                @if($errors->has('start_date_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('start_date_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.start_date_three_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="end_date_three">{{ trans('cruds.personalHistoryForm.fields.end_date_three') }}</label>
+                <input class="form-control {{ $errors->has('end_date_three') ? 'is-invalid' : '' }}" type="text" name="end_date_three" id="end_date_three" value="{{ old('end_date_three', '') }}">
+                @if($errors->has('end_date_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('end_date_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.end_date_three_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="description_of_the_roles_and_responsibilities_three">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_three') }}</label>
+                <textarea class="form-control {{ $errors->has('description_of_the_roles_and_responsibilities_three') ? 'is-invalid' : '' }}" name="description_of_the_roles_and_responsibilities_three" id="description_of_the_roles_and_responsibilities_three">{{ old('description_of_the_roles_and_responsibilities_three') }}</textarea>
+                @if($errors->has('description_of_the_roles_and_responsibilities_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('description_of_the_roles_and_responsibilities_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.description_of_the_roles_and_responsibilities_three_helper') }}</span>
+            </div>
+            <div class="form-group">
+                <label for="reason_for_leaving_three">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_three') }}</label>
+                <textarea class="form-control {{ $errors->has('reason_for_leaving_three') ? 'is-invalid' : '' }}" name="reason_for_leaving_three" id="reason_for_leaving_three">{{ old('reason_for_leaving_three') }}</textarea>
+                @if($errors->has('reason_for_leaving_three'))
+                    <div class="invalid-feedback">
+                        {{ $errors->first('reason_for_leaving_three') }}
+                    </div>
+                @endif
+                <span class="help-block">{{ trans('cruds.personalHistoryForm.fields.reason_for_leaving_three_helper') }}</span>
+            </div>
+            <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     {{ trans('global.save') }}
                 </button>
@@ -354,72 +474,5 @@
 </div>
 
 
-
-@endsection
-
-@section('scripts')
-<script>
-    $(document).ready(function () {
-  function SimpleUploadAdapter(editor) {
-    editor.plugins.get('FileRepository').createUploadAdapter = function(loader) {
-      return {
-        upload: function() {
-          return loader.file
-            .then(function (file) {
-              return new Promise(function(resolve, reject) {
-                // Init request
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', '{{ route('admin.personal-history-forms.storeCKEditorImages') }}', true);
-                xhr.setRequestHeader('x-csrf-token', window._token);
-                xhr.setRequestHeader('Accept', 'application/json');
-                xhr.responseType = 'json';
-
-                // Init listeners
-                var genericErrorText = `Couldn't upload file: ${ file.name }.`;
-                xhr.addEventListener('error', function() { reject(genericErrorText) });
-                xhr.addEventListener('abort', function() { reject() });
-                xhr.addEventListener('load', function() {
-                  var response = xhr.response;
-
-                  if (!response || xhr.status !== 201) {
-                    return reject(response && response.message ? `${genericErrorText}\n${xhr.status} ${response.message}` : `${genericErrorText}\n ${xhr.status} ${xhr.statusText}`);
-                  }
-
-                  $('form').append('<input type="hidden" name="ck-media[]" value="' + response.id + '">');
-
-                  resolve({ default: response.url });
-                });
-
-                if (xhr.upload) {
-                  xhr.upload.addEventListener('progress', function(e) {
-                    if (e.lengthComputable) {
-                      loader.uploadTotal = e.total;
-                      loader.uploaded = e.loaded;
-                    }
-                  });
-                }
-
-                // Send request
-                var data = new FormData();
-                data.append('upload', file);
-                data.append('crud_id', '{{ $personalHistoryForm->id ?? 0 }}');
-                xhr.send(data);
-              });
-            })
-        }
-      };
-    }
-  }
-
-  var allEditors = document.querySelectorAll('.ckeditor');
-  for (var i = 0; i < allEditors.length; ++i) {
-    ClassicEditor.create(
-      allEditors[i], {
-        extraPlugins: [SimpleUploadAdapter]
-      }
-    );
-  }
-});
-</script>
 
 @endsection

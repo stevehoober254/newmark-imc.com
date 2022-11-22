@@ -3,18 +3,13 @@
 namespace App\Models;
 
 use \DateTimeInterface;
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Spatie\MediaLibrary\HasMedia;
-use Spatie\MediaLibrary\InteractsWithMedia;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
-class PersonalHistoryForm extends Model implements HasMedia
+class PersonalHistoryForm extends Model
 {
     use SoftDeletes;
-    use InteractsWithMedia;
     use HasFactory;
 
     public const DO_YOU_HAVE_PERSONAL_WEBSITE_SELECT = [
@@ -25,9 +20,6 @@ class PersonalHistoryForm extends Model implements HasMedia
     public $table = 'personal_history_forms';
 
     protected $dates = [
-        'date_of_graduation',
-        'start_date',
-        'end_date',
         'created_at',
         'updated_at',
         'deleted_at',
@@ -45,16 +37,10 @@ class PersonalHistoryForm extends Model implements HasMedia
         'highest_level_of_education',
         'field_of_study',
         'institution',
-        'date_of_graduation',
         'award_achieved',
+        'date_of_graduation',
         'high_school_grade',
         'leadership_quality',
-        'organization',
-        'number_of_employees_supervised',
-        'start_date',
-        'end_date',
-        'description_of_the_roles_and_responsibilities',
-        'reason_for_leaving',
         'practice_area_you_are_interested_in',
         'created_at',
         'skills',
@@ -69,46 +55,28 @@ class PersonalHistoryForm extends Model implements HasMedia
         'portfolio_url',
         'other_links_works',
         'current_step',
+        'organization_one',
+        'number_of_employees_supervised_one',
+        'start_date_one',
+        'end_date_one',
+        'description_of_the_roles_and_responsibilities_one',
+        'reason_for_leaving_one',
+        'organization_two',
+        'number_of_employees_supervised_two',
+        'start_date_two',
+        'end_date_two',
+        'description_of_the_roles_and_responsibilities_two',
+        'reason_for_leaving_two',
+        'organization_three',
+        'number_of_employees_supervised_three',
+        'start_date_three',
+        'end_date_three',
+        'description_of_the_roles_and_responsibilities_three',
+        'reason_for_leaving_three',
         'slug',
         'updated_at',
         'deleted_at',
     ];
-
-    public function registerMediaConversions(Media $media = null): void
-    {
-        $this->addMediaConversion('thumb')->fit('crop', 50, 50);
-        $this->addMediaConversion('preview')->fit('crop', 120, 120);
-    }
-
-    public function getDateOfGraduationAttribute($value)
-    {
-        return $value ? Carbon::parse($value)->format(config('panel.date_format')) : null;
-    }
-
-    // public function setDateOfGraduationAttribute($value)
-    // {
-    //     $this->attributes['date_of_graduation'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
-    // }
-
-    public function getStartDateAttribute($value)
-    {
-        return $value ? Carbon::parse($value)->format(config('panel.date_format')) : null;
-    }
-
-    public function setStartDateAttribute($value)
-    {
-        $this->attributes['start_date'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
-    }
-
-    public function getEndDateAttribute($value)
-    {
-        return $value ? Carbon::parse($value)->format(config('panel.date_format')) : null;
-    }
-
-    public function setEndDateAttribute($value)
-    {
-        $this->attributes['end_date'] = $value ? Carbon::createFromFormat(config('panel.date_format'), $value)->format('Y-m-d') : null;
-    }
 
     protected function serializeDate(DateTimeInterface $date)
     {
