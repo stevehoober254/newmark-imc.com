@@ -25,48 +25,47 @@
 
         <div class="pt-4 mb-5 personal-history">
             <div class="container">
-                <div class="personal-history-instruction card mb-4 shadow-sm">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5 class="text-center">Before/when filling the form, please note the following:</h5>
-                        </div>
-                        <div class="col-md-12 m-auto">
-                            <ul>
-                                <li>
-                                    Please complete the form honestly, answering all sections fully.
-                                </li>
-                                <li>
-                                    By filling this form, you signify that you consent to the use of this data according
-                                    to the terms of our privacy policy.
-                                </li>
-                                <li>
-                                    Please note that the information you provide will be used to assess your suitability
-                                    for
-                                    the position you are applying for.
-                                </li>
-                                <li>
-                                    Please note that you are only allowed to fill this form once and you will not be
-                                    able to
-                                    edit it.
-                                </li>
-                                <li>
-                                    Ensure you have a good internet connection before filling the form to avoid losing
-                                    your
-                                    progress.
-                                </li>
-                                <li>
-                                    It will take you about 10 minutes to fill the form.
-                                </li>
-                                <li>
-                                    All fields marked with an asterisk (<span class="text-danger">*</span>) throughout
-                                    this
-                                    registration form are mandatory.
-                                </li>
-                            </ul>
-
+                @if ($step == 1)
+                    <div class="personal-history-instruction card mb-4 shadow-sm">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="text-center">Before/when filling the form, please note the following:</h5>
+                            </div>
+                            <div class="col-md-12 m-auto">
+                                <ul>
+                                    <li>
+                                        Please complete the form honestly, answering all sections fully.
+                                    </li>
+                                    <li>
+                                        By filling this form, you signify that you consent to the use of this data according
+                                        to the terms of our privacy policy.
+                                    </li>
+                                    <li>
+                                        Please note that the information you provide will be used to assess your suitability
+                                        for
+                                        the position you are applying for.
+                                    </li>
+                                    <li>
+                                        Please be aware that you may only complete this form once, and that once you move on
+                                        to the next step, you will not be able to modify it.
+                                    </li>
+                                    <li>
+                                        Ensure you have a good internet connection before filling the form to avoid losing
+                                        your
+                                        progress.
+                                    </li>
+                                    <li>
+                                        It will take you about 10 minutes to fill the form.
+                                    </li>
+                                    <li>
+                                        All fields marked with an asterisk (<span class="text-danger">*</span>) throughout
+                                        this form are mandatory.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
+                @endif
                 <div class="row">
                     <div class="col-md-12">
                         @if (session('success'))
@@ -183,7 +182,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Next Step</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting this step, Confirm everything is correct?')">Next
+                                        Step</button>
                                 </form>
                             </div>
                         @elseif($step == 2)
@@ -231,7 +232,7 @@
                                         <div class="col-md-6">
                                             <div class="mb-4">
                                                 <label for="date_of_graduation" class="form-label required">Date of
-                                                    Graduatio</label>
+                                                    Graduation</label>
                                                 <input type="date" class="form-control" id="date_of_graduation"
                                                     name="date_of_graduation"
                                                     value="{{ old('date_of_graduation', '') }}">
@@ -255,7 +256,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Next Step</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting this step, Confirm everything is correct?')">Next
+                                        Step</button>
                                 </form>
                             </div>
                         @elseif($step == 3)
@@ -275,7 +278,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Next Step</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting this step, Confirm everything is correct?')">Next
+                                        Step</button>
                                 </form>
                             </div>
                         @elseif($step == 4)
@@ -286,7 +291,7 @@
                                     @csrf
                                     <h3>Step 4 of 6</h3>
                                     <p class="mt-3 mb-3">
-                                        <small><strong>Please provide the information of three references on your
+                                        <small><strong>Please provide the information of at least one references on your
                                                 Professional Background.</strong></small>
                                     </p>
                                     <h5 class="text-uppercase">WORK EXPERIENCE/Professional Background</h5>
@@ -355,7 +360,7 @@
                                             <div class="col-md-3">
                                                 <div class="mb-4">
                                                     <label for="organization_two"
-                                                        class="form-label required">Organization</label>
+                                                        class="form-label">Organization</label>
                                                     <input type="text" class="form-control" name="organization_two"
                                                         value="{{ old('organization_two', '') }}" id="organization_two">
                                                 </div>
@@ -363,7 +368,7 @@
                                             <div class="col-md-3">
                                                 <div class="mb-4">
                                                     <label for="number_of_employees_supervised_two"
-                                                        class="form-label required">Number of Employees Supervised</label>
+                                                        class="form-label">Number of Employees Supervised</label>
                                                     <input type="number" class="form-control"
                                                         name="number_of_employees_supervised_two"
                                                         value="{{ old('number_of_employees_supervised_two', '') }}"
@@ -372,21 +377,21 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="mb-4">
-                                                    <label for="start_date_two" class="form-label required">Start
+                                                    <label for="start_date_two" class="form-label">Start
                                                         Date</label>
                                                     <input type="date" class="form-control" name="start_date_two">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="mb-4">
-                                                    <label for="end_date_two" class="form-label required">End Date</label>
+                                                    <label for="end_date_two" class="form-label">End Date</label>
                                                     <input type="date" class="form-control" name="end_date_two">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-4">
                                                     <label for="description_of_the_roles_and_responsibilities_two"
-                                                        class="form-label required">Description of the Roles and
+                                                        class="form-label">Description of the Roles and
                                                         Responsibilities</label>
                                                     <textarea name="description_of_the_roles_and_responsibilities_two" class="form-control"
                                                         id="description_of_the_roles_and_responsibilities_two" cols="30" rows="3"></textarea>
@@ -394,7 +399,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-4">
-                                                    <label for="reason_for_leaving_two" class="form-label required">Reason
+                                                    <label for="reason_for_leaving_two" class="form-label">Reason
                                                         for
                                                         Leaving</label>
                                                     <textarea name="reason_for_leaving_two" class="form-control" id="reason_for_leaving_two" cols="30"
@@ -411,7 +416,7 @@
                                             <div class="col-md-3">
                                                 <div class="mb-4">
                                                     <label for="organization_three"
-                                                        class="form-label required">Organization</label>
+                                                        class="form-label">Organization</label>
                                                     <input type="text" class="form-control" name="organization_three"
                                                         value="{{ old('organization_three', '') }}"
                                                         id="organization_three">
@@ -420,7 +425,7 @@
                                             <div class="col-md-3">
                                                 <div class="mb-4">
                                                     <label for="number_of_employees_supervised_three"
-                                                        class="form-label required">Number of Employees Supervised</label>
+                                                        class="form-label">Number of Employees Supervised</label>
                                                     <input type="number" class="form-control"
                                                         name="number_of_employees_supervised_three"
                                                         value="{{ old('number_of_employees_supervised_three', '') }}"
@@ -429,14 +434,14 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="mb-4">
-                                                    <label for="start_date_three" class="form-label required">Start
+                                                    <label for="start_date_three" class="form-label">Start
                                                         Date</label>
                                                     <input type="date" class="form-control" name="start_date_three">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="mb-4">
-                                                    <label for="end_date_three" class="form-label required">End
+                                                    <label for="end_date_three" class="form-label">End
                                                         Date</label>
                                                     <input type="date" class="form-control" name="end_date_three">
                                                 </div>
@@ -444,7 +449,7 @@
                                             <div class="col-md-6">
                                                 <div class="mb-4">
                                                     <label for="description_of_the_roles_and_responsibilities_three"
-                                                        class="form-label required">Description of the Roles and
+                                                        class="form-label">Description of the Roles and
                                                         Responsibilities</label>
                                                     <textarea name="description_of_the_roles_and_responsibilities_three" class="form-control"
                                                         id="description_of_the_roles_and_responsibilities_three" cols="30" rows="3"></textarea>
@@ -453,7 +458,7 @@
                                             <div class="col-md-6">
                                                 <div class="mb-4">
                                                     <label for="reason_for_leaving_three"
-                                                        class="form-label required">Reason
+                                                        class="form-label">Reason
                                                         for
                                                         Leaving</label>
                                                     <textarea name="reason_for_leaving_three" class="form-control" id="reason_for_leaving_three" cols="30"
@@ -462,7 +467,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Next Step</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting this step, Confirm everything is correct?')">Submit</button>
                                 </form>
                             </div>
                         @elseif($step == 5)
@@ -551,7 +557,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Final Step</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting this step, Confirm everything is correct?')">Final
+                                        Step</button>
                                 </form>
                             </div>
                         @elseif($step == 6)
@@ -621,7 +629,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit for review</button>
+                                    <button type="submit" class="btn btn-primary btn-lg"
+                                        onclick="return confirm('Before submitting for review, Confirm everything is correct?')">Submit
+                                        for review</button>
                                 </form>
                             </div>
                         @endif
