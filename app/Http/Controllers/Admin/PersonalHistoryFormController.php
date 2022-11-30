@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Exports\PersonalHistoryFormExport;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyPersonalHistoryFormRequest;
 use App\Models\PersonalHistoryForm;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Maatwebsite\Excel\Facades\Excel;
 
 class PersonalHistoryFormController extends Controller
 {
