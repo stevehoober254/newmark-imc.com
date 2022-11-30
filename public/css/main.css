@@ -635,14 +635,16 @@ a:hover {
     position: relative;
     overflow: hidden;
     text-align: center;
-    /* border-radius: 30px 0px 30px 0px; */
     box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px;
     background-color: #1193d4;
 }
 
-.practice-area-containers figure:hover {
-    background-color: red;
+.our-ceo-containers figure {
+    border-radius: 0px 40px 0px 40px;
+    background-color: transparent;
 }
+
+
 @media only screen and (min-width: 769px) {
     .practice-area-containers figure:after {
         content: " ";
@@ -666,6 +668,9 @@ a:hover {
     @media (max-width: 1260px) {
         height: 270px;
     }
+}
+.our-ceo-containers figure img {
+    height: 280px;
 }
 .practice-area-containers figure figcaption {
     color: #fff;
@@ -721,6 +726,10 @@ figure.practice-area-description:hover img {
     margin-left: 0;
     margin-right: 0;
     font-weight: 900;
+}
+
+.our-ceo-containers figure:after {
+    border-width: 0;
 }
 
 /* news section */

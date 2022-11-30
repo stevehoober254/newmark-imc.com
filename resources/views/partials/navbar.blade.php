@@ -89,7 +89,10 @@
                         <li><a href="{{ route('index') }}">HOME</a>
                         </li>
                         <li>
-                            <a class="active" href="{{ route('about.us') }}">About us</a>
+                            <a class="" href="{{ route('about.us') }}">About us</a>
+                        </li>
+                        <li>
+                            <a class="" href="{{ route('our-ceo') }}">our ceo</a>
                         </li>
                         <li>
                             <a class="main-color-theme text-bold" href="{{ route('careers') }}">#Careers</a>

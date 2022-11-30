@@ -3,6 +3,7 @@
 // public routes
 Route::get('/', 'PublicController@index')->name('index');
 Route::get('about', 'PublicController@aboutUs')->name('about.us');
+Route::get('our-ceo', 'PublicController@ourCeo')->name('our-ceo');
 Route::get('careers', 'PublicController@careers')->name('careers');
 Route::get('careers/personal-history-form', 'PublicController@personalHistoryForm')->name('personal.historyform');
 Route::group(['prefix' => 'careers/personal-history-form'], function () {

@@ -23,6 +23,12 @@ class PublicController extends Controller
         return view('public.about-us', compact('expertises'));
     }
 
+    public function ourCeo()
+    {
+        $insights = Insight::orderBy('id', 'desc')->limit(3)->get();
+        return view('public.our-ceo', compact('insights'));
+    }
+
     public function expertise($slug)
     {
         abort_if(!$slug, 404);

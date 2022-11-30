@@ -59,60 +59,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-1" data-aos="fade-up">
-        <div class="our-ceo mb-3">
-            <div class="">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="{{ asset('img/gilbert.jpg') }}" title="Gilbert" class="img-fluid rounded-start"
-                            alt="Who we are">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body text-white">
-                            <h5 class="card-title text-transfom-none headings">Trail-blazing leadership</h5>
-                            <p class="card-text">
-                                Gilbert is a brand Leadership, PR and Strategic Communications expert with a passion for
-                                helping brands grow their influence and impact in the community and markets that they serve,
-                                with an added advantage of Multilingual Communications/Localization expertise.
-                            </p>
-                            <p class="card-text">
-                                Through the Newmark Group which he co-founded in 2010 and steadily built it to become one of
-                                Africa’s fastest-growing independent strategy, brand and communications consultancies, he
-                                works with Fortune 500 brands such as Johnson & Johnson, General Electric, Pfizer, Absa Bank
-                                Group PLC and AstraZeneca as an influence strategist, communications strategist, media
-                                trainer and brand architect.
-                            </p>
-                            <p class="card-text">
-                                His consultancy portfolio spans a wide spectrum of sectors, and includes a strong body of
-                                work with entities such as United Nations agencies (UNON, FAO, WHO), Intergovernmental
-                                organizations such as the African Union, as well as Development Finance Institutions (DFIs)
-                                such as the African Development Bank, the Rockefeller Foundation, the International Monetary
-                                Fund, and the World Bank. He also builds and leads teams that have served and continue to
-                                support public sector brands such as the Governments of Japan, France and Dubai.
-                            </p>
-                            <p class="card-text">
-                                Out of the 33 countries that the Newmark Group covers in Africa, he has lead assignments in
-                                25 nations, leveraging his command of multiple African languages to analyze stakeholder
-                                needs and generate locally-relevant insights and actionable strategies. Building on this
-                                solid footing, he has developed a series of conceptual frameworks that leverage data,
-                                sociology, neuroscience, media consumption trends, technology and marketing best-practice to
-                                generate strategies that brands and leadership teams can build on to expand their influence,
-                                relevance and competitiveness.
-                            </p>
-                            <p class="card-text">
-                                In line with his bias for innovation through technology, Gilbert is also the co-founded of
-                                Weza-Prosoft, a software development and outsourcing company serving clients across the
-                                globe from its’ offices in Kenya, Ghana and Canada. He is an alumna of Cornell University
-                                (US) and the University of Cumbria (UK).
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="bottom-stripe"></div>
-            </div>
-        </div>
-    </div>
+   
     <div class="our-practice-area-graph" data-aos="fade-up">
         <div class="container">
             <div class="row">
