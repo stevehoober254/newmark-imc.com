@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-            @elseif ($slug == 'newmark-pr')
+            @elseif ($slug == 'newmark-public-relations')
 
             @elseif ($slug == 'newmark-experiential')
 
@@ -189,7 +189,7 @@
         </div>
     @endif
     {{-- @if ($slug == 'newmark-digital')
-    @elseif ($slug == 'newmark-pr')
+    @elseif ($slug == 'newmark-public-relations')
 
     @elseif ($slug == 'newmark-experiential')
 
@@ -239,7 +239,7 @@
                     </div>
                 </div>
             </div>
-        @elseif ($slug == 'newmark-pr')
+        @elseif ($slug == 'newmark-public-relations')
 
         @elseif ($slug == 'newmark-experiential')
 
@@ -458,7 +458,7 @@
                         </div>
                     </div>
                 </div>
-            @elseif ($slug == 'newmark-pr')
+            @elseif ($slug == 'newmark-public-relations')
 
             @elseif ($slug == 'newmark-experiential')
 
