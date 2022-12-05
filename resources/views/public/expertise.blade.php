@@ -744,7 +744,279 @@
                     </div>
                 </div>
             @elseif ($slug == 'newmark-public-relations')
-
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Lives and Livelihoods Fund</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/lives-and-livelihoods-fund-logo-vector.png') }}"
+                                        alt="Lives and Livelihoods Fund">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/1.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/2.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h3>Telling a giant story</h3>
+                                    <h4>Region: <span>Guinea, Senegal, Uganda</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Lives and Livelihoods Fund (Arabic: صندوق العيش والمعيشة) (LLF) is a $2.5 billion
+                                    multilateral development initiative created by partners including the Islamic
+                                    Development Bank (IsDB), the Bill & Melinda Gates Foundation,[1] the Kingdom of Saudi
+                                    Arabia, the United Arab Emirates, the State of Qatar, and most recently the UK's
+                                    Foreign, Commonwealth & Development Office . The five year fund is the "largest ever
+                                    Middle-East based, fully-multilateral development initiative".
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    To raise the visibility of the projects, strategic communications and media outreach
+                                    campaigns were executed in the countries to highlight the input of the LLF and the
+                                    impact on local communities. Newmark Group designed a messaging structure
+                                    on the poverty challenge being addressed and the project’s impact in the countries
+                                    (communities and beneficiaries). Messaging about the LLF (purpose, design, donors and
+                                    structure) and other projects of note in the country and regionally. Messaging about the
+                                    importance of partnering with key stakeholders such as the government, donors, local
+                                    partners and communities to achieve sustainable development.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark successfully planned, managed and secured the attendance of 30 reporters to
+                                    attend the event in Conakry. A total of 70 coverage pieces were generated from the two
+                                    country campaigns. Newmark successfully planned and managed all event logistics,
+                                    including designing the agenda, multimedia support and managing on-ground media
+                                    interviews.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Dubai Tourism</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/dtcm-logo-color.png') }}"
+                                        alt="Lives and Livelihoods Fund">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/1.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/2.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h3>Telling a giant story</h3>
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Department of Tourism and Commerce Marketing (DTCM) is the principal authority for
+                                    the planning, supervision, development and marketing of tourism in Dubai. In the
+                                    realization of this mandate, Newmark was tasked to carry out a local media outreach and
+                                    reputation management campaign that would promote Dubai as a destination of choice for
+                                    Kenyans. The project involves coming up with editorial content for pitching to the media
+                                    and managing any local events by DTCM, as well as identifying and supervising media
+                                    trips to Dubai.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark designed an integrated communication campaign that aims at addressing some of
+                                    the misconceptions that contributed to low visitor numbers from African countries.Apart
+                                    from monthly editorial pitches on various Dubai offerings and on why the city should be
+                                    the international destination of choice to Kenyans, Newmark also makes use of local
+                                    events by DTCM to pitch for one on one media interviews with DTCM representatives.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Increased coverage of Dubai and its offerings in the media.
+                                </p>
+                                <ul>
+                                    <li>Better understanding of Dubai as a destination among the media, which has improved
+                                        uptake of content on the city.</li>
+                                    <li>A total of 30 articles pitched on Dubai in 2017</li>
+                                    <li>A total of 49,076,486 reach of coverage for 2017</li>
+                                    <li>A total of $164,619.35 total AVE attained for 2017 </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">AstraZeneca’s Healthy Heart Africa</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/10.png') }}" alt="Lives and Livelihoods Fund">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/3.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/4.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h3>Telling a giant story</h3>
+                                    <h4>Region: <span>Kenya, Ghana, Ethiopia, Uganda, Senegal and Côte d’ivoire</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Healthy Heart Africa (HHA) is AstraZeneca’s access to healthcare programme in Africa.
+                                    The programme works in partnership with governments and implementing partners to halt
+                                    and reverse the prevalence of hypertension in Africa. It is currently present in 7
+                                    countries of implementation.
+                                    Since its launch in 2014, Newmark was engaged as its communication partner in Africa,
+                                    and the agency has been involved in the programmes expansion journey and across the
+                                    continent.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    As the programmes communication partner, Newmark designs communication strategies across
+                                    the programmes 9 markets and counting. Key scopes include multilingual media
+                                    communication on the programs activities, impact and expansion journey. The agency also
+                                    designs and manages the programmes visual identity, events, multimedia content, ensuring
+                                    that its access to healthcare narrative is amplified
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark amplifies the role of HHA in providing education and awareness for hypertension
+                                    in its countries of implementation. The agency has consistently delivered positive media
+                                    coverage for the programme across its markets of implementation. In 2021 for example,
+                                    Newmark carried out media relations in 6 countries, covering Kenya, Ghana, Ethiopia,
+                                    Uganda, Senegal and Côte d’ivoire. This resulted in reaching over 21M people in
+                                    individual countries and pan-Africa through platforms such as AllAfrica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">PAXFUL</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/paxful.png') }}" alt="PAXFUL">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/5.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/6.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h3>Telling a giant story</h3>
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Healthy Heart Africa (HHA) is AstraZeneca’s access to healthcare programme in Africa.
+                                    The programme works in partnership with governments and implementing partners to halt
+                                    and reverse the prevalence of hypertension in Africa. It is currently present in 7
+                                    countries of implementation.
+                                    Since its launch in 2014, Newmark was engaged as its communication partner in Africa,
+                                    and the agency has been involved in the programmes expansion journey and across the
+                                    continent.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    As the programmes communication partner, Newmark designs communication strategies across
+                                    the programmes 9 markets and counting. Key scopes include multilingual media
+                                    communication on the programs activities, impact and expansion journey. The agency also
+                                    designs and manages the programmes visual identity, events, multimedia content, ensuring
+                                    that its access to healthcare narrative is amplified
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark amplifies the role of HHA in providing education and awareness for hypertension
+                                    in its countries of implementation. The agency has consistently delivered positive media
+                                    coverage for the programme across its markets of implementation. In 2021 for example,
+                                    Newmark carried out media relations in 6 countries, covering Kenya, Ghana, Ethiopia,
+                                    Uganda, Senegal and Côte d’ivoire. This resulted in reaching over 21M people in
+                                    individual countries and pan-Africa through platforms such as AllAfrica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-experiential')
 
             @elseif ($slug == 'newmark-imc')
