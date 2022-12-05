@@ -254,7 +254,7 @@
             </div>
         </div>
     </div>
-    <div class="company-we-keep">
+    <div class="company-we-keep pb-4">
         <div class="container" data-aos="fade-up">
             <div class="row g-0">
                 <div class="col-md-12 text-center mb-4 mt-3">
@@ -262,137 +262,131 @@
                             local!</span></h2>
                 </div>
             </div>
-            <div class="row company-logos ">
+            <div class="row company-logos">
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/1.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/1.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.gatesfoundation.org/" target="_blank">
+                    <a>
                         <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
-                            alt=""></a>
+                            alt="Client Logo"></a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/3.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/3.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/4.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/4.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/5.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/5.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/6.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/6.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/7.jpg" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/7.jpg') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.pfizer.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/pfizer.svg') }}" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/pfizer.svg') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
             </div>
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/8.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/8.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/9.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/9.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/10.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/10.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/11.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/11.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/12.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/12.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/13.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/13.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.livesandlivelihoodsfund.org/en" target="_blank">
+                    <a>
                         <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png') }}" class="img-fluid"
-                            alt="">
+                            alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/30.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/30.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
             </div>
             <div class="row company-logos company-logos-second mt-2">
                 <div class="col">
-                    <a href="https://www.novartis.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/novartis.svg') }}" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/novartis.svg') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/16.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/16.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/17.jpg" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/17.jpg') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/18.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/18.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/19.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/19.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/20.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/20.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="#">
-                        <img src="img/client-logos/21.png" class="img-fluid" alt="">
+                    <a>
+                        <img src="{{ asset('img/client-logos/21.png') }}" class="img-fluid" alt="Client Logo">
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://garid-accra.com/" target="_blank">
-                        <img src="{{ asset('img/client-logos/logo-GARID-01.png') }}" class="img-fluid" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row text-center mt-4">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                    <a href="#" class="btn btn-secondary text-capitalize mt-4">More clients
+                    <a>
+                        <img src="{{ asset('img/client-logos/logo-GARID-01.png') }}" class="img-fluid"
+                            alt="Client Logo">
                     </a>
                 </div>
             </div>

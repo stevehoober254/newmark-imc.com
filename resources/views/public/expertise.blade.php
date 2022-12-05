@@ -55,34 +55,30 @@
                 <div class="row practice-area-service-details text-white box-shadow">
                     <div class="col center-item-vertically bg-main">
                         <div class="service-heading">
-                            <h3>SOCIAL MEDIA & INFLUENCER MANAGEMENT</h3>
+                            <h3>SOCIAL MEDIA MANAGEMENT</h3>
                             <h5>Connect with your tribe</h5>
                         </div>
                     </div>
                     <div class="col">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="service-img-wrapper">
-                                    <img src="{{ asset('img/newmark-digital/4.jpg') }}"
-                                        alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                            <div class="col-md-6 center-item-vertically bg-3">
+                                <div class="service-heading-wrapper">
+                                    <h6>Profile activation and management</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-4">
+                                <div class="service-heading-wrapper">
+                                    <h6>Strategy and positioning</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-7 text-dark">
+                                <div class="service-heading-wrapper">
+                                    <h6>Content curation and creation</h6>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="service-img-wrapper">
-                                    <img src="{{ asset('img/newmark-digital/3.jpg') }}"
-                                        alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="service-img-wrapper">
-                                    <img src="{{ asset('img/newmark-digital/1.jpg') }}"
-                                        alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="service-img-wrapper">
-                                    <img src="{{ asset('img/newmark-digital/2.jpg') }}"
-                                        alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                                    <img src="{{ asset('img/newmark-digital/2.jpg') }}" alt="SOCIAL MEDIA MANAGEMENT">
                                 </div>
                             </div>
                         </div>
@@ -124,7 +120,7 @@
                 <div class="row practice-area-service-details text-white box-shadow">
                     <div class="col center-item-vertically bg-main">
                         <div class="service-heading">
-                            <h3>SOCIAL MEDIA MANAGEMENT</h3>
+                            <h3>INFLUENCER MANAGEMENT</h3>
                             <h5>Connect with your tribe</h5>
                         </div>
                     </div>
@@ -147,15 +143,112 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="service-img-wrapper">
-                                    <img src="https://images.unsplash.com/photo-1666249245722-0a122db51a00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2230&q=80"
-                                        alt="SOCIAL MEDIA & INFLUENCER MANAGEMENT">
+                                    <img src="{{ asset('img/newmark-digital/1.jpg') }}" alt="INFLUENCER MANAGEMENT">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             @elseif ($slug == 'newmark-public-relations')
-
+                <div class="newmark-practice-areas pt-4 pb-4">
+                    <div class="container">
+                        <div class="row g-0 we-connect-bg mb-2">
+                            <div class="col-md-4 text-center we-connect">
+                                <h1>We Connect</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Media Relations</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-1 single-department">
+                                        <a>
+                                            <h2>Stakeholder Mapping & Management </h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-2 single-department">
+                                        <a>
+                                            <h2>Public Affairs</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="https://images.pexels.com/photos/4427931/pexels-photo-4427931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                                alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-3 mb-2">
+                            <div class="col-md-8 order-sm-first order-last">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Strategy Design</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Communication Programme Design</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Thought Leadership</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/homepage/2.jpg') }}" alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center we-connect bg-3 order-lg-2 order-sm-1">
+                                <h1>We Empower</h1>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-4 mb-2">
+                            <div class="col-md-4 text-center we-connect ">
+                                <h1>We Activate</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Crisis Communications</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-6 single-department">
+                                        <a>
+                                            <h2>Editorial Content</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-6 single-department">
+                                        <a>
+                                            <h2>CSR and Sustainability</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="https://images.pexels.com/photos/164829/pexels-photo-164829.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                                alt="We Activate">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-experiential')
 
             @elseif ($slug == 'newmark-imc')
@@ -167,7 +260,7 @@
         </div>
     </div>
     @if (count($ourExpertise->client_logos) > 0)
-        <div class="company-we-keep pb-4">
+        {{-- <div class="company-we-keep pb-4">
             <div class="container" data-aos="fade-up">
                 <div class="row g-0">
                     <div class="col-md-12 text-center mb-4 mt-3">
@@ -180,14 +273,153 @@
                     @foreach ($ourExpertise->client_logos as $key => $media)
                         <div class="col-md-one-eighth">
                             <a>
-                                <img src="{{ $media->getUrl() }}" class="img-fluid" alt="{{ $ourExpertise->title ?? '' }}">
+                                <img src="{{ $media->getUrl() }}" class="img-fluid"
+                                    alt="{{ $ourExpertise->title ?? '' }}">
                             </a>
                         </div>
                     @endforeach
                 </div>
             </div>
-        </div>
+        </div> --}}
     @endif
+    <div class="company-we-keep pb-4">
+        <div class="container" data-aos="fade-up">
+            <div class="row g-0">
+                <div class="col-md-12 text-center mb-4 mt-3">
+                    <h2 class=" text-capitalize main text-white"><span>We localize the global and globalize the
+                            local!</span></h2>
+                </div>
+            </div>
+            <div class="row company-logos">
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/1.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/bill-melinda.svg') }}" class="img-fluid"
+                            alt="Client Logo"></a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/3.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/4.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/5.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/6.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/7.jpg') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/pfizer.svg') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row company-logos company-logos-second mt-2">
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/8.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/9.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/10.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/11.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/12.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/13.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/lives-and-livelihoods-fund.png') }}" class="img-fluid"
+                            alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/30.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row company-logos company-logos-second mt-2">
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/novartis.svg') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/16.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/17.jpg') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/18.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/19.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/20.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/21.png') }}" class="img-fluid" alt="Client Logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="{{ asset('img/client-logos/logo-GARID-01.png') }}" class="img-fluid"
+                            alt="Client Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     {{-- @if ($slug == 'newmark-digital')
     @elseif ($slug == 'newmark-public-relations')
 
@@ -265,9 +497,10 @@
                     </div>
                     <div class="col-md-5">
                         <div class="row g-0">
-                            <div class="col-md-6 center-item-vertically bg-2">
+                            <div class="col-md-6 center-item-vertically bg-white">
                                 <div class="case-study-client-logo">
-                                    <img src="{{ asset('img/client-logos/novar.png') }}" alt="Client Logo">
+                                    <img src="https://voyagesafriq.com/wp-content/uploads/2019/11/AKFED-Serena-Hotel-Logo.gif"
+                                        alt="Client Logo">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -334,7 +567,7 @@
                         <div class="row g-0">
                             <div class="col-md-6 center-item-vertically bg-2">
                                 <div class="case-study-client-logo">
-                                    <img src="{{ asset('img/client-logos/novar.png') }}" alt="Client Logo">
+                                    <img src="{{ asset('img/client-logos/6.png') }}" alt="Client Logo">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -399,9 +632,9 @@
                     </div>
                     <div class="col-md-5">
                         <div class="row g-0">
-                            <div class="col-md-6 center-item-vertically bg-2">
+                            <div class="col-md-6 center-item-vertically bg-white">
                                 <div class="case-study-client-logo">
-                                    <img src="{{ asset('img/client-logos/novar.png') }}" alt="Client Logo">
+                                    <img src="{{ asset('img/newmark-digital/ticad.png') }}" alt="Client Logo">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -468,6 +701,81 @@
 
             @elseif ($slug == 'newmark-creative')
             @endif
+        </div>
+    </div>
+    {{-- what makes us different --}}
+    <div class="practice-area-section what-makes-us-different pt-5 pb-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-capitalize main text-white">WHAT MAKES US DIFFERENT</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                We bring a lens of <strong>MULTILINGUAL</strong> and <strong>MULTICULTURAL</strong>
+                                communications to everything that we do
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-globe"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                We have the bandwidth to serve pan African brands that aspire to <strong>GLOBALIZE</strong>,
+                                as well as global brands that seek to <strong>LOCALIZE</strong> their stories
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-hands-helping"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Our purpose and drive to help our clients SOLVE <strong>BUSINESS-CRITICAL PROBLEMS</strong>
+                                drives us to enlist diverse capabilities through resource acquisition,
+                                upskilling
+                                and good old fashioned invention.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card background-blue text-center">
+                        <div class="card-body">
+                            <div class="icon">
+                                <span class="feature-eye">
+                                    <i class="fa fa-handshake"></i>
+                                </span>
+                            </div>
+                            <p class="card-text">
+                                Our <strong>RESEARCH</strong>
+                                capability, coupled with <strong>GLOBAL INTELLIGENCE</strong>,
+                                drives everything we do for/with our clients and partners
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

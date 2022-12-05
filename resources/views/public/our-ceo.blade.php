@@ -33,24 +33,28 @@
     </div>
     <hr class="thick module-2 bright-purple-background" data-aos="fade-right" data-id="module-solid_line-2"
         id="content-2" />
-    <div class="container mb-3 mt-3" data-aos="fade-up">
-        <div class="shadow-sm">
-            <div class="bg-white">
-                <div class="row g-0">
-                    <div class="col-md-12">
-                        <div class="card-body">
-                            <h5 class="card-title text-transfom-none headings main-color">Why we exist</h5>
-                            <p class="card-text mt-3">
-                                The Newmark Group is helping to build a world which provides inclusive prosperity for all.
-                                To do this, we have built a team that consistently delivers mission-critical insights,
-                                strategies, storytelling and execution, through our Strategic Communication and Consulting
-                                solutions
-                            </p>
-                        </div>
+    <div class="container mt-4 bg-white" data-aos="fade-up">
+        <div class="our-business mb-3">
+            <div class="row g-0">
+                <div class="col-md-6 order-sm-1 order-2 center-item-vertically">
+                    <div class="card-body">
+                        <h5 class="card-title text-transfom-none headings">
+                            Why we exist
+                        </h5>
+                        <p class="card-text mt-3">
+                            The Newmark Group is helping to build a world which provides inclusive prosperity for all.
+                            To do this, we have built a team that consistently delivers mission-critical insights,
+                            strategies, storytelling and execution, through our Strategic Communication and Consulting
+                            solutions
+                        </p>
                     </div>
                 </div>
-                <div class="bottom-stripe"></div>
+                <div class="col-md-6 order-1 order-sm-2">
+                    <img src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        class="img-fluid rounded-start" alt="Why we exist">
+                </div>
             </div>
+            <div class="bottom-stripe"></div>
         </div>
     </div>
     <div class="container mt-5" data-aos="fade-up">
@@ -121,11 +125,6 @@
         </div>
     </div>
     <div class="container mt-5 practice-areas mb-5" data-aos="fade-up">
-        <div class="row g-0">
-            <div class="col-md-12 text-center mb-1">
-                <h2 class=" text-capitalize main"><span>brand Leadership</span></h2>
-            </div>
-        </div>
         <div class="practice-area-containers our-ceo-containers">
             <div class="row">
                 <div class="col-lg-4 mt-4">
@@ -171,7 +170,7 @@
                 <div class="col-lg-4 mt-4">
                     <a href="#">
                         <figure class="practice-area-description">
-                            <img src="img/sectors/travel.jpg" />
+                            <img src="{{ asset('img/bongo.jpg') }}" alt="Communications strategist" />
                             <figcaption>
                                 <h2>
                                     Communications strategist
