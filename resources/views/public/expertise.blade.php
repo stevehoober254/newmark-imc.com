@@ -259,8 +259,8 @@
             @endif
         </div>
     </div>
-    @if (count($ourExpertise->client_logos) > 0)
-        {{-- <div class="company-we-keep pb-4">
+    {{-- @if (count($ourExpertise->client_logos) > 0)
+        <div class="company-we-keep pb-4">
             <div class="container" data-aos="fade-up">
                 <div class="row g-0">
                     <div class="col-md-12 text-center mb-4 mt-3">
@@ -280,8 +280,8 @@
                     @endforeach
                 </div>
             </div>
-        </div> --}}
-    @endif
+        </div>
+    @endif --}}
     <div class="company-we-keep pb-4">
         <div class="container" data-aos="fade-up">
             <div class="row g-0">
@@ -472,7 +472,59 @@
                 </div>
             </div>
         @elseif ($slug == 'newmark-public-relations')
-
+            <div class="row text-center testimonials-carousel text-center">
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            Specifically as the client what I appreciated very much: <br>
+                            - Komlas’ expertise to understand our needs and forward looking visions in a very short space of
+                            time. <br>
+                            - The Newmark team to proactively chase the Novartis team and ask challenging questions and
+                            provide constructive solutions. <br>
+                            - The credibility Komal and team have built up with H.E Vice President of Republic of Ghana and
+                            other government offices helped our launch be seamless. <br>
+                            - Our Global CEO said recently to an internal audience "this event was one of his major
+                            highlights for 2019 and a proud moment in his career." <br>
+                            You should be very proud of the team you have built. We for sure will continue to partner as we
+                            scale our program across sub-Saharan Africa.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>Novartis</h6>
+                    </div>
+                </div>
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            Thank you for the good job and professionalism
+                            exhibited by your team especially Raissa
+                            who was with us in Zanzibar and was very helpful
+                            and coordinated the tasks meticulously. We truly
+                            the extra effort to make sure the inaugural was
+                            indeed a success. Thanks for the great and impressive results.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>Turkish Airlines</h6>
+                    </div>
+                </div>
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            We launched a couple of main products, announced new partnerships, set all-time high records and
+                            established new markets. You were on that journey all throughout and we cannot thank you enough
+                            for the hard work and dedication to help us grow as a brand. Thanks for your invaluable input
+                            and for always pushing us to be the best in the industry.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>Paxful</h6>
+                    </div>
+                </div>
+            </div>
         @elseif ($slug == 'newmark-experiential')
 
         @elseif ($slug == 'newmark-imc')
