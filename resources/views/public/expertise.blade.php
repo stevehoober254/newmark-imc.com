@@ -1,4 +1,7 @@
 @extends('layouts.public')
+@section('title')
+    {{ $ourExpertise->title ?? 'Expertise' }}
+@endsection
 @section('content')
     <div class="practice-area-top-header"
         style="background-image: url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');">
@@ -1012,6 +1015,526 @@
                                     Newmark carried out media relations in 6 countries, covering Kenya, Ghana, Ethiopia,
                                     Uganda, Senegal and Côte d’ivoire. This resulted in reaching over 21M people in
                                     individual countries and pan-Africa through platforms such as AllAfrica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">AFRAA</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/6.png') }}" alt="AFRAA">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/7.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/8.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Morocco, Kenya, Tanzania, Ghana, Nigeria, Cameroun, Ethiopia</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The African Airlines Association is the regional inter-carrier association established
+                                    by African airlines to serve as the platform for cooperation and articulate matters of
+                                    interest to African airlines in order to promote and protect their common interests. It
+                                    is arguably the most significant continental aviation body however its mandate and
+                                    activities are not well known or visible in Africa.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark has designed and is currently rolling out a high-level communications and media
+                                    relations programme that strategically positions AFRAA as a highly visible leader and
+                                    the voice for the African Aviation industry. Leveraging a content-centric and
+                                    multi-channel approach, Newmark has established a dedicated newsroom that activates the
+                                    full spectrum of its expertise including brand storytelling, event management, graphic
+                                    and creative design, social media amplification and multimedia capabilities to ensure
+                                    visibility at every level.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    The agency successfully handled communications at AFRAA’s 50th Annual General Assembly,
+                                    the continental meeting that brings together more aviation stakeholders and decision
+                                    makers than any other event in the continent by actively engaging participants with the
+                                    brand throughout the convening period with strategic visibility tools. The newsroom
+                                    generated coverage across key markets including Morocco, Kenya, Tanzania, Ghana,
+                                    Nigeria, Cameroun, Ethiopia among others. The visibility was also sustained and
+                                    amplified through AFRAA’s digital channels including Twitter, Facebook, LinkedIn and
+                                    YouTube and generated 46.4k impressions over two days. In addition to this, the agency
+                                    has supported numerous events and created visibility these including high-level meetings
+                                    such as AFCAC's 30th Plenary Session in Livingstone, ICANN2018, the 11th ICAO Air
+                                    Services Negotiation Event (ICAN2018).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">COPIA</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/copia.png') }}" alt="COPIA">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/9.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/10.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya,Uganda</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    By harnessing mobile technologies and a network of local agents, and proprietary
+                                    logistics technology, Copia Global is the first and only mobile commerce platform built
+                                    to serve middle to low-income African consumers, regardless of their income level,
+                                    access to technology, or location. Newmark Group was The Newmark Group supported the
+                                    above initiative by developing a press kit comprising of a press release and fact sheet.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark Group supported in building the brands media visibility and amplifying its role
+                                    and impact through e-commerce. The Newmark team oversaw planning and implementation of
+                                    its media strategy and thought leadership strategy in Kenya and Uganda.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark successfully planned and managed media visibility opportunities for Copia every
+                                    month for one year. More than 60 coverage pieces were generated across Kenya and Uganda.
+                                    Many of the well structured media outcomes were picked up by bloggers and trended on the
+                                    day of distribution. Newmark successfully planned and managed all media logistics,
+                                    including media training the Copia Global Founder and re-designing Copia’s key messages.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">CELLULANT</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/CELLULANT.png') }}" alt="CELLULANT">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/11.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/12.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Cellulant Corporation is a developer of mobile payments ecosystems through the provision
+                                    of mobile wallet, transaction banking and mobile payment gateway solutions to financial
+                                    inclusion businesses such as commercial banks and large micro-finance institutions and
+                                    other clients. October 2021 Cellulant announced a new CEO and Newmark Group was tasked
+                                    with complementing media activities surrounding the announcement.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark designed and rolled out a high-level communications and media relations
+                                    programme to support the announcement with focus to post announcement top tier media
+                                    interviews. The Newmark Group was also tasked to plan for a multi- channel media
+                                    outreach that would amplify the announcement of Cellulant’s new Group CEO in Kenya.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    During the announcement, Newmark Group supported in building conversations around the
+                                    brand in the media by securing top tier engagements via interviews with KTN Kenya, CNBC
+                                    News, The Africa Report, Business Daily Kenya and Quartz
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">NOVARTIS</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/novartis.svg') }}" alt="NOVARTIS">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/13.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/14.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Ghana</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Cellulant Corporation is a developer of mobile payments ecosystems through the provision
+                                    of mobile wallet, transaction banking and mobile payment gateway solutions to financial
+                                    inclusion businesses such as commercial banks and large micro-finance institutions and
+                                    other clients. October 2021 Cellulant announced a new CEO and Newmark Group was tasked
+                                    with complementing media activities surrounding the announcement.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark designed and rolled out a high-level communications and media relations
+                                    programme to support the announcement with focus to post announcement top tier media
+                                    interviews. The Newmark Group was also tasked to plan for a multi- channel media
+                                    outreach that would amplify the announcement of Cellulant’s new Group CEO in Kenya.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    During the announcement, Newmark Group supported in building conversations around the
+                                    brand in the media by securing top tier engagements via interviews with KTN Kenya, CNBC
+                                    News, The Africa Report, Business Daily Kenya and Quartz
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Pfizer UpJohn</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/pfizer.svg') }}" alt="Pfizer UpJohn">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/15.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/16.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Upjohn is a business division of the global pharmaceutical company Pfizer, which
+                                    operates Pfizer's off-patent branded and generic established medicines business. The
+                                    brand is also charged with leading NCD narratives globally. In 2020, the company
+                                    partnered with the Kenya Cardiac Society and other stakeholders in Kenya to provide
+                                    education and awareness on how Covid-19 has impacted people living with NCDs. Newmark
+                                    provided communication support to the campaign.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark designed and managed a webinar that targeted healthcare providers and patient
+                                    groups on the messages. The agency also developed and distributed a press release to
+                                    targeted media outlets in Kenya. Media strategies also included securing media interview
+                                    in top health platforms to promote the campaign messages and create education and
+                                    awareness on how patients can censure continuity of care during the pandemic
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    After the campaign, 22 coverage pieces were gathered in Kenya, with a total of over 20M
+                                    people reached and over Ksh 3 million advertising value equivalency achieved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">SISU GLOBAL HEALTH</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/SISU GLOBAL HEALTH.jpeg') }}" alt="SISU GLOBAL HEALTH">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/17.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/18.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Sisu is a medical device company that designs and commercializes medical devices with
+                                    and for emerging markets.
+                                </p>
+                                <p>
+                                    In 2019 , Newmark organised a press briefing for Amref Health Africa, Sisu Global Health
+                                    and Surgipharm to announce their partnership and officially introduce HemafuseTM in
+                                    Kenya. Hemafuse in an autotransfusion device that would aid in relevant surgical
+                                    procedures.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark developed a communication plan that targeted top media outlets in Kenya for the
+                                    launch coverage. Newmark also supported event design and management for the launch and
+                                    managed all the invited stakeholders during the launch.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Through Newmark’s communication support, the event garnered coverage from top media
+                                    outlets such as Nation Media Group, K24 TV, Ebru TV, Standard Media Group, Royal Media
+                                    Services, Radio Africa Group and Capital FM. A total of 29 coverage pieces were
+                                    received.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">JOHNSON AND JOHNSON</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/JJ-logo.jpg') }}" alt="JOHNSON AND JOHNSON">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/19.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/20.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya, Ghana</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Johnson and Johnson is a multinational manufacturer of pharmaceutical products, medical
+                                    devices and consumer products. In a move to expand their global presence in Africa,
+                                    Johnson & Johnson planned office launches in Kenya and Ghana, which would serve as the
+                                    regional offices for East and West Africa respectively. Building on our strong expertise
+                                    in Event Management and Media Relations, Johnson & Johnson contacted Newmark Group to
+                                    support in regional offices launch. The Newmark team oversaw planning and implementation
+                                    of media conferences, lunch events, ribbon cutting ceremonies, healthcare thought
+                                    leadership panels in both countries and walk-through visits by Senior Government
+                                    Officials that led to making the office openings successful.
+                                </p>
+                                <p>
+                                    In 2019 , Newmark organised a press briefing for Amref Health Africa, Sisu Global Health
+                                    and Surgipharm to announce their partnership and officially introduce HemafuseTM in
+                                    Kenya. Hemafuse in an autotransfusion device that would aid in relevant surgical
+                                    procedures.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Our expertise in the full spectrum of communications from: digital, public affairs,
+                                    media relations, logistical facilitation and event management would be critical to the
+                                    success of the launches.The main communication angle for the media messaging was that
+                                    Johnson & Johnson, a multinational company had joined the list of investors in Africa to
+                                    improve the healthcare sector through innovation. Global coordination was essential in
+                                    ensuring that strategic priorities translate into market impact. In terms of thought
+                                    Leadership, the Edelman/Newmark Team designed a high-level panel session that was
+                                    embedded in the launch event and was moderated by Newmark CEO Gilbert Manirakiza.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark successfully planned and managed 6 pre- event TV interviews in Kenya and Ghana.
+                                    We also secured the attendance of 30 reporters to attend the launch in Kenya in each
+                                    country. A total of 57 coverage pieces were generated from the launch in Kenya, while we
+                                    generated 47 pieces of coverage in Ghana. The Kenya launch event trended on Twitter on
+                                    the day of the launch between 2.00pm to 01:00am. Newmark successfully planned and
+                                    managed all event logistics, including designing the agenda, selecting attendees and
+                                    running the various sessions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">AON - Minet</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/minet.png') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/21.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/22.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya, Ghana</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Following its earlier announcement to change the ownership structure of its operations
+                                    across several sub-Saharan countries, Aon plc the global leader in insurance broker,
+                                    needed to unveil its new brand identity dubbed Minet in Kenya and Uganda.Newmark was
+                                    approached to organise the launch event as well as to plan for a multi-channel media
+                                    outreach that would amplify the unveiling of Minet and at the same time enhance the
+                                    brand recognition within the regions.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark designed a communications and media relations plan specifically targeting tier
+                                    one media outlets in Kenya and Uganda and leveraged this by organizing one on one
+                                    interviews with the key spokespersons before the launch event. Post-event media
+                                    monitoring was carried out afterwards, in order to establish the reach of the message
+                                    the forum intended to put out. On the other hand, our events team set out to create a
+                                    unique, afro-centric dinner event that set the visual tone for the theme and context of
+                                    the engagement. Newmark also offered multimedia support to complement the media outreach
+                                    plan, which comprised of photography and videography services for the whole event.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    The announcement, which was attended by key business journalists, was well received in
+                                    regional top-tier media outlets thereby securing an impressive coverage across all
+                                    channels including a total of 21 articles in Kenya and 9 in Uganda respectively.
                                 </p>
                             </div>
                         </div>
