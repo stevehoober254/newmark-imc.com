@@ -9,6 +9,7 @@
         content="The Newmark Group Limited is a leading African Integrated Marketing Communications(IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market." />
     <meta name="author" content="Newmark IMC" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>
         @hasSection ('title')
             @yield('title') | Newmark

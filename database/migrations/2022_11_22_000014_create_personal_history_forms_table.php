@@ -26,7 +26,7 @@ class CreatePersonalHistoryFormsTable extends Migration
             $table->string('high_school_grade')->nullable();
             $table->longText('leadership_quality')->nullable();
             $table->string('practice_area_you_are_interested_in')->nullable();
-            $table->string('skills')->nullable();
+            $table->longText('skills')->nullable();
             $table->string('type_of_engagement')->nullable();
             $table->string('preferred_workstation')->nullable();
             $table->string('salary_expectations', 15, 2)->nullable();
