@@ -21925,7 +21925,6 @@ a:hover {
     background-color: transparent;
 }
 
-
 @media only screen and (min-width: 769px) {
     .practice-area-containers figure:after {
         content: " ";
@@ -23818,6 +23817,59 @@ Job Details Area
     line-height: 20px;
     text-transform: none;
     font-weight: 600;
+}
+
+.insights .nav-item .nav-link {
+    background-color: #3a3a3b;
+    color: #00ade5;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    border-radius: 1px;
+}
+
+.insights .nav-item .nav-link.active {
+    background-color: #00ade5;
+    color: #fff;
+}
+
+.insights .nav-tabs {
+    border-bottom: none;
+}
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+
+.insights .form-control {
+    border: none;
+    padding: 12px 10px 12px 0;
+    background-color: transparent;
+}
+
+.insights .btn-outline-secondary {
+    border: none;
+}
+
+.insights .btn-outline-secondary:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.insights-details .card {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 /* ========== NAVBAR. ========== */
 .main-nav {

@@ -398,7 +398,7 @@
                 <h2 class="text-capitalize"><span>WHAT OUR CLIENTS SAY</span></h2>
             </div>
         </div>
-        <div class="row text-center testimonials-carousel text-center">
+        <div class="row testimonials-carousel text-center">
             <div class="testimony-card">
                 <i class="fa fa-quote-left"></i>
                 <div class="testimony-desc">

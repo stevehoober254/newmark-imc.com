@@ -259,7 +259,21 @@ class PublicController extends Controller
 
     public function insights()
     {
-        return view('public.insights.newsroom');
+        $insights = Insight::orderBy('id', 'desc')->get();
+        return view('public.insights.insights', compact('insights'));
+    }
+
+    public function searchInsights(Request $request)
+    {
+        return redirect()->route('insights.search', ['query' => $request->search]);
+    }
+
+    public function searchInsightsResult($query)
+    {
+        $insights = Insight::where('title', 'like', '%' . $query . '%')
+            ->orWhere('description', 'like', '%' . $query . '%')
+            ->get();
+        return view('public.insights.insights', compact('insights'));
     }
 
     public function insightDetail($slug)
@@ -268,7 +282,7 @@ class PublicController extends Controller
         if (!$insight) {
             abort(404);
         }
-        return view('public.insights.insight-detail', compact('insight'));
+        return view('public.insights.insights-details', compact('insight'));
     }
 
     public function newmarkDigital()

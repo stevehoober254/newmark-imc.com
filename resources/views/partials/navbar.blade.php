@@ -105,7 +105,7 @@
                                         XXI</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('index') }}#insights">Insights</a>
+                                    <a href="{{ route('insights') }}">Insights</a>
                                 </li>
                             </ul>
                         </li>

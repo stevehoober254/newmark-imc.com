@@ -16,6 +16,8 @@ Route::post('careers/search/job', 'PublicController@careerSearchPost')->name('ca
 Route::get('careers/job-list', 'PublicController@jobList')->name('job.list');
 Route::get('careers/job-list/{slug}/job-details', 'PublicController@jobDetails')->name('job.details');
 Route::get('insights', 'PublicController@insights')->name('insights');
+Route::post('search/insights/list', 'PublicController@searchInsights')->name('insights.search.post');
+Route::get('insights/{query}/list', 'PublicController@searchInsightsResult')->name('insights.search');
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
 Route::get('expertise/{slug}', 'PublicController@expertise')->name('expertise');
 Route::get('contact', 'PublicController@contactUs')->name('contact.us');
