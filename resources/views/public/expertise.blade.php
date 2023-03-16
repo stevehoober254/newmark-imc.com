@@ -252,13 +252,239 @@
                         </div>
                     </div>
                 </div>
-            @elseif ($slug == 'newmark-experiential')
-
+            @elseif ($slug == 'newmarkx')
+                <div class="newmark-practice-areas pt-4 pb-4">
+                    <div class="container">
+                        <div class="row g-0 we-connect-bg mb-2">
+                            <div class="col-md-4 text-center we-connect">
+                                <h1>We Connect</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Event Strategy, Content & Management</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-1 single-department">
+                                        <a>
+                                            <h2>Experiential Marketing</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-2 single-department">
+                                        <a>
+                                            <h2>Event Design & Production</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="https://images.unsplash.com/photo-1486591978090-58e619d37fe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                                alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-3 mb-2">
+                            <div class="col-md-8 order-sm-first order-last">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Event Technology and AV Setups</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Hybrid & Virtual Events</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Event Protocol & Logististics</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/newmark-x/we-empower.jpeg') }}" alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center we-connect bg-3 order-lg-2 order-sm-1">
+                                <h1>We Empower</h1>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-4 mb-2">
+                            <div class="col-md-4 text-center we-connect ">
+                                <h1>We Activate</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>In-site Brand Activations</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-6 single-department">
+                                        <a>
+                                            <h2>Merchandising</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-6 single-department">
+                                        <a>
+                                            <h2>Roadshows</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/newmark-x/we-activate.jpeg') }}" alt="We Activate">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-imc')
-
+                <div class="newmark-practice-areas pt-4 pb-4">
+                    <div class="container">
+                        <div class="row g-0 we-connect-bg mb-2">
+                            <div class="col-md-4 text-center we-connect">
+                                <h1>We Empower</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Training Programmes</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-1 single-department">
+                                        <a>
+                                            <h2>Executive Coaching</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-2 single-department">
+                                        <a>
+                                            <h2>Brand Consultancy</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/homepage/2.jpg') }}" alt="We Empower">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-3 mb-2">
+                            <div class="col-md-8 order-sm-first order-last">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>360 Degree Campaigns</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>InfluenceXXI</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Trends & Publications</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/newmark/influence21.png') }}" alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center we-connect bg-3 order-lg-2 order-sm-1">
+                                <h1>We Activate</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-creative')
-
-            @elseif ($slug == 'newmark-creative')
+                <div class="newmark-practice-areas pt-4 pb-4">
+                    <div class="container">
+                        <div class="row g-0 we-connect-bg mb-2">
+                            <div class="col-md-4 text-center we-connect">
+                                <h1>We Connect</h1>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Art Direction & Strategy</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-1 single-department">
+                                        <a>
+                                            <h2>Creative design</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-2 single-department">
+                                        <a>
+                                            <h2>Multimedia content</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/newmark-creative.png') }}" alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 bg-3 mb-2">
+                            <div class="col-md-8 order-sm-first order-last">
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-white single-department">
+                                        <a>
+                                            <h2>Brand Identity</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Animation & Viral Video</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-md-6 bg-5 single-department">
+                                        <a>
+                                            <h2>Copywriting</h2>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 single-department">
+                                        <div class="newmark-practice-area-img-wrapper">
+                                            <img src="{{ asset('img/light.png') }}" alt="We Connect">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center we-connect bg-3 order-lg-2 order-sm-1">
+                                <h1>We Empower</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @endif
         </div>
     </div>
@@ -423,26 +649,16 @@
             </div>
         </div>
     </div>
-    {{-- @if ($slug == 'newmark-digital')
-    @elseif ($slug == 'newmark-public-relations')
-
-    @elseif ($slug == 'newmark-experiential')
-
-    @elseif ($slug == 'newmark-imc')
-
-    @elseif ($slug == 'newmark-creative')
-
-    @elseif ($slug == 'newmark-creative')
-    @endif --}}
-    {{-- testimonies --}}
     <div class="container mt-3 testimonials" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12 text-center mb-1 mt-4">
-                <h2 class="text-capitalize"><span>WHAT OUR CLIENTS SAY</span></h2>
+        @if ($slug != 'newmark-imc')
+            <div class="row">
+                <div class="col-lg-12 text-center mb-1 mt-4">
+                    <h2 class="text-capitalize"><span>WHAT OUR CLIENTS SAY</span></h2>
+                </div>
             </div>
-        </div>
+        @endif
         @if ($slug == 'newmark-digital')
-            <div class="row text-center testimonials-carousel text-center">
+            <div class="row testimonials-carousel text-center">
                 <div class="testimony-card">
                     <i class="fa fa-quote-left"></i>
                     <div class="testimony-desc">
@@ -475,7 +691,7 @@
                 </div>
             </div>
         @elseif ($slug == 'newmark-public-relations')
-            <div class="row text-center testimonials-carousel text-center">
+            <div class="row testimonials-carousel text-center">
                 <div class="testimony-card">
                     <i class="fa fa-quote-left"></i>
                     <div class="testimony-desc">
@@ -528,13 +744,72 @@
                     </div>
                 </div>
             </div>
-        @elseif ($slug == 'newmark-experiential')
-
-        @elseif ($slug == 'newmark-imc')
-
+        @elseif ($slug == 'newmarkx')
+            <div class="row testimonials-carousel text-center">
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            We selected Newmark Group as one of the partners who provided Event Management services during
+                            the 2nd ACCA, which gathered more than 500 participants from all over the world. <br>
+                            We appreciate Newmark’s professionalism, personalised attention to detail, flexibility and
+                            creative approach to making our events a success. We highly recommend this accomplished team.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>African Conservation Tillage Network</h6>
+                    </div>
+                </div>
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            I would like to formally acknowledge and endorse Newmark Group Limited as an outstanding media
+                            relations, communications and event management partner for the November 2020 AACOSE (Annual
+                            Africa Conference on Social Entrepreneurship), a first of its kind hybrid conference that was
+                            hosted by the Tangaza University College and us, Ashoka EA. <br> We had a very strong
+                            traditional and online media presence and coverage appearing in tier one Kenyan TV and print
+                            outlets.
+                            <br>
+                            Newmark Group Limited managed all aspects of the launch from beginning to the end, which
+                            resulted in an unequivocal success not only for our organization but for the community at large.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>Ashoka East Africa</h6>
+                    </div>
+                </div>
+            </div>
         @elseif ($slug == 'newmark-creative')
-
-        @elseif ($slug == 'newmark-creative')
+            <div class="row testimonials-carousel text-center">
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            The Newmark Group provided media relations, photography and videography, social media and
+                            creative branding services. They were able to help us amplify the launch and achieve an audience
+                            reach of 106.2 million from pan African media, local TV, radio, print and online outlets. We
+                            were pleased with the results which further solidifies the partnership between Ashoka and
+                            Newmark Group and we are looking forward to further collaborations.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>Ashoka Africa</h6>
+                    </div>
+                </div>
+                <div class="testimony-card">
+                    <i class="fa fa-quote-left"></i>
+                    <div class="testimony-desc">
+                        <p>
+                            We appreciate Newmark’s professionalism, personalised attention to detail, flexibility and
+                            creative approach to making our events a success. We highly recommend this accomplished team.
+                        </p>
+                    </div>
+                    <div class="testimony-author">
+                        <h6>African Conservation Tillage Network</h6>
+                    </div>
+                </div>
+            </div>
         @endif
     </div>
     {{-- case studies --}}
@@ -1540,13 +1815,530 @@
                         </div>
                     </div>
                 </div>
-            @elseif ($slug == 'newmark-experiential')
-
+            @elseif ($slug == 'newmarkx')
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">NOVARTIS</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/novartis.svg') }}" alt="NOVARTIS">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/13.png') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/pr/14.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Ghana</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Novartis, an Internationally acclaimed global healthcare company needed to officially
+                                    launch the first licensed therapy for sickle cell disease (SCD) in Ghana in the form of
+                                    a public-private partnership event. This was to be done in collaboration with the
+                                    Government of Ghana, the Sickle Cell Foundation of Ghana. The event was attended by the
+                                    Global CEO of Novartis and the Vice President of the Republic of Ghana
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark’s strategic approach involved mapping all stakeholders and key media influencers
+                                    for meetings and briefing on the partnership. An integrated, multi-platform
+                                    communication approach was deployed, combining owned and earned media as the core
+                                    pillars of the event mobilization.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <ul>
+                                    <li>
+                                        The event was organized seamlessly with over six-hundred people attending.
+                                    </li>
+                                    <li>
+                                        Traditional media coverage has been massive across the region.
+                                    </li>
+                                    <li>
+                                        The narratives around the project got very sound approvals.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Rockefeller Foundation</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/Rockefeller-Foundation.png') }}"
+                                        alt="Rockefeller Foundation">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/1.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Rockefeller Foundation Africa Regional Office needed to organise an inclusive
+                                    economies forum for Africa which would attract senior decision-makers and thinkers from
+                                    across Private, Public and Development sectors to interrogate the theme.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    For this Africa-focused event, Newmark was tasked with providing support the ARO office
+                                    over a period of 4 months to design and execute communications, media and event
+                                    management strategies that would yield high participation, quality debates and value.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <ul>
+                                    <li>
+                                        The event was organized seamlessly with over six-hundred people attending.
+                                    </li>
+                                    <li>
+                                        Traditional media coverage has been massive across the region.
+                                    </li>
+                                    <li>
+                                        The narratives around the project got very sound approvals.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Minet Kenya</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/pr/minet.png') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/top-header.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/3.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Following its earlier announcement to change the ownership structure of its operations
+                                    across several sub-Saharan countries, Aon plc the global leader in insurance broker,
+                                    needed to unveil its new brand identity dubbed Minet in Kenya and Uganda.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark was approached to organise the launch event as well as to plan for a
+                                    multi-channel media outreach that would amplify the unveiling of Minet and at the same
+                                    time enhance the brand recognition within the regions.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    Newmark designed a communications and media relations plan specifically targeting tier
+                                    one media outlets in Kenya and Uganda. Our events team also set out to create a unique,
+                                    afrocentric dinner event that set the visual tone for the theme and context of the
+                                    engagement. We also offered multimedia support to complement the media outreach plan,
+                                    which comprised of photography and videography services for the whole event.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">AACOSE</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/newmark-x/aacose.jpeg') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/4.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/5.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Annual Africa Conference on Social Entrepreneurship (AACOSE), organized jointly by
+                                    Tangaza University College and Ashoka East Africa, was an initiative set in place to
+                                    foster the interaction between the key actors that contribute to creating favourable
+                                    conditions for the growth of sustainable social enterprises in Africa through uncovering
+                                    answers to critical questions through a sector-specific lens on selected key thematic
+                                    areas.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark’s strategic approach involved carrying out a 360 degree event management scope,
+                                    including project strategy and coordination, delegate management, creative design,
+                                    multimedia through audio-visual, live streaming, and photography, supplier management
+                                    and event setup and media relations through the creation of press releases and media
+                                    related content
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <ul>
+                                    <li>
+                                        We got a total of an average 200 attendees to the hybrid conference
+                                    </li>
+                                    <li>
+                                        We launched the AACOSE research initiative to drive evidence-based innovations,
+                                        capacity building, and policy interventions to support the growth of social
+                                        entrepreneurship and changemaking across institutions of higher learning
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">PASCAR CONGRESS</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/pascar.png') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/6.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark-x/7.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Kenya Cardiac Society (KCS) in conjunction with the Pan-African Society of
+                                    Cardiology (PASCAR) wanted to host the 15th edition of the PASCAR Congress in Mombasa,
+                                    Kenya. The goal was to host members from the Africa wide PASCAR leadership team as well
+                                    as leading cardiologists and key ecosystem players across countries and organizations in
+                                    Africa and beyond.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark’s strategic approach involved carrying out a 360 degree event management scope,
+                                    including project strategy and coordination, delegate management, creative design,
+                                    multimedia through audio-visual, live streaming, and photography, supplier management,
+                                    sponsorship & exhibition management, website development and event setup.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <ul>
+                                    <li>
+                                        We got more than 300 attendees present physically throughout the conference in
+                                        Mombasa, more than 100 virtually, 115 faculty
+                                    </li>
+                                    <li>
+                                        We were able to successfully engage and have onboard 64 sponsors and exhibitors.
+                                    </li>
+                                    <li>
+                                        The hybrid transmission enabled the livestreaming of a live medical procedure
+                                        (Balloon Valvuloplasty) from the Coast General Teaching & Referral Hospital, to the
+                                        conferencing room
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-imc')
-
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">Absa</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/3.png') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/absa.jpg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/absa-2.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Seychelles, Botswana, Uganda, Tanzania, Ghana, Zambia, Mauritius and
+                                            Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Absa Bank PLC is arguably one of Africa’s largest diversified financial services group
+                                    with a presence in 12 countries across the continent. Newmark has been a ket Capacity
+                                    Development and Coaching partner since the Bank rebranded from Barclays. As a key player
+                                    in the financial services market in Africa, the company has regularly entrusted our team
+                                    to conduct executive media training and strategy coaching for senior executives,
+                                    including Managing Directors, Country Management Committees and other senior personnel
+                                    who may be called upon to position the brand in various fora.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Leveraging the knowledge and experience gained from closely collaborating with various
+                                    teams across the continent, Newmark has been able to customize a programme that
+                                    seamlessly integrates best practices to maximize interaction with media with Barclays
+                                    now Absa’s values and overarching reputation goals.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    This collaboration has led to the successful training of Barclays now Absa executive
+                                    staff in the following markets: Seychelles, Botswana, Uganda, Tanzania, Ghana, Zambia
+                                    and Kenya
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">QNET-FinGreen</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/fingreen.png') }}" alt="AON - Minet">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark/1.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/newmark/2.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Federal Republic of Nigeria</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    Qnet is global e-commerce based direct selling company that provides customers around
+                                    the world with unique high-quality products and services while allowing them to build a
+                                    sales business by promoting these products.
+                                    FinGreen is QNET's signature programme for financial literacy, aiming to develop healthy
+                                    financial habits through education and training in the most vulnerable communities.
+                                    Conceived in 2021,FinGreen aims to build essential financial knowledge and skills, such
+                                    as a firm foundation for managing money, savings, and payments, alongside empowering
+                                    individuals to become knowledge leaders who can encourage financial education in their
+                                    community especially among young adults.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Newmark Group sourced and onboarded implementing and media partners for the execution of
+                                    the project.
+                                    We availed a detailed roll out plan after extensive baseline research in conjunction
+                                    with QNET and implementing partners and followed through with monitoring and evaluation.
+                                    Newmark also developed and coordinated all communication strategies and collaterals.
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    So far, over 571 young adults through a peer-to-peer model in communities like Ikeja,
+                                    Ikorodu, Ogun, and Oyo states have received financial literacy training through the
+                                    FinGreen project with a promising increment in subsequent phases of the project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @elseif ($slug == 'newmark-creative')
-
-            @elseif ($slug == 'newmark-creative')
+                <div class="row case-studies-card g-0 display-flex">
+                    <div class="col-md-12 text-center">
+                        <h6 class="case-study-heading mb-3 mt-3">MKWC</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row g-0">
+                            <div class="col-md-6 center-item-vertically bg-white">
+                                <div class="case-study-client-logo">
+                                    <img src="{{ asset('img/client-logos/mkwc.png') }}" alt="MKWC">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/mkwc-1.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="case-study-client-imgs">
+                                    <img src="{{ asset('img/mkwc-2.jpeg') }}" alt="Client">
+                                </div>
+                            </div>
+                            <div class="col-md-6 center-item-vertically bg-1">
+                                <div class="case-study-client-region">
+                                    <h4>Region: <span>Kenya</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 bg-3 text-white">
+                        <div class="case-study-description">
+                            <div class="ambition">
+                                <h5>Ambition</h5>
+                                <p>
+                                    The Mount Kenya Wildlife Conservancy (MKWC) wanted to commence the set up of the Mawingu
+                                    Mountain Bongo Sanctuary, in line with the fundamental element of the National Recovery
+                                    and Action Plan for the Mountain Bongo 2019 – 2023. In light of this, they wanted an
+                                    agency who could help deliver the experiential, communication and creative design
+                                    element to help in the delivery of this huge Milestone
+                                    encourage financial education in their community especially among young adults.
+                                </p>
+                            </div>
+                            <div class="action">
+                                <h5>Action</h5>
+                                <p>
+                                    Leveraging the knowledge and experience gained from working in countless projects across
+                                    Africa, Newmark was able to develop a robust work plan that saw the execution of the
+                                    event that brought together the Ministry of Tourism and Wildlife, the Kenya Wildlife
+                                    Service and the Kenya Forest Service launched the Mawingu Mountain Bongo Sanctuary on
+                                    14th December 2020.
+                                </p>
+                                <p>
+                                    As part of the deliverables, we managed to design a number of collaterals, including;
+                                    banners, branded items (facemasks, pocket sanitizers, do not sit here stickers) & event
+                                    programs
+                                </p>
+                            </div>
+                            <div class="results">
+                                <h5>Results</h5>
+                                <p>
+                                    The event was attended by a host of stakeholders in the wildlife conservation community
+                                    such as dignitaries from the National Government, environmental enthusiasts, scientific
+                                    community, diplomats and wardens who represented Laikipia County, despite being a
+                                    partial lockdown period
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             @endif
         </div>
     </div>
