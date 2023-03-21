@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-uppercase padding-center">About Newmark IMC</h2>
+                        <h2 class="text-uppercase padding-center">About The Newmark IMC</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -18,7 +18,7 @@
                                         <li class="breadcrumb-item"><a class="text-white" href="/"><i
                                                     class="fas fa-home mr-2"></i>
                                                 Home</a></li>
-                                        <li class="breadcrumb-item active"><span>About us</span></li>
+                                        <li class="breadcrumb-item active"><span>About The Newmark IMC</span></li>
                                     </ol>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                     <div class="col-md-6 order-sm-1 order-2">
                         <div class="card-body">
                             <h5 class="card-title text-transfom-none headings">Who we are</h5>
-                            <p class="card-text mt-3">
+                            <p class="card-text mt-1">
                                 The Newmark Group Limited is a leading African Integrated Marketing Communications (IMC)
                                 firm that ranks among the fastest growing with a strong presence in the Multinational Brand
                                 segment of the market. With a footprint in over 30 countries in Africa, Newmark brings a
@@ -48,6 +48,8 @@
                                 support leading local and global brands to understand their competitive landscape, enhance
                                 their visibility and earn a strategic reputation that supports their business objectives.
                             </p>
+                            <a href="{{ route('our-ceo') }}" class="btn btn-secondary-outline btn-sm"
+                                style="margin: 0px">Meet Our CEO</a>
                         </div>
                     </div>
                     <div class="col-md-6 order-1 order-sm-2">
@@ -59,7 +61,7 @@
             </div>
         </div>
     </div>
-   
+
     <div class="our-practice-area-graph" data-aos="fade-up">
         <div class="container">
             <div class="row">
@@ -162,6 +164,16 @@
                 <div class="col-md-2">
                     <a href="#">
                         <img src="{{ asset('img/partners/10.png') }}" class="img-fluid" alt="Partners Network">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="{{ asset('img/partners/11.png') }}" class="img-fluid" alt="Partners Network">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="{{ asset('img/partners/12.png') }}" class="img-fluid bg-dark" alt="Partners Network">
                     </a>
                 </div>
             </div>
