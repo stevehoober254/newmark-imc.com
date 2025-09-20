@@ -18,5 +18,5 @@ jobs:
 
       - name: Deploy via rsync
         run: |
-          rsync -avz --exclude '.git*' --exclude 'node_modules' ./ newmar14@newmark-imc.com:/home/newmar14/public_html
-          ssh newmar14@newmark-imc.com "cd /home/newmar14/public_html && composer install --optimize-autoloader && php artisan migrate --force && php artisan config:cache"
+          rsync -avz --exclude '.git*' --exclude 'node_modules' ./ newmar14@ngx304.inmotionhosting.com:/home/newmar14/public_html
+          ssh newmar14@ngx304.inmotionhosting.com "cd /home/newmar14/public_html && composer install --optimize-autoloader && php artisan migrate --force && php artisan config:cache"
