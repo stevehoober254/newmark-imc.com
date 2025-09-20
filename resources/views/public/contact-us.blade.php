@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="main-color text-bold mt-3">Get in Touch</h2>
-                <p class="margin-bottom-half"><a href="tel:+254 114 668 366"> <i class="fa fa-phone"></i> +254 740 386 468</a></p>
+                <p class="margin-bottom-half"><a href="tel:+254 740507221"> <i class="fa fa-phone"></i> +254 740 507 221</a></p>
                 <p><a href="mailto:hello@newmark-imc.com"><i class="fa fa-envelope"></i> hello@newmark-imc.com</a></p>
                 <h2 class="main-color text-bold">Hub and liaison offices</h2>
             </div>
@@ -15,12 +15,13 @@
                     <img src="img/nairobi.jpg" class="card-img-top" alt="Country">
                     <div class="card-body">
                         <h3><i class="fa fa-map-marker-alt main-color"></i> Nairobi, Kenya</h3>
-                        <p><span class="main-color">Newmark PR & Insights:</span> Vienna Court, Ground Floor, West Wing
-                            Building, State House Crescent Road. P.O. Box 44168-00100, Nairobi.
-                            <br>
-                            <span class="main-color">Newmark IMC:</span> Consummate Court, Ole Dume Road
+                        <p>
+                            Consummate Court, Ole Dume Road <br/>P.O. Box 44168-00100, Nairobi.
+                            <!--<span class="main-color">Newmark PR & Insights:</span> -->
+                            <!--<br>-->
+                            <!--<span class="main-color">Newmark IMC:</span> Consummate Court, Ole Dume Road-->
                         </p>
-                        <p><a href="tel:+254 114 668 366"> <i class="fa fa-phone"></i> +254 114 668366</a></p>
+                        <p><a href="tel:+254 740 507 221"> <i class="fa fa-phone"></i> +254 740 507 221</a></p>
                     </div>
                 </div>
             </div>
@@ -91,14 +92,25 @@
             </div>
             <div class="col-md-4 contact-us" data-aos="fade-up">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1620562423895-ad4924643d43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                    <img src="https://a.storyblok.com/f/95452/2436x1230/9d9ba7853f/zambia-lusaka-skyline-min.jpg/m/1000x1000"
                         class="card-img-top" alt="Country">
                     <div class="card-body">
-                        <h3><i class="fa fa-map-marker-alt main-color"></i> Geneva, Switzerland</h3>
+                        <h3><i class="fa fa-map-marker-alt main-color"></i> Lusaka, Zambia</h3>
                         <p>
-                            Route de peney 14, 1214 Vernier,
+                            Zambia: Lusaka: 4 on Bishops Office Park, Bishops Road, Lusaka, 10101, Zambia
                         </p>
-                        <p><a href="tel:+41 76 679 74 63"> <i class="fa fa-phone"></i>+41 76 679 74 63</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 contact-us" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://globemigrant.com/wp-content/uploads/2021/01/Dar-BRT-32-of-32-1-1536x864.jpg"
+                        class="card-img-top" alt="Country">
+                    <div class="card-body">
+                        <h3><i class="fa fa-map-marker-alt main-color"></i> Dar Es Salaam, Tanzania</h3>
+                        <p>
+                            429 Mahando Street, Dar Es Salaam
+                        </p>
                     </div>
                 </div>
             </div>
@@ -107,9 +119,9 @@
             <div class="row">
                 <div class="col-md-12 text-center pt-5">
                     <h3 class="main-color">Send us a message</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae.
-                    </p>
+                    <!--<p>-->
+                    <!--    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repudiandae.-->
+                    <!--</p>-->
                 </div>
             </div>
             <form action="#" class="p-4">

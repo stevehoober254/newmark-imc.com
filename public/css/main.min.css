@@ -21289,6 +21289,7 @@ body.hide-language-switcher .main-header .main-menu ul.menu > li.wpml-ls-item {
 body {
     overflow-x: hidden;
     font-family: "GE Inspira Regular";
+    height: '100%';
 }
 .line-after-heading {
     position: relative;
@@ -23870,6 +23871,16 @@ Job Details Area
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+.leadform-container{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    z-index:99;
+    background-color:black;
+    padding:4px;
 }
 /* ========== NAVBAR. ========== */
 .main-nav {

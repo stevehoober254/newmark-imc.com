@@ -45,7 +45,7 @@ class PublicController extends Controller
     public function jobList()
     {
         $ourExpertises = OurExpertise::with(['media'])->get();
-        $opportunities = Opportunity::with(['expertise_area', 'location'])->where('status', 1)->get();
+        $opportunities = Opportunity::with(['expertise_area', 'location'])->where('status', 1)->orderBy('id', 'desc')->get();
         return view('public.job-list', compact('opportunities', 'ourExpertises'));
     }
 
@@ -293,5 +293,9 @@ class PublicController extends Controller
     public function contactUs()
     {
         return view('public.contact-us');
+    }
+    public function leads()
+    {
+        return view('public.leads');
     }
 }

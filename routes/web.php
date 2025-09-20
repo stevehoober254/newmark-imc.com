@@ -5,6 +5,10 @@ Route::get('/', 'PublicController@index')->name('index');
 Route::get('about', 'PublicController@aboutUs')->name('about.us');
 Route::get('our-ceo', 'PublicController@ourCeo')->name('our-ceo');
 Route::get('careers', 'PublicController@careers')->name('careers');
+Route::get('careers/internship-form', 'InternshipFormController@show')->name('internship.form');
+Route::post('careers/internship-form', 'InternshipFormController@store')->name('internship.form.store');
+Route::get('careers/attachment-form', 'AttachmentFormController@show')->name('attachment.form');
+Route::post('careers/attachment-form', 'AttachmentFormController@store')->name('attachment.form.store');
 Route::get('careers/personal-history-form', 'PublicController@personalHistoryForm')->name('personal.historyform');
 Route::group(['prefix' => 'careers/personal-history-form'], function () {
     Route::post('personal-history-form', 'PublicController@personalHistoryFormStep1')->name('personal.historyform.step1');
@@ -21,6 +25,7 @@ Route::get('insights/{query}/list', 'PublicController@searchInsightsResult')->na
 Route::get('insights/{slug}', 'PublicController@insightDetail')->name('insight.details');
 Route::get('expertise/{slug}', 'PublicController@expertise')->name('expertise');
 Route::get('contact', 'PublicController@contactUs')->name('contact.us');
+Route::get('leads', 'PublicController@leads')->name('leads');
 
 
 // private routes
@@ -101,6 +106,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::post('personal-history-forms/ckmedia', 'PersonalHistoryFormController@storeCKEditorImages')->name('personal-history-forms.storeCKEditorImages');
     Route::resource('personal-history-forms', 'PersonalHistoryFormController', ['except' => ['create', 'store', 'edit', 'update']]);
 
+    // Internship Forms
+    Route::delete('internship-forms/destroy', 'InternshipFormController@massDestroy')->name('internship-forms.massDestroy');
+    Route::resource('internship-forms', 'InternshipFormController', ['except' => ['create', 'store', 'edit', 'update']]);
+
+    // Attachment Forms
+    Route::delete('attachment-forms/destroy', 'AttachmentFormController@massDestroy')->name('attachment-forms.massDestroy');
+    Route::resource('attachment-forms', 'AttachmentFormController', ['except' => ['create', 'store', 'edit', 'update']]);
+
     // Client
     Route::delete('clients/destroy', 'ClientController@massDestroy')->name('clients.massDestroy');
     Route::post('clients/media', 'ClientController@storeMedia')->name('clients.storeMedia');
@@ -133,6 +146,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 
     Route::get('team-members', 'TeamMembersController@index')->name('team-members.index');
     Route::post('team-members', 'TeamMembersController@invite')->name('team-members.invite');
+    
+    
 });
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'namespace' => 'Auth', 'middleware' => ['auth', '2fa']], function () {
     // Change password

@@ -202,6 +202,10 @@
                             <a href="">
                                 <h2>Analytics & Insights</h2>
                             </a>
+                             <button id="insightsreport" style="margin-left:6px" class="position-absolute bottom-0 start-0 text-primary bg-transparent small d-flex align-items-center leadform-trigger">
+                               <span class="small">Check Our Report</span> 
+                                <i class="fa fa-cloud-download" aria-hidden="true" style="font-size: 20px;margin-left:4px"></i>
+                            </button>
                         </div>
                     </div>
                     <div class="row g-0">
@@ -231,11 +235,16 @@
                             <a href="">
                                 <h2>Event Management</h2>
                             </a>
+                            
                         </div>
-                        <div class="col-md-6 bg-6 single-department">
+                        <div class="col-md-6 bg-6 single-department position-relative">
                             <a href="">
                                 <h2>Experiential Marketing</h2>
                             </a>
+                            <button id="experientialProfile" class="position-absolute bottom-0 start-0 text-primary bg-transparent small d-flex align-items-center leadform-trigger">
+                               <span class="small">Check Our Profile</span> 
+                                <i class="fa fa-external-link" aria-hidden="true" style="font-size: 20px;margin-left:4px"></i>
+                            </button>
                         </div>
                     </div>
                     <div class="row g-0">
@@ -621,56 +630,59 @@
         </div>
     </div>
     <!-- Insights -->
-    <div id="insights" class="container news-section mt-5" data-aos="fade-up">
-        <div class="row g-0">
-            <div class="col-md-12 mb-4 text-center">
-                <h3 class="text-capitalize main"><span>Insights</span></h3>
-            </div>
-        </div>
-        <div class="row ">
-            @foreach ($insights as $insight)
-                <div class="col-lg-4 ">
-                    <a href="{{ route('insight.details', $insight->slug) }}">
-                        <main>
-                            <div class='normal '>
-                                <div class='module'>
-                                    <div class='thumbnail'>
-                                        @if ($insight->image)
-                                            <img src="{{ $insight->image->getUrl() }}" alt="{{ $insight->title }}">
-                                        @endif
-                                        <div class='date'>
-                                            <div>
-                                                {{ $insight->created_at->format('d') }}
-                                            </div>
-                                            <div>
-                                                {{ $insight->created_at->format('M') }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class='content'>
-                                        <h1 class='title'>
-                                            {{ $insight->title }}
-                                        </h1>
-                                        <div class="description">
-                                            {!! Str::limit($insight->description, 200, '...') !!}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </main>
-                    </a>
-                </div>
-            @endforeach
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-                <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4">
-                    Read More
-                </a>
-            </div>
-        </div>
-    </div>
+    <!--<div id="insight" class="container news-section mt-5" data-aos="fade-up">-->
+    <!--    <div class="row g-0">-->
+    <!--        <div class="col-md-12 mb-4 text-center">-->
+    <!--            <h3 class="text-capitalize main"><span>Insights</span></h3>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="row ">-->
+    <!--        @foreach ($insights as $insight)-->
+    <!--            <div class="col-4">-->
+    <!--                <a href="{{ route('insight.details', $insight->slug) }}">-->
+    <!--                    <main>-->
+    <!--                        <div class='normal '>-->
+    <!--                            <div class='module'>-->
+    <!--                                <div class='thumbnail'>-->
+    <!--                                    @if ($insight->image)-->
+    <!--                                        <img src="{{ $insight->image->getUrl() }}" alt="{{ $insight->title }}">-->
+    <!--                                    @endif-->
+    <!--                                    <div class='date'>-->
+    <!--                                        <div>-->
+    <!--                                            {{ $insight->created_at->format('d') }}-->
+    <!--                                        </div>-->
+    <!--                                        <div>-->
+    <!--                                            {{ $insight->created_at->format('M') }}-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class='content'>-->
+    <!--                                    <h1 class='title'>-->
+    <!--                                        {{ $insight->title }}-->
+    <!--                                    </h1>-->
+    <!--                                    <div class="description">-->
+    <!--                                        {!! Str::limit($insight->description, 200, '...') !!}-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </main>-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--        @endforeach-->
+    <!--    </div>-->
+    <!--    <div class="row text-center">-->
+    <!--        <div class="col-lg-4"></div>-->
+    <!--        <div class="col-lg-4">-->
+    <!--            <a href="{{ route('insights') }}" class="btn btn-secondary-outline text-capitalize mt-4">-->
+    <!--                Read More-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    
+    <!-- Gallery -->
     <div class="mt-5 connect-with-us container">
         <div class="row g-0">
             <div class="col-md-12 mb-4 text-center">
@@ -726,6 +738,7 @@
             </div>
         </div>
     </div>
+    
     <div class="container module image-text-split-module case-study-module has-link module-11 white-background"
         data-aos="fade-up" data-id="module-image_text_split-11" id="content-11">
         <a href="{{ route('contact.us') }}" class="no-hover">

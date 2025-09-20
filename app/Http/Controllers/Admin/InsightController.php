@@ -12,6 +12,7 @@ use Gate;
 use Illuminate\Http\Request;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Support\Str;
 
 class InsightController extends Controller
 {
@@ -35,6 +36,7 @@ class InsightController extends Controller
 
     public function store(StoreInsightRequest $request)
     {
+        $request->merge(['slug' => Str::slug($request->title, '-')]);
         $insight = Insight::create($request->all());
 
         if ($request->input('image', false)) {
@@ -59,6 +61,7 @@ class InsightController extends Controller
 
     public function update(UpdateInsightRequest $request, Insight $insight)
     {
+        $request->merge(['slug' => Str::slug($request->title, '-')]);
         $insight->update($request->all());
 
         if ($request->input('image', false)) {

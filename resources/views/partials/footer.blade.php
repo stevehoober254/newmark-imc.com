@@ -5,24 +5,26 @@
         <div class="container">
             <div class="footer-top pt-5 pb-5">
                 <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="col-xl-3 col-md-3 mb-30">
                         <div class="single-campany-text">
                             <div class="footer-top-text first">
-                                <span>Be Exceptional!</span> <br>
-                                <span>Think Exceptional</span>
+                                <br>
+                                <h4>Influence. Impact. Inspire.</h4>
+                                <br>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="col-xl-3 col-md-3 mb-30">
                         <div class="single-campany-text">
                             <i class="fa fa-phone" style="font-size: 20px; color:#1193d4"></i>
                             <div class="footer-top-text">
                                 <h4>Call us</h4>
-                                <span><a href="tel:+254740386468"> +254 740 386 468</a></span>
+                                <span><a href="tel:+254740507221"> +254 740507221</a></span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="col-xl-3 col-md-3 mb-30">
                         <div class="single-campany-text">
                             <i class="fa fa-envelope-open" style="font-size: 20px; color:#1193d4"></i>
                             <div class="footer-top-text">
@@ -30,6 +32,21 @@
                                 <span><a href="mailto: hello@newmark-imc.com">
                                         hello@newmark-imc.com</a></span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-3 mb-30">
+                        <div class="single-campany-text">
+                            <div class="footer-top-text">
+                                <h4>MEDIA ANALYSIS REPORT 2023</h4>
+                            </div>
+                        </div>
+                        <div class="d-flex pl-2 justify-content-around align-items-center mt-4">
+                            <span><img src="{{ asset('img/report.png') }}" class="img-fluid"
+                                        alt="logo"></span>
+                            <button id="mediaReport" class="ml-3 text-primary small d-flex align-items-center leadform-trigger">
+                                <i class="fa fa-download" style="font-size: 20px;"></i>
+                               <span class="small">Download Report</span> 
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -63,7 +80,7 @@
                                 if you are as awesome as us and would like to join our team, get in
                                 touch or
                                 just drop by for a cup of coffee.
-                                <br> <a href="mailto:hello@newmark-imc.com">hello@newmark-imc.com</a>
+                                <br> <a href="mailto:applications@newmark-imc.com">applications@newmark-imc.com</a>
                             </p>
                             <a href="{{ route('careers') }}" class="btn btn-outline-info mb-4">Read More</a>
                         </div>
@@ -102,7 +119,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022. All Rights Reserved <a href="/">Newmark Group
+                            <p>Copyright &copy; 2023. All Rights Reserved <a href="/">Newmark Group
                                     Limited</a></p>
                         </div>
                     </div>

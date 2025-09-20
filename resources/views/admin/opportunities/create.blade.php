@@ -60,17 +60,11 @@
             </div>
             <div class="form-group">
                 <label class="required" for="location_id">{{ trans('cruds.opportunity.fields.location') }}</label>
-                <select class="form-control select2 {{ $errors->has('location') ? 'is-invalid' : '' }}" name="location_id" id="location_id" required>
+                <select class="form-control select2" name="location_id" id="location_id">
                     @foreach($locations as $id => $entry)
                         <option value="{{ $id }}" {{ old('location_id') == $id ? 'selected' : '' }}>{{ $entry }}</option>
                     @endforeach
                 </select>
-                @if($errors->has('location'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('location') }}
-                    </div>
-                @endif
-                <span class="help-block">{{ trans('cruds.opportunity.fields.location_helper') }}</span>
             </div>
             <div class="form-group">
                 <label for="job_purpose">{{ trans('cruds.opportunity.fields.job_purpose') }}</label>

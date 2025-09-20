@@ -21,7 +21,7 @@
                                         <div class="company-contacts margin-right-half">
                                             <span>Phone Number:</span>
                                             <br>
-                                            <span class="text-bold-1">+254 740 386 468</span>
+                                            <span class="text-bold-1">+254 740507221</span>
                                         </div>
                                     </div>
                                     <div class="d-flex justify-content-start">
@@ -106,6 +106,9 @@
                                 </li>
                                 <li>
                                     <a href="{{ route('insights') }}">Insights</a>
+                                </li>
+                                <li>
+                                    <button id="insightsreport" class="bg-primary text-white leadform-trigger">Brand Reputation and Consumer Analysis Report</button>
                                 </li>
                             </ul>
                         </li>

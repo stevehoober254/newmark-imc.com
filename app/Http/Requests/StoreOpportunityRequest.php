@@ -34,7 +34,6 @@ class StoreOpportunityRequest extends FormRequest
                 'required',
             ],
             'location_id' => [
-                'required',
                 'integer',
             ],
             'job_purpose' => [

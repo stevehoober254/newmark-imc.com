@@ -43,7 +43,7 @@
                     </div>
                     @forelse ($ourExpertises as $ourExpertise)
                         <div class="col-md-4 text-center">
-                            <a href="#">
+                            <a href="#popularJobLists">
                                 <div class="practice-area-job-category"
                                     @if ($ourExpertise->image) style='background-image: url("{{ $ourExpertise->image->getUrl() }}");' @endif>
                                     <div class="card">
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="job-lists">
+        <div class="job-lists" id="popularJobLists">
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-12 text-center">

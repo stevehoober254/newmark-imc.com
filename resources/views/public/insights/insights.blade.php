@@ -65,7 +65,34 @@
             <div class="col-md-12 mt-4">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row">
+                        <div class="d-flex flex-row flex-wrap">
+                            <div class="col-lg-3">
+                                    <div class="leadform-trigger cursor-pointer">
+                                        <main>
+                                            <div class='normal '>
+                                                <div class='module'>
+                                                    <div class='thumbnail'>
+                                                            <img src="{{ asset('img/report.png') }}"
+                                                                alt="H1 MEDIA ANALYSIS REPORT 2023">
+                                                        <div class='date'>
+                                                            <div>
+                                                                2023
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class='content'>
+                                                        <h1 class='title text-primary'>
+                                                            MEDIA ANALYSIS REPORT 2023
+                                                        </h1>
+                                                        <div class="description">
+                                                            This comprehensive media analysis report aims to delve into the media consumption habits of four African countries: Ghana, Zambia, Burundi, and the Democratic Republic of Congo (DRC)
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </main>
+                                    </div>
+                                </div>
                             @forelse ($insights as $insight)
                                 <div class="col-lg-3">
                                     <a href="{{ route('insight.details', $insight->slug) }}">
@@ -100,14 +127,13 @@
                                     </a>
                                 </div>
                             @empty
-                                <div class="col-md-12">
+                                <div class="col-12">
                                     <h3 class="text-center text-danger">No Articles Found!</h3>
                                 </div>
                             @endforelse
                         </div>
                     </div>
-                    {{-- <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.wdd..</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">..fff.</div> --}}
+                   
                 </div>
             </div>
         </div>
