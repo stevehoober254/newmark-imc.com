@@ -1,0 +1,22 @@
+name: Deploy Laravel via SSH
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --exclude '.git*' --exclude 'node_modules' ./ newmar14@newmark-imc.com:/home/newmar14/public_html
+          ssh newmar14@newmark-imc.com "cd /home/newmar14/public_html && composer install --optimize-autoloader && php artisan migrate --force && php artisan config:cache"
