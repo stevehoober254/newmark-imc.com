@@ -1,4 +1,4 @@
-name: Deploy Laravel via SSH
+name: Deploy Laravel via FTP to CPANEL
 
 on:
   push:
@@ -11,12 +11,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup SSH
-        uses: webfactory/ssh-agent@v0.8.0
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Deploy via rsync
-        run: |
-          rsync -avz --exclude '.git*' --exclude 'node_modules' ./ newmar14@ngx304.inmotionhosting.com:/home/newmar14/public_html
-          ssh newmar14@ngx304.inmotionhosting.com "cd /home/newmar14/public_html && composer install --optimize-autoloader && php artisan migrate --force && php artisan config:cache"
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: ./ # root of repo
+          server-dir: /public_html/ # adjust depending on where  domain points
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules/**
+            **/tests/**
+            **/vendor/**
